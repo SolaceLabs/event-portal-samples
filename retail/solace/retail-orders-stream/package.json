@@ -1,0 +1,27 @@
+{
+  "name": "@tamimi-org/retail-order",
+  "version": "0.0.1",
+  "description": "This utility publishes realtime retail-order data on predefined destination Solace PubSub+ Broker",
+  "documentation": "",
+  "main": "index.js",
+  "bin": {
+    "retail-order": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "source_broker": {
+    "host": "",
+    "username": "",
+    "password": "",
+    "msgVPN": "",
+    "topicPrefix": ""
+  },
+  "author": "Event APIs",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "open": "^8.4.0",
+    "solclientjs": "^10.10.0"
+  }
+}
