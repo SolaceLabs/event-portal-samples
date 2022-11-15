@@ -4,7 +4,7 @@ This CLI tool publishes a stream of real-time retail-order Data on predefined de
 
 ## How to run
 
-`npx @event-api/retail-order [OPTIONS]`. Note: Still not published! replace `@event-api` with `@tamimi-org`
+`npx @tamimi-org/retail-order [OPTIONS]`
 
 Below are the following options
 
