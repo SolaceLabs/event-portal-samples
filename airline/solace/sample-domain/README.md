@@ -1,1 +1,1 @@
-
+This sample showcases airline operations starting from flight reservation to flight reaching destination. We have tried to cover many aspects , however it may still look simplified version as compared to actual flow on ground.  The idea is to showcase how you can Event Portal can help you design new business flows from scratch in an event driven architecture paradigm--or capture existing flows. 
