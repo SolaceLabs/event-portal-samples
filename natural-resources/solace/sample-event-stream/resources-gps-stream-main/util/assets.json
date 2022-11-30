@@ -1,0 +1,42 @@
+[
+  {
+    "description": "CAT Mining Truck - 777",
+    "sku": 34542822,
+    "targetPayload": 101.1,
+    "engineModel": "Cat C32B",
+    "topSpeed": "40.9",
+    "loadStatus": "Full"
+  },
+  {
+    "description": "CAT Mining Truck - 777",
+    "sku": 368549303,
+    "targetPayload": 101.1,
+    "engineModel": "Cat C32B",
+    "topSpeed": "40.9",
+    "loadStatus": "Full"
+  },
+  {
+    "description": "CAT Mining Truck - 777",
+    "sku": 241669508,
+    "targetPayload": 101.1,
+    "engineModel": "Cat C32B",
+    "topSpeed": "40.9",
+    "loadStatus": "Full"
+  },
+  {
+    "description": "CAT Mining Truck - 777",
+    "sku": 640034372,
+    "targetPayload": 101.1,
+    "engineModel": "Cat C32B",
+    "topSpeed": "40.9",
+    "loadStatus": "Empty"
+  },
+  {
+    "description": "CAT Mining Truck - 777",
+    "sku": 679624247,
+    "targetPayload": 101.1,
+    "engineModel": "Cat C32B",
+    "topSpeed": "40.9",
+    "loadStatus": "Empty"
+  }
+]
