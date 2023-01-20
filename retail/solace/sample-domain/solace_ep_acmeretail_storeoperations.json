@@ -133,7 +133,7 @@
 		"type": "application"
 	}, {
 		"createdTime": "2022-07-22T15:20:24.383Z",
-		"updatedTime": "2023-01-20T17:06:09.759Z",
+		"updatedTime": "2023-01-20T18:02:32.471Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "arohf0gw73c",
@@ -141,7 +141,7 @@
 		"applicationType": "standard",
 		"brokerType": "solace",
 		"applicationDomainId": "9n3oj6yfxm3",
-		"numberOfVersions": 3,
+		"numberOfVersions": 5,
 		"type": "application"
 	}, {
 		"createdTime": "2022-07-22T19:40:19.956Z",
@@ -169,7 +169,7 @@
 		"type": "application"
 	}, {
 		"createdTime": "2022-07-25T14:39:50.316Z",
-		"updatedTime": "2023-01-20T17:08:56.923Z",
+		"updatedTime": "2023-01-20T18:03:31.243Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "n5o41k2fh62",
@@ -177,7 +177,7 @@
 		"applicationType": "standard",
 		"brokerType": "solace",
 		"applicationDomainId": "u2x73phaqbj",
-		"numberOfVersions": 7,
+		"numberOfVersions": 10,
 		"type": "application"
 	}],
 	"applicationVersions": [{
@@ -349,6 +349,56 @@
 		"messagingServiceIds": [],
 		"type": "applicationVersion"
 	}, {
+		"createdTime": "2023-01-20T18:01:30.403Z",
+		"updatedTime": "2023-01-20T18:02:04.716Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "o746xq6slp3",
+		"applicationId": "arohf0gw73c",
+		"description": "Commercial off-the-shelf (COTS) Point of Sale (PoS) system that serves checkout areas for all stores within acme-retail.   Receives Product events from supply chain management domain to allow for price updates and restrictions on purchases.  Emits Retail Order events that allow for analytics and supply chain management decisions.",
+		"version": "0.1.4",
+		"displayName": "",
+		"declaredProducedEventVersionIds": ["lnxq3ax1qel"],
+		"declaredConsumedEventVersionIds": ["0kd3gdt9n45", "giur277ig2n"],
+		"declaredEventApiProductVersionIds": [],
+		"stateId": "2",
+		"eventMeshIds": [],
+		"consumers": [{
+			"createdTime": "2023-01-20T18:01:30.449Z",
+			"updatedTime": "2023-01-20T18:01:30.449Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "b98sfudr9h2",
+			"name": "pointOfSale.fraud.detected",
+			"applicationVersionId": "o746xq6slp3",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acmeRetail/hr/fraud/detected/v1/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}, {
+			"createdTime": "2023-01-20T18:01:30.590Z",
+			"updatedTime": "2023-01-20T18:01:30.590Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "lc8zy7jr6s7",
+			"name": "pointOfSale.product.added",
+			"applicationVersionId": "o746xq6slp3",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acmeRetail/eeg/product/added/v1/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}],
+		"messagingServiceIds": [],
+		"type": "applicationVersion"
+	}, {
 		"createdTime": "2022-10-14T16:55:04.615Z",
 		"updatedTime": "2023-01-05T18:01:05.546Z",
 		"createdBy": "2ko4lk2qe58f",
@@ -392,6 +442,56 @@
 			"subscriptions": [{
 				"subscriptionType": "topic",
 				"value": "acmeRetail/storeOps/retailOrder/*/v1/*/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}],
+		"messagingServiceIds": [],
+		"type": "applicationVersion"
+	}, {
+		"createdTime": "2023-01-20T17:47:58.192Z",
+		"updatedTime": "2023-01-20T18:02:32.471Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "4pjn8q8iz3k",
+		"applicationId": "arohf0gw73c",
+		"description": "Commercial off-the-shelf (COTS) Point of Sale (PoS) system that serves checkout areas for all stores within acme-retail.   Receives Product events from supply chain management domain to allow for price updates and restrictions on purchases.  Emits Retail Order events that allow for analytics and supply chain management decisions.",
+		"version": "0.1.3",
+		"displayName": "",
+		"declaredProducedEventVersionIds": ["lnxq3ax1qel"],
+		"declaredConsumedEventVersionIds": ["0kd3gdt9n45", "jg0t0j06tt3"],
+		"declaredEventApiProductVersionIds": [],
+		"stateId": "4",
+		"eventMeshIds": [],
+		"consumers": [{
+			"createdTime": "2023-01-20T17:47:58.241Z",
+			"updatedTime": "2023-01-20T17:47:58.241Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "ae7cc7ckx83",
+			"name": "pointOfSale.fraud.detected",
+			"applicationVersionId": "4pjn8q8iz3k",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acmeRetail/hr/fraud/detected/v1/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}, {
+			"createdTime": "2023-01-20T17:47:58.328Z",
+			"updatedTime": "2023-01-20T17:47:58.328Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "haf7iq0k65s",
+			"name": "pointOfSale.product.added",
+			"applicationVersionId": "4pjn8q8iz3k",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acmeRetail/eeg/product/added/v1/*/*",
 				"attractedEventVersionIds": []
 			}],
 			"type": "consumer"
@@ -492,7 +592,7 @@
 		"type": "applicationVersion"
 	}, {
 		"createdTime": "2023-01-20T17:05:43.284Z",
-		"updatedTime": "2023-01-20T17:05:48.743Z",
+		"updatedTime": "2023-01-20T17:48:17.411Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "c2d568816cn",
@@ -503,7 +603,7 @@
 		"declaredProducedEventVersionIds": ["lnxq3ax1qel"],
 		"declaredConsumedEventVersionIds": ["0kd3gdt9n45", "qqlhdq28dwt"],
 		"declaredEventApiProductVersionIds": [],
-		"stateId": "2",
+		"stateId": "4",
 		"eventMeshIds": [],
 		"consumers": [{
 			"createdTime": "2023-01-20T17:05:43.330Z",
@@ -1045,6 +1145,156 @@
 		"messagingServiceIds": [],
 		"type": "applicationVersion"
 	}, {
+		"createdTime": "2023-01-20T18:03:13.952Z",
+		"updatedTime": "2023-01-20T18:03:22.411Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "ji7l8c4j1l6",
+		"applicationId": "n5o41k2fh62",
+		"description": "Outputs customer ranking in this version, which is needed for customer facing mobile application\n\nStores information about each individual consumer to allow for targetted marketing and loyalty rewards, as well as indications of fraudulent behavior.",
+		"version": "1.0.2",
+		"displayName": "",
+		"declaredProducedEventVersionIds": ["76vbk0mj80e", "giur277ig2n"],
+		"declaredConsumedEventVersionIds": ["f5wignab3df"],
+		"declaredEventApiProductVersionIds": [],
+		"stateId": "2",
+		"eventMeshIds": [],
+		"consumers": [{
+			"createdTime": "2023-01-20T18:03:14.044Z",
+			"updatedTime": "2023-01-20T18:03:14.044Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "bghsniee7pm",
+			"name": "customerLoyalty.fraud.all",
+			"applicationVersionId": "ji7l8c4j1l6",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acme-retail/hr/fraud/*/v1/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}, {
+			"createdTime": "2023-01-20T18:03:14.214Z",
+			"updatedTime": "2023-01-20T18:03:14.214Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "9f6abktkalc",
+			"name": "customerLoyalty.retailOrder.customerPaid",
+			"applicationVersionId": "ji7l8c4j1l6",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acmeRetail/storeOps/retailOrder/customerPaid/v1/*/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}],
+		"messagingServiceIds": [],
+		"type": "applicationVersion"
+	}, {
+		"createdTime": "2023-01-20T17:51:54.497Z",
+		"updatedTime": "2023-01-20T18:03:31.243Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "1ojyhym8fdh",
+		"applicationId": "n5o41k2fh62",
+		"description": "Outputs customer ranking in this version, which is needed for customer facing mobile application\n\nStores information about each individual consumer to allow for targetted marketing and loyalty rewards, as well as indications of fraudulent behavior.",
+		"version": "1.0.1",
+		"displayName": "",
+		"declaredProducedEventVersionIds": ["76vbk0mj80e", "jg0t0j06tt3"],
+		"declaredConsumedEventVersionIds": ["f5wignab3df"],
+		"declaredEventApiProductVersionIds": [],
+		"stateId": "4",
+		"eventMeshIds": [],
+		"consumers": [{
+			"createdTime": "2023-01-20T17:51:54.587Z",
+			"updatedTime": "2023-01-20T17:51:54.587Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "r7d83sbl1vb",
+			"name": "customerLoyalty.fraud.all",
+			"applicationVersionId": "1ojyhym8fdh",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acme-retail/hr/fraud/*/v1/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}, {
+			"createdTime": "2023-01-20T17:51:54.754Z",
+			"updatedTime": "2023-01-20T17:51:54.754Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "s2bq1pcaomu",
+			"name": "customerLoyalty.retailOrder.customerPaid",
+			"applicationVersionId": "1ojyhym8fdh",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acmeRetail/storeOps/retailOrder/customerPaid/v1/*/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}],
+		"messagingServiceIds": [],
+		"type": "applicationVersion"
+	}, {
+		"createdTime": "2023-01-20T17:49:32.051Z",
+		"updatedTime": "2023-01-20T17:49:58.416Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "cn0nbm7p34l",
+		"applicationId": "n5o41k2fh62",
+		"description": "Outputs customer ranking in this version, which is needed for customer facing mobile application\n\nStores information about each individual consumer to allow for targetted marketing and loyalty rewards, as well as indications of fraudulent behavior.",
+		"version": "1.0.0",
+		"displayName": "",
+		"declaredProducedEventVersionIds": ["76vbk0mj80e", "jg0t0j06tt3"],
+		"declaredConsumedEventVersionIds": ["f5wignab3df"],
+		"declaredEventApiProductVersionIds": [],
+		"stateId": "4",
+		"eventMeshIds": [],
+		"consumers": [{
+			"createdTime": "2023-01-20T17:49:32.158Z",
+			"updatedTime": "2023-01-20T17:49:32.158Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "r22sqjyxp30",
+			"name": "customerLoyalty.fraud.all",
+			"applicationVersionId": "cn0nbm7p34l",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acme-retail/hr/fraud/*/v1/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}, {
+			"createdTime": "2023-01-20T17:49:32.360Z",
+			"updatedTime": "2023-01-20T17:49:32.360Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "zn39runq970",
+			"name": "customerLoyalty.retailOrder.customerPaid",
+			"applicationVersionId": "cn0nbm7p34l",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acmeRetail/storeOps/retailOrder/customerPaid/v1/*/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}],
+		"messagingServiceIds": [],
+		"type": "applicationVersion"
+	}, {
 		"createdTime": "2022-10-31T17:27:59.301Z",
 		"updatedTime": "2023-01-20T17:12:17.915Z",
 		"createdBy": "1n319qh156n",
@@ -1080,7 +1330,7 @@
 		"type": "applicationVersion"
 	}, {
 		"createdTime": "2023-01-20T17:07:37.268Z",
-		"updatedTime": "2023-01-20T17:08:31.847Z",
+		"updatedTime": "2023-01-20T17:52:12.482Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "5b1rwioe8oy",
@@ -1091,7 +1341,7 @@
 		"declaredProducedEventVersionIds": ["76vbk0mj80e", "qqlhdq28dwt"],
 		"declaredConsumedEventVersionIds": ["f5wignab3df"],
 		"declaredEventApiProductVersionIds": [],
-		"stateId": "2",
+		"stateId": "4",
 		"eventMeshIds": [],
 		"consumers": [{
 			"createdTime": "2023-01-20T17:07:37.368Z",
@@ -1540,18 +1790,18 @@
 		"type": "event"
 	}, {
 		"createdTime": "2022-07-25T14:21:41.718Z",
-		"updatedTime": "2023-01-20T17:13:24.336Z",
+		"updatedTime": "2023-01-20T18:03:50.611Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "di607yh2uxf",
 		"name": "Fraud",
 		"shared": true,
 		"applicationDomainId": "u2x73phaqbj",
-		"numberOfVersions": 3,
+		"numberOfVersions": 5,
 		"stats": {
 			"versionCountByStateId": {
 				"2": 1,
-				"4": 2
+				"4": 4
 			}
 		},
 		"type": "event"
@@ -1865,6 +2115,52 @@
 		"messagingServiceIds": [],
 		"type": "eventVersion"
 	}, {
+		"createdTime": "2023-01-20T18:00:42.238Z",
+		"updatedTime": "2023-01-20T18:01:55.297Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "giur277ig2n",
+		"eventId": "di607yh2uxf",
+		"description": "**Real Time Data Product**\n\nThe result of constant data analysis of sales, behavioral and historical data, the Fraud event indicates when there is a high likelihood of fraud occuring. ",
+		"version": "1.0.0",
+		"displayName": "",
+		"attractingApplicationVersionIds": [],
+		"schemaVersionId": "bzoqz01b1o8",
+		"schemaPrimitiveType": null,
+		"deliveryDescriptor": {
+			"brokerType": "solace",
+			"address": {
+				"addressLevels": [{
+					"name": "acmeRetail",
+					"addressLevelType": "literal"
+				}, {
+					"name": "hr",
+					"addressLevelType": "literal"
+				}, {
+					"name": "fraud",
+					"addressLevelType": "literal"
+				}, {
+					"name": "fraudVerbs",
+					"addressLevelType": "variable"
+				}, {
+					"name": "v1",
+					"addressLevelType": "literal"
+				}, {
+					"name": "fraudSubtype",
+					"addressLevelType": "variable"
+				}, {
+					"name": "fraudId",
+					"addressLevelType": "variable"
+				}],
+				"addressType": "topic"
+			},
+			"keySchemaVersionId": null,
+			"keySchemaPrimitiveType": null
+		},
+		"stateId": "2",
+		"messagingServiceIds": [],
+		"type": "eventVersion"
+	}, {
 		"createdTime": "2023-01-05T17:53:44.795Z",
 		"updatedTime": "2023-01-20T17:11:19.676Z",
 		"createdBy": "2ko4lk2qe58f",
@@ -1897,6 +2193,52 @@
 					"addressLevelType": "literal"
 				}, {
 					"name": "customerId",
+					"addressLevelType": "variable"
+				}],
+				"addressType": "topic"
+			},
+			"keySchemaVersionId": null,
+			"keySchemaPrimitiveType": null
+		},
+		"stateId": "4",
+		"messagingServiceIds": [],
+		"type": "eventVersion"
+	}, {
+		"createdTime": "2023-01-20T17:47:06.064Z",
+		"updatedTime": "2023-01-20T18:03:50.611Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "jg0t0j06tt3",
+		"eventId": "di607yh2uxf",
+		"description": "**Real Time Data Product**\n\nThe result of constant data analysis of sales, behavioral and historical data, the Fraud event indicates when there is a high likelihood of fraud occuring. ",
+		"version": "0.1.3",
+		"displayName": "",
+		"attractingApplicationVersionIds": [],
+		"schemaVersionId": "lrfg205f4d2",
+		"schemaPrimitiveType": null,
+		"deliveryDescriptor": {
+			"brokerType": "solace",
+			"address": {
+				"addressLevels": [{
+					"name": "acmeRetail",
+					"addressLevelType": "literal"
+				}, {
+					"name": "hr",
+					"addressLevelType": "literal"
+				}, {
+					"name": "fraud",
+					"addressLevelType": "literal"
+				}, {
+					"name": "fraudVerbs",
+					"addressLevelType": "variable"
+				}, {
+					"name": "v1",
+					"addressLevelType": "literal"
+				}, {
+					"name": "fraudSubtype",
+					"addressLevelType": "variable"
+				}, {
+					"name": "fraudId",
 					"addressLevelType": "variable"
 				}],
 				"addressType": "topic"
@@ -2092,7 +2434,7 @@
 		"type": "eventVersion"
 	}, {
 		"createdTime": "2022-10-19T18:24:38.264Z",
-		"updatedTime": "2023-01-20T17:03:27.536Z",
+		"updatedTime": "2023-01-20T17:52:35.352Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "qqlhdq28dwt",
@@ -2133,7 +2475,7 @@
 			"keySchemaVersionId": null,
 			"keySchemaPrimitiveType": null
 		},
-		"stateId": "2",
+		"stateId": "4",
 		"messagingServiceIds": [],
 		"type": "eventVersion"
 	}, {
@@ -2694,7 +3036,7 @@
 		"type": "schema"
 	}, {
 		"createdTime": "2023-01-20T17:00:47.444Z",
-		"updatedTime": "2023-01-20T17:03:19.565Z",
+		"updatedTime": "2023-01-20T18:04:15.386Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "ujhuu0nvmgx",
@@ -2703,11 +3045,12 @@
 		"shared": true,
 		"contentType": "json",
 		"schemaType": "jsonSchema",
-		"numberOfVersions": 1,
-		"eventVersionRefCount": 1,
+		"numberOfVersions": 3,
+		"eventVersionRefCount": 3,
 		"stats": {
 			"versionCountByStateId": {
-				"2": 1
+				"2": 2,
+				"4": 1
 			}
 		},
 		"type": "schema"
@@ -2800,6 +3143,34 @@
 		"content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"$id\": \"https://geojson.org/schema/Feature.json\",\n  \"title\": \"GeoJSON Feature\",\n  \"type\": \"object\",\n  \"required\": [\n    \"type\",\n    \"properties\",\n    \"geometry\"\n  ],\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"Feature\"\n      ]\n    },\n    \"id\": {\n      \"oneOf\": [\n        {\n          \"type\": \"number\"\n        },\n        {\n          \"type\": \"string\"\n        }\n      ]\n    },\n    \"properties\": {\n      \"oneOf\": [\n        {\n          \"type\": \"null\"\n        },\n        {\n          \"type\": \"object\"\n        }\n      ]\n    },\n    \"geometry\": {\n      \"oneOf\": [\n        {\n          \"type\": \"null\"\n        },\n        {\n          \"title\": \"GeoJSON Point\",\n          \"type\": \"object\",\n          \"required\": [\n            \"type\",\n            \"coordinates\"\n          ],\n          \"properties\": {\n            \"type\": {\n              \"type\": \"string\",\n              \"enum\": [\n                \"Point\"\n              ]\n            },\n            \"coordinates\": {\n              \"type\": \"array\",\n              \"minItems\": 2,\n              \"items\": {\n                \"type\": \"number\"\n              }\n            },\n            \"bbox\": {\n              \"type\": \"array\",\n              \"minItems\": 4,\n              \"items\": {\n                \"type\": \"number\"\n              }\n            }\n          }\n        },\n        {\n          \"title\": \"GeoJSON LineString\",\n          \"type\": \"object\",\n          \"required\": [\n            \"type\",\n            \"coordinates\"\n          ],\n          \"properties\": {\n            \"type\": {\n              \"type\": \"string\",\n              \"enum\": [\n                \"LineString\"\n              ]\n            },\n            \"coordinates\": {\n              \"type\": \"array\",\n              \"minItems\": 2,\n              \"items\": {\n                \"type\": \"array\",\n                \"minItems\": 2,\n                \"items\": {\n                  \"type\": \"number\"\n                }\n              }\n            },\n            \"bbox\": {\n              \"type\": \"array\",\n              \"minItems\": 4,\n              \"items\": {\n                \"type\": \"number\"\n              }\n            }\n          }\n        },\n        {\n          \"title\": \"GeoJSON Polygon\",\n          \"type\": \"object\",\n          \"required\": [\n            \"type\",\n            \"coordinates\"\n          ],\n          \"properties\": {\n            \"type\": {\n              \"type\": \"string\",\n              \"enum\": [\n                \"Polygon\"\n              ]\n            },\n            \"coordinates\": {\n              \"type\": \"array\",\n              \"items\": {\n                \"type\": \"array\",\n                \"minItems\": 4,\n                \"items\": {\n                  \"type\": \"array\",\n                  \"minItems\": 2,\n                  \"items\": {\n                    \"type\": \"number\"\n                  }\n                }\n              }\n            },\n            \"bbox\": {\n              \"type\": \"array\",\n              \"minItems\": 4,\n              \"items\": {\n                \"type\": \"number\"\n              }\n            }\n          }\n        },\n        {\n          \"title\": \"GeoJSON MultiPoint\",\n          \"type\": \"object\",\n          \"required\": [\n            \"type\",\n            \"coordinates\"\n          ],\n          \"properties\": {\n            \"type\": {\n              \"type\": \"string\",\n              \"enum\": [\n                \"MultiPoint\"\n              ]\n            },\n            \"coordinates\": {\n              \"type\": \"array\",\n              \"items\": {\n                \"type\": \"array\",\n                \"minItems\": 2,\n                \"items\": {\n                  \"type\": \"number\"\n                }\n              }\n            },\n            \"bbox\": {\n              \"type\": \"array\",\n              \"minItems\": 4,\n              \"items\": {\n                \"type\": \"number\"\n              }\n            }\n          }\n        },\n        {\n          \"title\": \"GeoJSON MultiLineString\",\n          \"type\": \"object\",\n          \"required\": [\n            \"type\",\n            \"coordinates\"\n          ],\n          \"properties\": {\n            \"type\": {\n              \"type\": \"string\",\n              \"enum\": [\n                \"MultiLineString\"\n              ]\n            },\n            \"coordinates\": {\n              \"type\": \"array\",\n              \"items\": {\n                \"type\": \"array\",\n                \"minItems\": 2,\n                \"items\": {\n                  \"type\": \"array\",\n                  \"minItems\": 2,\n                  \"items\": {\n                    \"type\": \"number\"\n                  }\n                }\n              }\n            },\n            \"bbox\": {\n              \"type\": \"array\",\n              \"minItems\": 4,\n              \"items\": {\n                \"type\": \"number\"\n              }\n            }\n          }\n        },\n        {\n          \"title\": \"GeoJSON MultiPolygon\",\n          \"type\": \"object\",\n          \"required\": [\n            \"type\",\n            \"coordinates\"\n          ],\n          \"properties\": {\n            \"type\": {\n              \"type\": \"string\",\n              \"enum\": [\n                \"MultiPolygon\"\n              ]\n            },\n            \"coordinates\": {\n              \"type\": \"array\",\n              \"items\": {\n                \"type\": \"array\",\n                \"items\": {\n                  \"type\": \"array\",\n                  \"minItems\": 4,\n                  \"items\": {\n                    \"type\": \"array\",\n                    \"minItems\": 2,\n                    \"items\": {\n                      \"type\": \"number\"\n                    }\n                  }\n                }\n              }\n            },\n            \"bbox\": {\n              \"type\": \"array\",\n              \"minItems\": 4,\n              \"items\": {\n                \"type\": \"number\"\n              }\n            }\n          }\n        },\n        {\n          \"title\": \"GeoJSON GeometryCollection\",\n          \"type\": \"object\",\n          \"required\": [\n            \"type\",\n            \"geometries\"\n          ],\n          \"properties\": {\n            \"type\": {\n              \"type\": \"string\",\n              \"enum\": [\n                \"GeometryCollection\"\n              ]\n            },\n            \"geometries\": {\n              \"type\": \"array\",\n              \"items\": {\n                \"oneOf\": [\n                  {\n                    \"title\": \"GeoJSON Point\",\n                    \"type\": \"object\",\n                    \"required\": [\n                      \"type\",\n                      \"coordinates\"\n                    ],\n                    \"properties\": {\n                      \"type\": {\n                        \"type\": \"string\",\n                        \"enum\": [\n                          \"Point\"\n                        ]\n                      },\n                      \"coordinates\": {\n                        \"type\": \"array\",\n                        \"minItems\": 2,\n                        \"items\": {\n                          \"type\": \"number\"\n                        }\n                      },\n                      \"bbox\": {\n                        \"type\": \"array\",\n                        \"minItems\": 4,\n                        \"items\": {\n                          \"type\": \"number\"\n                        }\n                      }\n                    }\n                  },\n                  {\n                    \"title\": \"GeoJSON LineString\",\n                    \"type\": \"object\",\n                    \"required\": [\n                      \"type\",\n                      \"coordinates\"\n                    ],\n                    \"properties\": {\n                      \"type\": {\n                        \"type\": \"string\",\n                        \"enum\": [\n                          \"LineString\"\n                        ]\n                      },\n                      \"coordinates\": {\n                        \"type\": \"array\",\n                        \"minItems\": 2,\n                        \"items\": {\n                          \"type\": \"array\",\n                          \"minItems\": 2,\n                          \"items\": {\n                            \"type\": \"number\"\n                          }\n                        }\n                      },\n                      \"bbox\": {\n                        \"type\": \"array\",\n                        \"minItems\": 4,\n                        \"items\": {\n                          \"type\": \"number\"\n                        }\n                      }\n                    }\n                  },\n                  {\n                    \"title\": \"GeoJSON Polygon\",\n                    \"type\": \"object\",\n                    \"required\": [\n                      \"type\",\n                      \"coordinates\"\n                    ],\n                    \"properties\": {\n                      \"type\": {\n                        \"type\": \"string\",\n                        \"enum\": [\n                          \"Polygon\"\n                        ]\n                      },\n                      \"coordinates\": {\n                        \"type\": \"array\",\n                        \"items\": {\n                          \"type\": \"array\",\n                          \"minItems\": 4,\n                          \"items\": {\n                            \"type\": \"array\",\n                            \"minItems\": 2,\n                            \"items\": {\n                              \"type\": \"number\"\n                            }\n                          }\n                        }\n                      },\n                      \"bbox\": {\n                        \"type\": \"array\",\n                        \"minItems\": 4,\n                        \"items\": {\n                          \"type\": \"number\"\n                        }\n                      }\n                    }\n                  },\n                  {\n                    \"title\": \"GeoJSON MultiPoint\",\n                    \"type\": \"object\",\n                    \"required\": [\n                      \"type\",\n                      \"coordinates\"\n                    ],\n                    \"properties\": {\n                      \"type\": {\n                        \"type\": \"string\",\n                        \"enum\": [\n                          \"MultiPoint\"\n                        ]\n                      },\n                      \"coordinates\": {\n                        \"type\": \"array\",\n                        \"items\": {\n                          \"type\": \"array\",\n                          \"minItems\": 2,\n                          \"items\": {\n                            \"type\": \"number\"\n                          }\n                        }\n                      },\n                      \"bbox\": {\n                        \"type\": \"array\",\n                        \"minItems\": 4,\n                        \"items\": {\n                          \"type\": \"number\"\n                        }\n                      }\n                    }\n                  },\n                  {\n                    \"title\": \"GeoJSON MultiLineString\",\n                    \"type\": \"object\",\n                    \"required\": [\n                      \"type\",\n                      \"coordinates\"\n                    ],\n                    \"properties\": {\n                      \"type\": {\n                        \"type\": \"string\",\n                        \"enum\": [\n                          \"MultiLineString\"\n                        ]\n                      },\n                      \"coordinates\": {\n                        \"type\": \"array\",\n                        \"items\": {\n                          \"type\": \"array\",\n                          \"minItems\": 2,\n                          \"items\": {\n                            \"type\": \"array\",\n                            \"minItems\": 2,\n                            \"items\": {\n                              \"type\": \"number\"\n                            }\n                          }\n                        }\n                      },\n                      \"bbox\": {\n                        \"type\": \"array\",\n                        \"minItems\": 4,\n                        \"items\": {\n                          \"type\": \"number\"\n                        }\n                      }\n                    }\n                  },\n                  {\n                    \"title\": \"GeoJSON MultiPolygon\",\n                    \"type\": \"object\",\n                    \"required\": [\n                      \"type\",\n                      \"coordinates\"\n                    ],\n                    \"properties\": {\n                      \"type\": {\n                        \"type\": \"string\",\n                        \"enum\": [\n                          \"MultiPolygon\"\n                        ]\n                      },\n                      \"coordinates\": {\n                        \"type\": \"array\",\n                        \"items\": {\n                          \"type\": \"array\",\n                          \"items\": {\n                            \"type\": \"array\",\n                            \"minItems\": 4,\n                            \"items\": {\n                              \"type\": \"array\",\n                              \"minItems\": 2,\n                              \"items\": {\n                                \"type\": \"number\"\n                              }\n                            }\n                          }\n                        }\n                      },\n                      \"bbox\": {\n                        \"type\": \"array\",\n                        \"minItems\": 4,\n                        \"items\": {\n                          \"type\": \"number\"\n                        }\n                      }\n                    }\n                  }\n                ]\n              }\n            },\n            \"bbox\": {\n              \"type\": \"array\",\n              \"minItems\": 4,\n              \"items\": {\n                \"type\": \"number\"\n              }\n            }\n          }\n        }\n      ]\n    },\n    \"bbox\": {\n      \"type\": \"array\",\n      \"minItems\": 4,\n      \"items\": {\n        \"type\": \"number\"\n      }\n    }\n  }\n}",
 		"referencedByEventVersionIds": [],
 		"stateId": "2",
+		"type": "schemaVersion"
+	}, {
+		"createdTime": "2023-01-20T18:00:02.425Z",
+		"updatedTime": "2023-01-20T18:00:11.032Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "bzoqz01b1o8",
+		"schemaId": "ujhuu0nvmgx",
+		"description": "",
+		"version": "1.0.1",
+		"displayName": "",
+		"content": "{\n  \"$id\": \"https://example.com/person.schema.json\",\n  \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n  \"title\": \"Fraud\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"fraudType\": {\n      \"type\": \"string\"\n    },\n    \"fraudSubtype\": {\n      \"type\": \"string\"\n    },\n    \"customerId\": {\n      \"type\": \"string\",\n      \"description\": \"Persons's Id\"\n    },\n    \"location\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"Description\"\n    },\n    \"fraudDate\": {\n      \"description\": \"day in CCYY-MM-DD format\",\n      \"type\": \"string\",\n      \"minimum\": 0\n    }\n  }\n}",
+		"referencedByEventVersionIds": [],
+		"stateId": "2",
+		"type": "schemaVersion"
+	}, {
+		"createdTime": "2023-01-20T17:46:21.600Z",
+		"updatedTime": "2023-01-20T18:04:15.386Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "lrfg205f4d2",
+		"schemaId": "ujhuu0nvmgx",
+		"description": "",
+		"version": "1.0.0",
+		"displayName": "",
+		"content": "{\n\"$schema\": \"http://json-schema.org/draft-06/schema#\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"fraudType\": {\n      \"type\": \"string\"\n    },\n    \"fraudSubtype\": {\n      \"type\": \"string\"\n    },\n    \"fraudId\": {\n      \"type\": \"integer\"\n    },\n    \"severity\": {\n      \"type\": \"number\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"fraudType\",\n    \"fraudSubtype\",\n    \"fraudId\",\n    \"severity\"\n  ]\n}",
+		"referencedByEventVersionIds": [],
+		"stateId": "4",
 		"type": "schemaVersion"
 	}, {
 		"createdTime": "2022-10-14T16:48:12.657Z",
