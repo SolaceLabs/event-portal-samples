@@ -133,7 +133,7 @@
 		"type": "application"
 	}, {
 		"createdTime": "2022-07-22T15:20:24.383Z",
-		"updatedTime": "2023-01-20T18:02:32.471Z",
+		"updatedTime": "2023-01-20T18:13:30.132Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "arohf0gw73c",
@@ -141,7 +141,7 @@
 		"applicationType": "standard",
 		"brokerType": "solace",
 		"applicationDomainId": "9n3oj6yfxm3",
-		"numberOfVersions": 5,
+		"numberOfVersions": 6,
 		"type": "application"
 	}, {
 		"createdTime": "2022-07-22T19:40:19.956Z",
@@ -299,6 +299,56 @@
 		"messagingServiceIds": [],
 		"type": "applicationVersion"
 	}, {
+		"createdTime": "2023-01-20T18:13:03.439Z",
+		"updatedTime": "2023-01-20T18:13:22.279Z",
+		"createdBy": "2ko4lk2qe58f",
+		"changedBy": "2ko4lk2qe58f",
+		"id": "y9vvclnp39p",
+		"applicationId": "arohf0gw73c",
+		"description": "Commercial off-the-shelf (COTS) Point of Sale (PoS) system that serves checkout areas for all stores within acme-retail.   Receives Product events from supply chain management domain to allow for price updates and restrictions on purchases.  Emits Retail Order events that allow for analytics and supply chain management decisions.",
+		"version": "0.1.5",
+		"displayName": "",
+		"declaredProducedEventVersionIds": ["f5wignab3df"],
+		"declaredConsumedEventVersionIds": ["0kd3gdt9n45", "giur277ig2n"],
+		"declaredEventApiProductVersionIds": [],
+		"stateId": "2",
+		"eventMeshIds": [],
+		"consumers": [{
+			"createdTime": "2023-01-20T18:13:03.485Z",
+			"updatedTime": "2023-01-20T18:13:03.485Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "07jyvq7d43r",
+			"name": "pointOfSale.fraud.detected",
+			"applicationVersionId": "y9vvclnp39p",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acmeRetail/hr/fraud/detected/v1/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}, {
+			"createdTime": "2023-01-20T18:13:03.573Z",
+			"updatedTime": "2023-01-20T18:13:03.573Z",
+			"createdBy": "2ko4lk2qe58f",
+			"changedBy": "2ko4lk2qe58f",
+			"id": "j09cjy7azfd",
+			"name": "pointOfSale.product.added",
+			"applicationVersionId": "y9vvclnp39p",
+			"brokerType": "solace",
+			"consumerType": "eventQueue",
+			"subscriptions": [{
+				"subscriptionType": "topic",
+				"value": "acmeRetail/eeg/product/added/v1/*/*",
+				"attractedEventVersionIds": []
+			}],
+			"type": "consumer"
+		}],
+		"messagingServiceIds": [],
+		"type": "applicationVersion"
+	}, {
 		"createdTime": "2023-01-05T18:03:11.936Z",
 		"updatedTime": "2023-01-20T17:11:03.117Z",
 		"createdBy": "2ko4lk2qe58f",
@@ -350,7 +400,7 @@
 		"type": "applicationVersion"
 	}, {
 		"createdTime": "2023-01-20T18:01:30.403Z",
-		"updatedTime": "2023-01-20T18:02:04.716Z",
+		"updatedTime": "2023-01-20T18:13:30.132Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "o746xq6slp3",
@@ -361,7 +411,7 @@
 		"declaredProducedEventVersionIds": ["lnxq3ax1qel"],
 		"declaredConsumedEventVersionIds": ["0kd3gdt9n45", "giur277ig2n"],
 		"declaredEventApiProductVersionIds": [],
-		"stateId": "2",
+		"stateId": "4",
 		"eventMeshIds": [],
 		"consumers": [{
 			"createdTime": "2023-01-20T18:01:30.449Z",
@@ -1707,7 +1757,7 @@
 	}],
 	"events": [{
 		"createdTime": "2022-07-22T15:24:04.123Z",
-		"updatedTime": "2023-01-12T17:06:24.166Z",
+		"updatedTime": "2023-01-20T18:17:06.658Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "jcbnyrt7dtx",
@@ -1718,7 +1768,8 @@
 		"stats": {
 			"versionCountByStateId": {
 				"2": 1,
-				"3": 2
+				"3": 1,
+				"4": 1
 			}
 		},
 		"type": "event"
@@ -1974,7 +2025,7 @@
 		"type": "eventVersion"
 	}, {
 		"createdTime": "2022-07-22T15:24:04.615Z",
-		"updatedTime": "2023-01-12T17:06:24.166Z",
+		"updatedTime": "2023-01-20T18:17:06.658Z",
 		"createdBy": "2ko4lk2qe58f",
 		"changedBy": "2ko4lk2qe58f",
 		"id": "7j9imvq7rf9",
@@ -2020,7 +2071,7 @@
 			"keySchemaVersionId": null,
 			"keySchemaPrimitiveType": null
 		},
-		"stateId": "3",
+		"stateId": "4",
 		"messagingServiceIds": [],
 		"type": "eventVersion"
 	}, {
