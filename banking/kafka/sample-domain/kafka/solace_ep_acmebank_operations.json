@@ -2,13 +2,13 @@
     "formatVersion": "2.0.0",
     "applicationDomains": [
         {
-            "createdTime": "2023-01-13T05:43:25.329Z",
-            "updatedTime": "2023-01-13T05:43:25.329Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "q3hwkdjatji",
-            "name": "ACME Bank",
-            "description": "An example application domain of an hypothetical bank.",
+            "createdTime": "2023-01-26T14:38:19.360Z",
+            "updatedTime": "2023-01-26T14:38:19.360Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "hyf9kxkknew",
+            "name": "Demo Account-ACME Bank",
+            "description": "Demo Account",
             "uniqueTopicAddressEnforcementEnabled": true,
             "topicDomainEnforcementEnabled": false,
             "customAttributes": [],
@@ -17,12 +17,12 @@
     ],
     "topicDomains": [
         {
-            "createdTime": "2023-01-13T05:43:29.436Z",
-            "updatedTime": "2023-01-13T05:43:29.436Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "8yod60bqfm6",
-            "applicationDomainId": "q3hwkdjatji",
+            "createdTime": "2023-01-26T14:38:21.688Z",
+            "updatedTime": "2023-01-26T14:38:21.688Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "95sph3j698d",
+            "applicationDomainId": "hyf9kxkknew",
             "brokerType": "kafka",
             "addressLevels": [
                 {
@@ -35,126 +35,173 @@
     ],
     "applications": [
         {
-            "createdTime": "2023-01-13T05:43:26.249Z",
-            "updatedTime": "2023-01-13T05:43:30.319Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "3khcnfu379w",
+            "createdTime": "2023-01-26T14:38:19.758Z",
+            "updatedTime": "2023-01-26T18:05:25.633Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "as2rp7lf9rn",
             "name": "Account Management",
             "applicationType": "standard",
             "brokerType": "kafka",
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 2,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 3,
             "customAttributes": [],
             "type": "application"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.328Z",
-            "updatedTime": "2023-01-13T05:43:30.588Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "b0e877lo1o5",
+            "createdTime": "2023-01-26T14:38:19.771Z",
+            "updatedTime": "2023-01-26T18:07:37.556Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "xn8fqp4m3ha",
             "name": "Core Banking",
             "applicationType": "standard",
             "brokerType": "kafka",
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 2,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 3,
             "customAttributes": [],
             "type": "application"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.351Z",
-            "updatedTime": "2023-01-13T05:43:30.499Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "84m07kslkqh",
+            "createdTime": "2023-01-26T14:38:19.785Z",
+            "updatedTime": "2023-01-26T18:08:54.492Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "7xf41ul17fn",
             "name": "Credit Management",
             "applicationType": "standard",
             "brokerType": "kafka",
-            "applicationDomainId": "q3hwkdjatji",
+            "applicationDomainId": "hyf9kxkknew",
             "numberOfVersions": 2,
             "customAttributes": [],
             "type": "application"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.424Z",
-            "updatedTime": "2023-01-13T05:43:30.121Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "ai66i17r47g",
+            "createdTime": "2023-01-26T14:38:19.798Z",
+            "updatedTime": "2023-01-26T18:16:39.116Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "ni0ea3pf91i",
             "name": "Customer 360",
             "applicationType": "standard",
             "brokerType": "kafka",
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 3,
             "customAttributes": [],
             "type": "application"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.445Z",
-            "updatedTime": "2023-01-13T05:43:30.655Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "51y3cuf45ja",
+            "createdTime": "2023-01-26T14:38:19.812Z",
+            "updatedTime": "2023-01-26T18:04:21.080Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "vnm97d3zge9",
             "name": "Fraud Detection",
             "applicationType": "standard",
             "brokerType": "kafka",
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 3,
             "customAttributes": [],
             "type": "application"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.465Z",
-            "updatedTime": "2023-01-13T05:43:30.408Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "n692ahs2sio",
+            "createdTime": "2023-01-26T14:38:19.825Z",
+            "updatedTime": "2023-01-26T18:18:38.654Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "1k354f2dkpm",
             "name": "Lending",
             "applicationType": "standard",
             "brokerType": "kafka",
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 3,
             "customAttributes": [],
             "type": "application"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.540Z",
-            "updatedTime": "2023-01-13T05:43:30.223Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "0zt0dra0g7h",
+            "createdTime": "2023-01-26T14:38:19.838Z",
+            "updatedTime": "2023-01-26T18:19:28.629Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "il2l92gjym4",
             "name": "Offers Engine",
             "applicationType": "standard",
             "brokerType": "kafka",
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 2,
             "customAttributes": [],
             "type": "application"
         }
     ],
     "applicationVersions": [
         {
-            "createdTime": "2023-01-13T05:43:29.533Z",
-            "updatedTime": "2023-01-13T05:43:29.533Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "lbzoimvqn74",
-            "applicationId": "3khcnfu379w",
+            "createdTime": "2023-01-26T18:05:11.398Z",
+            "updatedTime": "2023-01-26T18:05:21.388Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "dicrl8an5v4",
+            "applicationId": "as2rp7lf9rn",
+            "description": "Application for supporting account maintenance activities.  Add support for fraud detection.",
+            "version": "0.2.1",
+            "displayName": "",
+            "declaredProducedEventVersionIds": [
+                "0dhljhstonq",
+                "xdd6kq9eh0o",
+                "y1uocfpnf01",
+                "yjo4xgqr41u"
+            ],
+            "declaredConsumedEventVersionIds": [
+                "hb2sj4ahre4"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "2",
+            "eventMeshIds": [],
+            "consumers": [
+                {
+                    "createdTime": "2023-01-26T18:05:11.483Z",
+                    "updatedTime": "2023-01-26T18:05:11.483Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "6nm6m4eycgp",
+                    "name": "acmebank.fraud.detect.validate",
+                    "applicationVersionId": "dicrl8an5v4",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.fraud.detect.validate",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:21.736Z",
+            "updatedTime": "2023-01-26T18:05:25.633Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "o28iq324rep",
+            "applicationId": "as2rp7lf9rn",
             "description": "Application for supporting account maintenance activities.  Add support for fraud detection.",
             "version": "0.2.0",
             "displayName": "0.2.0",
             "declaredProducedEventVersionIds": [
-                "2herbsz4snh",
-                "kmjhijze5o6",
-                "m9fr6qo9720",
-                "sxgfma9x22d"
+                "0dhljhstonq",
+                "xdd6kq9eh0o",
+                "y1uocfpnf01",
+                "yjo4xgqr41u"
             ],
             "declaredConsumedEventVersionIds": [
-                "6g2kf7qq0cs"
+                "hb2sj4ahre4"
             ],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "4",
             "eventMeshIds": [],
             "consumers": [],
             "customAttributes": [],
@@ -162,25 +209,637 @@
             "type": "applicationVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:30.028Z",
-            "updatedTime": "2023-01-13T05:43:30.028Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "c3vw5wuh40d",
-            "applicationId": "84m07kslkqh",
+            "createdTime": "2023-01-26T18:08:41.926Z",
+            "updatedTime": "2023-01-26T18:08:48.899Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "rmase3z4eej",
+            "applicationId": "7xf41ul17fn",
             "description": "Application for supporting credit card related activities.  Adding support for tracking loan payment.",
-            "version": "0.1.1",
+            "version": "0.1.4",
+            "displayName": "",
+            "declaredProducedEventVersionIds": [
+                "toapch8atpk",
+                "zc7pd95h2dt"
+            ],
+            "declaredConsumedEventVersionIds": [
+                "4itmv12b57m",
+                "bejcaveb34b"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "2",
+            "eventMeshIds": [],
+            "consumers": [
+                {
+                    "createdTime": "2023-01-26T18:08:42.176Z",
+                    "updatedTime": "2023-01-26T18:08:42.176Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "2bjno3mv143",
+                    "name": "acmebank.core.payment.creditcard",
+                    "applicationVersionId": "rmase3z4eej",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.payment.creditcard",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:08:42.009Z",
+                    "updatedTime": "2023-01-26T18:08:42.009Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "19uekbtl2zq",
+                    "name": "acmebank.core.payment.loan",
+                    "applicationVersionId": "rmase3z4eej",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.payment.loan",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T18:14:05.090Z",
+            "updatedTime": "2023-01-26T18:16:39.116Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "a6fbvvv28tg",
+            "applicationId": "ni0ea3pf91i",
+            "description": "Application for creating a 360-degree view of customers.",
+            "version": "0.1.2",
+            "displayName": "",
+            "declaredProducedEventVersionIds": [
+                "33ojb3b8qo0"
+            ],
+            "declaredConsumedEventVersionIds": [
+                "0dhljhstonq",
+                "4itmv12b57m",
+                "94szs267af1",
+                "9cdvejz9gwb",
+                "bejcaveb34b",
+                "hb2sj4ahre4",
+                "q2qncz0k3nb",
+                "toapch8atpk",
+                "xdd6kq9eh0o",
+                "y1uocfpnf01",
+                "yjo4xgqr41u",
+                "zc7pd95h2dt"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "2",
+            "eventMeshIds": [],
+            "consumers": [
+                {
+                    "createdTime": "2023-01-26T18:14:06.139Z",
+                    "updatedTime": "2023-01-26T18:16:23.762Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "pss566eebu7",
+                    "name": "acmebank.account.application",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.account.application",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:14:05.591Z",
+                    "updatedTime": "2023-01-26T18:16:23.906Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "5h7682429yu",
+                    "name": "acmebank.account.opened",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.account.opened",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:14:05.361Z",
+                    "updatedTime": "2023-01-26T18:16:24.043Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "joq4ktjzuw8",
+                    "name": "acmebank.account.resumed",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.account.resumed",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:14:05.196Z",
+                    "updatedTime": "2023-01-26T18:16:24.179Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "0ugx4v3cfqa",
+                    "name": "acmebank.account.suspended",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.account.suspended",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:16:23.265Z",
+                    "updatedTime": "2023-01-26T18:16:23.265Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "2rg8w0mpyia",
+                    "name": "acmebank.core.deposit",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.deposit",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:16:22.808Z",
+                    "updatedTime": "2023-01-26T18:16:22.808Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "u230o4bg42h",
+                    "name": "acmebank.core.payment.creditcard",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.payment.creditcard",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:16:22.580Z",
+                    "updatedTime": "2023-01-26T18:16:22.580Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "d74evdj7h5q",
+                    "name": "acmebank.core.payment.loan",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.payment.loan",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:16:22.351Z",
+                    "updatedTime": "2023-01-26T18:16:22.351Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "c773d73aab3",
+                    "name": "acmebank.core.transfer",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.transfer",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:16:22.130Z",
+                    "updatedTime": "2023-01-26T18:16:22.130Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "x4mk0tm8do8",
+                    "name": "acmebank.core.withdrawal",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.withdrawal",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:14:05.813Z",
+                    "updatedTime": "2023-01-26T18:16:24.314Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "3g82amgem97",
+                    "name": "acmebank.credit.account.utilization.update",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.credit.account.utilization.update",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:16:23.502Z",
+                    "updatedTime": "2023-01-26T18:16:23.502Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "ykc2u39oldc",
+                    "name": "acmebank.credit.rating.update",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.credit.rating.update",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:16:23.032Z",
+                    "updatedTime": "2023-01-26T18:16:23.032Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "de8o0p0j0do",
+                    "name": "acmebank.fraud.detect.validate",
+                    "applicationVersionId": "a6fbvvv28tg",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.fraud.detect.validate",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T18:18:25.289Z",
+            "updatedTime": "2023-01-26T18:18:32.741Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "b4u6taf413l",
+            "applicationId": "1k354f2dkpm",
+            "description": "Application for supporting lending-related activities.",
+            "version": "0.1.2",
+            "displayName": "0.1.0",
+            "declaredProducedEventVersionIds": [],
+            "declaredConsumedEventVersionIds": [
+                "4itmv12b57m",
+                "bejcaveb34b",
+                "toapch8atpk"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "2",
+            "eventMeshIds": [],
+            "consumers": [
+                {
+                    "createdTime": "2023-01-26T18:18:25.421Z",
+                    "updatedTime": "2023-01-26T18:18:25.421Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "wrhi5gt3ymc",
+                    "name": "acmebank.core.payment.creditcard",
+                    "applicationVersionId": "b4u6taf413l",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.payment.creditcard",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:18:25.338Z",
+                    "updatedTime": "2023-01-26T18:18:25.338Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "4ugw5ij8aqf",
+                    "name": "acmebank.core.payment.loan",
+                    "applicationVersionId": "b4u6taf413l",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.payment.loan",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:18:25.529Z",
+                    "updatedTime": "2023-01-26T18:18:25.529Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "8503b5o3tv4",
+                    "name": "acmebank.credit.rating.update",
+                    "applicationVersionId": "b4u6taf413l",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.credit.rating.update",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T18:01:41.386Z",
+            "updatedTime": "2023-01-26T18:04:15.603Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "h03m34ez7u7",
+            "applicationId": "vnm97d3zge9",
+            "description": "Application for supporting fraud detection.",
+            "version": "0.1.2",
+            "displayName": "0.1.0",
+            "declaredProducedEventVersionIds": [
+                "hb2sj4ahre4"
+            ],
+            "declaredConsumedEventVersionIds": [
+                "94szs267af1",
+                "9cdvejz9gwb",
+                "bejcaveb34b",
+                "q2qncz0k3nb"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "2",
+            "eventMeshIds": [],
+            "consumers": [
+                {
+                    "createdTime": "2023-01-26T18:01:41.479Z",
+                    "updatedTime": "2023-01-26T18:04:06.094Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "1pf36vot34y",
+                    "name": "acmebank.core.deposit",
+                    "applicationVersionId": "h03m34ez7u7",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.deposit",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:03:00.209Z",
+                    "updatedTime": "2023-01-26T18:04:06.200Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "ei3hr89wcs0",
+                    "name": "acmebank.core.payment.creditcard",
+                    "applicationVersionId": "h03m34ez7u7",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.payment.creditcard",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:04:05.957Z",
+                    "updatedTime": "2023-01-26T18:04:05.957Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "ddc7p8gjt1t",
+                    "name": "acmebank.core.transfer",
+                    "applicationVersionId": "h03m34ez7u7",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.transfer",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:04:05.835Z",
+                    "updatedTime": "2023-01-26T18:04:05.835Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "ft3zde77otf",
+                    "name": "acmebank.core.withdrawal",
+                    "applicationVersionId": "h03m34ez7u7",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.core.withdrawal",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T18:07:24.196Z",
+            "updatedTime": "2023-01-26T18:07:31.508Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "rjn7mjkawgj",
+            "applicationId": "xn8fqp4m3ha",
+            "description": "Application for supporting core banking activities.  Added support for paying loans.",
+            "version": "0.1.2",
             "displayName": "0.1.1",
             "declaredProducedEventVersionIds": [
-                "2eu5pj8ryw5",
-                "n1vegzpsvwk"
+                "4itmv12b57m",
+                "94szs267af1",
+                "9cdvejz9gwb",
+                "bejcaveb34b",
+                "q2qncz0k3nb"
             ],
             "declaredConsumedEventVersionIds": [
-                "lmypj1azxrj",
-                "qv17ani3hrn"
+                "0dhljhstonq",
+                "xdd6kq9eh0o",
+                "y1uocfpnf01"
             ],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
+            "eventMeshIds": [],
+            "consumers": [
+                {
+                    "createdTime": "2023-01-26T18:07:24.697Z",
+                    "updatedTime": "2023-01-26T18:07:24.697Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "88il5jn4f6s",
+                    "name": "acmebank.account.opened",
+                    "applicationVersionId": "rjn7mjkawgj",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.account.opened",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:07:24.413Z",
+                    "updatedTime": "2023-01-26T18:07:24.413Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "x0pwjyaarpo",
+                    "name": "acmebank.account.resumed",
+                    "applicationVersionId": "rjn7mjkawgj",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.account.resumed",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                },
+                {
+                    "createdTime": "2023-01-26T18:07:24.270Z",
+                    "updatedTime": "2023-01-26T18:07:24.270Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "fa88aa7pnju",
+                    "name": "acmebank.account.suspended",
+                    "applicationVersionId": "rjn7mjkawgj",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.account.suspended",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T17:55:14.343Z",
+            "updatedTime": "2023-01-26T18:16:34.556Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "11x7aby3w0f",
+            "applicationId": "ni0ea3pf91i",
+            "description": "Application for creating a 360-degree view of customers.",
+            "version": "0.1.1",
+            "displayName": "",
+            "declaredProducedEventVersionIds": [
+                "33ojb3b8qo0"
+            ],
+            "declaredConsumedEventVersionIds": [
+                "0dhljhstonq",
+                "4itmv12b57m",
+                "94szs267af1",
+                "9cdvejz9gwb",
+                "bejcaveb34b",
+                "hb2sj4ahre4",
+                "q2qncz0k3nb",
+                "toapch8atpk",
+                "xdd6kq9eh0o",
+                "y1uocfpnf01",
+                "yjo4xgqr41u",
+                "zc7pd95h2dt"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "4",
             "eventMeshIds": [],
             "consumers": [],
             "customAttributes": [],
@@ -188,29 +847,122 @@
             "type": "applicationVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:29.852Z",
-            "updatedTime": "2023-01-13T05:43:29.852Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "zh7depuod4w",
-            "applicationId": "b0e877lo1o5",
+            "createdTime": "2023-01-26T17:58:09.556Z",
+            "updatedTime": "2023-01-26T18:18:38.654Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "69hu2fk8xme",
+            "applicationId": "1k354f2dkpm",
+            "description": "Application for supporting lending-related activities.",
+            "version": "0.1.1",
+            "displayName": "0.1.0",
+            "declaredProducedEventVersionIds": [],
+            "declaredConsumedEventVersionIds": [
+                "4itmv12b57m",
+                "bejcaveb34b",
+                "toapch8atpk"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "4",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T15:17:13.088Z",
+            "updatedTime": "2023-01-26T18:04:21.080Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "8qp9gilsfqt",
+            "applicationId": "vnm97d3zge9",
+            "description": "Application for supporting fraud detection.",
+            "version": "0.1.1",
+            "displayName": "0.1.0",
+            "declaredProducedEventVersionIds": [
+                "hb2sj4ahre4"
+            ],
+            "declaredConsumedEventVersionIds": [
+                "94szs267af1",
+                "9cdvejz9gwb",
+                "bejcaveb34b",
+                "q2qncz0k3nb"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "4",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T18:19:16.108Z",
+            "updatedTime": "2023-01-26T18:19:23.863Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "i7t0v8k5i7v",
+            "applicationId": "il2l92gjym4",
+            "description": "Engine for creating offers to customers based on their activities.",
+            "version": "0.1.1",
+            "displayName": "0.1.0",
+            "declaredProducedEventVersionIds": [],
+            "declaredConsumedEventVersionIds": [
+                "toapch8atpk"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "2",
+            "eventMeshIds": [],
+            "consumers": [
+                {
+                    "createdTime": "2023-01-26T18:19:16.186Z",
+                    "updatedTime": "2023-01-26T18:19:16.186Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "1ypnn5egfif",
+                    "name": "acmebank.credit.rating.update",
+                    "applicationVersionId": "i7t0v8k5i7v",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [
+                        {
+                            "subscriptionType": "topic",
+                            "value": "acmebank.credit.rating.update",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:21.938Z",
+            "updatedTime": "2023-01-26T18:07:37.556Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "l4q9pbjn63c",
+            "applicationId": "xn8fqp4m3ha",
             "description": "Application for supporting core banking activities.  Added support for paying loans.",
             "version": "0.1.1",
             "displayName": "0.1.1",
             "declaredProducedEventVersionIds": [
-                "6m08xal7u8a",
-                "742jigszxvj",
-                "7ycceasrwqt",
-                "lmypj1azxrj",
-                "qv17ani3hrn"
+                "4itmv12b57m",
+                "94szs267af1",
+                "9cdvejz9gwb",
+                "bejcaveb34b",
+                "q2qncz0k3nb"
             ],
             "declaredConsumedEventVersionIds": [
-                "kmjhijze5o6",
-                "m9fr6qo9720",
-                "sxgfma9x22d"
+                "0dhljhstonq",
+                "xdd6kq9eh0o",
+                "y1uocfpnf01"
             ],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "4",
             "eventMeshIds": [],
             "consumers": [],
             "customAttributes": [],
@@ -218,34 +970,60 @@
             "type": "applicationVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:30.121Z",
-            "updatedTime": "2023-01-13T05:43:30.121Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "5g2m10ydsdy",
-            "applicationId": "ai66i17r47g",
+            "createdTime": "2023-01-26T14:38:21.830Z",
+            "updatedTime": "2023-01-26T17:51:19.015Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "u3jchkt2ds7",
+            "applicationId": "7xf41ul17fn",
+            "description": "Application for supporting credit card related activities.  Adding support for tracking loan payment.",
+            "version": "0.1.1",
+            "displayName": "0.1.1",
+            "declaredProducedEventVersionIds": [
+                "toapch8atpk",
+                "zc7pd95h2dt"
+            ],
+            "declaredConsumedEventVersionIds": [
+                "4itmv12b57m",
+                "xllyjhev61e"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "4",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:22.056Z",
+            "updatedTime": "2023-01-26T17:55:25.566Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "4yvvnfl5qpb",
+            "applicationId": "ni0ea3pf91i",
             "description": "Application for creating a 360-degree view of customers.",
             "version": "0.1.0",
             "displayName": "0.1.0",
             "declaredProducedEventVersionIds": [
-                "gsqfz9ydxuf"
+                "33ojb3b8qo0"
             ],
             "declaredConsumedEventVersionIds": [
-                "2eu5pj8ryw5",
-                "2herbsz4snh",
-                "6g2kf7qq0cs",
-                "6m08xal7u8a",
-                "742jigszxvj",
-                "7ycceasrwqt",
-                "kmjhijze5o6",
-                "lmypj1azxrj",
-                "m9fr6qo9720",
-                "n1vegzpsvwk",
-                "qv17ani3hrn",
-                "sxgfma9x22d"
+                "0umehrivia9",
+                "4itmv12b57m",
+                "4pseo0q6h7m",
+                "9szr11mn6wg",
+                "9yp2h07c53o",
+                "gcpyoydvcez",
+                "hb2sj4ahre4",
+                "iibn7xi5ffo",
+                "toapch8atpk",
+                "x6vix3adg1m",
+                "xllyjhev61e",
+                "zc7pd95h2dt"
             ],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "4",
             "eventMeshIds": [],
             "consumers": [],
             "customAttributes": [],
@@ -253,126 +1031,28 @@
             "type": "applicationVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:30.319Z",
-            "updatedTime": "2023-01-13T05:43:30.319Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "9qxiybc9zhy",
-            "applicationId": "3khcnfu379w",
-            "description": "Application for supporting account maintenance activities.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "declaredProducedEventVersionIds": [
-                "2herbsz4snh",
-                "kmjhijze5o6",
-                "m9fr6qo9720",
-                "sxgfma9x22d"
-            ],
-            "declaredConsumedEventVersionIds": [],
-            "declaredEventApiProductVersionIds": [],
-            "stateId": "2",
-            "eventMeshIds": [],
-            "consumers": [],
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "applicationVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:30.408Z",
-            "updatedTime": "2023-01-13T05:43:30.408Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "fw83d54w9x1",
-            "applicationId": "n692ahs2sio",
-            "description": "Application for supporting lending-related activities.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "declaredProducedEventVersionIds": [],
-            "declaredConsumedEventVersionIds": [
-                "lmypj1azxrj",
-                "n1vegzpsvwk",
-                "qv17ani3hrn"
-            ],
-            "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
-            "eventMeshIds": [],
-            "consumers": [],
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "applicationVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:30.655Z",
-            "updatedTime": "2023-01-13T05:43:30.655Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "r7ted4zb7g5",
-            "applicationId": "51y3cuf45ja",
-            "description": "Application for supporting fraud detection.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "declaredProducedEventVersionIds": [
-                "6g2kf7qq0cs"
-            ],
-            "declaredConsumedEventVersionIds": [
-                "6m08xal7u8a",
-                "742jigszxvj",
-                "7ycceasrwqt",
-                "qv17ani3hrn"
-            ],
-            "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
-            "eventMeshIds": [],
-            "consumers": [],
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "applicationVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:30.499Z",
-            "updatedTime": "2023-01-13T05:43:30.499Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "snq4dh06pla",
-            "applicationId": "84m07kslkqh",
-            "description": "Application for supporting credit card related activities.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "declaredProducedEventVersionIds": [],
-            "declaredConsumedEventVersionIds": [
-                "qv17ani3hrn"
-            ],
-            "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
-            "eventMeshIds": [],
-            "consumers": [],
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "applicationVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:30.588Z",
-            "updatedTime": "2023-01-13T05:43:30.588Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "uhcs4vk3vwf",
-            "applicationId": "b0e877lo1o5",
+            "createdTime": "2023-01-26T14:38:22.780Z",
+            "updatedTime": "2023-01-26T15:59:02.992Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "6gu6opladx4",
+            "applicationId": "xn8fqp4m3ha",
             "description": "Application for supporting core banking activities.",
             "version": "0.1.0",
             "displayName": "0.1.0",
             "declaredProducedEventVersionIds": [
-                "6m08xal7u8a",
-                "742jigszxvj",
-                "7ycceasrwqt",
-                "qv17ani3hrn"
+                "0umehrivia9",
+                "9yp2h07c53o",
+                "gcpyoydvcez",
+                "xllyjhev61e"
             ],
             "declaredConsumedEventVersionIds": [
-                "kmjhijze5o6",
-                "m9fr6qo9720",
-                "sxgfma9x22d"
+                "4pseo0q6h7m",
+                "iibn7xi5ffo",
+                "x6vix3adg1m"
             ],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "2",
+            "stateId": "4",
             "eventMeshIds": [],
             "consumers": [],
             "customAttributes": [],
@@ -380,21 +1060,97 @@
             "type": "applicationVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:30.223Z",
-            "updatedTime": "2023-01-13T05:43:30.223Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "uv4y3hnq7kg",
-            "applicationId": "0zt0dra0g7h",
+            "createdTime": "2023-01-26T14:38:22.256Z",
+            "updatedTime": "2023-01-26T15:37:50.005Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "frjtw6c029h",
+            "applicationId": "as2rp7lf9rn",
+            "description": "Application for supporting account maintenance activities.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "declaredProducedEventVersionIds": [
+                "4pseo0q6h7m",
+                "9szr11mn6wg",
+                "iibn7xi5ffo",
+                "x6vix3adg1m"
+            ],
+            "declaredConsumedEventVersionIds": [],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "4",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:22.890Z",
+            "updatedTime": "2023-01-26T18:19:28.629Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "kbxtntg8jbp",
+            "applicationId": "il2l92gjym4",
             "description": "Engine for creating offers to customers based on their activities.",
             "version": "0.1.0",
             "displayName": "0.1.0",
             "declaredProducedEventVersionIds": [],
             "declaredConsumedEventVersionIds": [
-                "n1vegzpsvwk"
+                "toapch8atpk"
             ],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "4",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:22.590Z",
+            "updatedTime": "2023-01-26T17:52:22.000Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "vg1ar6ve055",
+            "applicationId": "vnm97d3zge9",
+            "description": "Application for supporting fraud detection.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "declaredProducedEventVersionIds": [
+                "hb2sj4ahre4"
+            ],
+            "declaredConsumedEventVersionIds": [
+                "0umehrivia9",
+                "9yp2h07c53o",
+                "gcpyoydvcez",
+                "xllyjhev61e"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "4",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:22.497Z",
+            "updatedTime": "2023-01-26T17:58:22.478Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "x9pln2k2719",
+            "applicationId": "1k354f2dkpm",
+            "description": "Application for supporting lending-related activities.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "declaredProducedEventVersionIds": [],
+            "declaredConsumedEventVersionIds": [
+                "4itmv12b57m",
+                "toapch8atpk",
+                "xllyjhev61e"
+            ],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "4",
             "eventMeshIds": [],
             "consumers": [],
             "customAttributes": [],
@@ -404,253 +1160,261 @@
     ],
     "events": [
         {
-            "createdTime": "2023-01-13T05:43:25.652Z",
-            "updatedTime": "2023-01-13T05:43:27.531Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "hm0oelsxa7e",
+            "createdTime": "2023-01-26T14:38:19.548Z",
+            "updatedTime": "2023-01-26T17:55:44.101Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "rsctomiqbcw",
             "name": "AccountApplied",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 2,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "2": 1
+                    "2": 1,
+                    "4": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.672Z",
-            "updatedTime": "2023-01-13T05:43:28.785Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "kf7rijqzbx8",
+            "createdTime": "2023-01-26T14:38:19.564Z",
+            "updatedTime": "2023-01-26T15:33:33.758Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "9c31f0si6ed",
             "name": "AccountBalanceChanged",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
+            "applicationDomainId": "hyf9kxkknew",
             "numberOfVersions": 1,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1
+                    "2": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.693Z",
-            "updatedTime": "2023-01-13T05:43:28.281Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "096kt7ubvjc",
+            "createdTime": "2023-01-26T14:38:19.580Z",
+            "updatedTime": "2023-01-26T15:33:38.752Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "w7pffh63nvn",
             "name": "AccountCreditUtilizationChanged",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
+            "applicationDomainId": "hyf9kxkknew",
             "numberOfVersions": 1,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1
+                    "2": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.713Z",
-            "updatedTime": "2023-01-13T05:43:28.027Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "v6dg4cctl4l",
+            "createdTime": "2023-01-26T14:38:19.595Z",
+            "updatedTime": "2023-01-26T17:55:56.931Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "qpnddrr664u",
             "name": "AccountOpened",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 2,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "2": 1
+                    "2": 1,
+                    "4": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.733Z",
-            "updatedTime": "2023-01-13T05:43:28.188Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "mgkiosscoyv",
+            "createdTime": "2023-01-26T14:38:19.611Z",
+            "updatedTime": "2023-01-26T17:56:05.654Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "neh54mgle3d",
             "name": "AccountResumed",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 2,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "2": 1
+                    "2": 1,
+                    "4": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.763Z",
-            "updatedTime": "2023-01-13T05:43:29.165Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "pn2xja3403a",
+            "createdTime": "2023-01-26T14:38:19.626Z",
+            "updatedTime": "2023-01-26T17:56:14.070Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "9n3qri1j818",
             "name": "AccountSuspended",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 2,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "2": 1
+                    "2": 1,
+                    "4": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.831Z",
-            "updatedTime": "2023-01-13T05:43:29.323Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "k75jb7f9kfg",
+            "createdTime": "2023-01-26T14:38:19.640Z",
+            "updatedTime": "2023-01-26T15:34:56.064Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "tjwbpzuvu19",
             "name": "CreditRatingChange",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
+            "applicationDomainId": "hyf9kxkknew",
             "numberOfVersions": 1,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1
+                    "2": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.864Z",
-            "updatedTime": "2023-01-13T05:43:28.462Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "jknevwgun0z",
+            "createdTime": "2023-01-26T14:38:19.655Z",
+            "updatedTime": "2023-01-26T15:35:32.028Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "v6r2fjmqg8p",
             "name": "CustomerCreditUtilizationChanged",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
+            "applicationDomainId": "hyf9kxkknew",
             "numberOfVersions": 1,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1
+                    "2": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.921Z",
-            "updatedTime": "2023-01-13T05:43:28.658Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "vm25q5hp2qo",
+            "createdTime": "2023-01-26T14:38:19.670Z",
+            "updatedTime": "2023-01-26T17:56:30.143Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "oj98fp2oxe1",
             "name": "Deposit",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 2,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "2": 1
+                    "2": 1,
+                    "4": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.956Z",
-            "updatedTime": "2023-01-13T05:43:28.888Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "jqy1uc377nk",
+            "createdTime": "2023-01-26T14:38:19.685Z",
+            "updatedTime": "2023-01-26T15:35:50.083Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "9zon8ilhngo",
             "name": "FraudDetected",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
+            "applicationDomainId": "hyf9kxkknew",
             "numberOfVersions": 1,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1
+                    "2": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.025Z",
-            "updatedTime": "2023-01-13T05:43:28.989Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "cjym9ge3n8s",
+            "createdTime": "2023-01-26T14:38:19.700Z",
+            "updatedTime": "2023-01-26T17:59:14.419Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "jnqzfsu4sk5",
             "name": "PayCreditCard",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 2,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "2": 1
+                    "2": 1,
+                    "4": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.058Z",
-            "updatedTime": "2023-01-13T05:43:27.671Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "dlvos0xudil",
+            "createdTime": "2023-01-26T14:38:19.714Z",
+            "updatedTime": "2023-01-26T15:36:12.474Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "4yom752t30i",
             "name": "PayLoan",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
+            "applicationDomainId": "hyf9kxkknew",
             "numberOfVersions": 1,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1
+                    "2": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.153Z",
-            "updatedTime": "2023-01-13T05:43:29.078Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "f9h394dkiz7",
+            "createdTime": "2023-01-26T14:38:19.728Z",
+            "updatedTime": "2023-01-26T17:59:29.344Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "i8k2sr7scky",
             "name": "Transfer",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 2,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "2": 1
+                    "2": 1,
+                    "4": 1
                 }
             },
             "type": "event"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.183Z",
-            "updatedTime": "2023-01-13T05:43:28.371Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "xuki1bu87lt",
+            "createdTime": "2023-01-26T14:38:19.743Z",
+            "updatedTime": "2023-01-26T17:59:37.242Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "0sv9v3hf1dq",
             "name": "Withdrawal",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
-            "numberOfVersions": 1,
+            "applicationDomainId": "hyf9kxkknew",
+            "numberOfVersions": 2,
             "customAttributes": [],
             "stats": {
                 "versionCountByStateId": {
-                    "2": 1
+                    "2": 1,
+                    "4": 1
                 }
             },
             "type": "event"
@@ -658,65 +1422,17 @@
     ],
     "eventVersions": [
         {
-            "createdTime": "2023-01-13T05:43:28.281Z",
-            "updatedTime": "2023-01-13T05:43:28.281Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "2eu5pj8ryw5",
-            "eventId": "096kt7ubvjc",
-            "description": "Credit utilization changed for a given account.",
-            "version": "0.1.0",
+            "createdTime": "2023-01-26T15:10:16.966Z",
+            "updatedTime": "2023-01-26T15:33:44.975Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "0dhljhstonq",
+            "eventId": "qpnddrr664u",
+            "description": "An account has been opened for a customer.",
+            "version": "0.1.1",
             "displayName": "0.1.0",
             "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
-            "schemaPrimitiveType": null,
-            "deliveryDescriptor": {
-                "brokerType": "kafka",
-                "address": {
-                    "addressLevels": [
-                        {
-                            "name": "acmebank",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "credit",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "account",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "utilization",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "update",
-                            "addressLevelType": "literal"
-                        }
-                    ],
-                    "addressType": "topic"
-                },
-                "keySchemaVersionId": null,
-                "keySchemaPrimitiveType": null
-            },
-            "stateId": "1",
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "eventVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:27.531Z",
-            "updatedTime": "2023-01-13T05:43:27.531Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "2herbsz4snh",
-            "eventId": "hm0oelsxa7e",
-            "description": "A customer has applied for an account.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
+            "schemaVersionId": "xfc8k9bufwz",
             "schemaPrimitiveType": null,
             "deliveryDescriptor": {
                 "brokerType": "kafka",
@@ -731,7 +1447,7 @@
                             "addressLevelType": "literal"
                         },
                         {
-                            "name": "application",
+                            "name": "opened",
                             "addressLevelType": "literal"
                         }
                     ],
@@ -746,141 +1462,17 @@
             "type": "eventVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:28.888Z",
-            "updatedTime": "2023-01-13T05:43:28.888Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "6g2kf7qq0cs",
-            "eventId": "jqy1uc377nk",
-            "description": "Possible fraudulent activity detected.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
-            "schemaPrimitiveType": null,
-            "deliveryDescriptor": {
-                "brokerType": "kafka",
-                "address": {
-                    "addressLevels": [
-                        {
-                            "name": "acmebank",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "fraud",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "detect",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "validate",
-                            "addressLevelType": "literal"
-                        }
-                    ],
-                    "addressType": "topic"
-                },
-                "keySchemaVersionId": null,
-                "keySchemaPrimitiveType": null
-            },
-            "stateId": "1",
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "eventVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:28.658Z",
-            "updatedTime": "2023-01-13T05:43:28.658Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "6m08xal7u8a",
-            "eventId": "vm25q5hp2qo",
-            "description": "Deposit made either via ATM, teller, mobile, or electronic transfer.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
-            "schemaPrimitiveType": null,
-            "deliveryDescriptor": {
-                "brokerType": "kafka",
-                "address": {
-                    "addressLevels": [
-                        {
-                            "name": "acmebank",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "core",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "deposit",
-                            "addressLevelType": "literal"
-                        }
-                    ],
-                    "addressType": "topic"
-                },
-                "keySchemaVersionId": null,
-                "keySchemaPrimitiveType": null
-            },
-            "stateId": "2",
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "eventVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:28.371Z",
-            "updatedTime": "2023-01-13T05:43:28.371Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "742jigszxvj",
-            "eventId": "xuki1bu87lt",
-            "description": "Account holder withdraws from an account.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
-            "schemaPrimitiveType": null,
-            "deliveryDescriptor": {
-                "brokerType": "kafka",
-                "address": {
-                    "addressLevels": [
-                        {
-                            "name": "acmebank",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "core",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "withdrawal",
-                            "addressLevelType": "literal"
-                        }
-                    ],
-                    "addressType": "topic"
-                },
-                "keySchemaVersionId": null,
-                "keySchemaPrimitiveType": null
-            },
-            "stateId": "2",
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "eventVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:29.078Z",
-            "updatedTime": "2023-01-13T05:43:29.078Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "7ycceasrwqt",
-            "eventId": "f9h394dkiz7",
+            "createdTime": "2023-01-26T15:14:15.773Z",
+            "updatedTime": "2023-01-26T15:36:21.134Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "94szs267af1",
+            "eventId": "i8k2sr7scky",
             "description": "Transfering money between two accounts of the same holder.",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "displayName": "0.1.0",
             "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
+            "schemaVersionId": "7ta14we8wkg",
             "schemaPrimitiveType": null,
             "deliveryDescriptor": {
                 "brokerType": "kafka",
@@ -910,101 +1502,17 @@
             "type": "eventVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:28.462Z",
-            "updatedTime": "2023-01-13T05:43:28.462Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "gsqfz9ydxuf",
-            "eventId": "jknevwgun0z",
-            "description": "Credit utilization changed for a given customer.",
-            "version": "0.1.0",
+            "createdTime": "2023-01-26T15:14:38.504Z",
+            "updatedTime": "2023-01-26T15:36:27.518Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "9cdvejz9gwb",
+            "eventId": "0sv9v3hf1dq",
+            "description": "Account holder withdraws from an account.",
+            "version": "0.1.1",
             "displayName": "0.1.0",
             "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
-            "schemaPrimitiveType": null,
-            "deliveryDescriptor": {
-                "brokerType": "kafka",
-                "address": {
-                    "addressLevels": [
-                        {
-                            "name": "acmebank",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "credit",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "customer",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "utilization",
-                            "addressLevelType": "literal"
-                        }
-                    ],
-                    "addressType": "topic"
-                },
-                "keySchemaVersionId": null,
-                "keySchemaPrimitiveType": null
-            },
-            "stateId": "1",
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "eventVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:28.188Z",
-            "updatedTime": "2023-01-13T05:43:28.188Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "kmjhijze5o6",
-            "eventId": "mgkiosscoyv",
-            "description": "An account is no longer suspended and may resume its use.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
-            "schemaPrimitiveType": null,
-            "deliveryDescriptor": {
-                "brokerType": "kafka",
-                "address": {
-                    "addressLevels": [
-                        {
-                            "name": "acmebank",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "account",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "resumed",
-                            "addressLevelType": "literal"
-                        }
-                    ],
-                    "addressType": "topic"
-                },
-                "keySchemaVersionId": null,
-                "keySchemaPrimitiveType": null
-            },
-            "stateId": "2",
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "eventVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:27.671Z",
-            "updatedTime": "2023-01-13T05:43:27.671Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "lmypj1azxrj",
-            "eventId": "dlvos0xudil",
-            "description": "Payment to loan by an account holder.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
+            "schemaVersionId": "dx5692lhrv6",
             "schemaPrimitiveType": null,
             "deliveryDescriptor": {
                 "brokerType": "kafka",
@@ -1019,51 +1527,7 @@
                             "addressLevelType": "literal"
                         },
                         {
-                            "name": "payment",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "loan",
-                            "addressLevelType": "literal"
-                        }
-                    ],
-                    "addressType": "topic"
-                },
-                "keySchemaVersionId": null,
-                "keySchemaPrimitiveType": null
-            },
-            "stateId": "1",
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "eventVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:29.165Z",
-            "updatedTime": "2023-01-13T05:43:29.165Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "m9fr6qo9720",
-            "eventId": "pn2xja3403a",
-            "description": "An account has been suspended due to fraud, limit, or by customer request.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
-            "schemaPrimitiveType": null,
-            "deliveryDescriptor": {
-                "brokerType": "kafka",
-                "address": {
-                    "addressLevels": [
-                        {
-                            "name": "acmebank",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "account",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "suspended",
+                            "name": "withdrawal",
                             "addressLevelType": "literal"
                         }
                     ],
@@ -1078,61 +1542,17 @@
             "type": "eventVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:29.323Z",
-            "updatedTime": "2023-01-13T05:43:29.323Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "n1vegzpsvwk",
-            "eventId": "k75jb7f9kfg",
-            "description": "Credit worthiness change for a given customer.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
-            "schemaPrimitiveType": null,
-            "deliveryDescriptor": {
-                "brokerType": "kafka",
-                "address": {
-                    "addressLevels": [
-                        {
-                            "name": "acmebank",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "credit",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "rating",
-                            "addressLevelType": "literal"
-                        },
-                        {
-                            "name": "update",
-                            "addressLevelType": "literal"
-                        }
-                    ],
-                    "addressType": "topic"
-                },
-                "keySchemaVersionId": null,
-                "keySchemaPrimitiveType": null
-            },
-            "stateId": "1",
-            "customAttributes": [],
-            "messagingServiceIds": [],
-            "type": "eventVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:28.989Z",
-            "updatedTime": "2023-01-13T05:43:28.989Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "qv17ani3hrn",
-            "eventId": "cjym9ge3n8s",
+            "createdTime": "2023-01-26T15:13:25.742Z",
+            "updatedTime": "2023-01-26T15:35:58.029Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "bejcaveb34b",
+            "eventId": "jnqzfsu4sk5",
             "description": "Payment issued by an account holder.",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "displayName": "0.1.0",
             "attractingApplicationVersionIds": [],
-            "schemaVersionId": null,
+            "schemaVersionId": "dx5692lhrv6",
             "schemaPrimitiveType": null,
             "deliveryDescriptor": {
                 "brokerType": "kafka",
@@ -1166,12 +1586,300 @@
             "type": "eventVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:28.027Z",
-            "updatedTime": "2023-01-13T05:43:28.027Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "sxgfma9x22d",
-            "eventId": "v6dg4cctl4l",
+            "createdTime": "2023-01-26T15:12:42.059Z",
+            "updatedTime": "2023-01-26T15:35:43.094Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "q2qncz0k3nb",
+            "eventId": "oj98fp2oxe1",
+            "description": "Deposit made either via ATM, teller, mobile, or electronic transfer.",
+            "version": "0.1.1",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "dx5692lhrv6",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "core",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "deposit",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "2",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T15:11:17.406Z",
+            "updatedTime": "2023-01-26T15:34:03.608Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "xdd6kq9eh0o",
+            "eventId": "9n3qri1j818",
+            "description": "An account has been suspended due to fraud, limit, or by customer request.",
+            "version": "0.1.1",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "xfc8k9bufwz",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "account",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "suspended",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "2",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T15:10:34.321Z",
+            "updatedTime": "2023-01-26T15:33:51.219Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "y1uocfpnf01",
+            "eventId": "neh54mgle3d",
+            "description": "An account is no longer suspended and may resume its use.",
+            "version": "0.1.1",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "xfc8k9bufwz",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "account",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "resumed",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "2",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T15:09:07.342Z",
+            "updatedTime": "2023-01-26T15:32:56.751Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "yjo4xgqr41u",
+            "eventId": "rsctomiqbcw",
+            "description": "A customer has applied for an account.",
+            "version": "0.1.1",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "xfc8k9bufwz",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "account",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "application",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "2",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:20.746Z",
+            "updatedTime": "2023-01-26T17:59:29.344Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "0umehrivia9",
+            "eventId": "i8k2sr7scky",
+            "description": "Transfering money between two accounts of the same holder.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": null,
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "core",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "transfer",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "4",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:20.860Z",
+            "updatedTime": "2023-01-26T15:35:32.028Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "33ojb3b8qo0",
+            "eventId": "v6r2fjmqg8p",
+            "description": "Credit utilization changed for a given customer.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "xfc8k9bufwz",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "credit",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "customer",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "utilization",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "2",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:21.076Z",
+            "updatedTime": "2023-01-26T15:36:12.474Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "4itmv12b57m",
+            "eventId": "4yom752t30i",
+            "description": "Payment to loan by an account holder.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "dx5692lhrv6",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "core",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "payment",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "loan",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "2",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:21.501Z",
+            "updatedTime": "2023-01-26T17:55:56.931Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "4pseo0q6h7m",
+            "eventId": "qpnddrr664u",
             "description": "An account has been opened for a customer.",
             "version": "0.1.0",
             "displayName": "0.1.0",
@@ -1200,18 +1908,266 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
+            "stateId": "4",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:20.329Z",
+            "updatedTime": "2023-01-26T17:55:44.101Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "9szr11mn6wg",
+            "eventId": "rsctomiqbcw",
+            "description": "A customer has applied for an account.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": null,
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "account",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "application",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "4",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:20.622Z",
+            "updatedTime": "2023-01-26T17:59:37.242Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "9yp2h07c53o",
+            "eventId": "0sv9v3hf1dq",
+            "description": "Account holder withdraws from an account.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": null,
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "core",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "withdrawal",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "4",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:20.515Z",
+            "updatedTime": "2023-01-26T17:56:30.143Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "gcpyoydvcez",
+            "eventId": "oj98fp2oxe1",
+            "description": "Deposit made either via ATM, teller, mobile, or electronic transfer.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": null,
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "core",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "deposit",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "4",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:20.421Z",
+            "updatedTime": "2023-01-26T15:35:50.083Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "hb2sj4ahre4",
+            "eventId": "9zon8ilhngo",
+            "description": "Possible fraudulent activity detected.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "ytns1eq9wxo",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "fraud",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "detect",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "validate",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
             "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:28.785Z",
-            "updatedTime": "2023-01-13T05:43:28.785Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "t4187f64onx",
-            "eventId": "kf7rijqzbx8",
+            "createdTime": "2023-01-26T14:38:21.186Z",
+            "updatedTime": "2023-01-26T17:56:14.070Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "iibn7xi5ffo",
+            "eventId": "9n3qri1j818",
+            "description": "An account has been suspended due to fraud, limit, or by customer request.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": null,
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "account",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "suspended",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "4",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:21.293Z",
+            "updatedTime": "2023-01-26T15:34:56.064Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "toapch8atpk",
+            "eventId": "tjwbpzuvu19",
+            "description": "Credit worthiness change for a given customer.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "xfc8k9bufwz",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "credit",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "rating",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "update",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "2",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:21.610Z",
+            "updatedTime": "2023-01-26T15:33:33.758Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "v4xfjle5wv8",
+            "eventId": "9c31f0si6ed",
             "description": "An account's balance has changed due to transactions.",
             "version": "0.1.0",
             "displayName": "0.1.0",
@@ -1244,7 +2200,139 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:20.966Z",
+            "updatedTime": "2023-01-26T17:56:05.654Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "x6vix3adg1m",
+            "eventId": "neh54mgle3d",
+            "description": "An account is no longer suspended and may resume its use.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": null,
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "account",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "resumed",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "4",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:21.398Z",
+            "updatedTime": "2023-01-26T17:59:14.419Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "xllyjhev61e",
+            "eventId": "jnqzfsu4sk5",
+            "description": "Payment issued by an account holder.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": null,
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "core",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "payment",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "creditcard",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "4",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:20.242Z",
+            "updatedTime": "2023-01-26T15:33:38.752Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "zc7pd95h2dt",
+            "eventId": "w7pffh63nvn",
+            "description": "Credit utilization changed for a given account.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "xfc8k9bufwz",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [
+                        {
+                            "name": "acmebank",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "credit",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "account",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "utilization",
+                            "addressLevelType": "literal"
+                        },
+                        {
+                            "name": "update",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -1252,18 +2340,18 @@
     ],
     "schemas": [
         {
-            "createdTime": "2023-01-13T05:43:25.356Z",
-            "updatedTime": "2023-01-13T05:43:26.734Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "l8t0lyd27nj",
-            "applicationDomainId": "q3hwkdjatji",
+            "createdTime": "2023-01-26T14:38:19.381Z",
+            "updatedTime": "2023-01-26T14:38:20.008Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "xx6xoizdon8",
+            "applicationDomainId": "hyf9kxkknew",
             "name": "AccountAction",
             "shared": false,
             "contentType": "json",
             "schemaType": "jsonSchema",
             "numberOfVersions": 1,
-            "eventVersionRefCount": 0,
+            "eventVersionRefCount": 7,
             "stats": {
                 "versionCountByStateId": {
                     "2": 1
@@ -1273,12 +2361,12 @@
             "type": "schema"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.441Z",
-            "updatedTime": "2023-01-13T05:43:26.637Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "l200iroxbuc",
-            "applicationDomainId": "q3hwkdjatji",
+            "createdTime": "2023-01-26T14:38:19.463Z",
+            "updatedTime": "2023-01-26T14:38:19.918Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "b7cxs260ffg",
+            "applicationDomainId": "hyf9kxkknew",
             "name": "AccountBalance",
             "shared": false,
             "contentType": "json",
@@ -1294,39 +2382,18 @@
             "type": "schema"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.463Z",
-            "updatedTime": "2023-01-13T05:43:27.021Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "zqtnd0te6oa",
-            "applicationDomainId": "q3hwkdjatji",
+            "createdTime": "2023-01-26T14:38:19.480Z",
+            "updatedTime": "2023-01-26T15:32:38.756Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "p6f1p7l1px8",
+            "applicationDomainId": "hyf9kxkknew",
             "name": "FraudDetected",
             "shared": false,
             "contentType": "json",
             "schemaType": "jsonSchema",
             "numberOfVersions": 1,
-            "eventVersionRefCount": 0,
-            "stats": {
-                "versionCountByStateId": {
-                    "1": 1
-                }
-            },
-            "customAttributes": [],
-            "type": "schema"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:25.545Z",
-            "updatedTime": "2023-01-13T05:43:26.837Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "g0obz57rddw",
-            "applicationDomainId": "q3hwkdjatji",
-            "name": "Transaction",
-            "shared": false,
-            "contentType": "json",
-            "schemaType": "jsonSchema",
-            "numberOfVersions": 1,
-            "eventVersionRefCount": 0,
+            "eventVersionRefCount": 1,
             "stats": {
                 "versionCountByStateId": {
                     "2": 1
@@ -1336,18 +2403,39 @@
             "type": "schema"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.565Z",
-            "updatedTime": "2023-01-13T05:43:27.132Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "cv4kohdyhfo",
-            "applicationDomainId": "q3hwkdjatji",
+            "createdTime": "2023-01-26T14:38:19.496Z",
+            "updatedTime": "2023-01-26T14:38:20.058Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "mfiehdlaud0",
+            "applicationDomainId": "hyf9kxkknew",
+            "name": "Transaction",
+            "shared": false,
+            "contentType": "json",
+            "schemaType": "jsonSchema",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 4,
+            "stats": {
+                "versionCountByStateId": {
+                    "2": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:19.512Z",
+            "updatedTime": "2023-01-26T14:38:19.963Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "j75lbd3tcb4",
+            "applicationDomainId": "hyf9kxkknew",
             "name": "Transfer",
             "shared": false,
             "contentType": "json",
             "schemaType": "jsonSchema",
             "numberOfVersions": 1,
-            "eventVersionRefCount": 0,
+            "eventVersionRefCount": 1,
             "stats": {
                 "versionCountByStateId": {
                     "2": 1
@@ -1359,44 +2447,12 @@
     ],
     "schemaVersions": [
         {
-            "createdTime": "2023-01-13T05:43:27.021Z",
-            "updatedTime": "2023-01-13T05:43:27.021Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "2bdyij5yec2",
-            "schemaId": "zqtnd0te6oa",
-            "description": "Possible fraudulent activity detected.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "content": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://example.com/fraud-detected.schema.json\",\n    \"title\": \"Fraud Detected\",\n    \"description\": \"A detected possible fraud.\",\n    \"type\": \"object\",\n    \"properties\": {\n        \"detectionNum\": {\n            \"description\": \"The unique identifier of the possible fraud detected.\",\n            \"type\": \"integer\"\n        },\n        \"transactionNum\": {\n            \"description\": \"The unique identifier of the transaction.\",\n            \"type\": \"integer\"\n        },\n        \"accountNum\": {\n            \"description\": \"The unique identifer of an account.\",\n            \"type\": \"integer\"\n        },\n        \"transactionType\": {\n            \"description\": \"The transaction type.\",\n            \"type\": \"string\"\n        },\n        \"amount\": {\n            \"description\": \"The transaction amount.\",\n            \"type\": \"number\"\n        },\n        \"currency\": {\n            \"description\": \"The currency of the transaction.\",\n            \"type\": \"string\"\n        },\n        \"incidentDescription\": {\n            \"description\": \"The description of the possible fraud.\",\n            \"type\": \"string\"\n        },\n        \"incidentTimestamp\": {\n            \"description\": \"When the alleged incident took place.\",\n            \"type\": \"string\"\n        },\n        \"timestamp\": {\n            \"description\": \"The time stamp of the event.\",\n            \"type\": \"string\"\n        }\n    },\n    \"required\": [\n        \"transactionNum\",\n        \"accountNum\",\n        \"transactionType\",\n        \"amount\",\n        \"currency\",\n        \"incidentDescription\",\n        \"incidentTimestamp\",\n        \"timestamp\"\n    ]\n}",
-            "referencedByEventVersionIds": [],
-            "customAttributes": [],
-            "stateId": "1",
-            "type": "schemaVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:26.637Z",
-            "updatedTime": "2023-01-13T05:43:26.637Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "3n4v224122m",
-            "schemaId": "l200iroxbuc",
-            "description": "Schema for account balance.",
-            "version": "0.1.0",
-            "displayName": "0.1.0",
-            "content": "{\n\t\"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://example.com/account-balance.schema.json\",\n    \"title\": \"Account Balance\",\n    \"description\": \"An account's balance has changed\",\n    \"type\": \"object\",\n    \"properties\": {\n      \"accountNum\": {\n        \"description\": \"The unique identifer of an account.\",\n        \"type\" : \"integer\"\n      },\n      \"balanceAmount\" : {\n        \"description\" : \"The account's current balance.\",\n        \"type\" : \"number\"\n      },\n      \"balanceCurrency\" : {\n        \"description\" : \"The currency of the account.\",\n        \"type\" : \"string\"\n      },\n      \"timestamp\" : {\n        \"description\" : \"The time stamp of the event.\",\n        \"type\" : \"string\"\n      }\n    },\n    \"required\" : [\n      \"accountNum\",\n      \"balanceAmount\",\n      \"balanceCurrency\",\n      \"timestamp\" \n    ]\n}",
-            "referencedByEventVersionIds": [],
-            "customAttributes": [],
-            "stateId": "2",
-            "type": "schemaVersion"
-        },
-        {
-            "createdTime": "2023-01-13T05:43:27.132Z",
-            "updatedTime": "2023-01-13T05:43:27.132Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "83z5fssbyc4",
-            "schemaId": "cv4kohdyhfo",
+            "createdTime": "2023-01-26T14:38:19.963Z",
+            "updatedTime": "2023-01-26T14:38:19.963Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "7ta14we8wkg",
+            "schemaId": "j75lbd3tcb4",
             "description": "Schema for transfer money between accounts.",
             "version": "0.1.0",
             "displayName": "0.1.0",
@@ -1407,12 +2463,44 @@
             "type": "schemaVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.734Z",
-            "updatedTime": "2023-01-13T05:43:26.734Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "hh68qg6ep81",
-            "schemaId": "l8t0lyd27nj",
+            "createdTime": "2023-01-26T14:38:20.058Z",
+            "updatedTime": "2023-01-26T14:38:20.058Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "dx5692lhrv6",
+            "schemaId": "mfiehdlaud0",
+            "description": "A transaction conducted by an account.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "content": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://example.com/transaction.schema.json\",\n    \"title\": \"Transaction\",\n    \"description\": \"A transaction conducted by an account.\",\n    \"type\": \"object\",\n    \"properties\": {\n        \"transactionNum\": {\n            \"description\": \"The unique identifier of the transaction.\",\n            \"type\": \"integer\"\n        },\n        \"accountNum\": {\n            \"description\": \"The unique identifer of an account.\",\n            \"type\": \"integer\"\n        },\n        \"transactionType\": {\n            \"description\": \"The transaction type.\",\n            \"type\": \"string\"\n        },\n        \"amount\": {\n            \"description\": \"The transaction amount.\",\n            \"type\": \"number\"\n        },\n        \"currency\": {\n            \"description\": \"The currency of the transaction.\",\n            \"type\": \"string\"\n        },\n        \"timestamp\": {\n            \"description\": \"The time stamp of the event.\",\n            \"type\": \"string\"\n        }\n    },\n    \"required\": [\n        \"transactionNum\",\n        \"accountNum\",\n        \"transactionType\",\n        \"amount\",\n        \"currency\",\n        \"timestamp\"\n    ]\n}",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "2",
+            "type": "schemaVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:19.918Z",
+            "updatedTime": "2023-01-26T14:38:19.918Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "lttowo22ruz",
+            "schemaId": "b7cxs260ffg",
+            "description": "Schema for account balance.",
+            "version": "0.1.0",
+            "displayName": "0.1.0",
+            "content": "{\n\t\"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://example.com/account-balance.schema.json\",\n    \"title\": \"Account Balance\",\n    \"description\": \"An account's balance has changed\",\n    \"type\": \"object\",\n    \"properties\": {\n      \"accountNum\": {\n        \"description\": \"The unique identifer of an account.\",\n        \"type\" : \"integer\"\n      },\n      \"balanceAmount\" : {\n        \"description\" : \"The account's current balance.\",\n        \"type\" : \"number\"\n      },\n      \"balanceCurrency\" : {\n        \"description\" : \"The currency of the account.\",\n        \"type\" : \"string\"\n      },\n      \"timestamp\" : {\n        \"description\" : \"The time stamp of the event.\",\n        \"type\" : \"string\"\n      }\n    },\n    \"required\" : [\n      \"accountNum\",\n      \"balanceAmount\",\n      \"balanceCurrency\",\n      \"timestamp\" \n    ]\n}",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "2",
+            "type": "schemaVersion"
+        },
+        {
+            "createdTime": "2023-01-26T14:38:20.008Z",
+            "updatedTime": "2023-01-26T14:38:20.008Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "xfc8k9bufwz",
+            "schemaId": "xx6xoizdon8",
             "description": "Schema for account-related activites.",
             "version": "0.1.0",
             "displayName": "0.1.0",
@@ -1423,16 +2511,16 @@
             "type": "schemaVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:26.837Z",
-            "updatedTime": "2023-01-13T05:43:26.837Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "vs71fd2p3so",
-            "schemaId": "g0obz57rddw",
-            "description": "A transaction conducted by an account.",
+            "createdTime": "2023-01-26T14:38:19.876Z",
+            "updatedTime": "2023-01-26T15:32:38.756Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "ytns1eq9wxo",
+            "schemaId": "p6f1p7l1px8",
+            "description": "Possible fraudulent activity detected.",
             "version": "0.1.0",
             "displayName": "0.1.0",
-            "content": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://example.com/transaction.schema.json\",\n    \"title\": \"Transaction\",\n    \"description\": \"A transaction conducted by an account.\",\n    \"type\": \"object\",\n    \"properties\": {\n        \"transactionNum\": {\n            \"description\": \"The unique identifier of the transaction.\",\n            \"type\": \"integer\"\n        },\n        \"accountNum\": {\n            \"description\": \"The unique identifer of an account.\",\n            \"type\": \"integer\"\n        },\n        \"transactionType\": {\n            \"description\": \"The transaction type.\",\n            \"type\": \"string\"\n        },\n        \"amount\": {\n            \"description\": \"The transaction amount.\",\n            \"type\": \"number\"\n        },\n        \"currency\": {\n            \"description\": \"The currency of the transaction.\",\n            \"type\": \"string\"\n        },\n        \"timestamp\": {\n            \"description\": \"The time stamp of the event.\",\n            \"type\": \"string\"\n        }\n    },\n    \"required\": [\n        \"transactionNum\",\n        \"accountNum\",\n        \"transactionType\",\n        \"amount\",\n        \"currency\",\n        \"timestamp\"\n    ]\n}",
+            "content": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://example.com/fraud-detected.schema.json\",\n    \"title\": \"Fraud Detected\",\n    \"description\": \"A detected possible fraud.\",\n    \"type\": \"object\",\n    \"properties\": {\n        \"detectionNum\": {\n            \"description\": \"The unique identifier of the possible fraud detected.\",\n            \"type\": \"integer\"\n        },\n        \"transactionNum\": {\n            \"description\": \"The unique identifier of the transaction.\",\n            \"type\": \"integer\"\n        },\n        \"accountNum\": {\n            \"description\": \"The unique identifer of an account.\",\n            \"type\": \"integer\"\n        },\n        \"transactionType\": {\n            \"description\": \"The transaction type.\",\n            \"type\": \"string\"\n        },\n        \"amount\": {\n            \"description\": \"The transaction amount.\",\n            \"type\": \"number\"\n        },\n        \"currency\": {\n            \"description\": \"The currency of the transaction.\",\n            \"type\": \"string\"\n        },\n        \"incidentDescription\": {\n            \"description\": \"The description of the possible fraud.\",\n            \"type\": \"string\"\n        },\n        \"incidentTimestamp\": {\n            \"description\": \"When the alleged incident took place.\",\n            \"type\": \"string\"\n        },\n        \"timestamp\": {\n            \"description\": \"The time stamp of the event.\",\n            \"type\": \"string\"\n        }\n    },\n    \"required\": [\n        \"transactionNum\",\n        \"accountNum\",\n        \"transactionType\",\n        \"amount\",\n        \"currency\",\n        \"incidentDescription\",\n        \"incidentTimestamp\",\n        \"timestamp\"\n    ]\n}",
             "referencedByEventVersionIds": [],
             "customAttributes": [],
             "stateId": "2",
@@ -1441,12 +2529,12 @@
     ],
     "enums": [
         {
-            "createdTime": "2023-01-13T05:43:25.626Z",
-            "updatedTime": "2023-01-13T05:43:27.265Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "uybsdgiey8l",
-            "applicationDomainId": "q3hwkdjatji",
+            "createdTime": "2023-01-26T14:38:19.524Z",
+            "updatedTime": "2023-01-26T14:38:20.151Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "aws3eoq3uly",
+            "applicationDomainId": "hyf9kxkknew",
             "name": "AccountType",
             "shared": false,
             "numberOfVersions": 1,
@@ -1460,12 +2548,12 @@
             "type": "enum"
         },
         {
-            "createdTime": "2023-01-13T05:43:25.632Z",
-            "updatedTime": "2023-01-13T05:43:27.229Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "ez901knwgmu",
-            "applicationDomainId": "q3hwkdjatji",
+            "createdTime": "2023-01-26T14:38:19.533Z",
+            "updatedTime": "2023-01-26T14:38:20.103Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "kryyfy8o3z6",
+            "applicationDomainId": "hyf9kxkknew",
             "name": "TransactionType",
             "shared": false,
             "numberOfVersions": 1,
@@ -1481,80 +2569,102 @@
     ],
     "enumVersions": [
         {
-            "createdTime": "2023-01-13T05:43:27.229Z",
-            "updatedTime": "2023-01-13T05:43:27.229Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "iewjmdtl7gj",
-            "enumId": "ez901knwgmu",
-            "description": "Types of account transactions.",
+            "createdTime": "2023-01-26T14:38:20.151Z",
+            "updatedTime": "2023-01-26T14:38:20.151Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "ozcbirj4ql5",
+            "enumId": "aws3eoq3uly",
+            "description": "Types of account.",
             "version": "0.1.0",
             "displayName": "0.1.0",
             "values": [
                 {
-                    "createdTime": "2023-01-13T05:43:27.229Z",
-                    "updatedTime": "2023-01-13T05:43:27.229Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "m31sz9kcbap",
-                    "enumVersionId": "iewjmdtl7gj",
-                    "value": "deposit",
-                    "label": "Deposit",
+                    "createdTime": "2023-01-26T14:38:20.151Z",
+                    "updatedTime": "2023-01-26T14:38:20.151Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "q4h3ympupg8",
+                    "enumVersionId": "ozcbirj4ql5",
+                    "value": "1",
+                    "label": "Savings",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.229Z",
-                    "updatedTime": "2023-01-13T05:43:27.229Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "8ttei9b6cmb",
-                    "enumVersionId": "iewjmdtl7gj",
-                    "value": "withdrawal",
-                    "label": "Withdrawal",
+                    "createdTime": "2023-01-26T14:38:20.151Z",
+                    "updatedTime": "2023-01-26T14:38:20.151Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "d7ktccbcsfk",
+                    "enumVersionId": "ozcbirj4ql5",
+                    "value": "2",
+                    "label": "Checking",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.229Z",
-                    "updatedTime": "2023-01-13T05:43:27.229Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "t5a9ywr0380",
-                    "enumVersionId": "iewjmdtl7gj",
-                    "value": "transfer",
-                    "label": "Transfer",
+                    "createdTime": "2023-01-26T14:38:20.151Z",
+                    "updatedTime": "2023-01-26T14:38:20.151Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "ye2wmcf2lk5",
+                    "enumVersionId": "ozcbirj4ql5",
+                    "value": "3",
+                    "label": "Money Market",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.229Z",
-                    "updatedTime": "2023-01-13T05:43:27.229Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "5u8dpzbhji2",
-                    "enumVersionId": "iewjmdtl7gj",
-                    "value": "paybill",
-                    "label": "Pay Bill",
+                    "createdTime": "2023-01-26T14:38:20.151Z",
+                    "updatedTime": "2023-01-26T14:38:20.151Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "fztcewvwiah",
+                    "enumVersionId": "ozcbirj4ql5",
+                    "value": "4",
+                    "label": "Certificate of Deposit",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.229Z",
-                    "updatedTime": "2023-01-13T05:43:27.229Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "t881s4yvqs7",
-                    "enumVersionId": "iewjmdtl7gj",
-                    "value": "paycredit",
-                    "label": "Pay Credit Card",
+                    "createdTime": "2023-01-26T14:38:20.151Z",
+                    "updatedTime": "2023-01-26T14:38:20.151Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "e82tce0njuh",
+                    "enumVersionId": "ozcbirj4ql5",
+                    "value": "5",
+                    "label": "Credit Card",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.229Z",
-                    "updatedTime": "2023-01-13T05:43:27.229Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "y8rs1hbkhi7",
-                    "enumVersionId": "iewjmdtl7gj",
-                    "value": "payloan",
-                    "label": "Pay Loan",
+                    "createdTime": "2023-01-26T14:38:20.151Z",
+                    "updatedTime": "2023-01-26T14:38:20.151Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "3mqraw0fiie",
+                    "enumVersionId": "ozcbirj4ql5",
+                    "value": "6",
+                    "label": "Line of Credit",
+                    "type": "enumValue"
+                },
+                {
+                    "createdTime": "2023-01-26T14:38:20.151Z",
+                    "updatedTime": "2023-01-26T14:38:20.151Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "c0fzuj4bsmn",
+                    "enumVersionId": "ozcbirj4ql5",
+                    "value": "7",
+                    "label": "Personal Loan",
+                    "type": "enumValue"
+                },
+                {
+                    "createdTime": "2023-01-26T14:38:20.151Z",
+                    "updatedTime": "2023-01-26T14:38:20.151Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "9xknfrb3rdy",
+                    "enumVersionId": "ozcbirj4ql5",
+                    "value": "8",
+                    "label": "Mortgage",
                     "type": "enumValue"
                 }
             ],
@@ -1565,102 +2675,80 @@
             "type": "enumVersion"
         },
         {
-            "createdTime": "2023-01-13T05:43:27.265Z",
-            "updatedTime": "2023-01-13T05:43:27.265Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "pcv9s0tn2de",
-            "enumId": "uybsdgiey8l",
-            "description": "Types of account.",
+            "createdTime": "2023-01-26T14:38:20.103Z",
+            "updatedTime": "2023-01-26T14:38:20.103Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "pqtcxwiv5z8",
+            "enumId": "kryyfy8o3z6",
+            "description": "Types of account transactions.",
             "version": "0.1.0",
             "displayName": "0.1.0",
             "values": [
                 {
-                    "createdTime": "2023-01-13T05:43:27.265Z",
-                    "updatedTime": "2023-01-13T05:43:27.265Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "3bde4r9bou6",
-                    "enumVersionId": "pcv9s0tn2de",
-                    "value": "1",
-                    "label": "Savings",
+                    "createdTime": "2023-01-26T14:38:20.103Z",
+                    "updatedTime": "2023-01-26T14:38:20.103Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "72ni6o3oq49",
+                    "enumVersionId": "pqtcxwiv5z8",
+                    "value": "deposit",
+                    "label": "Deposit",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.265Z",
-                    "updatedTime": "2023-01-13T05:43:27.265Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "jzem0fow9e0",
-                    "enumVersionId": "pcv9s0tn2de",
-                    "value": "2",
-                    "label": "Checking",
+                    "createdTime": "2023-01-26T14:38:20.103Z",
+                    "updatedTime": "2023-01-26T14:38:20.103Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "bdob746o273",
+                    "enumVersionId": "pqtcxwiv5z8",
+                    "value": "withdrawal",
+                    "label": "Withdrawal",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.265Z",
-                    "updatedTime": "2023-01-13T05:43:27.265Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "546j4m8jp0h",
-                    "enumVersionId": "pcv9s0tn2de",
-                    "value": "3",
-                    "label": "Money Market",
+                    "createdTime": "2023-01-26T14:38:20.103Z",
+                    "updatedTime": "2023-01-26T14:38:20.103Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "khm1ej3ux2t",
+                    "enumVersionId": "pqtcxwiv5z8",
+                    "value": "transfer",
+                    "label": "Transfer",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.265Z",
-                    "updatedTime": "2023-01-13T05:43:27.265Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "1tpycn6hwwy",
-                    "enumVersionId": "pcv9s0tn2de",
-                    "value": "4",
-                    "label": "Certificate of Deposit",
+                    "createdTime": "2023-01-26T14:38:20.103Z",
+                    "updatedTime": "2023-01-26T14:38:20.103Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "l3ac5fs9sil",
+                    "enumVersionId": "pqtcxwiv5z8",
+                    "value": "paybill",
+                    "label": "Pay Bill",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.265Z",
-                    "updatedTime": "2023-01-13T05:43:27.265Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "h2o7h7mgxm4",
-                    "enumVersionId": "pcv9s0tn2de",
-                    "value": "5",
-                    "label": "Credit Card",
+                    "createdTime": "2023-01-26T14:38:20.103Z",
+                    "updatedTime": "2023-01-26T14:38:20.103Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "3f7uimiz262",
+                    "enumVersionId": "pqtcxwiv5z8",
+                    "value": "paycredit",
+                    "label": "Pay Credit Card",
                     "type": "enumValue"
                 },
                 {
-                    "createdTime": "2023-01-13T05:43:27.265Z",
-                    "updatedTime": "2023-01-13T05:43:27.265Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "eylmw3j4bj8",
-                    "enumVersionId": "pcv9s0tn2de",
-                    "value": "6",
-                    "label": "Line of Credit",
-                    "type": "enumValue"
-                },
-                {
-                    "createdTime": "2023-01-13T05:43:27.265Z",
-                    "updatedTime": "2023-01-13T05:43:27.265Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "p1dh9ao95mf",
-                    "enumVersionId": "pcv9s0tn2de",
-                    "value": "7",
-                    "label": "Personal Loan",
-                    "type": "enumValue"
-                },
-                {
-                    "createdTime": "2023-01-13T05:43:27.265Z",
-                    "updatedTime": "2023-01-13T05:43:27.265Z",
-                    "createdBy": "3as5uznwz8u",
-                    "changedBy": "3as5uznwz8u",
-                    "id": "60outlhmoe7",
-                    "enumVersionId": "pcv9s0tn2de",
-                    "value": "8",
-                    "label": "Mortgage",
+                    "createdTime": "2023-01-26T14:38:20.103Z",
+                    "updatedTime": "2023-01-26T14:38:20.103Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "uyfj6bhnvp9",
+                    "enumVersionId": "pqtcxwiv5z8",
+                    "value": "payloan",
+                    "label": "Pay Loan",
                     "type": "enumValue"
                 }
             ],
@@ -1673,14 +2761,14 @@
     ],
     "eventApis": [
         {
-            "createdTime": "2023-01-13T05:43:26.545Z",
-            "updatedTime": "2023-01-13T05:43:26.545Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "c2f78o693k2",
+            "createdTime": "2023-01-26T14:38:19.847Z",
+            "updatedTime": "2023-01-26T14:38:19.847Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "zho8s4wgsi0",
             "name": "Fraud Detection Confirmation",
             "shared": false,
-            "applicationDomainId": "q3hwkdjatji",
+            "applicationDomainId": "hyf9kxkknew",
             "numberOfVersions": 1,
             "brokerType": "kafka",
             "customAttributes": [],
@@ -1689,12 +2777,12 @@
     ],
     "eventApiVersions": [
         {
-            "createdTime": "2023-01-13T05:43:29.446Z",
-            "updatedTime": "2023-01-13T05:43:29.446Z",
-            "createdBy": "3as5uznwz8u",
-            "changedBy": "3as5uznwz8u",
-            "id": "em81a713rx1",
-            "eventApiId": "c2f78o693k2",
+            "createdTime": "2023-01-26T14:38:21.711Z",
+            "updatedTime": "2023-01-26T14:38:21.711Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "ge5i1gas4c1",
+            "eventApiId": "zho8s4wgsi0",
             "description": "Event to ask customer if a transaction took place.",
             "version": "0.1.0",
             "displayName": "0.1.0",
@@ -1710,11 +2798,11 @@
     "eventApiProductVersions": [],
     "addressSpaces": [
         {
-            "createdTime": "2022-09-02T02:52:46.192Z",
-            "updatedTime": "2022-09-02T02:52:46.192Z",
-            "createdBy": "1gybisic98o7",
-            "changedBy": "1gybisic98o7",
-            "id": "2iv9odctt0u",
+            "createdTime": "2023-01-26T14:38:17.626Z",
+            "updatedTime": "2023-01-26T14:38:17.626Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "2pkc50obyb4",
             "brokerType": "kafka",
             "delimiter": ".",
             "type": "addressSpace"
