@@ -15,6 +15,19 @@
       "type": "applicationDomain"
     },
     {
+      "createdTime": "2022-08-28T05:17:54.054Z",
+      "updatedTime": "2022-08-28T05:17:54.054Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "d7m6jof83bt",
+      "name": "checkIn",
+      "description": "checkIn system deals with operations like checkin, coordinations with immigration & foriegn affairs  etc.",
+      "uniqueTopicAddressEnforcementEnabled": true,
+      "topicDomainEnforcementEnabled": false,
+      "customAttributes": [],
+      "type": "applicationDomain"
+    },
+    {
       "createdTime": "2022-08-28T12:15:28.382Z",
       "updatedTime": "2022-08-28T12:15:28.382Z",
       "createdBy": "ogcdkgv1zoq",
@@ -61,19 +74,6 @@
       "id": "lcqs9kr0244",
       "name": "notification",
       "description": "This domain is responsible for sending out notifications to passengers .",
-      "uniqueTopicAddressEnforcementEnabled": true,
-      "topicDomainEnforcementEnabled": false,
-      "customAttributes": [],
-      "type": "applicationDomain"
-    },
-    {
-      "createdTime": "2022-08-28T05:17:54.054Z",
-      "updatedTime": "2022-08-28T05:17:54.054Z",
-      "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
-      "id": "d7m6jof83bt",
-      "name": "checkIn",
-      "description": "checkIn system deals with operations like checkin, coordinations with immigration & foriegn affairs  etc.",
       "uniqueTopicAddressEnforcementEnabled": true,
       "topicDomainEnforcementEnabled": false,
       "customAttributes": [],
@@ -223,15 +223,15 @@
     },
     {
       "createdTime": "2022-08-28T11:30:50.977Z",
-      "updatedTime": "2023-02-03T15:29:52.107Z",
+      "updatedTime": "2023-02-03T16:37:33.167Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "7t6z8q06fw7",
       "name": "boardingEngine",
       "applicationType": "standard",
       "brokerType": "solace",
       "applicationDomainId": "d7m6jof83bt",
-      "numberOfVersions": 1,
+      "numberOfVersions": 3,
       "customAttributes": [],
       "type": "application"
     },
@@ -378,6 +378,28 @@
   ],
   "applicationVersions": [
     {
+      "createdTime": "2023-02-03T16:37:29.696Z",
+      "updatedTime": "2023-02-03T16:37:33.167Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "5c5lrcrh543",
+      "applicationId": "7t6z8q06fw7",
+      "description": "",
+      "version": "1.0.1",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "cngx3ksv4lq"
+      ],
+      "declaredConsumedEventVersionIds": [],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "2",
+      "eventMeshIds": [],
+      "consumers": [],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
       "createdTime": "2023-02-03T15:44:25.864Z",
       "updatedTime": "2023-02-03T15:44:31.645Z",
       "createdBy": "2ko4lk2qe58f",
@@ -485,6 +507,28 @@
           "type": "consumer"
         }
       ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-03T16:36:49.993Z",
+      "updatedTime": "2023-02-03T16:37:07.589Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "5g6ujnonmw5",
+      "applicationId": "7t6z8q06fw7",
+      "description": "",
+      "version": "1.0.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "cngx3ksv4lq"
+      ],
+      "declaredConsumedEventVersionIds": [],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "4",
+      "eventMeshIds": [],
+      "consumers": [],
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "applicationVersion"
@@ -1162,7 +1206,7 @@
     },
     {
       "createdTime": "2022-08-28T11:30:51.698Z",
-      "updatedTime": "2023-02-03T15:29:52.107Z",
+      "updatedTime": "2023-02-03T16:37:17.450Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "6ll5wg7blom",
@@ -1175,7 +1219,7 @@
       ],
       "declaredConsumedEventVersionIds": [],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "2",
+      "stateId": "4",
       "eventMeshIds": [],
       "consumers": [],
       "customAttributes": [],
@@ -1421,18 +1465,19 @@
     },
     {
       "createdTime": "2022-08-28T11:32:04.868Z",
-      "updatedTime": "2023-02-03T15:28:56.830Z",
+      "updatedTime": "2023-02-03T16:37:59.156Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "m5i4kbk41hi",
       "name": "boardingStatus",
       "shared": true,
       "applicationDomainId": "d7m6jof83bt",
-      "numberOfVersions": 1,
+      "numberOfVersions": 2,
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "2": 1
+          "2": 1,
+          "4": 1
         }
       },
       "type": "event"
@@ -1565,9 +1610,9 @@
     },
     {
       "createdTime": "2022-08-28T12:17:16.385Z",
-      "updatedTime": "2023-02-03T15:20:46.651Z",
+      "updatedTime": "2023-02-03T16:24:24.224Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "2ko4lk2qe58f",
+      "changedBy": "ogcdkgv1zoq",
       "id": "rax7wyli693",
       "name": "loadPlan",
       "shared": true,
@@ -1576,7 +1621,8 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "2": 2
+          "1": 1,
+          "2": 1
         }
       },
       "type": "event"
@@ -1693,9 +1739,9 @@
   "eventVersions": [
     {
       "createdTime": "2023-02-03T15:20:43.481Z",
-      "updatedTime": "2023-02-03T15:20:46.651Z",
+      "updatedTime": "2023-02-03T16:24:24.224Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
+      "changedBy": "ogcdkgv1zoq",
       "id": "3imzrn1n1gg",
       "eventId": "rax7wyli693",
       "description": "",
@@ -1721,12 +1767,65 @@
               "addressLevelType": "literal"
             },
             {
+              "name": "flightNo",
+              "addressLevelType": "variable"
+            },
+            {
               "name": "containerNumber",
               "addressLevelType": "variable"
             },
             {
               "name": "containerPosition",
               "addressLevelType": "variable"
+            }
+          ],
+          "addressType": "topic"
+        },
+        "keySchemaVersionId": null,
+        "keySchemaPrimitiveType": null
+      },
+      "stateId": "1",
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "eventVersion"
+    },
+    {
+      "createdTime": "2023-02-03T16:35:33.153Z",
+      "updatedTime": "2023-02-03T16:35:50.039Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "cngx3ksv4lq",
+      "eventId": "m5i4kbk41hi",
+      "description": "Provides the latest information about a particular flight.",
+      "version": "1.0.0",
+      "displayName": "",
+      "attractingApplicationVersionIds": [],
+      "schemaVersionId": "r34p7ccnt4e",
+      "schemaPrimitiveType": null,
+      "deliveryDescriptor": {
+        "brokerType": "solace",
+        "address": {
+          "addressLevels": [
+            {
+              "name": "myair",
+              "addressLevelType": "literal"
+            },
+            {
+              "name": "boarding",
+              "addressLevelType": "literal"
+            },
+            {
+              "name": "v1",
+              "addressLevelType": "literal"
+            },
+            {
+              "name": "flightNo",
+              "addressLevelType": "variable"
+            },
+            {
+              "name": "boardingStatus",
+              "addressLevelType": "variable",
+              "enumVersionId": "1mteeex9iit"
             }
           ],
           "addressType": "topic"
@@ -2373,7 +2472,7 @@
     },
     {
       "createdTime": "2022-08-28T11:32:05.750Z",
-      "updatedTime": "2023-02-03T15:28:56.830Z",
+      "updatedTime": "2023-02-03T16:37:59.156Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "ppjkxiydwoq",
@@ -2415,7 +2514,7 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "2",
+      "stateId": "4",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
@@ -2691,7 +2790,7 @@
       "contentType": "json",
       "schemaType": "jsonSchema",
       "numberOfVersions": 1,
-      "eventVersionRefCount": 6,
+      "eventVersionRefCount": 7,
       "stats": {
         "versionCountByStateId": {
           "2": 1
@@ -2758,6 +2857,27 @@
       "stats": {
         "versionCountByStateId": {
           "4": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-03T16:27:34.954Z",
+      "updatedTime": "2023-02-03T16:27:35.476Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "02id1ck2mec",
+      "applicationDomainId": "57s18y76v70",
+      "name": "loadPlan",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "jsonSchema",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 0,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
         }
       },
       "customAttributes": [],
@@ -2914,6 +3034,22 @@
       "type": "schemaVersion"
     },
     {
+      "createdTime": "2023-02-03T16:27:35.476Z",
+      "updatedTime": "2023-02-03T16:27:35.476Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "9eqsf9eknal",
+      "schemaId": "02id1ck2mec",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "v1",
+      "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"flightNo\": {\n      \"type\": \"string\"\n    },\n    \"containerNumber\": {\n      \"type\": \"number\"\n    },\n    \"containerPosition\": {\n      \"type\": \"number\"\n    }\n  },\n  \"required\": [\n    \"flightNo\"\n  ]\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
       "createdTime": "2023-02-02T16:14:09.884Z",
       "updatedTime": "2023-02-02T16:14:53.166Z",
       "createdBy": "2ko4lk2qe58f",
@@ -3005,7 +3141,7 @@
       "name": "boardingStatus",
       "shared": true,
       "numberOfVersions": 1,
-      "eventVersionRefCount": 1,
+      "eventVersionRefCount": 2,
       "stats": {
         "versionCountByStateId": {
           "2": 1
