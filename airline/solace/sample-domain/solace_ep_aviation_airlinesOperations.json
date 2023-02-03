@@ -52,6 +52,32 @@
       "topicDomainEnforcementEnabled": false,
       "customAttributes": [],
       "type": "applicationDomain"
+    },
+    {
+      "createdTime": "2022-08-28T11:03:43.282Z",
+      "updatedTime": "2022-08-28T11:03:43.282Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "04j9c4bn39r",
+      "name": "lounge",
+      "description": "This application deals with airline lounge",
+      "uniqueTopicAddressEnforcementEnabled": true,
+      "topicDomainEnforcementEnabled": false,
+      "customAttributes": [],
+      "type": "applicationDomain"
+    },
+    {
+      "createdTime": "2022-08-28T12:47:01.805Z",
+      "updatedTime": "2022-08-28T12:47:01.805Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "lcqs9kr0244",
+      "name": "notification",
+      "description": "This domain is responsible for sending out notifications to passengers .",
+      "uniqueTopicAddressEnforcementEnabled": true,
+      "topicDomainEnforcementEnabled": false,
+      "customAttributes": [],
+      "type": "applicationDomain"
     }
   ],
   "topicDomains": [
@@ -90,6 +116,22 @@
         },
         {
           "name": "checkIn",
+          "addressLevelType": "literal"
+        }
+      ],
+      "type": "topicDomain"
+    },
+    {
+      "createdTime": "2022-08-28T12:47:04.336Z",
+      "updatedTime": "2022-08-28T12:47:04.336Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "4easb4x63yd",
+      "applicationDomainId": "lcqs9kr0244",
+      "brokerType": "solace",
+      "addressLevels": [
+        {
+          "name": "myair",
           "addressLevelType": "literal"
         }
       ],
@@ -139,9 +181,9 @@
   "applications": [
     {
       "createdTime": "2022-08-28T12:43:27.296Z",
-      "updatedTime": "2022-11-18T10:10:42.202Z",
+      "updatedTime": "2023-02-03T15:26:52.040Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "5qytvupyb7s",
       "name": "ACARSEngine",
       "applicationType": "standard",
@@ -153,23 +195,23 @@
     },
     {
       "createdTime": "2022-08-28T12:39:48.363Z",
-      "updatedTime": "2022-11-18T10:10:57.406Z",
+      "updatedTime": "2023-02-03T15:26:59.305Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "g5v6wj817w4",
       "name": "airOpsEngine",
       "applicationType": "standard",
       "brokerType": "solace",
       "applicationDomainId": "wrodbgtdgaz",
-      "numberOfVersions": 1,
+      "numberOfVersions": 2,
       "customAttributes": [],
       "type": "application"
     },
     {
       "createdTime": "2022-08-28T12:45:27.719Z",
-      "updatedTime": "2022-11-18T10:11:09.057Z",
+      "updatedTime": "2023-02-03T15:31:13.180Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "o6o4iz5iysw",
       "name": "baggageHandlingEngine",
       "applicationType": "standard",
@@ -181,7 +223,7 @@
     },
     {
       "createdTime": "2022-08-28T11:30:50.977Z",
-      "updatedTime": "2022-09-01T05:20:01.017Z",
+      "updatedTime": "2023-02-03T15:29:52.107Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "7t6z8q06fw7",
@@ -195,9 +237,9 @@
     },
     {
       "createdTime": "2022-08-28T13:00:03.842Z",
-      "updatedTime": "2022-11-18T10:11:16.445Z",
+      "updatedTime": "2023-02-03T15:27:13.745Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "v9gbspa0tl7",
       "name": "cargoHandlingEngine",
       "applicationType": "standard",
@@ -209,7 +251,7 @@
     },
     {
       "createdTime": "2022-08-28T05:20:26.839Z",
-      "updatedTime": "2023-02-02T17:27:42.784Z",
+      "updatedTime": "2023-02-03T15:29:57.303Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "a4dr3bthdnc",
@@ -237,15 +279,15 @@
     },
     {
       "createdTime": "2022-08-28T12:15:43.185Z",
-      "updatedTime": "2022-08-29T04:33:28.262Z",
+      "updatedTime": "2023-02-03T15:19:46.793Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "gs5w5gib0lk",
       "name": "loadControlEngine",
       "applicationType": "standard",
       "brokerType": "solace",
       "applicationDomainId": "57s18y76v70",
-      "numberOfVersions": 1,
+      "numberOfVersions": 2,
       "customAttributes": [],
       "type": "application"
     },
@@ -264,10 +306,38 @@
       "type": "application"
     },
     {
-      "createdTime": "2022-08-28T12:40:56.646Z",
-      "updatedTime": "2022-11-18T10:10:29.668Z",
+      "createdTime": "2022-08-28T11:04:40.707Z",
+      "updatedTime": "2023-02-03T15:30:27.886Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
+      "id": "asqmfyjth8w",
+      "name": "loungeEngine",
+      "applicationType": "standard",
+      "brokerType": "solace",
+      "applicationDomainId": "04j9c4bn39r",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "type": "application"
+    },
+    {
+      "createdTime": "2022-08-29T04:31:22.403Z",
+      "updatedTime": "2023-02-03T15:30:43.651Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "9sr2f2he0ia",
+      "name": "notificationEngine",
+      "applicationType": "standard",
+      "brokerType": "solace",
+      "applicationDomainId": "lcqs9kr0244",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "type": "application"
+    },
+    {
+      "createdTime": "2022-08-28T12:40:56.646Z",
+      "updatedTime": "2023-02-03T15:31:31.761Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "dcu5azwhfny",
       "name": "rampHandlingEngine",
       "applicationType": "standard",
@@ -279,7 +349,7 @@
     },
     {
       "createdTime": "2023-02-02T17:24:03.114Z",
-      "updatedTime": "2023-02-02T17:24:03.246Z",
+      "updatedTime": "2023-02-03T15:30:02.133Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "c0x6728daci",
@@ -293,9 +363,9 @@
     },
     {
       "createdTime": "2022-08-28T13:03:27.825Z",
-      "updatedTime": "2022-11-18T10:11:28.720Z",
+      "updatedTime": "2023-02-03T15:27:26.019Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "tncdrav0cet",
       "name": "ULDIoT",
       "applicationType": "standard",
@@ -308,8 +378,100 @@
   ],
   "applicationVersions": [
     {
+      "createdTime": "2023-02-03T15:21:50.742Z",
+      "updatedTime": "2023-02-03T15:26:59.305Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "9dp21006769",
+      "applicationId": "g5v6wj817w4",
+      "description": "AirOps systems is resposible for complex management of flight scheduling and trip oversight, crew compliance and communication, customer data, charter and maintenance .",
+      "version": "1.0.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "973ya3c10dv"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "z7s66nw9zvj",
+        "zvp83ahhdh1"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "2",
+      "eventMeshIds": [],
+      "consumers": [],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-03T15:19:46.554Z",
+      "updatedTime": "2023-02-03T15:19:46.793Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "z3wgi86p8md",
+      "applicationId": "gs5w5gib0lk",
+      "description": "",
+      "version": "1.0.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "6hdz6mb4jn2",
+        "n65la4374h8"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "dyrtspmob5e",
+        "vlf6f6e22vd"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "1",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-03T15:19:46.737Z",
+          "updatedTime": "2023-02-03T15:19:46.737Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "bm3s7po6p4s",
+          "name": "loadControlEngine.flightStatus",
+          "applicationVersionId": "z3wgi86p8md",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "x8jobgr4xop",
+              "subscriptionType": "topic",
+              "value": "myair/checkIn/v1/*/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-03T15:19:46.638Z",
+          "updatedTime": "2023-02-03T15:19:46.638Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "7w3vgwnxwb2",
+          "name": "loadControlEngine.loadControl",
+          "applicationVersionId": "z3wgi86p8md",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "if1blb1pbu1",
+              "subscriptionType": "topic",
+              "value": "myair/checkIn/v1/*/*/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
       "createdTime": "2022-08-28T05:20:27.563Z",
-      "updatedTime": "2023-02-02T17:27:42.784Z",
+      "updatedTime": "2023-02-03T15:29:57.303Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "2yjefdnhmcz",
@@ -330,7 +492,7 @@
         "q4dgm8n0omy"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "eventMeshIds": [],
       "consumers": [
         {
@@ -400,7 +562,7 @@
     },
     {
       "createdTime": "2023-02-02T17:24:03.246Z",
-      "updatedTime": "2023-02-02T17:24:03.246Z",
+      "updatedTime": "2023-02-03T15:30:02.133Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "3fqe562eykd",
@@ -414,9 +576,54 @@
       ],
       "declaredConsumedEventVersionIds": [],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "eventMeshIds": [],
       "consumers": [],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2022-08-29T04:31:23.100Z",
+      "updatedTime": "2023-02-03T15:30:43.651Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "3kke4mh9efm",
+      "applicationId": "9sr2f2he0ia",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [],
+      "declaredConsumedEventVersionIds": [
+        "6kuiedf5uag",
+        "mnm5yd7vibk",
+        "q4dgm8n0omy"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "2",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2022-09-09T10:10:33.345Z",
+          "updatedTime": "2023-02-02T17:32:51.686Z",
+          "createdBy": "ogcdkgv1zoq",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "6dmhihnc3vj",
+          "name": "Booking_details",
+          "applicationVersionId": "3kke4mh9efm",
+          "brokerType": "solace",
+          "consumerType": "directClient",
+          "subscriptions": [
+            {
+              "id": "96mekkrj7df",
+              "subscriptionType": "topic",
+              "value": "myair/reservation/bookingCreated/v1/>",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "applicationVersion"
@@ -449,20 +656,20 @@
     },
     {
       "createdTime": "2022-08-28T13:00:04.769Z",
-      "updatedTime": "2022-11-18T10:11:16.445Z",
+      "updatedTime": "2023-02-03T15:27:13.745Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "68kpbibqadg",
       "applicationId": "v9gbspa0tl7",
       "description": "This application is responsible for cargo management .",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "declaredProducedEventVersionIds": [],
       "declaredConsumedEventVersionIds": [
         "7e9cez3p4i4"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "eventMeshIds": [],
       "consumers": [],
       "customAttributes": [],
@@ -471,7 +678,7 @@
     },
     {
       "createdTime": "2022-08-28T11:30:51.698Z",
-      "updatedTime": "2022-09-01T05:20:01.017Z",
+      "updatedTime": "2023-02-03T15:29:52.107Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "6ll5wg7blom",
@@ -484,7 +691,7 @@
       ],
       "declaredConsumedEventVersionIds": [],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "eventMeshIds": [],
       "consumers": [],
       "customAttributes": [],
@@ -518,14 +725,14 @@
     },
     {
       "createdTime": "2022-08-28T12:45:28.479Z",
-      "updatedTime": "2022-11-18T10:11:09.057Z",
+      "updatedTime": "2023-02-03T15:31:13.180Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "8mbj0v7pj70",
       "applicationId": "o6o4iz5iysw",
       "description": "This applications takes care of operations around Baggage handling like belt allocation etc. .",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "declaredProducedEventVersionIds": [
         "6kuiedf5uag"
       ],
@@ -533,7 +740,7 @@
         "z7s66nw9zvj"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "eventMeshIds": [],
       "consumers": [],
       "customAttributes": [],
@@ -566,14 +773,14 @@
     },
     {
       "createdTime": "2022-08-28T12:43:28.093Z",
-      "updatedTime": "2022-11-18T10:10:42.202Z",
+      "updatedTime": "2023-02-03T15:26:52.040Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "ht1x2qf5oxt",
       "applicationId": "5qytvupyb7s",
       "description": "ACARS-Aircraft Communications Addressing and Reporting System is a digital datalink system for transmission of short messages between aircraft and ground stations via airband radio or satellite. ",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "declaredProducedEventVersionIds": [
         "z7s66nw9zvj",
         "zvp83ahhdh1"
@@ -582,7 +789,7 @@
         "6hdz6mb4jn2"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "eventMeshIds": [],
       "consumers": [],
       "customAttributes": [],
@@ -590,15 +797,56 @@
       "type": "applicationVersion"
     },
     {
-      "createdTime": "2022-08-28T12:40:57.465Z",
-      "updatedTime": "2022-11-18T10:10:29.668Z",
+      "createdTime": "2022-08-28T11:04:41.387Z",
+      "updatedTime": "2023-02-03T15:30:27.886Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
+      "id": "mto5ki2fcaj",
+      "applicationId": "asqmfyjth8w",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [],
+      "declaredConsumedEventVersionIds": [],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "2",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2022-08-28T11:04:41.406Z",
+          "updatedTime": "2022-08-28T11:04:41.406Z",
+          "createdBy": "ogcdkgv1zoq",
+          "changedBy": "ogcdkgv1zoq",
+          "id": "e4pnrj8ol5z",
+          "name": "lounge",
+          "applicationVersionId": "mto5ki2fcaj",
+          "brokerType": "solace",
+          "consumerType": "directClient",
+          "subscriptions": [
+            {
+              "id": "yuossc1g13y",
+              "subscriptionType": "topic",
+              "value": "myair/checkIn/v1/{flightNo}/{noOfPax}/>",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2022-08-28T12:40:57.465Z",
+      "updatedTime": "2023-02-03T15:31:31.761Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "myjs0dj756f",
       "applicationId": "dcu5azwhfny",
       "description": "Ramp handling is defined as service ( load, unload , move baggage & cargo )for the aircraft while it is on the ground (after arrival and before departure).",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "declaredProducedEventVersionIds": [
         "hhkhu75com5"
       ],
@@ -606,7 +854,7 @@
         "n65la4374h8"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "eventMeshIds": [],
       "consumers": [],
       "customAttributes": [],
@@ -615,20 +863,20 @@
     },
     {
       "createdTime": "2022-08-28T13:03:28.624Z",
-      "updatedTime": "2022-11-18T10:11:28.720Z",
+      "updatedTime": "2023-02-03T15:27:26.019Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "rgi0eda6dcd",
       "applicationId": "tncdrav0cet",
       "description": "Devices that emit out real time location coordinates.",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "declaredProducedEventVersionIds": [
         "7e9cez3p4i4"
       ],
       "declaredConsumedEventVersionIds": [],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "eventMeshIds": [],
       "consumers": [],
       "customAttributes": [],
@@ -663,7 +911,7 @@
   "events": [
     {
       "createdTime": "2022-08-28T12:34:56.179Z",
-      "updatedTime": "2023-02-03T07:09:19.769Z",
+      "updatedTime": "2023-02-03T15:26:16.918Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "882ek3tni9v",
@@ -674,14 +922,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T12:28:31.058Z",
-      "updatedTime": "2023-02-03T07:10:15.983Z",
+      "updatedTime": "2023-02-03T15:26:25.229Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "jiy6a64p4qx",
@@ -692,14 +940,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T12:38:26.923Z",
-      "updatedTime": "2023-02-03T07:20:01.314Z",
+      "updatedTime": "2023-02-03T15:26:29.747Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "t2u6770h06h",
@@ -710,14 +958,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T11:32:04.868Z",
-      "updatedTime": "2023-02-02T16:20:50.326Z",
+      "updatedTime": "2023-02-03T15:28:56.830Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "m5i4kbk41hi",
@@ -728,14 +976,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2023-02-02T17:22:27.956Z",
-      "updatedTime": "2023-02-02T17:31:22.668Z",
+      "updatedTime": "2023-02-03T15:29:02.325Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "1mvwvonw0jj",
@@ -746,14 +994,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2023-02-02T17:23:06.343Z",
-      "updatedTime": "2023-02-02T17:31:12.223Z",
+      "updatedTime": "2023-02-03T15:29:07.024Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "51mds5u9lb6",
@@ -764,14 +1012,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T05:19:55.405Z",
-      "updatedTime": "2023-02-02T16:26:53.976Z",
+      "updatedTime": "2023-02-03T15:29:14.017Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "6q30dy9inpj",
@@ -782,14 +1030,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T05:21:49.221Z",
-      "updatedTime": "2023-02-02T16:27:21.904Z",
+      "updatedTime": "2023-02-03T15:29:20.091Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "uxp5299peh8",
@@ -800,7 +1048,7 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
@@ -843,7 +1091,7 @@
     },
     {
       "createdTime": "2022-08-28T05:31:31.634Z",
-      "updatedTime": "2023-02-02T16:29:57.452Z",
+      "updatedTime": "2023-02-03T15:29:29.872Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "abp2yql1alf",
@@ -854,32 +1102,32 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T12:17:16.385Z",
-      "updatedTime": "2022-08-28T12:17:17.151Z",
+      "updatedTime": "2023-02-03T15:20:46.651Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "rax7wyli693",
       "name": "loadPlan",
       "shared": true,
       "applicationDomainId": "57s18y76v70",
-      "numberOfVersions": 1,
+      "numberOfVersions": 2,
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 2
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T12:17:56.756Z",
-      "updatedTime": "2022-08-28T12:43:47.258Z",
+      "updatedTime": "2023-02-03T15:20:17.815Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "25ahyic0k6z",
@@ -890,14 +1138,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T05:25:50.961Z",
-      "updatedTime": "2023-02-02T16:32:17.698Z",
+      "updatedTime": "2023-02-03T15:29:38.899Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "1xn8z1fwapy",
@@ -908,14 +1156,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T05:21:03.096Z",
-      "updatedTime": "2023-02-02T16:30:54.198Z",
+      "updatedTime": "2023-02-03T15:29:44.610Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "q8a828zl8n4",
@@ -926,14 +1174,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T12:37:34.886Z",
-      "updatedTime": "2023-02-03T07:19:16.028Z",
+      "updatedTime": "2023-02-03T15:26:33.916Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "houa6nlg330",
@@ -944,16 +1192,16 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T12:25:58.973Z",
-      "updatedTime": "2023-02-03T07:37:44.760Z",
+      "updatedTime": "2023-02-03T15:26:41.076Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "mpd09i33i68",
       "name": "rampStatus",
       "shared": true,
@@ -962,14 +1210,14 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T13:01:42.679Z",
-      "updatedTime": "2023-02-03T07:25:07.036Z",
+      "updatedTime": "2023-02-03T15:25:41.304Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "j97pewc2t0z",
@@ -980,13 +1228,61 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "type": "event"
     }
   ],
   "eventVersions": [
+    {
+      "createdTime": "2023-02-03T15:20:43.481Z",
+      "updatedTime": "2023-02-03T15:20:46.651Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "3imzrn1n1gg",
+      "eventId": "rax7wyli693",
+      "description": "",
+      "version": "1.0.0",
+      "displayName": "",
+      "attractingApplicationVersionIds": [],
+      "schemaVersionId": null,
+      "schemaPrimitiveType": null,
+      "deliveryDescriptor": {
+        "brokerType": "solace",
+        "address": {
+          "addressLevels": [
+            {
+              "name": "myair",
+              "addressLevelType": "literal"
+            },
+            {
+              "name": "loadControl",
+              "addressLevelType": "literal"
+            },
+            {
+              "name": "v1",
+              "addressLevelType": "literal"
+            },
+            {
+              "name": "containerNumber",
+              "addressLevelType": "variable"
+            },
+            {
+              "name": "containerPosition",
+              "addressLevelType": "variable"
+            }
+          ],
+          "addressType": "topic"
+        },
+        "keySchemaVersionId": null,
+        "keySchemaPrimitiveType": null
+      },
+      "stateId": "2",
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "eventVersion"
+    },
     {
       "createdTime": "2022-08-28T11:29:00.779Z",
       "updatedTime": "2023-02-03T07:59:29.481Z",
@@ -1037,7 +1333,7 @@
     },
     {
       "createdTime": "2023-02-02T17:22:28.312Z",
-      "updatedTime": "2023-02-02T17:22:28.312Z",
+      "updatedTime": "2023-02-03T15:29:02.325Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "663ntu0v4vf",
@@ -1098,14 +1394,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T12:17:57.511Z",
-      "updatedTime": "2022-08-28T12:17:57.511Z",
+      "updatedTime": "2023-02-03T15:20:17.815Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "6hdz6mb4jn2",
@@ -1142,14 +1438,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T12:38:27.705Z",
-      "updatedTime": "2023-02-03T07:20:01.314Z",
+      "updatedTime": "2023-02-03T15:26:29.747Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "6kuiedf5uag",
@@ -1194,14 +1490,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T13:01:43.675Z",
-      "updatedTime": "2023-02-03T07:25:07.036Z",
+      "updatedTime": "2023-02-03T15:25:41.304Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "7e9cez3p4i4",
@@ -1258,14 +1554,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T12:37:35.740Z",
-      "updatedTime": "2023-02-03T07:19:16.028Z",
+      "updatedTime": "2023-02-03T15:26:33.916Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "973ya3c10dv",
@@ -1306,14 +1602,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T05:21:49.994Z",
-      "updatedTime": "2023-02-02T16:27:21.904Z",
+      "updatedTime": "2023-02-03T15:29:20.091Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "as6k6w925xn",
@@ -1366,14 +1662,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T05:31:32.370Z",
-      "updatedTime": "2023-02-02T16:29:57.452Z",
+      "updatedTime": "2023-02-03T15:29:29.872Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "dyrtspmob5e",
@@ -1418,23 +1714,23 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T12:25:59.853Z",
-      "updatedTime": "2023-02-03T07:37:44.760Z",
+      "updatedTime": "2023-02-03T15:26:41.076Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "hhkhu75com5",
       "eventId": "mpd09i33i68",
       "description": "",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": "maf2c1gndah",
+      "schemaVersionId": "cgn4ddz66t8",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1466,14 +1762,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T05:21:03.875Z",
-      "updatedTime": "2023-02-02T16:30:54.198Z",
+      "updatedTime": "2023-02-03T15:29:44.610Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "mnm5yd7vibk",
@@ -1514,14 +1810,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T12:17:17.151Z",
-      "updatedTime": "2022-08-28T12:17:17.151Z",
+      "updatedTime": "2023-02-03T15:20:10.622Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "n65la4374h8",
@@ -1562,7 +1858,7 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
@@ -1621,7 +1917,7 @@
     },
     {
       "createdTime": "2022-08-28T11:32:05.750Z",
-      "updatedTime": "2023-02-02T16:20:50.326Z",
+      "updatedTime": "2023-02-03T15:28:56.830Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "ppjkxiydwoq",
@@ -1663,14 +1959,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2023-02-02T17:23:06.700Z",
-      "updatedTime": "2023-02-02T17:23:06.700Z",
+      "updatedTime": "2023-02-03T15:29:07.024Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "q4dgm8n0omy",
@@ -1711,14 +2007,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T05:19:56.459Z",
-      "updatedTime": "2023-02-02T16:26:53.976Z",
+      "updatedTime": "2023-02-03T15:29:14.017Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "vlf6f6e22vd",
@@ -1759,14 +2055,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T05:25:51.781Z",
-      "updatedTime": "2023-02-02T16:32:17.698Z",
+      "updatedTime": "2023-02-03T15:29:38.899Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "wvdr8x44mc2",
@@ -1807,14 +2103,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T12:34:56.953Z",
-      "updatedTime": "2023-02-03T07:09:19.769Z",
+      "updatedTime": "2023-02-03T15:26:16.918Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "z7s66nw9zvj",
@@ -1855,14 +2151,14 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
     },
     {
       "createdTime": "2022-08-28T12:28:31.778Z",
-      "updatedTime": "2023-02-03T07:10:15.983Z",
+      "updatedTime": "2023-02-03T15:26:25.229Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "zvp83ahhdh1",
@@ -1899,7 +2195,7 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
@@ -1908,7 +2204,7 @@
   "schemas": [
     {
       "createdTime": "2023-02-02T17:21:40.697Z",
-      "updatedTime": "2023-02-02T17:31:04.061Z",
+      "updatedTime": "2023-02-03T15:22:36.280Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "9g3ke0igpiy",
@@ -1921,7 +2217,7 @@
       "eventVersionRefCount": 2,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -1929,7 +2225,7 @@
     },
     {
       "createdTime": "2023-02-02T16:26:16.008Z",
-      "updatedTime": "2023-02-03T07:20:54.860Z",
+      "updatedTime": "2023-02-03T15:22:41.839Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "ogcdkgv1zoq",
       "id": "c6mpg9pc5g7",
@@ -1942,7 +2238,7 @@
       "eventVersionRefCount": 6,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -1950,9 +2246,9 @@
     },
     {
       "createdTime": "2023-02-03T05:25:08.419Z",
-      "updatedTime": "2023-02-03T07:47:10.810Z",
+      "updatedTime": "2023-02-03T15:23:09.790Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "xs555rizi5a",
       "applicationDomainId": "d7m6jof83bt",
       "name": "foreignImmigration",
@@ -1963,7 +2259,7 @@
       "eventVersionRefCount": 2,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -1971,7 +2267,7 @@
     },
     {
       "createdTime": "2023-02-02T16:29:19.981Z",
-      "updatedTime": "2023-02-02T16:29:26.511Z",
+      "updatedTime": "2023-02-03T15:23:27.355Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "j53afc5jd45",
@@ -1984,7 +2280,7 @@
       "eventVersionRefCount": 1,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -1992,7 +2288,7 @@
     },
     {
       "createdTime": "2022-11-28T16:54:48.526Z",
-      "updatedTime": "2022-11-28T16:54:49.049Z",
+      "updatedTime": "2023-02-03T15:23:35.070Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "fks8rtcdf7i",
@@ -2005,7 +2301,7 @@
       "eventVersionRefCount": 0,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "4": 1
         }
       },
       "customAttributes": [],
@@ -2013,9 +2309,9 @@
     },
     {
       "createdTime": "2023-02-03T06:48:50.574Z",
-      "updatedTime": "2023-02-03T06:49:14.967Z",
+      "updatedTime": "2023-02-03T15:23:48.827Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "1x4fa1l3b2y",
       "applicationDomainId": "d7m6jof83bt",
       "name": "lounge",
@@ -2026,7 +2322,7 @@
       "eventVersionRefCount": 0,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -2055,9 +2351,9 @@
     },
     {
       "createdTime": "2023-02-03T07:37:25.900Z",
-      "updatedTime": "2023-02-03T07:37:26.409Z",
+      "updatedTime": "2023-02-03T15:24:19.967Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "h9qieiti8yj",
       "applicationDomainId": "d7m6jof83bt",
       "name": "rampStatus",
@@ -2068,7 +2364,7 @@
       "eventVersionRefCount": 1,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -2076,9 +2372,9 @@
     },
     {
       "createdTime": "2023-02-03T07:24:34.603Z",
-      "updatedTime": "2023-02-03T07:24:35.113Z",
+      "updatedTime": "2023-02-03T15:25:32.708Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "02skw9e43t0",
       "applicationDomainId": "d7m6jof83bt",
       "name": "ULDTrack",
@@ -2089,7 +2385,7 @@
       "eventVersionRefCount": 1,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -2098,8 +2394,24 @@
   ],
   "schemaVersions": [
     {
+      "createdTime": "2023-02-03T15:24:16.347Z",
+      "updatedTime": "2023-02-03T15:24:19.967Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "cgn4ddz66t8",
+      "schemaId": "h9qieiti8yj",
+      "description": "",
+      "version": "0.1.1",
+      "displayName": "",
+      "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"rampStatus\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"passengerId\"\n  ]\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "2",
+      "type": "schemaVersion"
+    },
+    {
       "createdTime": "2023-02-02T16:29:20.176Z",
-      "updatedTime": "2023-02-02T16:29:20.176Z",
+      "updatedTime": "2023-02-03T15:23:27.355Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "52epby6kwb0",
@@ -2110,12 +2422,12 @@
       "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"flightNo\": {\n      \"type\": \"string\"\n    },\n    \"noOfPax\": {\n      \"type\": \"number\"\n    },\n    \"noOfBaggage\": {\n      \"type\": \"number\"\n    }\n  },\n  \"required\": [\n    \"flightNo\",\n    \"noOfPax\",\n    \"noOfBaggage\"\n  ]\n}",
       "referencedByEventVersionIds": [],
       "customAttributes": [],
-      "stateId": "1",
+      "stateId": "2",
       "type": "schemaVersion"
     },
     {
       "createdTime": "2022-11-28T16:54:49.049Z",
-      "updatedTime": "2022-11-28T16:54:49.049Z",
+      "updatedTime": "2023-02-03T15:23:35.070Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "84s0t74shaa",
@@ -2126,23 +2438,23 @@
       "content": "<?xml version = \"1.0\" encoding = \"UTF-8\"?>\n<xs:schema xmlns:xs = \"http://www.w3.org/2001/XMLSchema\">\n<xs:import namespace=\"http://www.fixm.aero/flight/4.2\" schemaLocation=\"../../core/flight/Flight.xsd\"/>\n   <xs:element name = \"contact\">\n      <xs:complexType>\n            <xs:element name = \"flightNo\" type = \"xs:string\" />\n            <xs:element name = \"noOfPax\" type = \"xs:int\" />\n            <xs:element name = \"noOfBaggage\" type = \"xs:int\" />\n      </xs:complexType>\n   </xs:element>\n</xs:schema>",
       "referencedByEventVersionIds": [],
       "customAttributes": [],
-      "stateId": "1",
+      "stateId": "4",
       "type": "schemaVersion"
     },
     {
       "createdTime": "2023-02-03T06:48:51.086Z",
-      "updatedTime": "2023-02-03T06:49:14.967Z",
+      "updatedTime": "2023-02-03T15:23:48.827Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "8baqmcamasi",
       "schemaId": "1x4fa1l3b2y",
       "description": "",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"flightNo\": {\n      \"type\": \"string\"\n    },\n    \"noOfPax\": {\n      \"type\": \"number\"\n    }\n  },\n  \"required\": [\n    \"flightNo\",\n    \"noOfPax\"\n  ]\n}",
       "referencedByEventVersionIds": [],
       "customAttributes": [],
-      "stateId": "1",
+      "stateId": "2",
       "type": "schemaVersion"
     },
     {
@@ -2163,7 +2475,7 @@
     },
     {
       "createdTime": "2023-02-02T17:21:40.875Z",
-      "updatedTime": "2023-02-02T17:21:40.875Z",
+      "updatedTime": "2023-02-03T15:22:36.280Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "fbq5182l9wz",
@@ -2174,44 +2486,28 @@
       "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"PNR\": {\n      \"type\": \"string\"\n    },\n    \"flightNo\": {\n      \"type\": \"string\"\n    },\n    \"dep\": {\n      \"type\": \"string\"\n    },\n    \"arrival\": {\n      \"type\": \"string\"\n    },\n    \"date\": {\n      \"type\": \"number\"\n    },\n    \"class\": {\n      \"type\": \"number\"\n    }\n  },\n  \"required\": [\n    \"PNR\",\n    \"flightNo\",\n    \"dep\",\n    \"arrival\",\n    \"date\",\n    \"class\"\n  ]\n}",
       "referencedByEventVersionIds": [],
       "customAttributes": [],
-      "stateId": "1",
+      "stateId": "2",
       "type": "schemaVersion"
     },
     {
       "createdTime": "2023-02-03T07:24:35.113Z",
-      "updatedTime": "2023-02-03T07:24:35.113Z",
+      "updatedTime": "2023-02-03T15:25:32.708Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "iav205hsd2j",
       "schemaId": "02skw9e43t0",
       "description": "This schema defines schema for tracking ULD's .",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"lat\": {\n      \"type\": \"number\"\n    },\n    \"long\": {\n      \"type\": \"number\"\n    },\n    \"dir\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"lat\",\n    \"long\",\n    \"dir\",\n    \"status\"\n  ]\n}",
       "referencedByEventVersionIds": [],
       "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    },
-    {
-      "createdTime": "2023-02-03T07:37:26.409Z",
-      "updatedTime": "2023-02-03T07:37:26.409Z",
-      "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
-      "id": "maf2c1gndah",
-      "schemaId": "h9qieiti8yj",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "v1",
-      "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"rampStatus\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"passengerId\"\n  ]\n}",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
+      "stateId": "2",
       "type": "schemaVersion"
     },
     {
       "createdTime": "2023-02-02T16:26:16.195Z",
-      "updatedTime": "2023-02-03T07:20:54.860Z",
+      "updatedTime": "2023-02-03T15:22:41.839Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "ogcdkgv1zoq",
       "id": "r34p7ccnt4e",
@@ -2222,32 +2518,32 @@
       "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"flightNo\": {\n      \"type\": \"number\"\n    },\n    \"flightStatus\": {\n      \"type\": \"string\"\n    },\n    \"newDepartureTime\": {\n      \"type\": \"string\"\n    }\n    ,\n    \"newGate\": {\n      \"type\": \"string\"\n    },\n    \"beltNo\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"flightNo\",\n    \"flightStatus\"\n  ]\n}",
       "referencedByEventVersionIds": [],
       "customAttributes": [],
-      "stateId": "1",
+      "stateId": "2",
       "type": "schemaVersion"
     },
     {
       "createdTime": "2023-02-03T05:25:08.930Z",
-      "updatedTime": "2023-02-03T07:47:10.810Z",
+      "updatedTime": "2023-02-03T15:23:09.790Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "vo7efyjc18j",
       "schemaId": "xs555rizi5a",
       "description": "",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"passportNo\": {\n      \"type\": \"string\"\n    },\n    \"firstName\": {\n      \"type\": \"string\"\n    },\n    \"lastName\": {\n      \"type\": \"string\"\n    },\n    \"flightNo\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"passportNo\",\n    \"firstName\",\n    \"lastName\",\n    \"flightNo\"\n  ]\n}",
       "referencedByEventVersionIds": [],
       "customAttributes": [],
-      "stateId": "1",
+      "stateId": "2",
       "type": "schemaVersion"
     }
   ],
   "enums": [
     {
       "createdTime": "2022-11-20T09:14:23.180Z",
-      "updatedTime": "2022-11-20T09:24:35.760Z",
+      "updatedTime": "2023-02-03T15:28:15.211Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "aqf9ct2dbns",
       "applicationDomainId": "d7m6jof83bt",
       "name": "boardingStatus",
@@ -2256,7 +2552,7 @@
       "eventVersionRefCount": 1,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -2283,9 +2579,9 @@
     },
     {
       "createdTime": "2022-11-20T09:38:33.149Z",
-      "updatedTime": "2022-11-20T09:38:33.640Z",
+      "updatedTime": "2023-02-03T15:28:26.162Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "y4y3s5aki16",
       "applicationDomainId": "d7m6jof83bt",
       "name": "flightStatus",
@@ -2294,7 +2590,7 @@
       "eventVersionRefCount": 0,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -2304,21 +2600,21 @@
   "enumVersions": [
     {
       "createdTime": "2022-11-20T09:14:23.652Z",
-      "updatedTime": "2022-11-20T09:23:47.668Z",
+      "updatedTime": "2023-02-03T15:28:15.211Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "1mteeex9iit",
       "enumId": "aqf9ct2dbns",
       "description": "",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "values": [
         {
-          "createdTime": "2022-11-20T09:23:47.668Z",
-          "updatedTime": "2022-11-20T09:23:47.668Z",
-          "createdBy": "ogcdkgv1zoq",
-          "changedBy": "ogcdkgv1zoq",
-          "id": "xzgy7exfgwb",
+          "createdTime": "2023-02-03T15:28:15.193Z",
+          "updatedTime": "2023-02-03T15:28:15.193Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "npifqa4u8ee",
           "enumVersionId": "1mteeex9iit",
           "value": "status",
           "label": "notOpen ,open , closed",
@@ -2327,7 +2623,7 @@
       ],
       "referencedByEventVersionIds": [],
       "referencedByTopicDomainIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "type": "enumVersion"
     },
@@ -2384,21 +2680,21 @@
     },
     {
       "createdTime": "2022-11-20T09:38:33.640Z",
-      "updatedTime": "2022-11-20T09:38:33.640Z",
+      "updatedTime": "2023-02-03T15:28:26.162Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "hedd88xx663",
       "enumId": "y4y3s5aki16",
       "description": "",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "values": [
         {
-          "createdTime": "2022-11-20T09:38:33.640Z",
-          "updatedTime": "2022-11-20T09:38:33.640Z",
-          "createdBy": "ogcdkgv1zoq",
-          "changedBy": "ogcdkgv1zoq",
-          "id": "glxi7rmn66d",
+          "createdTime": "2023-02-03T15:28:26.160Z",
+          "updatedTime": "2023-02-03T15:28:26.160Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "qi1k78b34ee",
           "enumVersionId": "hedd88xx663",
           "value": "flightStatus",
           "label": "landed",
@@ -2407,7 +2703,7 @@
       ],
       "referencedByEventVersionIds": [],
       "referencedByTopicDomainIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "type": "enumVersion"
     }
