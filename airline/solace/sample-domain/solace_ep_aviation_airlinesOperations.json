@@ -181,7 +181,7 @@
   "applications": [
     {
       "createdTime": "2022-08-28T12:43:27.296Z",
-      "updatedTime": "2023-02-03T16:04:47.751Z",
+      "updatedTime": "2023-02-03T17:12:00.406Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "5qytvupyb7s",
@@ -189,7 +189,7 @@
       "applicationType": "standard",
       "brokerType": "solace",
       "applicationDomainId": "wrodbgtdgaz",
-      "numberOfVersions": 3,
+      "numberOfVersions": 4,
       "customAttributes": [],
       "type": "application"
     },
@@ -251,7 +251,7 @@
     },
     {
       "createdTime": "2022-08-28T05:20:26.839Z",
-      "updatedTime": "2023-02-03T16:19:36.469Z",
+      "updatedTime": "2023-02-03T18:43:10.087Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "a4dr3bthdnc",
@@ -259,7 +259,7 @@
       "applicationType": "standard",
       "brokerType": "solace",
       "applicationDomainId": "d7m6jof83bt",
-      "numberOfVersions": 2,
+      "numberOfVersions": 3,
       "customAttributes": [],
       "type": "application"
     },
@@ -279,7 +279,7 @@
     },
     {
       "createdTime": "2022-08-28T12:15:43.185Z",
-      "updatedTime": "2023-02-03T16:12:22.984Z",
+      "updatedTime": "2023-02-03T18:41:04.182Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "gs5w5gib0lk",
@@ -287,7 +287,7 @@
       "applicationType": "standard",
       "brokerType": "solace",
       "applicationDomainId": "57s18y76v70",
-      "numberOfVersions": 2,
+      "numberOfVersions": 3,
       "customAttributes": [],
       "type": "application"
     },
@@ -335,15 +335,15 @@
     },
     {
       "createdTime": "2022-08-28T12:40:56.646Z",
-      "updatedTime": "2023-02-03T15:41:13.128Z",
+      "updatedTime": "2023-02-03T18:41:52.007Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "2ko4lk2qe58f",
+      "changedBy": "ogcdkgv1zoq",
       "id": "dcu5azwhfny",
       "name": "rampHandlingEngine",
       "applicationType": "standard",
       "brokerType": "solace",
       "applicationDomainId": "wrodbgtdgaz",
-      "numberOfVersions": 2,
+      "numberOfVersions": 3,
       "customAttributes": [],
       "type": "application"
     },
@@ -377,6 +377,52 @@
     }
   ],
   "applicationVersions": [
+    {
+      "createdTime": "2023-02-03T17:09:51.104Z",
+      "updatedTime": "2023-02-03T17:09:51.274Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "4our2tz9xbk",
+      "applicationId": "5qytvupyb7s",
+      "description": "ACARS-Aircraft Communications Addressing and Reporting System is a digital datalink system for transmission of short messages between aircraft and ground stations via airband radio or satellite. ",
+      "version": "1.0.2",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "z7s66nw9zvj",
+        "zvp83ahhdh1"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "pkr5p7n9mn0"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "1",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-03T17:09:51.203Z",
+          "updatedTime": "2023-02-03T17:09:51.203Z",
+          "createdBy": "ogcdkgv1zoq",
+          "changedBy": "ogcdkgv1zoq",
+          "id": "0fvb2t42kla",
+          "name": "ACARSEngine.loadSheet",
+          "applicationVersionId": "4our2tz9xbk",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "0e7xripf42a",
+              "subscriptionType": "topic",
+              "value": "myair/loadControl/v1/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
     {
       "createdTime": "2023-02-03T16:37:29.696Z",
       "updatedTime": "2023-02-03T16:37:33.167Z",
@@ -466,8 +512,145 @@
       "type": "applicationVersion"
     },
     {
+      "createdTime": "2023-02-03T18:42:55.975Z",
+      "updatedTime": "2023-02-03T18:43:05.324Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "dn4pat7ihvj",
+      "applicationId": "a4dr3bthdnc",
+      "description": "Enabled gate agents, ticket agents and website to assist customers with check in.",
+      "version": "1.0.1",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "as6k6w925xn",
+        "dyrtspmob5e",
+        "mnm5yd7vibk",
+        "vlf6f6e22vd",
+        "wvdr8x44mc2"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "663ntu0v4vf",
+        "q4dgm8n0omy"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "2",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-03T18:42:56.060Z",
+          "updatedTime": "2023-02-03T18:42:56.060Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "8bbdtbt7se6",
+          "name": "checkIn.checkInEngine.bookingCancelled",
+          "applicationVersionId": "dn4pat7ihvj",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "n13bcwilj2f",
+              "subscriptionType": "topic",
+              "value": "myair/reservation/bookingCancelled/v1/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-03T18:42:56.159Z",
+          "updatedTime": "2023-02-03T18:42:56.159Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "jnkc5khvclp",
+          "name": "checkIn.checkInEngine.bookingCreated",
+          "applicationVersionId": "dn4pat7ihvj",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "ty28de186w1",
+              "subscriptionType": "topic",
+              "value": "myair/reservation/bookingCreated/v1/*/*/*/*/*/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-03T18:40:24.477Z",
+      "updatedTime": "2023-02-03T18:40:58.696Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "he14uyqi2j1",
+      "applicationId": "gs5w5gib0lk",
+      "description": "",
+      "version": "1.0.1",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "3imzrn1n1gg",
+        "pkr5p7n9mn0"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "dyrtspmob5e",
+        "vlf6f6e22vd"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "2",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-03T18:40:24.544Z",
+          "updatedTime": "2023-02-03T18:40:24.544Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "wmurc1bgldr",
+          "name": "loadControlEngine.flightStatus",
+          "applicationVersionId": "he14uyqi2j1",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "z4n661bg25b",
+              "subscriptionType": "topic",
+              "value": "myair/checkIn/v1/*/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-03T18:40:24.641Z",
+          "updatedTime": "2023-02-03T18:40:24.641Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "yc1bf3zhegf",
+          "name": "loadControlEngine.loadControl",
+          "applicationVersionId": "he14uyqi2j1",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "pmoqh4le2wc",
+              "subscriptionType": "topic",
+              "value": "myair/checkIn/v1/*/*/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
       "createdTime": "2023-02-03T16:04:29.085Z",
-      "updatedTime": "2023-02-03T16:04:47.751Z",
+      "updatedTime": "2023-02-03T17:12:00.406Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "k4sgftcktj2",
@@ -483,7 +666,7 @@
         "6hdz6mb4jn2"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "2",
+      "stateId": "4",
       "eventMeshIds": [],
       "consumers": [
         {
@@ -501,6 +684,51 @@
               "id": "3r0rhprfwmp",
               "subscriptionType": "topic",
               "value": "myair/loadControl/v1/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-03T17:07:31.606Z",
+      "updatedTime": "2023-02-03T18:41:52.007Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "s8z8uacdtv7",
+      "applicationId": "dcu5azwhfny",
+      "description": "Ramp handling is defined as service ( load, unload , move baggage & cargo )for the aircraft while it is on the ground (after arrival and before departure).",
+      "version": "1.0.1",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "hhkhu75com5"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "3imzrn1n1gg"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "2",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-03T17:07:31.720Z",
+          "updatedTime": "2023-02-03T17:07:31.720Z",
+          "createdBy": "ogcdkgv1zoq",
+          "changedBy": "ogcdkgv1zoq",
+          "id": "qq097e6biii",
+          "name": "rampHandlingEngine.loadPlan",
+          "applicationVersionId": "s8z8uacdtv7",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "3rbnt99akma",
+              "subscriptionType": "topic",
+              "value": "myair/loadControl/v1/*/*",
               "attractedEventVersionIds": []
             }
           ],
@@ -772,7 +1000,7 @@
     },
     {
       "createdTime": "2023-02-03T15:40:10.004Z",
-      "updatedTime": "2023-02-03T15:41:05.906Z",
+      "updatedTime": "2023-02-03T18:41:47.228Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "m6kr2d5ibgt",
@@ -787,7 +1015,7 @@
         "n65la4374h8"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "2",
+      "stateId": "4",
       "eventMeshIds": [],
       "consumers": [
         {
@@ -817,7 +1045,7 @@
     },
     {
       "createdTime": "2023-02-03T16:19:22.247Z",
-      "updatedTime": "2023-02-03T16:19:29.416Z",
+      "updatedTime": "2023-02-03T18:43:10.087Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "n442dcf4h90",
@@ -837,7 +1065,7 @@
         "q4dgm8n0omy"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "2",
+      "stateId": "4",
       "eventMeshIds": [],
       "consumers": [
         {
@@ -932,7 +1160,7 @@
     },
     {
       "createdTime": "2023-02-03T15:19:46.554Z",
-      "updatedTime": "2023-02-03T16:12:22.984Z",
+      "updatedTime": "2023-02-03T18:41:04.182Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "z3wgi86p8md",
@@ -949,7 +1177,7 @@
         "vlf6f6e22vd"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "2",
+      "stateId": "4",
       "eventMeshIds": [],
       "consumers": [
         {
@@ -1610,7 +1838,7 @@
     },
     {
       "createdTime": "2022-08-28T12:17:16.385Z",
-      "updatedTime": "2023-02-03T16:24:24.224Z",
+      "updatedTime": "2023-02-03T18:42:00.402Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "rax7wyli693",
@@ -1621,26 +1849,26 @@
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 1,
-          "2": 1
+          "2": 1,
+          "4": 1
         }
       },
       "type": "event"
     },
     {
       "createdTime": "2022-08-28T12:17:56.756Z",
-      "updatedTime": "2023-02-03T15:20:17.815Z",
+      "updatedTime": "2023-02-03T18:38:19.065Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "25ahyic0k6z",
       "name": "loadSheet",
       "shared": true,
       "applicationDomainId": "57s18y76v70",
-      "numberOfVersions": 1,
+      "numberOfVersions": 2,
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "2": 1
+          "2": 2
         }
       },
       "type": "event"
@@ -1739,7 +1967,7 @@
   "eventVersions": [
     {
       "createdTime": "2023-02-03T15:20:43.481Z",
-      "updatedTime": "2023-02-03T16:24:24.224Z",
+      "updatedTime": "2023-02-03T18:40:41.700Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "ogcdkgv1zoq",
       "id": "3imzrn1n1gg",
@@ -1748,7 +1976,7 @@
       "version": "1.0.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "9eqsf9eknal",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1784,7 +2012,7 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "1",
+      "stateId": "2",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
@@ -1826,6 +2054,50 @@
               "name": "boardingStatus",
               "addressLevelType": "variable",
               "enumVersionId": "1mteeex9iit"
+            }
+          ],
+          "addressType": "topic"
+        },
+        "keySchemaVersionId": null,
+        "keySchemaPrimitiveType": null
+      },
+      "stateId": "2",
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "eventVersion"
+    },
+    {
+      "createdTime": "2023-02-03T16:47:23.765Z",
+      "updatedTime": "2023-02-03T18:38:19.065Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "pkr5p7n9mn0",
+      "eventId": "25ahyic0k6z",
+      "description": "",
+      "version": "1.0.0",
+      "displayName": "",
+      "attractingApplicationVersionIds": [],
+      "schemaVersionId": "9eqsf9eknal",
+      "schemaPrimitiveType": null,
+      "deliveryDescriptor": {
+        "brokerType": "solace",
+        "address": {
+          "addressLevels": [
+            {
+              "name": "myair",
+              "addressLevelType": "literal"
+            },
+            {
+              "name": "loadControl",
+              "addressLevelType": "literal"
+            },
+            {
+              "name": "v1",
+              "addressLevelType": "literal"
+            },
+            {
+              "name": "flightNo",
+              "addressLevelType": "variable"
             }
           ],
           "addressType": "topic"
@@ -2372,7 +2644,7 @@
     },
     {
       "createdTime": "2022-08-28T12:17:17.151Z",
-      "updatedTime": "2023-02-03T15:20:10.622Z",
+      "updatedTime": "2023-02-03T18:42:00.402Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "n65la4374h8",
@@ -2413,7 +2685,7 @@
         "keySchemaVersionId": null,
         "keySchemaPrimitiveType": null
       },
-      "stateId": "2",
+      "stateId": "4",
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "eventVersion"
@@ -2864,9 +3136,9 @@
     },
     {
       "createdTime": "2023-02-03T16:27:34.954Z",
-      "updatedTime": "2023-02-03T16:27:35.476Z",
+      "updatedTime": "2023-02-03T18:37:39.917Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "02id1ck2mec",
       "applicationDomainId": "57s18y76v70",
       "name": "loadPlan",
@@ -2874,10 +3146,10 @@
       "contentType": "json",
       "schemaType": "jsonSchema",
       "numberOfVersions": 1,
-      "eventVersionRefCount": 0,
+      "eventVersionRefCount": 2,
       "stats": {
         "versionCountByStateId": {
-          "1": 1
+          "2": 1
         }
       },
       "customAttributes": [],
@@ -3035,18 +3307,18 @@
     },
     {
       "createdTime": "2023-02-03T16:27:35.476Z",
-      "updatedTime": "2023-02-03T16:27:35.476Z",
+      "updatedTime": "2023-02-03T18:37:39.917Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
+      "changedBy": "2ko4lk2qe58f",
       "id": "9eqsf9eknal",
       "schemaId": "02id1ck2mec",
       "description": "",
       "version": "0.1.0",
-      "displayName": "v1",
+      "displayName": "",
       "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"flightNo\": {\n      \"type\": \"string\"\n    },\n    \"containerNumber\": {\n      \"type\": \"number\"\n    },\n    \"containerPosition\": {\n      \"type\": \"number\"\n    }\n  },\n  \"required\": [\n    \"flightNo\"\n  ]\n}",
       "referencedByEventVersionIds": [],
       "customAttributes": [],
-      "stateId": "1",
+      "stateId": "2",
       "type": "schemaVersion"
     },
     {
@@ -3171,13 +3443,13 @@
     },
     {
       "createdTime": "2022-11-20T09:38:33.149Z",
-      "updatedTime": "2023-02-03T15:28:26.162Z",
+      "updatedTime": "2023-02-03T18:43:25.932Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "y4y3s5aki16",
       "applicationDomainId": "d7m6jof83bt",
       "name": "flightStatus",
-      "shared": false,
+      "shared": true,
       "numberOfVersions": 1,
       "eventVersionRefCount": 0,
       "stats": {
