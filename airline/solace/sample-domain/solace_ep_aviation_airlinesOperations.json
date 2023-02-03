@@ -663,7 +663,7 @@
   "events": [
     {
       "createdTime": "2022-08-28T12:34:56.179Z",
-      "updatedTime": "2022-08-28T12:34:56.953Z",
+      "updatedTime": "2023-02-03T07:09:19.769Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "882ek3tni9v",
@@ -681,7 +681,7 @@
     },
     {
       "createdTime": "2022-08-28T12:28:31.058Z",
-      "updatedTime": "2022-08-28T12:28:31.778Z",
+      "updatedTime": "2023-02-03T07:10:15.983Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "jiy6a64p4qx",
@@ -699,7 +699,7 @@
     },
     {
       "createdTime": "2022-08-28T12:38:26.923Z",
-      "updatedTime": "2022-08-28T12:38:27.705Z",
+      "updatedTime": "2023-02-03T07:20:01.314Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "t2u6770h06h",
@@ -807,7 +807,7 @@
     },
     {
       "createdTime": "2022-08-28T11:13:00.227Z",
-      "updatedTime": "2022-08-28T11:25:50.748Z",
+      "updatedTime": "2023-02-03T07:42:34.297Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "3bcy0jo16y6",
@@ -825,9 +825,9 @@
     },
     {
       "createdTime": "2022-08-28T11:28:59.853Z",
-      "updatedTime": "2023-02-02T16:24:02.143Z",
+      "updatedTime": "2023-02-03T07:59:29.481Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "2ko4lk2qe58f",
+      "changedBy": "ogcdkgv1zoq",
       "id": "1e36n3wzrzj",
       "name": "immigrationCheckStatus",
       "shared": true,
@@ -933,7 +933,7 @@
     },
     {
       "createdTime": "2022-08-28T12:37:34.886Z",
-      "updatedTime": "2022-08-28T12:37:35.740Z",
+      "updatedTime": "2023-02-03T07:19:16.028Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "houa6nlg330",
@@ -951,7 +951,7 @@
     },
     {
       "createdTime": "2022-08-28T12:25:58.973Z",
-      "updatedTime": "2022-08-28T12:27:33.664Z",
+      "updatedTime": "2023-02-03T07:37:44.760Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "mpd09i33i68",
@@ -969,7 +969,7 @@
     },
     {
       "createdTime": "2022-08-28T13:01:42.679Z",
-      "updatedTime": "2022-08-28T13:01:43.675Z",
+      "updatedTime": "2023-02-03T07:25:07.036Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "j97pewc2t0z",
@@ -989,16 +989,16 @@
   "eventVersions": [
     {
       "createdTime": "2022-08-28T11:29:00.779Z",
-      "updatedTime": "2023-02-02T16:24:02.143Z",
+      "updatedTime": "2023-02-03T07:59:29.481Z",
       "createdBy": "ogcdkgv1zoq",
-      "changedBy": "2ko4lk2qe58f",
+      "changedBy": "ogcdkgv1zoq",
       "id": "0uj5scmn2ah",
       "eventId": "1e36n3wzrzj",
       "description": "",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": "costgwbab1g",
+      "schemaVersionId": "vo7efyjc18j",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1149,7 +1149,7 @@
     },
     {
       "createdTime": "2022-08-28T12:38:27.705Z",
-      "updatedTime": "2022-08-28T12:38:27.705Z",
+      "updatedTime": "2023-02-03T07:20:01.314Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "6kuiedf5uag",
@@ -1158,7 +1158,7 @@
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "r34p7ccnt4e",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1201,7 +1201,7 @@
     },
     {
       "createdTime": "2022-08-28T13:01:43.675Z",
-      "updatedTime": "2022-08-28T13:01:43.675Z",
+      "updatedTime": "2023-02-03T07:25:07.036Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "7e9cez3p4i4",
@@ -1210,7 +1210,7 @@
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "iav205hsd2j",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1265,7 +1265,7 @@
     },
     {
       "createdTime": "2022-08-28T12:37:35.740Z",
-      "updatedTime": "2022-08-28T12:37:35.740Z",
+      "updatedTime": "2023-02-03T07:19:16.028Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "973ya3c10dv",
@@ -1274,7 +1274,7 @@
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "r34p7ccnt4e",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1425,7 +1425,7 @@
     },
     {
       "createdTime": "2022-08-28T12:25:59.853Z",
-      "updatedTime": "2022-08-28T12:25:59.853Z",
+      "updatedTime": "2023-02-03T07:37:44.760Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "hhkhu75com5",
@@ -1434,7 +1434,7 @@
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "maf2c1gndah",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1569,7 +1569,7 @@
     },
     {
       "createdTime": "2022-08-28T11:13:01.062Z",
-      "updatedTime": "2022-08-28T11:13:01.062Z",
+      "updatedTime": "2023-02-03T07:42:34.297Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "pc717l1go7f",
@@ -1578,7 +1578,7 @@
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "vo7efyjc18j",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1814,7 +1814,7 @@
     },
     {
       "createdTime": "2022-08-28T12:34:56.953Z",
-      "updatedTime": "2022-08-28T12:34:56.953Z",
+      "updatedTime": "2023-02-03T07:09:19.769Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "z7s66nw9zvj",
@@ -1823,7 +1823,7 @@
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "r34p7ccnt4e",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1862,7 +1862,7 @@
     },
     {
       "createdTime": "2022-08-28T12:28:31.778Z",
-      "updatedTime": "2022-08-28T12:28:31.778Z",
+      "updatedTime": "2023-02-03T07:10:15.983Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "zvp83ahhdh1",
@@ -1871,7 +1871,7 @@
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "r34p7ccnt4e",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "solace",
@@ -1929,12 +1929,33 @@
     },
     {
       "createdTime": "2023-02-02T16:26:16.008Z",
-      "updatedTime": "2023-02-02T16:26:16.195Z",
+      "updatedTime": "2023-02-03T07:20:54.860Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
+      "changedBy": "ogcdkgv1zoq",
       "id": "c6mpg9pc5g7",
       "applicationDomainId": "d7m6jof83bt",
       "name": "flightInfo",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "jsonSchema",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 6,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-03T05:25:08.419Z",
+      "updatedTime": "2023-02-03T07:47:10.810Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "xs555rizi5a",
+      "applicationDomainId": "d7m6jof83bt",
+      "name": "foreignImmigration",
       "shared": true,
       "contentType": "json",
       "schemaType": "jsonSchema",
@@ -1991,10 +2012,31 @@
       "type": "schema"
     },
     {
+      "createdTime": "2023-02-03T06:48:50.574Z",
+      "updatedTime": "2023-02-03T06:49:14.967Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "1x4fa1l3b2y",
+      "applicationDomainId": "d7m6jof83bt",
+      "name": "lounge",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "jsonSchema",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 0,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
       "createdTime": "2023-02-02T16:14:09.733Z",
-      "updatedTime": "2023-02-02T16:19:53.905Z",
+      "updatedTime": "2023-02-02T20:36:18.846Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
+      "changedBy": "ogcdkgv1zoq",
       "id": "q8e8qsoa7uv",
       "applicationDomainId": "d7m6jof83bt",
       "name": "passengerInfo",
@@ -2002,10 +2044,52 @@
       "contentType": "json",
       "schemaType": "jsonSchema",
       "numberOfVersions": 1,
-      "eventVersionRefCount": 4,
+      "eventVersionRefCount": 3,
       "stats": {
         "versionCountByStateId": {
           "2": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-03T07:37:25.900Z",
+      "updatedTime": "2023-02-03T07:37:26.409Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "h9qieiti8yj",
+      "applicationDomainId": "d7m6jof83bt",
+      "name": "rampStatus",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "jsonSchema",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-03T07:24:34.603Z",
+      "updatedTime": "2023-02-03T07:24:35.113Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "02skw9e43t0",
+      "applicationDomainId": "d7m6jof83bt",
+      "name": "ULDTrack",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "jsonSchema",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
         }
       },
       "customAttributes": [],
@@ -2046,6 +2130,22 @@
       "type": "schemaVersion"
     },
     {
+      "createdTime": "2023-02-03T06:48:51.086Z",
+      "updatedTime": "2023-02-03T06:49:14.967Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "8baqmcamasi",
+      "schemaId": "1x4fa1l3b2y",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "v1",
+      "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"flightNo\": {\n      \"type\": \"string\"\n    },\n    \"noOfPax\": {\n      \"type\": \"number\"\n    }\n  },\n  \"required\": [\n    \"flightNo\",\n    \"noOfPax\"\n  ]\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
       "createdTime": "2023-02-02T16:14:09.884Z",
       "updatedTime": "2023-02-02T16:14:53.166Z",
       "createdBy": "2ko4lk2qe58f",
@@ -2078,16 +2178,64 @@
       "type": "schemaVersion"
     },
     {
+      "createdTime": "2023-02-03T07:24:35.113Z",
+      "updatedTime": "2023-02-03T07:24:35.113Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "iav205hsd2j",
+      "schemaId": "02skw9e43t0",
+      "description": "This schema defines schema for tracking ULD's .",
+      "version": "0.1.0",
+      "displayName": "v1",
+      "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"lat\": {\n      \"type\": \"number\"\n    },\n    \"long\": {\n      \"type\": \"number\"\n    },\n    \"dir\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"lat\",\n    \"long\",\n    \"dir\",\n    \"status\"\n  ]\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-03T07:37:26.409Z",
+      "updatedTime": "2023-02-03T07:37:26.409Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "maf2c1gndah",
+      "schemaId": "h9qieiti8yj",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "v1",
+      "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"rampStatus\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"passengerId\"\n  ]\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
       "createdTime": "2023-02-02T16:26:16.195Z",
-      "updatedTime": "2023-02-02T16:26:16.195Z",
+      "updatedTime": "2023-02-03T07:20:54.860Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
+      "changedBy": "ogcdkgv1zoq",
       "id": "r34p7ccnt4e",
       "schemaId": "c6mpg9pc5g7",
       "description": "",
       "version": "0.1.0",
       "displayName": "",
-      "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"flightNo\": {\n      \"type\": \"number\"\n    },\n    \"flightStatus\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"flightNo\",\n    \"flightStatus\"\n  ]\n}",
+      "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"flightNo\": {\n      \"type\": \"number\"\n    },\n    \"flightStatus\": {\n      \"type\": \"string\"\n    },\n    \"newDepartureTime\": {\n      \"type\": \"string\"\n    }\n    ,\n    \"newGate\": {\n      \"type\": \"string\"\n    },\n    \"beltNo\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"flightNo\",\n    \"flightStatus\"\n  ]\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-03T05:25:08.930Z",
+      "updatedTime": "2023-02-03T07:47:10.810Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "vo7efyjc18j",
+      "schemaId": "xs555rizi5a",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "v1",
+      "content": "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Generated schema for Root\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"passportNo\": {\n      \"type\": \"string\"\n    },\n    \"firstName\": {\n      \"type\": \"string\"\n    },\n    \"lastName\": {\n      \"type\": \"string\"\n    },\n    \"flightNo\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"passportNo\",\n    \"firstName\",\n    \"lastName\",\n    \"flightNo\"\n  ]\n}",
       "referencedByEventVersionIds": [],
       "customAttributes": [],
       "stateId": "1",
