@@ -209,7 +209,7 @@
     },
     {
       "createdTime": "2022-08-28T12:45:27.719Z",
-      "updatedTime": "2023-02-03T15:31:13.180Z",
+      "updatedTime": "2023-02-03T15:58:07.070Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "o6o4iz5iysw",
@@ -217,7 +217,7 @@
       "applicationType": "standard",
       "brokerType": "solace",
       "applicationDomainId": "wrodbgtdgaz",
-      "numberOfVersions": 1,
+      "numberOfVersions": 2,
       "customAttributes": [],
       "type": "application"
     },
@@ -500,6 +500,51 @@
           "brokerType": "solace",
           "consumerType": "eventQueue",
           "subscriptions": [],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-03T15:57:54.582Z",
+      "updatedTime": "2023-02-03T15:57:59.527Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "9iprwu28re1",
+      "applicationId": "o6o4iz5iysw",
+      "description": "This applications takes care of operations around Baggage handling like belt allocation etc. .",
+      "version": "1.0.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "6kuiedf5uag"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "z7s66nw9zvj"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "2",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-03T15:57:54.684Z",
+          "updatedTime": "2023-02-03T15:57:54.684Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "yj38pm8z6ml",
+          "name": "baggageHandlingEngine.airCraftLandStatus",
+          "applicationVersionId": "9iprwu28re1",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "8gqfa7dp5pi",
+              "subscriptionType": "topic",
+              "value": "myair/airOps/v1/*/*",
+              "attractedEventVersionIds": []
+            }
+          ],
           "type": "consumer"
         }
       ],
@@ -1023,7 +1068,7 @@
     },
     {
       "createdTime": "2022-08-28T12:45:28.479Z",
-      "updatedTime": "2023-02-03T15:31:13.180Z",
+      "updatedTime": "2023-02-03T15:58:07.070Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "8mbj0v7pj70",
@@ -1038,7 +1083,7 @@
         "z7s66nw9zvj"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "2",
+      "stateId": "4",
       "eventMeshIds": [],
       "consumers": [],
       "customAttributes": [],
