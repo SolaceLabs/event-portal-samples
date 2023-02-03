@@ -15,19 +15,6 @@
       "type": "applicationDomain"
     },
     {
-      "createdTime": "2022-08-28T05:17:54.054Z",
-      "updatedTime": "2022-08-28T05:17:54.054Z",
-      "createdBy": "ogcdkgv1zoq",
-      "changedBy": "ogcdkgv1zoq",
-      "id": "d7m6jof83bt",
-      "name": "checkIn",
-      "description": "checkIn system deals with operations like checkin, coordinations with immigration & foriegn affairs  etc.",
-      "uniqueTopicAddressEnforcementEnabled": true,
-      "topicDomainEnforcementEnabled": false,
-      "customAttributes": [],
-      "type": "applicationDomain"
-    },
-    {
       "createdTime": "2022-08-28T12:15:28.382Z",
       "updatedTime": "2022-08-28T12:15:28.382Z",
       "createdBy": "ogcdkgv1zoq",
@@ -74,6 +61,19 @@
       "id": "lcqs9kr0244",
       "name": "notification",
       "description": "This domain is responsible for sending out notifications to passengers .",
+      "uniqueTopicAddressEnforcementEnabled": true,
+      "topicDomainEnforcementEnabled": false,
+      "customAttributes": [],
+      "type": "applicationDomain"
+    },
+    {
+      "createdTime": "2022-08-28T05:17:54.054Z",
+      "updatedTime": "2022-08-28T05:17:54.054Z",
+      "createdBy": "ogcdkgv1zoq",
+      "changedBy": "ogcdkgv1zoq",
+      "id": "d7m6jof83bt",
+      "name": "checkIn",
+      "description": "checkIn system deals with operations like checkin, coordinations with immigration & foriegn affairs  etc.",
       "uniqueTopicAddressEnforcementEnabled": true,
       "topicDomainEnforcementEnabled": false,
       "customAttributes": [],
@@ -251,7 +251,7 @@
     },
     {
       "createdTime": "2022-08-28T05:20:26.839Z",
-      "updatedTime": "2023-02-03T15:29:57.303Z",
+      "updatedTime": "2023-02-03T16:19:36.469Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "a4dr3bthdnc",
@@ -259,7 +259,7 @@
       "applicationType": "standard",
       "brokerType": "solace",
       "applicationDomainId": "d7m6jof83bt",
-      "numberOfVersions": 1,
+      "numberOfVersions": 2,
       "customAttributes": [],
       "type": "application"
     },
@@ -279,7 +279,7 @@
     },
     {
       "createdTime": "2022-08-28T12:15:43.185Z",
-      "updatedTime": "2023-02-03T15:19:46.793Z",
+      "updatedTime": "2023-02-03T16:12:22.984Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "gs5w5gib0lk",
@@ -772,6 +772,76 @@
       "type": "applicationVersion"
     },
     {
+      "createdTime": "2023-02-03T16:19:22.247Z",
+      "updatedTime": "2023-02-03T16:19:29.416Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "n442dcf4h90",
+      "applicationId": "a4dr3bthdnc",
+      "description": "",
+      "version": "1.0.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "as6k6w925xn",
+        "dyrtspmob5e",
+        "mnm5yd7vibk",
+        "vlf6f6e22vd",
+        "wvdr8x44mc2"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "663ntu0v4vf",
+        "q4dgm8n0omy"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "2",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-03T16:19:22.359Z",
+          "updatedTime": "2023-02-03T16:19:22.359Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "zcojp81kasi",
+          "name": "checkIn.checkInEngine.bookingCancelled",
+          "applicationVersionId": "n442dcf4h90",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "3efucq6g12v",
+              "subscriptionType": "topic",
+              "value": "myair/reservation/bookingCancelled/v1/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-03T16:19:22.564Z",
+          "updatedTime": "2023-02-03T16:19:22.564Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "5parlwehucj",
+          "name": "checkIn.checkInEngine.bookingCreated",
+          "applicationVersionId": "n442dcf4h90",
+          "brokerType": "solace",
+          "consumerType": "eventQueue",
+          "subscriptions": [
+            {
+              "id": "z80ie709do3",
+              "subscriptionType": "topic",
+              "value": "myair/reservation/bookingCreated/v1/*/*/*/*/*/*",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
       "createdTime": "2022-08-28T11:12:19.475Z",
       "updatedTime": "2023-02-03T15:47:39.974Z",
       "createdBy": "ogcdkgv1zoq",
@@ -818,7 +888,7 @@
     },
     {
       "createdTime": "2023-02-03T15:19:46.554Z",
-      "updatedTime": "2023-02-03T15:19:46.793Z",
+      "updatedTime": "2023-02-03T16:12:22.984Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "z3wgi86p8md",
@@ -835,7 +905,7 @@
         "vlf6f6e22vd"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "2",
       "eventMeshIds": [],
       "consumers": [
         {
@@ -885,7 +955,7 @@
     },
     {
       "createdTime": "2022-08-28T05:20:27.563Z",
-      "updatedTime": "2023-02-03T15:29:57.303Z",
+      "updatedTime": "2023-02-03T16:19:36.469Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "2ko4lk2qe58f",
       "id": "2yjefdnhmcz",
@@ -906,7 +976,7 @@
         "q4dgm8n0omy"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "2",
+      "stateId": "4",
       "eventMeshIds": [],
       "consumers": [
         {
@@ -1044,7 +1114,7 @@
     },
     {
       "createdTime": "2022-08-28T12:15:43.881Z",
-      "updatedTime": "2022-08-29T04:33:28.262Z",
+      "updatedTime": "2023-02-03T16:12:17.637Z",
       "createdBy": "ogcdkgv1zoq",
       "changedBy": "ogcdkgv1zoq",
       "id": "59va401d01p",
@@ -1061,7 +1131,7 @@
         "vlf6f6e22vd"
       ],
       "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
+      "stateId": "4",
       "eventMeshIds": [],
       "consumers": [],
       "customAttributes": [],
