@@ -128,7 +128,7 @@
     },
     {
       "createdTime": "2023-02-14T18:12:50.925Z",
-      "updatedTime": "2023-02-14T20:33:48.530Z",
+      "updatedTime": "2023-02-14T20:53:37.600Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "uoql5dhyc13",
@@ -142,7 +142,7 @@
     },
     {
       "createdTime": "2023-02-14T18:13:11.291Z",
-      "updatedTime": "2023-02-14T20:18:10.137Z",
+      "updatedTime": "2023-02-14T20:58:43.562Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "gjhtvx701iz",
@@ -156,7 +156,7 @@
     },
     {
       "createdTime": "2023-02-14T18:14:16.951Z",
-      "updatedTime": "2023-02-14T20:18:56.217Z",
+      "updatedTime": "2023-02-14T20:55:18.353Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "rjut1n7cjza",
@@ -242,7 +242,7 @@
   "applicationVersions": [
     {
       "createdTime": "2023-02-14T18:12:51.062Z",
-      "updatedTime": "2023-02-14T20:33:48.530Z",
+      "updatedTime": "2023-02-14T20:53:37.600Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "2dc5zf5vokj",
@@ -253,7 +253,6 @@
       "declaredProducedEventVersionIds": [],
       "declaredConsumedEventVersionIds": [
         "5dbogvbsgr8",
-        "99c1u3ide95",
         "kj4gb2ha7ub",
         "pyodcxkisd8"
       ],
@@ -263,7 +262,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T19:23:50.856Z",
-          "updatedTime": "2023-02-14T20:33:48.241Z",
+          "updatedTime": "2023-02-14T20:53:37.294Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "28hgu3pkjbj",
@@ -283,7 +282,7 @@
         },
         {
           "createdTime": "2023-02-14T19:23:50.639Z",
-          "updatedTime": "2023-02-14T20:33:48.372Z",
+          "updatedTime": "2023-02-14T20:53:37.429Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "g47xavhhi8e",
@@ -303,7 +302,7 @@
         },
         {
           "createdTime": "2023-02-14T19:23:50.458Z",
-          "updatedTime": "2023-02-14T20:33:48.500Z",
+          "updatedTime": "2023-02-14T20:53:37.570Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "z9ytkqgkrej",
@@ -500,7 +499,7 @@
     },
     {
       "createdTime": "2023-02-14T18:13:11.423Z",
-      "updatedTime": "2023-02-14T20:18:10.137Z",
+      "updatedTime": "2023-02-14T20:58:43.562Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "a0iu8dlgn7r",
@@ -517,7 +516,28 @@
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
       "eventMeshIds": [],
-      "consumers": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T20:58:43.502Z",
+          "updatedTime": "2023-02-14T20:58:43.502Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "3imo8fy6khs",
+          "name": "FRAUD.ORDERCREATED",
+          "applicationVersionId": "a0iu8dlgn7r",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "8skw8422r9e",
+              "subscriptionType": "topic",
+              "value": "ORDERS",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "applicationVersion"
@@ -745,7 +765,7 @@
     },
     {
       "createdTime": "2023-02-14T18:14:17.075Z",
-      "updatedTime": "2023-02-14T20:18:56.217Z",
+      "updatedTime": "2023-02-14T20:55:18.353Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "wlt3j4ze6t3",
@@ -754,7 +774,8 @@
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
-        "9x1omx11dt6"
+        "9x1omx11dt6",
+        "co8nd40ssga"
       ],
       "declaredConsumedEventVersionIds": [
         "co8nd40ssga",
@@ -766,7 +787,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:12:09.215Z",
-          "updatedTime": "2023-02-14T20:18:56.060Z",
+          "updatedTime": "2023-02-14T20:55:18.208Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "1jpkaj9gah2",
@@ -786,7 +807,7 @@
         },
         {
           "createdTime": "2023-02-14T20:12:09.359Z",
-          "updatedTime": "2023-02-14T20:18:56.186Z",
+          "updatedTime": "2023-02-14T20:55:18.325Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "on6d5a0sudo",
