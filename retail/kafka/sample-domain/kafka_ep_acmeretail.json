@@ -15,6 +15,19 @@
       "type": "applicationDomain"
     },
     {
+      "createdTime": "2023-02-14T15:15:14.074Z",
+      "updatedTime": "2023-02-14T20:37:57.336Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "46jg3911lh2",
+      "name": "TBD Kafka - Merchandising",
+      "description": "",
+      "uniqueTopicAddressEnforcementEnabled": false,
+      "topicDomainEnforcementEnabled": false,
+      "customAttributes": [],
+      "type": "applicationDomain"
+    },
+    {
       "createdTime": "2023-02-14T15:26:53.280Z",
       "updatedTime": "2023-02-14T19:48:23.666Z",
       "createdBy": "2ko4lk2qe58f",
@@ -26,69 +39,26 @@
       "topicDomainEnforcementEnabled": false,
       "customAttributes": [],
       "type": "applicationDomain"
+    },
+    {
+      "createdTime": "2023-02-14T20:46:22.362Z",
+      "updatedTime": "2023-02-14T20:46:22.362Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "ijhzqyvihpr",
+      "name": "TBD Kafka - Shipping",
+      "description": "",
+      "uniqueTopicAddressEnforcementEnabled": false,
+      "topicDomainEnforcementEnabled": false,
+      "customAttributes": [],
+      "type": "applicationDomain"
     }
   ],
   "topicDomains": [],
   "applications": [
     {
-      "createdTime": "2023-02-14T18:12:50.925Z",
-      "updatedTime": "2023-02-14T20:09:49.889Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "uoql5dhyc13",
-      "name": "Email Service",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T18:13:11.291Z",
-      "updatedTime": "2023-02-14T20:10:15.222Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "gjhtvx701iz",
-      "name": "Fraud Service",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T18:14:16.951Z",
-      "updatedTime": "2023-02-14T20:12:09.451Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "rjut1n7cjza",
-      "name": "Inventory Service",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T19:39:04.347Z",
-      "updatedTime": "2023-02-14T20:08:20.707Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "yzc86bkdlet",
-      "name": "Order Details Service",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
       "createdTime": "2023-02-14T19:49:42.665Z",
-      "updatedTime": "2023-02-14T19:56:28.570Z",
+      "updatedTime": "2023-02-14T20:35:52.995Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "0rdjw06225n",
@@ -102,11 +72,11 @@
     },
     {
       "createdTime": "2023-02-14T16:37:50.577Z",
-      "updatedTime": "2023-02-14T19:49:11.183Z",
+      "updatedTime": "2023-02-14T20:36:10.429Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "yjpekaf854t",
-      "name": "Basket Service - Basket Writer",
+      "name": "Basket Service - Basket Writer (REST proxy)",
       "applicationType": "standard",
       "brokerType": "kafka",
       "applicationDomainId": "yd4nuq4m9lj",
@@ -116,11 +86,11 @@
     },
     {
       "createdTime": "2023-02-14T19:55:44.626Z",
-      "updatedTime": "2023-02-14T19:55:44.782Z",
+      "updatedTime": "2023-02-14T20:44:19.712Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "k0j0aa45rjy",
-      "name": "Catalogue Filter View (KSQL DB)",
+      "name": "Catalogue Filter View (kSQL)",
       "applicationType": "standard",
       "brokerType": "kafka",
       "applicationDomainId": "yd4nuq4m9lj",
@@ -130,7 +100,7 @@
     },
     {
       "createdTime": "2023-02-14T19:53:29.144Z",
-      "updatedTime": "2023-02-14T19:53:29.299Z",
+      "updatedTime": "2023-02-14T20:45:14.920Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "v72ssvcd7x1",
@@ -143,8 +113,78 @@
       "type": "application"
     },
     {
+      "createdTime": "2023-02-14T20:39:58.712Z",
+      "updatedTime": "2023-02-14T20:39:58.868Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "wp2be4gy8ph",
+      "name": "Catalogue Services",
+      "applicationType": "standard",
+      "brokerType": "kafka",
+      "applicationDomainId": "46jg3911lh2",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "type": "application"
+    },
+    {
+      "createdTime": "2023-02-14T18:12:50.925Z",
+      "updatedTime": "2023-02-14T20:33:48.530Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "uoql5dhyc13",
+      "name": "Email Service",
+      "applicationType": "standard",
+      "brokerType": "kafka",
+      "applicationDomainId": "mb8idaqw0d7",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "type": "application"
+    },
+    {
+      "createdTime": "2023-02-14T18:13:11.291Z",
+      "updatedTime": "2023-02-14T20:18:10.137Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "gjhtvx701iz",
+      "name": "Fraud Service",
+      "applicationType": "standard",
+      "brokerType": "kafka",
+      "applicationDomainId": "mb8idaqw0d7",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "type": "application"
+    },
+    {
+      "createdTime": "2023-02-14T18:14:16.951Z",
+      "updatedTime": "2023-02-14T20:18:56.217Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "rjut1n7cjza",
+      "name": "Inventory Service",
+      "applicationType": "standard",
+      "brokerType": "kafka",
+      "applicationDomainId": "mb8idaqw0d7",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "type": "application"
+    },
+    {
+      "createdTime": "2023-02-14T19:39:04.347Z",
+      "updatedTime": "2023-02-14T20:19:27.276Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "yzc86bkdlet",
+      "name": "Order Details Service",
+      "applicationType": "standard",
+      "brokerType": "kafka",
+      "applicationDomainId": "mb8idaqw0d7",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "type": "application"
+    },
+    {
       "createdTime": "2023-02-14T19:50:37.969Z",
-      "updatedTime": "2023-02-14T20:04:11.819Z",
+      "updatedTime": "2023-02-14T20:32:48.744Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "doilhj7pemx",
@@ -183,12 +223,26 @@
       "numberOfVersions": 1,
       "customAttributes": [],
       "type": "application"
+    },
+    {
+      "createdTime": "2023-02-14T20:49:48.118Z",
+      "updatedTime": "2023-02-14T20:49:48.735Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "p8mdso44i30",
+      "name": "Shipping Service",
+      "applicationType": "standard",
+      "brokerType": "kafka",
+      "applicationDomainId": "ijhzqyvihpr",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "type": "application"
     }
   ],
   "applicationVersions": [
     {
       "createdTime": "2023-02-14T18:12:51.062Z",
-      "updatedTime": "2023-02-14T20:09:49.889Z",
+      "updatedTime": "2023-02-14T20:33:48.530Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "2dc5zf5vokj",
@@ -198,9 +252,10 @@
       "displayName": "",
       "declaredProducedEventVersionIds": [],
       "declaredConsumedEventVersionIds": [
+        "5dbogvbsgr8",
         "99c1u3ide95",
-        "hfsy7r55x9w",
-        "kj4gb2ha7ub"
+        "kj4gb2ha7ub",
+        "pyodcxkisd8"
       ],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
@@ -208,7 +263,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T19:23:50.856Z",
-          "updatedTime": "2023-02-14T20:09:49.588Z",
+          "updatedTime": "2023-02-14T20:33:48.241Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "28hgu3pkjbj",
@@ -228,7 +283,7 @@
         },
         {
           "createdTime": "2023-02-14T19:23:50.639Z",
-          "updatedTime": "2023-02-14T20:09:49.726Z",
+          "updatedTime": "2023-02-14T20:33:48.372Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "g47xavhhi8e",
@@ -248,7 +303,7 @@
         },
         {
           "createdTime": "2023-02-14T19:23:50.458Z",
-          "updatedTime": "2023-02-14T20:09:49.863Z",
+          "updatedTime": "2023-02-14T20:33:48.500Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "z9ytkqgkrej",
@@ -272,143 +327,8 @@
       "type": "applicationVersion"
     },
     {
-      "createdTime": "2023-02-14T18:13:11.423Z",
-      "updatedTime": "2023-02-14T20:10:15.222Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "a0iu8dlgn7r",
-      "applicationId": "gjhtvx701iz",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "9c0x1xjivpa"
-      ],
-      "declaredConsumedEventVersionIds": [
-        "kj4gb2ha7ub"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T18:14:17.075Z",
-      "updatedTime": "2023-02-14T20:12:09.451Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "wlt3j4ze6t3",
-      "applicationId": "rjut1n7cjza",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "9c0x1xjivpa"
-      ],
-      "declaredConsumedEventVersionIds": [
-        "co8nd40ssga",
-        "kj4gb2ha7ub"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T20:12:09.215Z",
-          "updatedTime": "2023-02-14T20:12:09.215Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "1jpkaj9gah2",
-          "name": "INVENTORY.INVENTORY",
-          "applicationVersionId": "wlt3j4ze6t3",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "it4cju3nuth",
-              "subscriptionType": "topic",
-              "value": "WAREHOUSE_INVENTORY",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        },
-        {
-          "createdTime": "2023-02-14T20:12:09.359Z",
-          "updatedTime": "2023-02-14T20:12:09.359Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "on6d5a0sudo",
-          "name": "INVENTORY.ORDERS",
-          "applicationVersionId": "wlt3j4ze6t3",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "r36fbfzn9hx",
-              "subscriptionType": "topic",
-              "value": "ORDERS",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T19:39:04.489Z",
-      "updatedTime": "2023-02-14T20:08:20.707Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "xf6jcx2yt9i",
-      "applicationId": "yzc86bkdlet",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "9c0x1xjivpa"
-      ],
-      "declaredConsumedEventVersionIds": [
-        "kj4gb2ha7ub"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T19:39:04.577Z",
-          "updatedTime": "2023-02-14T20:08:20.677Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "33n0wul90t3",
-          "name": "ORDERDETAILS.ORDERCREATED",
-          "applicationVersionId": "xf6jcx2yt9i",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "us85d98hmfx",
-              "subscriptionType": "topic",
-              "value": "ORDERS",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
       "createdTime": "2023-02-14T19:53:29.299Z",
-      "updatedTime": "2023-02-14T19:53:29.299Z",
+      "updatedTime": "2023-02-14T20:45:14.920Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "2jvqk790202",
@@ -417,6 +337,51 @@
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [],
+      "declaredConsumedEventVersionIds": [
+        "d9a7v9lc08j"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "1",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T20:45:14.858Z",
+          "updatedTime": "2023-02-14T20:45:14.858Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "2hy5fu40tep",
+          "name": "CATALOGUESEARCH.CATALOGUE",
+          "applicationVersionId": "2jvqk790202",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "dy8daqrj0r7",
+              "subscriptionType": "topic",
+              "value": "CATALOGUE",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-14T20:39:58.868Z",
+      "updatedTime": "2023-02-14T20:39:58.868Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "388ywv4ibrz",
+      "applicationId": "wp2be4gy8ph",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "d9a7v9lc08j"
+      ],
       "declaredConsumedEventVersionIds": [],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
@@ -471,7 +436,7 @@
     },
     {
       "createdTime": "2023-02-14T19:49:42.809Z",
-      "updatedTime": "2023-02-14T19:49:42.809Z",
+      "updatedTime": "2023-02-14T20:35:52.995Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "93sk3blveqa",
@@ -480,11 +445,145 @@
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [],
-      "declaredConsumedEventVersionIds": [],
+      "declaredConsumedEventVersionIds": [
+        "5dbogvbsgr8",
+        "ouw4vy276uo"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "1",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T20:35:52.689Z",
+          "updatedTime": "2023-02-14T20:35:52.689Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "0415dycvg2f",
+          "name": "BASKET.CUSTOMER",
+          "applicationVersionId": "93sk3blveqa",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "cxbica83mqa",
+              "subscriptionType": "topic",
+              "value": "CUSTOMERS",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-14T20:35:52.895Z",
+          "updatedTime": "2023-02-14T20:35:52.895Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "0in3i6dhca6",
+          "name": "BASKETWRITER.BASKET",
+          "applicationVersionId": "93sk3blveqa",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "biw4c7crm17",
+              "subscriptionType": "topic",
+              "value": "BASKET",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-14T18:13:11.423Z",
+      "updatedTime": "2023-02-14T20:18:10.137Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "a0iu8dlgn7r",
+      "applicationId": "gjhtvx701iz",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "9x1omx11dt6"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "kj4gb2ha7ub"
+      ],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
       "eventMeshIds": [],
       "consumers": [],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-14T20:49:48.313Z",
+      "updatedTime": "2023-02-14T20:49:48.735Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "chzyogcc73c",
+      "applicationId": "p8mdso44i30",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "63ce096c7t8"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "5dbogvbsgr8",
+        "d9a7v9lc08j"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "1",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T20:49:48.621Z",
+          "updatedTime": "2023-02-14T20:49:48.621Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "isiq6wk6296",
+          "name": "SHIPPING.CATALOGUE",
+          "applicationVersionId": "chzyogcc73c",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "7ek47ihdio5",
+              "subscriptionType": "topic",
+              "value": "CATALOGUE",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-14T20:49:48.424Z",
+          "updatedTime": "2023-02-14T20:49:48.424Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "1fxj6100rg7",
+          "name": "SHIPPING.CUSTOMERS",
+          "applicationVersionId": "chzyogcc73c",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "x3cbsera9o3",
+              "subscriptionType": "topic",
+              "value": "CUSTOMERS",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "applicationVersion"
@@ -536,7 +635,7 @@
     },
     {
       "createdTime": "2023-02-14T19:55:44.782Z",
-      "updatedTime": "2023-02-14T19:55:44.782Z",
+      "updatedTime": "2023-02-14T20:44:19.712Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "gvcojwejr0q",
@@ -545,18 +644,62 @@
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [],
-      "declaredConsumedEventVersionIds": [],
+      "declaredConsumedEventVersionIds": [
+        "co8nd40ssga",
+        "d9a7v9lc08j"
+      ],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
       "eventMeshIds": [],
-      "consumers": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T20:44:19.434Z",
+          "updatedTime": "2023-02-14T20:44:19.434Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "id06amxjdjd",
+          "name": "CATALOGUE.INVENTORY",
+          "applicationVersionId": "gvcojwejr0q",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "2a5yo7eh1we",
+              "subscriptionType": "topic",
+              "value": "WAREHOUSE_INVENTORY",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-14T20:44:19.618Z",
+          "updatedTime": "2023-02-14T20:44:19.618Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "z7nvev40qyx",
+          "name": "CATALOGUEFILTER.CATALOGUE",
+          "applicationVersionId": "gvcojwejr0q",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "xerjt6s5k4m",
+              "subscriptionType": "topic",
+              "value": "CATALOGUE",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "applicationVersion"
     },
     {
       "createdTime": "2023-02-14T16:37:50.726Z",
-      "updatedTime": "2023-02-14T16:37:50.726Z",
+      "updatedTime": "2023-02-14T20:36:10.429Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "mb8gz0ufw24",
@@ -564,7 +707,9 @@
       "description": "",
       "version": "0.1.0",
       "displayName": "",
-      "declaredProducedEventVersionIds": [],
+      "declaredProducedEventVersionIds": [
+        "ouw4vy276uo"
+      ],
       "declaredConsumedEventVersionIds": [],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
@@ -576,7 +721,7 @@
     },
     {
       "createdTime": "2023-02-14T19:50:38.102Z",
-      "updatedTime": "2023-02-14T20:04:11.819Z",
+      "updatedTime": "2023-02-14T20:32:48.744Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "op7csqjhi5b",
@@ -585,7 +730,9 @@
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
-        "kj4gb2ha7ub"
+        "5dbogvbsgr8",
+        "kj4gb2ha7ub",
+        "pyodcxkisd8"
       ],
       "declaredConsumedEventVersionIds": [],
       "declaredEventApiProductVersionIds": [],
@@ -595,9 +742,174 @@
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-14T18:14:17.075Z",
+      "updatedTime": "2023-02-14T20:18:56.217Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "wlt3j4ze6t3",
+      "applicationId": "rjut1n7cjza",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "9x1omx11dt6"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "co8nd40ssga",
+        "kj4gb2ha7ub"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "1",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T20:12:09.215Z",
+          "updatedTime": "2023-02-14T20:18:56.060Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "1jpkaj9gah2",
+          "name": "INVENTORY.INVENTORY",
+          "applicationVersionId": "wlt3j4ze6t3",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "it4cju3nuth",
+              "subscriptionType": "topic",
+              "value": "WAREHOUSE_INVENTORY",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-14T20:12:09.359Z",
+          "updatedTime": "2023-02-14T20:18:56.186Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "on6d5a0sudo",
+          "name": "INVENTORY.ORDERS",
+          "applicationVersionId": "wlt3j4ze6t3",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "r36fbfzn9hx",
+              "subscriptionType": "topic",
+              "value": "ORDERS",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
+    },
+    {
+      "createdTime": "2023-02-14T19:39:04.489Z",
+      "updatedTime": "2023-02-14T20:19:27.276Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "xf6jcx2yt9i",
+      "applicationId": "yzc86bkdlet",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "declaredProducedEventVersionIds": [
+        "9x1omx11dt6"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "kj4gb2ha7ub"
+      ],
+      "declaredEventApiProductVersionIds": [],
+      "stateId": "1",
+      "eventMeshIds": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T19:39:04.577Z",
+          "updatedTime": "2023-02-14T20:19:27.247Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "33n0wul90t3",
+          "name": "ORDERDETAILS.ORDERCREATED",
+          "applicationVersionId": "xf6jcx2yt9i",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "us85d98hmfx",
+              "subscriptionType": "topic",
+              "value": "ORDERS",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "applicationVersion"
     }
   ],
   "events": [
+    {
+      "createdTime": "2023-02-14T20:27:43.733Z",
+      "updatedTime": "2023-02-14T20:28:00.625Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "uih12hct73o",
+      "name": "Basket",
+      "shared": false,
+      "applicationDomainId": "yd4nuq4m9lj",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "type": "event"
+    },
+    {
+      "createdTime": "2023-02-14T20:38:53.712Z",
+      "updatedTime": "2023-02-14T20:40:14.665Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "zrnwfg7tsmq",
+      "name": "Catalogue Updated",
+      "shared": true,
+      "applicationDomainId": "46jg3911lh2",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "type": "event"
+    },
+    {
+      "createdTime": "2023-02-14T20:32:16.148Z",
+      "updatedTime": "2023-02-14T20:32:16.346Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "l53361br33r",
+      "name": "Customer Updated",
+      "shared": true,
+      "applicationDomainId": "yd4nuq4m9lj",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "type": "event"
+    },
     {
       "createdTime": "2023-02-14T17:42:29.239Z",
       "updatedTime": "2023-02-14T17:42:29.433Z",
@@ -605,96 +917,6 @@
       "changedBy": "2ko4lk2qe58f",
       "id": "aa7sdb9dwxq",
       "name": "Customers",
-      "shared": false,
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T17:33:23.956Z",
-      "updatedTime": "2023-02-14T17:33:24.157Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "i97yg3fbz0s",
-      "name": "Order Created",
-      "shared": false,
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T17:40:19.022Z",
-      "updatedTime": "2023-02-14T18:27:48.293Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "sz986nlgd33",
-      "name": "Order Updates",
-      "shared": false,
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T17:38:52.234Z",
-      "updatedTime": "2023-02-14T17:38:52.396Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "m37p7dsul1c",
-      "name": "Order Validated",
-      "shared": false,
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T17:42:05.081Z",
-      "updatedTime": "2023-02-14T17:42:05.282Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "nxdauxfgpl3",
-      "name": "Payments",
-      "shared": false,
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T18:08:48.710Z",
-      "updatedTime": "2023-02-14T19:24:25.901Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "qmxyepo1gc0",
-      "name": "Warehouse Inventory",
       "shared": false,
       "applicationDomainId": "mb8idaqw0d7",
       "numberOfVersions": 1,
@@ -759,16 +981,70 @@
         }
       },
       "type": "event"
+    },
+    {
+      "createdTime": "2023-02-14T20:22:12.068Z",
+      "updatedTime": "2023-02-14T20:22:40.681Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "bz6b3t9hv44",
+      "name": "Payment Processed",
+      "shared": true,
+      "applicationDomainId": "yd4nuq4m9lj",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "type": "event"
+    },
+    {
+      "createdTime": "2023-02-14T20:46:42.341Z",
+      "updatedTime": "2023-02-14T20:46:56.099Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "7xjk6d6dsd8",
+      "name": "Shipping Updated",
+      "shared": false,
+      "applicationDomainId": "ijhzqyvihpr",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "type": "event"
+    },
+    {
+      "createdTime": "2023-02-14T18:08:48.710Z",
+      "updatedTime": "2023-02-14T20:42:31.344Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "qmxyepo1gc0",
+      "name": "Warehouse Inventory",
+      "shared": true,
+      "applicationDomainId": "mb8idaqw0d7",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "type": "event"
     }
   ],
   "eventVersions": [
     {
-      "createdTime": "2023-02-14T17:33:24.157Z",
-      "updatedTime": "2023-02-14T17:33:24.157Z",
+      "createdTime": "2023-02-14T20:32:16.346Z",
+      "updatedTime": "2023-02-14T20:32:16.346Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
-      "id": "2ndby6uqo3f",
-      "eventId": "i97yg3fbz0s",
+      "id": "5dbogvbsgr8",
+      "eventId": "l53361br33r",
       "description": "",
       "version": "0.1.0",
       "displayName": "",
@@ -780,7 +1056,7 @@
         "address": {
           "addressLevels": [
             {
-              "name": "ORDERS",
+              "name": "CUSTOMERS",
               "addressLevelType": "literal"
             }
           ],
@@ -795,12 +1071,12 @@
       "type": "eventVersion"
     },
     {
-      "createdTime": "2023-02-14T17:38:52.396Z",
-      "updatedTime": "2023-02-14T17:38:52.396Z",
+      "createdTime": "2023-02-14T20:46:42.491Z",
+      "updatedTime": "2023-02-14T20:46:56.099Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
-      "id": "33mfpur12md",
-      "eventId": "m37p7dsul1c",
+      "id": "63ce096c7t8",
+      "eventId": "7xjk6d6dsd8",
       "description": "",
       "version": "0.1.0",
       "displayName": "",
@@ -812,7 +1088,7 @@
         "address": {
           "addressLevels": [
             {
-              "name": "ORDERS",
+              "name": "SHIPPING",
               "addressLevelType": "literal"
             }
           ],
@@ -859,12 +1135,12 @@
       "type": "eventVersion"
     },
     {
-      "createdTime": "2023-02-14T17:40:19.203Z",
-      "updatedTime": "2023-02-14T18:10:34.876Z",
+      "createdTime": "2023-02-14T20:02:20.464Z",
+      "updatedTime": "2023-02-14T20:02:20.464Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
-      "id": "9c0x1xjivpa",
-      "eventId": "sz986nlgd33",
+      "id": "9x1omx11dt6",
+      "eventId": "14pqav374c5",
       "description": "",
       "version": "0.1.0",
       "displayName": "",
@@ -923,12 +1199,12 @@
       "type": "eventVersion"
     },
     {
-      "createdTime": "2023-02-14T17:42:05.282Z",
-      "updatedTime": "2023-02-14T17:42:05.282Z",
+      "createdTime": "2023-02-14T20:38:53.922Z",
+      "updatedTime": "2023-02-14T20:38:53.922Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
-      "id": "hfsy7r55x9w",
-      "eventId": "nxdauxfgpl3",
+      "id": "d9a7v9lc08j",
+      "eventId": "zrnwfg7tsmq",
       "description": "",
       "version": "0.1.0",
       "displayName": "",
@@ -940,39 +1216,7 @@
         "address": {
           "addressLevels": [
             {
-              "name": "PAYMENTS",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:02:20.464Z",
-      "updatedTime": "2023-02-14T20:02:20.464Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "9x1omx11dt6",
-      "eventId": "14pqav374c5",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "ORDER_VALIDATIONS",
+              "name": "CATALOGUE",
               "addressLevelType": "literal"
             }
           ],
@@ -1037,6 +1281,70 @@
           "addressLevels": [
             {
               "name": "ORDERS",
+              "addressLevelType": "literal"
+            }
+          ],
+          "addressType": "topic"
+        },
+        "keySchemaVersionId": null,
+        "keySchemaPrimitiveType": null
+      },
+      "stateId": "1",
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "eventVersion"
+    },
+    {
+      "createdTime": "2023-02-14T20:27:43.912Z",
+      "updatedTime": "2023-02-14T20:28:00.625Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "ouw4vy276uo",
+      "eventId": "uih12hct73o",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "attractingApplicationVersionIds": [],
+      "schemaVersionId": null,
+      "schemaPrimitiveType": null,
+      "deliveryDescriptor": {
+        "brokerType": "kafka",
+        "address": {
+          "addressLevels": [
+            {
+              "name": "BASKET",
+              "addressLevelType": "literal"
+            }
+          ],
+          "addressType": "topic"
+        },
+        "keySchemaVersionId": null,
+        "keySchemaPrimitiveType": null
+      },
+      "stateId": "1",
+      "customAttributes": [],
+      "messagingServiceIds": [],
+      "type": "eventVersion"
+    },
+    {
+      "createdTime": "2023-02-14T20:22:12.352Z",
+      "updatedTime": "2023-02-14T20:22:12.352Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "pyodcxkisd8",
+      "eventId": "bz6b3t9hv44",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "attractingApplicationVersionIds": [],
+      "schemaVersionId": null,
+      "schemaPrimitiveType": null,
+      "deliveryDescriptor": {
+        "brokerType": "kafka",
+        "address": {
+          "addressLevels": [
+            {
+              "name": "PAYMENTS",
               "addressLevelType": "literal"
             }
           ],
