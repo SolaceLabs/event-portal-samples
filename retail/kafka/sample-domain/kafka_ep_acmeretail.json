@@ -19,7 +19,7 @@
   "applications": [
     {
       "createdTime": "2023-02-14T18:12:50.925Z",
-      "updatedTime": "2023-02-14T18:21:06.319Z",
+      "updatedTime": "2023-02-14T19:23:50.946Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "uoql5dhyc13",
@@ -60,26 +60,12 @@
       "type": "application"
     },
     {
-      "createdTime": "2023-02-14T17:36:43.172Z",
-      "updatedTime": "2023-02-14T18:29:44.432Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "jhaembta0pd",
-      "name": "Orders Service - Aggregate Order Updates",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
       "createdTime": "2023-02-14T17:35:58.355Z",
-      "updatedTime": "2023-02-14T18:28:49.769Z",
+      "updatedTime": "2023-02-14T19:30:37.521Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "855kb07b3gm",
-      "name": "Orders Service - Submit Order ",
+      "name": "Orders Service  - Order Writer",
       "applicationType": "standard",
       "brokerType": "kafka",
       "applicationDomainId": "mb8idaqw0d7",
@@ -89,11 +75,25 @@
     },
     {
       "createdTime": "2023-02-14T17:38:09.466Z",
-      "updatedTime": "2023-02-14T18:29:31.492Z",
+      "updatedTime": "2023-02-14T19:32:03.951Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "xmrydp9i68i",
-      "name": "Orders Service - View Order",
+      "name": "Orders Service - Orders View",
+      "applicationType": "standard",
+      "brokerType": "kafka",
+      "applicationDomainId": "mb8idaqw0d7",
+      "numberOfVersions": 1,
+      "customAttributes": [],
+      "type": "application"
+    },
+    {
+      "createdTime": "2023-02-14T17:36:43.172Z",
+      "updatedTime": "2023-02-14T19:28:46.688Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "jhaembta0pd",
+      "name": "Orders Service - Validations Aggregator",
       "applicationType": "standard",
       "brokerType": "kafka",
       "applicationDomainId": "mb8idaqw0d7",
@@ -105,7 +105,7 @@
   "applicationVersions": [
     {
       "createdTime": "2023-02-14T18:12:51.062Z",
-      "updatedTime": "2023-02-14T18:21:06.319Z",
+      "updatedTime": "2023-02-14T19:23:50.946Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "2dc5zf5vokj",
@@ -122,7 +122,68 @@
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
       "eventMeshIds": [],
-      "consumers": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T19:23:50.856Z",
+          "updatedTime": "2023-02-14T19:23:50.856Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "28hgu3pkjbj",
+          "name": "EMAIL.CUSTOMERS",
+          "applicationVersionId": "2dc5zf5vokj",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "a9xc5ojtx0j",
+              "subscriptionType": "topic",
+              "value": "CUSTOMERS",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-14T19:23:50.639Z",
+          "updatedTime": "2023-02-14T19:23:50.639Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "g47xavhhi8e",
+          "name": "EMAIL.ORDERS",
+          "applicationVersionId": "2dc5zf5vokj",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "tzboi5df5bf",
+              "subscriptionType": "topic",
+              "value": "ORDERS",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        },
+        {
+          "createdTime": "2023-02-14T19:23:50.458Z",
+          "updatedTime": "2023-02-14T19:23:50.458Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "z9ytkqgkrej",
+          "name": "EMAIL.PAYMENTS",
+          "applicationVersionId": "2dc5zf5vokj",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "0qazhrshbv7",
+              "subscriptionType": "topic",
+              "value": "PAYMENTS",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "applicationVersion"
@@ -153,7 +214,7 @@
     },
     {
       "createdTime": "2023-02-14T17:36:43.310Z",
-      "updatedTime": "2023-02-14T18:28:13.827Z",
+      "updatedTime": "2023-02-14T19:28:46.688Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "ffq2y8h4fsc",
@@ -161,19 +222,44 @@
       "description": "",
       "version": "0.1.0",
       "displayName": "",
-      "declaredProducedEventVersionIds": [],
-      "declaredConsumedEventVersionIds": [],
+      "declaredProducedEventVersionIds": [
+        "33mfpur12md"
+      ],
+      "declaredConsumedEventVersionIds": [
+        "9c0x1xjivpa"
+      ],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
       "eventMeshIds": [],
-      "consumers": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T19:27:10.684Z",
+          "updatedTime": "2023-02-14T19:28:46.657Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "iby7zj9708i",
+          "name": "AGGREGATE.ORDER_UPDATES",
+          "applicationVersionId": "ffq2y8h4fsc",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [
+            {
+              "id": "05h2xpncpuy",
+              "subscriptionType": "topic",
+              "value": "ORDER_VALIDATIONS",
+              "attractedEventVersionIds": []
+            }
+          ],
+          "type": "consumer"
+        }
+      ],
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "applicationVersion"
     },
     {
       "createdTime": "2023-02-14T17:35:58.501Z",
-      "updatedTime": "2023-02-14T17:35:58.501Z",
+      "updatedTime": "2023-02-14T19:30:37.521Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "my5a5jj62f1",
@@ -181,7 +267,9 @@
       "description": "KSTREAMS",
       "version": "0.1.0",
       "displayName": "",
-      "declaredProducedEventVersionIds": [],
+      "declaredProducedEventVersionIds": [
+        "2ndby6uqo3f"
+      ],
       "declaredConsumedEventVersionIds": [],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
@@ -218,7 +306,7 @@
     },
     {
       "createdTime": "2023-02-14T17:38:09.592Z",
-      "updatedTime": "2023-02-14T18:29:31.492Z",
+      "updatedTime": "2023-02-14T19:32:03.951Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "zp2t74ckm2i",
@@ -227,11 +315,27 @@
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [],
-      "declaredConsumedEventVersionIds": [],
+      "declaredConsumedEventVersionIds": [
+        "33mfpur12md"
+      ],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
       "eventMeshIds": [],
-      "consumers": [],
+      "consumers": [
+        {
+          "createdTime": "2023-02-14T19:32:04.044Z",
+          "updatedTime": "2023-02-14T19:32:04.044Z",
+          "createdBy": "2ko4lk2qe58f",
+          "changedBy": "2ko4lk2qe58f",
+          "id": "839mod8duw0",
+          "name": "ORDERSVIEW.ORDERVALIDATED",
+          "applicationVersionId": "zp2t74ckm2i",
+          "brokerType": "kafka",
+          "consumerType": "kafkaConsumer",
+          "subscriptions": [],
+          "type": "consumer"
+        }
+      ],
       "customAttributes": [],
       "messagingServiceIds": [],
       "type": "applicationVersion"
@@ -330,7 +434,7 @@
     },
     {
       "createdTime": "2023-02-14T18:08:48.710Z",
-      "updatedTime": "2023-02-14T18:08:48.955Z",
+      "updatedTime": "2023-02-14T19:24:25.901Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "qmxyepo1gc0",
@@ -478,14 +582,14 @@
     },
     {
       "createdTime": "2023-02-14T18:08:48.955Z",
-      "updatedTime": "2023-02-14T18:08:48.955Z",
+      "updatedTime": "2023-02-14T19:24:25.901Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "co8nd40ssga",
       "eventId": "qmxyepo1gc0",
       "description": "    //Create a store to reserve inventory whilst the order is processed.\n    //This will be prepopulated from Kafka before the service starts processing",
       "version": "0.1.0",
-      "displayName": "Warehouse Inventory",
+      "displayName": "",
       "attractingApplicationVersionIds": [],
       "schemaVersionId": null,
       "schemaPrimitiveType": null,
