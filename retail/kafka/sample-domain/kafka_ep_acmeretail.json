@@ -58,7 +58,7 @@
   "applications": [
     {
       "createdTime": "2023-02-14T19:49:42.665Z",
-      "updatedTime": "2023-02-14T20:35:52.995Z",
+      "updatedTime": "2023-02-15T13:06:12.276Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "0rdjw06225n",
@@ -72,7 +72,7 @@
     },
     {
       "createdTime": "2023-02-14T16:37:50.577Z",
-      "updatedTime": "2023-02-14T20:36:10.429Z",
+      "updatedTime": "2023-02-15T13:05:41.265Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "yjpekaf854t",
@@ -86,7 +86,7 @@
     },
     {
       "createdTime": "2023-02-14T19:55:44.626Z",
-      "updatedTime": "2023-02-14T20:44:19.712Z",
+      "updatedTime": "2023-02-15T13:04:42.447Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "k0j0aa45rjy",
@@ -100,7 +100,7 @@
     },
     {
       "createdTime": "2023-02-14T19:53:29.144Z",
-      "updatedTime": "2023-02-14T20:45:14.920Z",
+      "updatedTime": "2023-02-15T13:03:19.725Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "v72ssvcd7x1",
@@ -114,7 +114,7 @@
     },
     {
       "createdTime": "2023-02-14T20:39:58.712Z",
-      "updatedTime": "2023-02-14T20:39:58.868Z",
+      "updatedTime": "2023-02-15T12:45:04.057Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "wp2be4gy8ph",
@@ -128,7 +128,7 @@
     },
     {
       "createdTime": "2023-02-14T18:12:50.925Z",
-      "updatedTime": "2023-02-14T20:53:37.600Z",
+      "updatedTime": "2023-02-15T12:54:03.823Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "uoql5dhyc13",
@@ -142,7 +142,7 @@
     },
     {
       "createdTime": "2023-02-14T18:13:11.291Z",
-      "updatedTime": "2023-02-14T20:58:43.562Z",
+      "updatedTime": "2023-02-15T12:53:06.436Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "gjhtvx701iz",
@@ -156,7 +156,7 @@
     },
     {
       "createdTime": "2023-02-14T18:14:16.951Z",
-      "updatedTime": "2023-02-14T20:55:18.353Z",
+      "updatedTime": "2023-02-15T12:55:12.857Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "rjut1n7cjza",
@@ -170,7 +170,7 @@
     },
     {
       "createdTime": "2023-02-14T19:39:04.347Z",
-      "updatedTime": "2023-02-14T20:19:27.276Z",
+      "updatedTime": "2023-02-15T12:56:12.420Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "yzc86bkdlet",
@@ -184,7 +184,7 @@
     },
     {
       "createdTime": "2023-02-14T19:50:37.969Z",
-      "updatedTime": "2023-02-14T20:32:48.744Z",
+      "updatedTime": "2023-02-15T12:59:22.105Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "doilhj7pemx",
@@ -198,7 +198,7 @@
     },
     {
       "createdTime": "2023-02-14T19:51:07.859Z",
-      "updatedTime": "2023-02-14T20:05:19.337Z",
+      "updatedTime": "2023-02-15T13:00:04.266Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "di7qthig6uq",
@@ -212,7 +212,7 @@
     },
     {
       "createdTime": "2023-02-14T19:51:27.417Z",
-      "updatedTime": "2023-02-14T20:06:55.168Z",
+      "updatedTime": "2023-02-15T13:02:22.462Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "9ynh4642bw1",
@@ -226,7 +226,7 @@
     },
     {
       "createdTime": "2023-02-14T20:49:48.118Z",
-      "updatedTime": "2023-02-14T20:49:48.735Z",
+      "updatedTime": "2023-02-15T12:45:46.479Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "p8mdso44i30",
@@ -242,12 +242,12 @@
   "applicationVersions": [
     {
       "createdTime": "2023-02-14T18:12:51.062Z",
-      "updatedTime": "2023-02-14T20:53:37.600Z",
+      "updatedTime": "2023-02-15T12:54:03.823Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "2dc5zf5vokj",
       "applicationId": "uoql5dhyc13",
-      "description": "",
+      "description": "A very simple service which sends emails. Order and Payment streams are joined using a window. The result is then joined to a lookup table of Customers. Finally an email is sent for each resulting tuple.\n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/EmailService.java)",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [],
@@ -262,7 +262,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T19:23:50.856Z",
-          "updatedTime": "2023-02-14T20:53:37.294Z",
+          "updatedTime": "2023-02-15T12:54:03.510Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "28hgu3pkjbj",
@@ -282,7 +282,7 @@
         },
         {
           "createdTime": "2023-02-14T19:23:50.639Z",
-          "updatedTime": "2023-02-14T20:53:37.429Z",
+          "updatedTime": "2023-02-15T12:54:03.649Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "g47xavhhi8e",
@@ -302,7 +302,7 @@
         },
         {
           "createdTime": "2023-02-14T19:23:50.458Z",
-          "updatedTime": "2023-02-14T20:53:37.570Z",
+          "updatedTime": "2023-02-15T12:54:03.792Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "z9ytkqgkrej",
@@ -327,12 +327,12 @@
     },
     {
       "createdTime": "2023-02-14T19:53:29.299Z",
-      "updatedTime": "2023-02-14T20:45:14.920Z",
+      "updatedTime": "2023-02-15T13:03:19.725Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "2jvqk790202",
       "applicationId": "v72ssvcd7x1",
-      "description": "",
+      "description": "A third event-sourced view using Elasticsearch for full-text search capabilities.",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [],
@@ -345,7 +345,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:45:14.858Z",
-          "updatedTime": "2023-02-14T20:45:14.858Z",
+          "updatedTime": "2023-02-15T13:03:19.696Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "2hy5fu40tep",
@@ -370,12 +370,12 @@
     },
     {
       "createdTime": "2023-02-14T20:39:58.868Z",
-      "updatedTime": "2023-02-14T20:39:58.868Z",
+      "updatedTime": "2023-02-15T12:45:04.057Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "388ywv4ibrz",
       "applicationId": "wp2be4gy8ph",
-      "description": "",
+      "description": "A legacy codebase that manages changes made to the product catalog, initiated from an internal UI. This has comparatively fewer users, and an existing codebase. Events are picked up from the legacy Postgres database using a CDC connector to push them into Kafka. The single-message transforms feature reformats the messages before they are made public. Images are saved to a distributed filesystem for access by the web tier.",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
@@ -392,12 +392,12 @@
     },
     {
       "createdTime": "2023-02-14T19:51:08.022Z",
-      "updatedTime": "2023-02-14T20:05:19.337Z",
+      "updatedTime": "2023-02-15T13:00:04.266Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "3t02zh36cld",
       "applicationId": "di7qthig6uq",
-      "description": "",
+      "description": "This class provides a REST interface to write and read orders using a [CQRS pattern](https://martinfowler.com/bliki/CQRS.html) \n\nGET returns requested order, blocking for timeout if no id present.",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [],
@@ -410,7 +410,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:05:19.273Z",
-          "updatedTime": "2023-02-14T20:05:19.273Z",
+          "updatedTime": "2023-02-15T13:00:04.234Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "6hj1p5c5v3q",
@@ -435,12 +435,12 @@
     },
     {
       "createdTime": "2023-02-14T19:49:42.809Z",
-      "updatedTime": "2023-02-14T20:35:52.995Z",
+      "updatedTime": "2023-02-15T13:06:12.276Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "93sk3blveqa",
       "applicationId": "0rdjw06225n",
-      "description": "",
+      "description": "The Basket view is an event-sourced view, implemented in Kafka Streams, with the contents of its state stores exposed over a REST interface. The view represents a join between User and Basket topics, but much of the information is thrown away, retaining only the bare minimum: userId → List[product],  minimizing the view’s footprint.",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [],
@@ -454,7 +454,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:35:52.689Z",
-          "updatedTime": "2023-02-14T20:35:52.689Z",
+          "updatedTime": "2023-02-15T13:06:12.088Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "0415dycvg2f",
@@ -474,7 +474,7 @@
         },
         {
           "createdTime": "2023-02-14T20:35:52.895Z",
-          "updatedTime": "2023-02-14T20:35:52.895Z",
+          "updatedTime": "2023-02-15T13:06:12.245Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "0in3i6dhca6",
@@ -499,12 +499,12 @@
     },
     {
       "createdTime": "2023-02-14T18:13:11.423Z",
-      "updatedTime": "2023-02-14T20:58:43.562Z",
+      "updatedTime": "2023-02-15T12:53:06.436Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "a0iu8dlgn7r",
       "applicationId": "gjhtvx701iz",
-      "description": "",
+      "description": "This service searches for potentially fraudulent transactions by calculating the total value of orders for a customer within a time period, then checks to see if this is over a configured limit. \n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/FraudService.java)",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
@@ -519,7 +519,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:58:43.502Z",
-          "updatedTime": "2023-02-14T20:58:43.502Z",
+          "updatedTime": "2023-02-15T12:53:06.407Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "3imo8fy6khs",
@@ -544,12 +544,12 @@
     },
     {
       "createdTime": "2023-02-14T20:49:48.313Z",
-      "updatedTime": "2023-02-14T20:49:48.735Z",
+      "updatedTime": "2023-02-15T12:45:46.479Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "chzyogcc73c",
       "applicationId": "p8mdso44i30",
-      "description": "",
+      "description": "A streaming service leveraging the Kafka Streams API. This service reacts to orders as they are created, updating the Shipping topic as notifications are received from the delivery company.",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
@@ -565,7 +565,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:49:48.621Z",
-          "updatedTime": "2023-02-14T20:49:48.621Z",
+          "updatedTime": "2023-02-15T12:45:46.324Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "isiq6wk6296",
@@ -585,7 +585,7 @@
         },
         {
           "createdTime": "2023-02-14T20:49:48.424Z",
-          "updatedTime": "2023-02-14T20:49:48.424Z",
+          "updatedTime": "2023-02-15T12:45:46.449Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "1fxj6100rg7",
@@ -610,12 +610,12 @@
     },
     {
       "createdTime": "2023-02-14T19:51:27.576Z",
-      "updatedTime": "2023-02-14T20:06:55.168Z",
+      "updatedTime": "2023-02-15T13:02:22.462Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "gjh167jv7jm",
       "applicationId": "9ynh4642bw1",
-      "description": "",
+      "description": " A simple service which listens to to validation results from each of the Validation services and aggregates them by order Id, triggering a pass or fail based on whether all rules pass or not.\n \n [GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/ValidationsAggregatorService.java)",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
@@ -630,7 +630,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:06:55.114Z",
-          "updatedTime": "2023-02-14T20:06:55.114Z",
+          "updatedTime": "2023-02-15T13:02:22.428Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "701pb894a22",
@@ -655,12 +655,12 @@
     },
     {
       "createdTime": "2023-02-14T19:55:44.782Z",
-      "updatedTime": "2023-02-14T20:44:19.712Z",
+      "updatedTime": "2023-02-15T13:04:42.447Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "gvcojwejr0q",
       "applicationId": "k0j0aa45rjy",
-      "description": "",
+      "description": "An event-sourced view combining information from the catalogue and stock topics",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [],
@@ -674,7 +674,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:44:19.434Z",
-          "updatedTime": "2023-02-14T20:44:19.434Z",
+          "updatedTime": "2023-02-15T13:04:42.272Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "id06amxjdjd",
@@ -694,7 +694,7 @@
         },
         {
           "createdTime": "2023-02-14T20:44:19.618Z",
-          "updatedTime": "2023-02-14T20:44:19.618Z",
+          "updatedTime": "2023-02-15T13:04:42.417Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "z7nvev40qyx",
@@ -719,12 +719,12 @@
     },
     {
       "createdTime": "2023-02-14T16:37:50.726Z",
-      "updatedTime": "2023-02-14T20:36:10.429Z",
+      "updatedTime": "2023-02-15T13:05:41.265Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "mb8gz0ufw24",
       "applicationId": "yjpekaf854t",
-      "description": "",
+      "description": "The Basket writer proxies HTTP requests, forwarding them to the Basket topic in Kafka when a user adds a new item using the REST proxy. ",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
@@ -741,12 +741,12 @@
     },
     {
       "createdTime": "2023-02-14T19:50:38.102Z",
-      "updatedTime": "2023-02-14T20:32:48.744Z",
+      "updatedTime": "2023-02-15T12:59:22.105Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "op7csqjhi5b",
       "applicationId": "doilhj7pemx",
-      "description": "",
+      "description": "This class provides a REST interface to write and read orders using a [CQRS pattern](https://martinfowler.com/bliki/CQRS.html) \n\nPOST  adds Order, Payment and Customer information to the system returning when Kafka sends the appropriate acknowledgement.",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
@@ -765,12 +765,12 @@
     },
     {
       "createdTime": "2023-02-14T18:14:17.075Z",
-      "updatedTime": "2023-02-14T20:55:18.353Z",
+      "updatedTime": "2023-02-15T12:55:12.857Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "wlt3j4ze6t3",
       "applicationId": "rjut1n7cjza",
-      "description": "",
+      "description": "This service validates incoming orders to ensure there is sufficient stock to fulfill them. This validation process considers both the inventory in the warehouse as well as a set \"reserved\" items which is maintained by this service. Reserved items are those that are in the warehouse, but have been allocated to a pending order.\n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/InventoryService.java)",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
@@ -787,7 +787,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:12:09.215Z",
-          "updatedTime": "2023-02-14T20:55:18.208Z",
+          "updatedTime": "2023-02-15T12:55:12.698Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "1jpkaj9gah2",
@@ -807,7 +807,7 @@
         },
         {
           "createdTime": "2023-02-14T20:12:09.359Z",
-          "updatedTime": "2023-02-14T20:55:18.325Z",
+          "updatedTime": "2023-02-15T12:55:12.825Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "on6d5a0sudo",
@@ -832,12 +832,12 @@
     },
     {
       "createdTime": "2023-02-14T19:39:04.489Z",
-      "updatedTime": "2023-02-14T20:19:27.276Z",
+      "updatedTime": "2023-02-15T12:56:12.420Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "xf6jcx2yt9i",
       "applicationId": "yzc86bkdlet",
-      "description": "",
+      "description": " This service validates the details of each order, checking business rules such as:\n *  Is the quantity positive?\n * Is there a customerId?\n",
       "version": "0.1.0",
       "displayName": "",
       "declaredProducedEventVersionIds": [
@@ -852,7 +852,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T19:39:04.577Z",
-          "updatedTime": "2023-02-14T20:19:27.247Z",
+          "updatedTime": "2023-02-15T12:56:12.389Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "33n0wul90t3",
