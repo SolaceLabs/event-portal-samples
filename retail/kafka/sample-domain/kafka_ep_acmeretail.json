@@ -879,11 +879,11 @@
   "events": [
     {
       "createdTime": "2023-02-14T20:27:43.733Z",
-      "updatedTime": "2023-02-14T20:28:00.625Z",
+      "updatedTime": "2023-02-15T14:31:18.305Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "uih12hct73o",
-      "name": "Basket",
+      "name": "Basket Updated",
       "shared": false,
       "applicationDomainId": "yd4nuq4m9lj",
       "numberOfVersions": 1,
@@ -897,7 +897,7 @@
     },
     {
       "createdTime": "2023-02-14T20:38:53.712Z",
-      "updatedTime": "2023-02-14T20:40:14.665Z",
+      "updatedTime": "2023-02-15T14:25:12.651Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "zrnwfg7tsmq",
@@ -915,7 +915,7 @@
     },
     {
       "createdTime": "2023-02-14T20:32:16.148Z",
-      "updatedTime": "2023-02-14T20:32:16.346Z",
+      "updatedTime": "2023-02-15T14:19:01.071Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "l53361br33r",
@@ -932,26 +932,8 @@
       "type": "event"
     },
     {
-      "createdTime": "2023-02-14T17:42:29.239Z",
-      "updatedTime": "2023-02-14T17:42:29.433Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "aa7sdb9dwxq",
-      "name": "Customers",
-      "shared": false,
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
       "createdTime": "2023-02-14T19:59:08.389Z",
-      "updatedTime": "2023-02-14T20:02:33.629Z",
+      "updatedTime": "2023-02-15T14:20:36.766Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "2np7ic8vvj6",
@@ -969,7 +951,7 @@
     },
     {
       "createdTime": "2023-02-14T20:02:20.263Z",
-      "updatedTime": "2023-02-14T20:03:06.370Z",
+      "updatedTime": "2023-02-15T14:19:28.411Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "14pqav374c5",
@@ -987,7 +969,7 @@
     },
     {
       "createdTime": "2023-02-14T20:00:31.324Z",
-      "updatedTime": "2023-02-14T20:01:27.429Z",
+      "updatedTime": "2023-02-15T14:20:09.207Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "o23wow4vg7x",
@@ -1005,7 +987,7 @@
     },
     {
       "createdTime": "2023-02-14T20:22:12.068Z",
-      "updatedTime": "2023-02-14T20:22:40.681Z",
+      "updatedTime": "2023-02-15T14:19:44.546Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "bz6b3t9hv44",
@@ -1023,7 +1005,7 @@
     },
     {
       "createdTime": "2023-02-14T20:46:42.341Z",
-      "updatedTime": "2023-02-14T20:46:56.099Z",
+      "updatedTime": "2023-02-15T14:35:14.547Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "7xjk6d6dsd8",
@@ -1041,7 +1023,7 @@
     },
     {
       "createdTime": "2023-02-14T18:08:48.710Z",
-      "updatedTime": "2023-02-14T20:42:31.344Z",
+      "updatedTime": "2023-02-15T14:30:21.914Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "qmxyepo1gc0",
@@ -1061,16 +1043,16 @@
   "eventVersions": [
     {
       "createdTime": "2023-02-14T20:32:16.346Z",
-      "updatedTime": "2023-02-14T20:32:16.346Z",
+      "updatedTime": "2023-02-15T14:19:01.071Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "5dbogvbsgr8",
       "eventId": "l53361br33r",
-      "description": "",
+      "description": "Shows changes to customer information ",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "ksqkf55kua7",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "kafka",
@@ -1093,16 +1075,16 @@
     },
     {
       "createdTime": "2023-02-14T20:46:42.491Z",
-      "updatedTime": "2023-02-14T20:46:56.099Z",
+      "updatedTime": "2023-02-15T14:35:14.547Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "63ce096c7t8",
       "eventId": "7xjk6d6dsd8",
-      "description": "",
+      "description": "Changes in the shipping status of ordered items.",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "dldbul65cf7",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "kafka",
@@ -1124,49 +1106,17 @@
       "type": "eventVersion"
     },
     {
-      "createdTime": "2023-02-14T17:42:29.433Z",
-      "updatedTime": "2023-02-14T17:42:29.433Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "99c1u3ide95",
-      "eventId": "aa7sdb9dwxq",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "CUSTOMERS",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
       "createdTime": "2023-02-14T20:02:20.464Z",
-      "updatedTime": "2023-02-14T20:02:20.464Z",
+      "updatedTime": "2023-02-15T14:19:28.411Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "9x1omx11dt6",
       "eventId": "14pqav374c5",
-      "description": "",
+      "description": "As the order moves through the fulfillment process, each service add to this topic to show current state.",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "smijtshnvcf",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "kafka",
@@ -1189,16 +1139,16 @@
     },
     {
       "createdTime": "2023-02-14T18:08:48.955Z",
-      "updatedTime": "2023-02-14T19:24:25.901Z",
+      "updatedTime": "2023-02-15T14:30:21.914Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "co8nd40ssga",
       "eventId": "qmxyepo1gc0",
-      "description": "    //Create a store to reserve inventory whilst the order is processed.\n    //This will be prepopulated from Kafka before the service starts processing",
+      "description": "Current stock levels for items in the warehouse",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "j5g2qsm0uh5",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "kafka",
@@ -1221,16 +1171,16 @@
     },
     {
       "createdTime": "2023-02-14T20:38:53.922Z",
-      "updatedTime": "2023-02-14T20:38:53.922Z",
+      "updatedTime": "2023-02-15T14:25:12.651Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "d9a7v9lc08j",
       "eventId": "zrnwfg7tsmq",
-      "description": "",
+      "description": "Changes in items available for purchase from the store and their descriptions.",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "q0r95jb7mvw",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "kafka",
@@ -1253,16 +1203,16 @@
     },
     {
       "createdTime": "2023-02-14T19:59:08.540Z",
-      "updatedTime": "2023-02-14T19:59:29.793Z",
+      "updatedTime": "2023-02-15T14:20:36.766Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "kj4gb2ha7ub",
       "eventId": "2np7ic8vvj6",
-      "description": "",
+      "description": "Created after an order is validated",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "jz6ks653zli",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "kafka",
@@ -1285,16 +1235,16 @@
     },
     {
       "createdTime": "2023-02-14T20:00:31.544Z",
-      "updatedTime": "2023-02-14T20:01:27.429Z",
+      "updatedTime": "2023-02-15T14:20:09.207Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "opjw5oon5d7",
       "eventId": "o23wow4vg7x",
-      "description": "",
+      "description": "This is a store of order data that indicates whether the order has been validated",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "bo6ttd5jtak",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "kafka",
@@ -1317,16 +1267,16 @@
     },
     {
       "createdTime": "2023-02-14T20:27:43.912Z",
-      "updatedTime": "2023-02-14T20:28:00.625Z",
+      "updatedTime": "2023-02-15T14:31:18.305Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "ouw4vy276uo",
       "eventId": "uih12hct73o",
-      "description": "",
+      "description": "Lists the items placed into a basket of goods online.",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "1qmt0pajpro",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "kafka",
@@ -1349,16 +1299,16 @@
     },
     {
       "createdTime": "2023-02-14T20:22:12.352Z",
-      "updatedTime": "2023-02-14T20:22:12.352Z",
+      "updatedTime": "2023-02-15T14:19:44.546Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "pyodcxkisd8",
       "eventId": "bz6b3t9hv44",
-      "description": "",
+      "description": "Provides information on payment status for incoming orders",
       "version": "0.1.0",
       "displayName": "",
       "attractingApplicationVersionIds": [],
-      "schemaVersionId": null,
+      "schemaVersionId": "8wndkkwv9k8",
       "schemaPrimitiveType": null,
       "deliveryDescriptor": {
         "brokerType": "kafka",
@@ -1380,8 +1330,343 @@
       "type": "eventVersion"
     }
   ],
-  "schemas": [],
-  "schemaVersions": [],
+  "schemas": [
+    {
+      "createdTime": "2023-02-15T14:22:48.084Z",
+      "updatedTime": "2023-02-15T14:22:48.240Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "9kr2k3b416r",
+      "applicationDomainId": "yd4nuq4m9lj",
+      "name": "Basket",
+      "shared": false,
+      "contentType": "json",
+      "schemaType": "avro",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-15T14:25:01.101Z",
+      "updatedTime": "2023-02-15T14:25:01.272Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "xq0k43pd067",
+      "applicationDomainId": "46jg3911lh2",
+      "name": "Catalog",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "avro",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-15T14:15:25.167Z",
+      "updatedTime": "2023-02-15T14:17:00.390Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "o76ua6eg96k",
+      "applicationDomainId": "yd4nuq4m9lj",
+      "name": "Customer",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "avro",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-15T14:17:29.868Z",
+      "updatedTime": "2023-02-15T14:17:30.114Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "lyjqhb67l04",
+      "applicationDomainId": "yd4nuq4m9lj",
+      "name": "Enriched Order",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "avro",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-15T14:29:03.900Z",
+      "updatedTime": "2023-02-15T14:29:39.695Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "u7qhb5egesl",
+      "applicationDomainId": "mb8idaqw0d7",
+      "name": "Inventory",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "avro",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-15T14:16:29.118Z",
+      "updatedTime": "2023-02-15T14:16:41.133Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "jvte6k3fxho",
+      "applicationDomainId": "yd4nuq4m9lj",
+      "name": "Order",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "avro",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-15T14:16:00.052Z",
+      "updatedTime": "2023-02-15T14:16:00.219Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "3zukgodubfg",
+      "applicationDomainId": "yd4nuq4m9lj",
+      "name": "Order Validation",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "avro",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-15T14:17:45.574Z",
+      "updatedTime": "2023-02-15T14:18:09.085Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "0vgdkbm8zyi",
+      "applicationDomainId": "yd4nuq4m9lj",
+      "name": "Payment",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "avro",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    },
+    {
+      "createdTime": "2023-02-15T14:34:46.734Z",
+      "updatedTime": "2023-02-15T14:35:00.600Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "b7fs7lxt5f5",
+      "applicationDomainId": "ijhzqyvihpr",
+      "name": "Shipping",
+      "shared": true,
+      "contentType": "json",
+      "schemaType": "avro",
+      "numberOfVersions": 1,
+      "eventVersionRefCount": 1,
+      "stats": {
+        "versionCountByStateId": {
+          "1": 1
+        }
+      },
+      "customAttributes": [],
+      "type": "schema"
+    }
+  ],
+  "schemaVersions": [
+    {
+      "createdTime": "2023-02-15T14:22:48.240Z",
+      "updatedTime": "2023-02-15T14:22:48.240Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "1qmt0pajpro",
+      "schemaId": "9kr2k3b416r",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "content": "{\n  \"type\": [\n    \"null\",\n    {\n      \"name\": \"ShoppingBasket\",\n      \"type\": \"record\",\n      \"fields\": [\n        { \"name\": \"total_price\", \"type\": \"float\" },\n        {\n          \"name\": \"items\",\n          \"type\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"record\",\n              \"name\": \"LineItem\",\n              \"fields\": [\n                { \"name\": \"sku\",       \"type\": \"string\" },\n                { \"name\": \"count\",     \"type\": \"int\"    },\n                { \"name\": \"price_per\", \"type\": \"double\" }\n              ]\n            }\n          }\n        }\n      ]\n    }\n  ],\n  \"default\": null\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-15T14:17:45.739Z",
+      "updatedTime": "2023-02-15T14:18:09.085Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "8wndkkwv9k8",
+      "schemaId": "0vgdkbm8zyi",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Payment\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"orderId\", \"type\": \"string\"},\n     {\"name\": \"ccy\", \"type\": \"string\"},\n     {\"name\": \"amount\", \"type\": \"double\"}\n ]\n}\n]",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-15T14:17:30.114Z",
+      "updatedTime": "2023-02-15T14:17:30.114Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "bo6ttd5jtak",
+      "schemaId": "lyjqhb67l04",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"OrderEnriched\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"customerLevel\", \"type\": \"string\"}\n ]\n}\n]\n",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-15T14:34:46.910Z",
+      "updatedTime": "2023-02-15T14:34:46.910Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "dldbul65cf7",
+      "schemaId": "b7fs7lxt5f5",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "content": "{\n    \"type\": \"record\",\n    \"name\": \"Shipping\",\n    \"namespace\": \"com.solace\",\n    \"fields\": [{\n        \"name\": \"newCarrierEnum\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"newTrackingNumber\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"usedCarrierEnum\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"usedTrackingNumber\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }]\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-15T14:29:04.067Z",
+      "updatedTime": "2023-02-15T14:29:39.695Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "j5g2qsm0uh5",
+      "schemaId": "u7qhb5egesl",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "content": "{\n    \"type\": \"record\",\n    \"name\": \"Inventory\",\n    \"namespace\": \"ca.dataedu\",\n    \"fields\": [{\n        \"name\": \"category\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"date\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"name\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"price\",\n        \"type\": [\"null\", \"int\"],\n        \"default\": null\n    }, {\n        \"name\": \"quantity\",\n        \"type\": [\"null\", \"int\"],\n        \"default\": null\n    }]\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-15T14:16:29.290Z",
+      "updatedTime": "2023-02-15T14:16:29.290Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "jz6ks653zli",
+      "schemaId": "jvte6k3fxho",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderState\",\n \"symbols\" : [\"CREATED\", \"VALIDATED\", \"FAILED\", \"SHIPPED\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"Product\",\n \"symbols\" : [\"JUMPERS\", \"UNDERPANTS\", \"STOCKINGS\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Order\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"state\", \"type\": \"OrderState\"},\n     {\"name\": \"product\",  \"type\": \"Product\"},\n     {\"name\": \"quantity\", \"type\": \"int\"},\n     {\"name\": \"price\", \"type\": \"double\"}\n ]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n   \"type\": \"record\",\n   \"name\": \"OrderValue\",\n    \"fields\": [\n     {\"name\": \"order\", \"type\": \"Order\"},\n     {\"name\": \"value\", \"type\": \"double\"}\n    ]\n}\n]",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-15T14:15:25.343Z",
+      "updatedTime": "2023-02-15T14:15:25.343Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "ksqkf55kua7",
+      "schemaId": "o76ua6eg96k",
+      "description": "Represents a customer of the store ",
+      "version": "0.1.0",
+      "displayName": "",
+      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Customer\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"long\"},\n     {\"name\": \"firstName\", \"type\": \"string\"},\n     {\"name\": \"lastName\", \"type\": \"string\"},\n     {\"name\": \"email\", \"type\": \"string\"},\n     {\"name\": \"address\", \"type\": \"string\"},\n     {\"name\": \"level\", \"type\": \"string\", \"default\": \"bronze\"}\n ]\n}\n]\n",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-15T14:25:01.272Z",
+      "updatedTime": "2023-02-15T14:25:01.272Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "q0r95jb7mvw",
+      "schemaId": "xq0k43pd067",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "content": "{\n    \"type\": \"record\",\n    \"name\": \"Catalog\",\n    \"namespace\": \"com.solace\",\n    \"fields\": [{\n        \"name\": \"id\",\n        \"type\": [\"null\", \"int\"],\n        \"default\": null\n    }, {\n        \"name\": \"name\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"price\",\n        \"type\": [\"null\", \"double\"],\n        \"default\": null\n    }, {\n        \"name\": \"tags\",\n        \"type\": [\"null\", {\n            \"type\": \"array\",\n            \"items\": [\"null\", \"string\"]\n        }],\n        \"default\": null\n    }]\n}",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    },
+    {
+      "createdTime": "2023-02-15T14:16:00.219Z",
+      "updatedTime": "2023-02-15T14:16:00.219Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "smijtshnvcf",
+      "schemaId": "3zukgodubfg",
+      "description": "",
+      "version": "0.1.0",
+      "displayName": "",
+      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderValidationType\",\n \"symbols\" : [\"INVENTORY_CHECK\", \"FRAUD_CHECK\", \"ORDER_DETAILS_CHECK\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderValidationResult\",\n \"symbols\" : [\"PASS\", \"FAIL\", \"ERROR\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"OrderValidation\",\n \"fields\": [\n     {\"name\": \"orderId\", \"type\": \"string\"},\n     {\"name\": \"checkType\", \"type\": \"OrderValidationType\"},\n     {\"name\": \"validationResult\",  \"type\": \"OrderValidationResult\"}\n ]\n}]",
+      "referencedByEventVersionIds": [],
+      "customAttributes": [],
+      "stateId": "1",
+      "type": "schemaVersion"
+    }
+  ],
   "enums": [],
   "enumVersions": [],
   "eventApis": [],
