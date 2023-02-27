@@ -58,9 +58,9 @@
   "applications": [
     {
       "createdTime": "2023-02-14T19:49:42.665Z",
-      "updatedTime": "2023-02-24T18:16:19.192Z",
+      "updatedTime": "2023-02-27T16:32:30.917Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "0rdjw06225n",
       "name": "Basket Service - Basket View (kSQL)",
       "applicationType": "standard",
@@ -86,9 +86,9 @@
     },
     {
       "createdTime": "2023-02-14T19:55:44.626Z",
-      "updatedTime": "2023-02-24T18:16:38.580Z",
+      "updatedTime": "2023-02-27T16:33:07.010Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "k0j0aa45rjy",
       "name": "Catalogue Filter View (kSQL)",
       "applicationType": "standard",
@@ -100,9 +100,9 @@
     },
     {
       "createdTime": "2023-02-14T19:53:29.144Z",
-      "updatedTime": "2023-02-24T18:16:50.308Z",
+      "updatedTime": "2023-02-27T16:33:28.404Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "v72ssvcd7x1",
       "name": "Catalogue Search (Kafka Connect -> Elasticsearch)",
       "applicationType": "standard",
@@ -128,9 +128,9 @@
     },
     {
       "createdTime": "2023-02-14T18:12:50.925Z",
-      "updatedTime": "2023-02-24T18:15:04.962Z",
+      "updatedTime": "2023-02-27T16:30:34.949Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "uoql5dhyc13",
       "name": "Email Service",
       "applicationType": "standard",
@@ -142,9 +142,9 @@
     },
     {
       "createdTime": "2023-02-14T18:13:11.291Z",
-      "updatedTime": "2023-02-24T18:15:16.544Z",
+      "updatedTime": "2023-02-27T16:31:08.360Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "gjhtvx701iz",
       "name": "Fraud Service",
       "applicationType": "standard",
@@ -156,9 +156,9 @@
     },
     {
       "createdTime": "2023-02-14T18:14:16.951Z",
-      "updatedTime": "2023-02-24T18:15:31.949Z",
+      "updatedTime": "2023-02-27T16:31:30.877Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "rjut1n7cjza",
       "name": "Inventory Service",
       "applicationType": "standard",
@@ -170,9 +170,9 @@
     },
     {
       "createdTime": "2023-02-14T19:39:04.347Z",
-      "updatedTime": "2023-02-24T18:15:39.789Z",
+      "updatedTime": "2023-02-27T16:31:50.521Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "yzc86bkdlet",
       "name": "Order Details Service",
       "applicationType": "standard",
@@ -198,9 +198,9 @@
     },
     {
       "createdTime": "2023-02-14T19:51:07.859Z",
-      "updatedTime": "2023-02-24T18:17:08.439Z",
+      "updatedTime": "2023-02-27T16:36:13.358Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "di7qthig6uq",
       "name": "Orders Service - Orders View",
       "applicationType": "standard",
@@ -212,9 +212,9 @@
     },
     {
       "createdTime": "2023-02-14T19:51:27.417Z",
-      "updatedTime": "2023-02-24T18:17:15.409Z",
+      "updatedTime": "2023-02-27T16:36:34.460Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "9ynh4642bw1",
       "name": "Orders Service - Validations Aggregator",
       "applicationType": "standard",
@@ -308,9 +308,9 @@
     },
     {
       "createdTime": "2023-02-14T18:12:51.062Z",
-      "updatedTime": "2023-02-24T18:15:04.962Z",
+      "updatedTime": "2023-02-27T16:30:34.949Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "2dc5zf5vokj",
       "applicationId": "uoql5dhyc13",
       "description": "A very simple service which sends emails. Order and Payment streams are joined using a window. The result is then joined to a lookup table of Customers. Finally an email is sent for each resulting tuple.\n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/EmailService.java)",
@@ -328,7 +328,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T19:23:50.856Z",
-          "updatedTime": "2023-02-15T12:54:03.510Z",
+          "updatedTime": "2023-02-27T16:30:34.666Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "28hgu3pkjbj",
@@ -338,9 +338,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "a9xc5ojtx0j",
+              "id": "ncvi58g31ax",
               "subscriptionType": "topic",
-              "value": "CUSTOMERS",
+              "value": "customers",
               "attractedEventVersionIds": []
             }
           ],
@@ -348,7 +348,7 @@
         },
         {
           "createdTime": "2023-02-14T19:23:50.639Z",
-          "updatedTime": "2023-02-15T12:54:03.649Z",
+          "updatedTime": "2023-02-27T16:30:34.805Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "g47xavhhi8e",
@@ -358,9 +358,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "tzboi5df5bf",
+              "id": "e2woq2kj776",
               "subscriptionType": "topic",
-              "value": "ORDERS",
+              "value": "orders",
               "attractedEventVersionIds": []
             }
           ],
@@ -368,7 +368,7 @@
         },
         {
           "createdTime": "2023-02-14T19:23:50.458Z",
-          "updatedTime": "2023-02-15T12:54:03.792Z",
+          "updatedTime": "2023-02-27T16:30:34.933Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "z9ytkqgkrej",
@@ -378,9 +378,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "0qazhrshbv7",
+              "id": "j2tjapgk9ih",
               "subscriptionType": "topic",
-              "value": "PAYMENTS",
+              "value": "payments",
               "attractedEventVersionIds": []
             }
           ],
@@ -393,9 +393,9 @@
     },
     {
       "createdTime": "2023-02-14T19:53:29.299Z",
-      "updatedTime": "2023-02-24T18:16:50.308Z",
+      "updatedTime": "2023-02-27T16:33:28.404Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "2jvqk790202",
       "applicationId": "v72ssvcd7x1",
       "description": "A third event-sourced view using Elasticsearch for full-text search capabilities.",
@@ -411,7 +411,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:45:14.858Z",
-          "updatedTime": "2023-02-15T13:03:19.696Z",
+          "updatedTime": "2023-02-27T16:33:28.367Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "2hy5fu40tep",
@@ -421,9 +421,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "dy8daqrj0r7",
+              "id": "jvb5mkem03h",
               "subscriptionType": "topic",
-              "value": "CATALOGUE",
+              "value": "catalogue",
               "attractedEventVersionIds": []
             }
           ],
@@ -458,9 +458,9 @@
     },
     {
       "createdTime": "2023-02-14T19:51:08.022Z",
-      "updatedTime": "2023-02-24T18:17:08.439Z",
+      "updatedTime": "2023-02-27T16:36:13.358Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "3t02zh36cld",
       "applicationId": "di7qthig6uq",
       "description": "This class provides a REST interface to write and read orders using a [CQRS pattern](https://martinfowler.com/bliki/CQRS.html) \n\nGET returns requested order, blocking for timeout if no id present.",
@@ -468,7 +468,7 @@
       "displayName": "",
       "declaredProducedEventVersionIds": [],
       "declaredConsumedEventVersionIds": [
-        "opjw5oon5d7"
+        "3oz0nlna67e"
       ],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
@@ -476,7 +476,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:05:19.273Z",
-          "updatedTime": "2023-02-15T13:00:04.234Z",
+          "updatedTime": "2023-02-27T16:36:13.328Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "6hj1p5c5v3q",
@@ -486,9 +486,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "1mbdtc64kwi",
+              "id": "nyfgoa7ogoe",
               "subscriptionType": "topic",
-              "value": "ORDERS",
+              "value": "orders-enriched",
               "attractedEventVersionIds": []
             }
           ],
@@ -501,9 +501,9 @@
     },
     {
       "createdTime": "2023-02-14T19:49:42.809Z",
-      "updatedTime": "2023-02-24T18:16:19.192Z",
+      "updatedTime": "2023-02-27T16:32:30.917Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "93sk3blveqa",
       "applicationId": "0rdjw06225n",
       "description": "The Basket view is an event-sourced view, implemented in Kafka Streams, with the contents of its state stores exposed over a REST interface. The view represents a join between User and Basket topics, but much of the information is thrown away, retaining only the bare minimum: userId → List[product],  minimizing the view’s footprint.",
@@ -520,7 +520,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:35:52.689Z",
-          "updatedTime": "2023-02-15T13:06:12.088Z",
+          "updatedTime": "2023-02-27T16:32:30.597Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "0415dycvg2f",
@@ -530,9 +530,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "cxbica83mqa",
+              "id": "ict05mqlllg",
               "subscriptionType": "topic",
-              "value": "CUSTOMERS",
+              "value": "customers",
               "attractedEventVersionIds": []
             }
           ],
@@ -540,7 +540,7 @@
         },
         {
           "createdTime": "2023-02-14T20:35:52.895Z",
-          "updatedTime": "2023-02-15T13:06:12.245Z",
+          "updatedTime": "2023-02-27T16:32:30.880Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "0in3i6dhca6",
@@ -550,9 +550,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "biw4c7crm17",
+              "id": "r7xxxgi9f8t",
               "subscriptionType": "topic",
-              "value": "BASKET",
+              "value": "basket",
               "attractedEventVersionIds": []
             }
           ],
@@ -565,9 +565,9 @@
     },
     {
       "createdTime": "2023-02-14T18:13:11.423Z",
-      "updatedTime": "2023-02-24T18:15:16.544Z",
+      "updatedTime": "2023-02-27T16:31:08.360Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "a0iu8dlgn7r",
       "applicationId": "gjhtvx701iz",
       "description": "This service searches for potentially fraudulent transactions by calculating the total value of orders for a customer within a time period, then checks to see if this is over a configured limit. \n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/FraudService.java)",
@@ -585,7 +585,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:58:43.502Z",
-          "updatedTime": "2023-02-15T12:53:06.407Z",
+          "updatedTime": "2023-02-27T16:31:08.343Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "3imo8fy6khs",
@@ -595,9 +595,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "8skw8422r9e",
+              "id": "sqm58l6nlkt",
               "subscriptionType": "topic",
-              "value": "ORDERS",
+              "value": "orders",
               "attractedEventVersionIds": []
             }
           ],
@@ -676,9 +676,9 @@
     },
     {
       "createdTime": "2023-02-14T19:51:27.576Z",
-      "updatedTime": "2023-02-24T18:17:15.409Z",
+      "updatedTime": "2023-02-27T16:36:34.460Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "gjh167jv7jm",
       "applicationId": "9ynh4642bw1",
       "description": " A simple service which listens to to validation results from each of the Validation services and aggregates them by order Id, triggering a pass or fail based on whether all rules pass or not.\n \n [GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/ValidationsAggregatorService.java)",
@@ -696,7 +696,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:06:55.114Z",
-          "updatedTime": "2023-02-15T13:02:22.428Z",
+          "updatedTime": "2023-02-27T16:36:34.444Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "701pb894a22",
@@ -706,9 +706,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "lo8fwimkpe8",
+              "id": "hh76x87bzsx",
               "subscriptionType": "topic",
-              "value": "ORDER_VALIDATIONS",
+              "value": "order-validations",
               "attractedEventVersionIds": []
             }
           ],
@@ -721,9 +721,9 @@
     },
     {
       "createdTime": "2023-02-14T19:55:44.782Z",
-      "updatedTime": "2023-02-24T18:16:38.580Z",
+      "updatedTime": "2023-02-27T16:33:07.010Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "gvcojwejr0q",
       "applicationId": "k0j0aa45rjy",
       "description": "An event-sourced view combining information from the catalogue and stock topics",
@@ -740,7 +740,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:44:19.434Z",
-          "updatedTime": "2023-02-15T13:04:42.272Z",
+          "updatedTime": "2023-02-27T16:33:06.686Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "id06amxjdjd",
@@ -750,9 +750,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "2a5yo7eh1we",
+              "id": "wk1vfq5f6ad",
               "subscriptionType": "topic",
-              "value": "WAREHOUSE_INVENTORY",
+              "value": "warehouse-inventory",
               "attractedEventVersionIds": []
             }
           ],
@@ -760,7 +760,7 @@
         },
         {
           "createdTime": "2023-02-14T20:44:19.618Z",
-          "updatedTime": "2023-02-15T13:04:42.417Z",
+          "updatedTime": "2023-02-27T16:33:06.973Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "z7nvev40qyx",
@@ -770,9 +770,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "xerjt6s5k4m",
+              "id": "g5iqd16kj4f",
               "subscriptionType": "topic",
-              "value": "CATALOGUE",
+              "value": "catalogue",
               "attractedEventVersionIds": []
             }
           ],
@@ -831,9 +831,9 @@
     },
     {
       "createdTime": "2023-02-14T18:14:17.075Z",
-      "updatedTime": "2023-02-24T18:15:31.949Z",
+      "updatedTime": "2023-02-27T16:31:30.877Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "wlt3j4ze6t3",
       "applicationId": "rjut1n7cjza",
       "description": "This service validates incoming orders to ensure there is sufficient stock to fulfill them. This validation process considers both the inventory in the warehouse as well as a set \"reserved\" items which is maintained by this service. Reserved items are those that are in the warehouse, but have been allocated to a pending order.\n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/InventoryService.java)",
@@ -853,7 +853,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:12:09.215Z",
-          "updatedTime": "2023-02-15T12:55:12.698Z",
+          "updatedTime": "2023-02-27T16:31:30.740Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "1jpkaj9gah2",
@@ -863,9 +863,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "it4cju3nuth",
+              "id": "kxuw7z6bxk7",
               "subscriptionType": "topic",
-              "value": "WAREHOUSE_INVENTORY",
+              "value": "warehouse-inventory",
               "attractedEventVersionIds": []
             }
           ],
@@ -873,7 +873,7 @@
         },
         {
           "createdTime": "2023-02-14T20:12:09.359Z",
-          "updatedTime": "2023-02-15T12:55:12.825Z",
+          "updatedTime": "2023-02-27T16:31:30.861Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "on6d5a0sudo",
@@ -883,9 +883,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "r36fbfzn9hx",
+              "id": "yhj0ir4bt00",
               "subscriptionType": "topic",
-              "value": "ORDERS",
+              "value": "orders",
               "attractedEventVersionIds": []
             }
           ],
@@ -898,9 +898,9 @@
     },
     {
       "createdTime": "2023-02-14T19:39:04.489Z",
-      "updatedTime": "2023-02-24T18:15:39.789Z",
+      "updatedTime": "2023-02-27T16:31:50.521Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "xf6jcx2yt9i",
       "applicationId": "yzc86bkdlet",
       "description": " This service validates the details of each order, checking business rules such as:\n *  Is the quantity positive?\n * Is there a customerId?\n",
@@ -918,7 +918,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T19:39:04.577Z",
-          "updatedTime": "2023-02-15T12:56:12.389Z",
+          "updatedTime": "2023-02-27T16:31:50.483Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "33n0wul90t3",
@@ -928,9 +928,9 @@
           "consumerType": "kafkaConsumer",
           "subscriptions": [
             {
-              "id": "us85d98hmfx",
+              "id": "jgfec4qfv30",
               "subscriptionType": "topic",
-              "value": "ORDERS",
+              "value": "orders",
               "attractedEventVersionIds": []
             }
           ],
