@@ -2,25 +2,12 @@
   "formatVersion": "2.0.0",
   "applicationDomains": [
     {
-      "createdTime": "2023-02-14T20:46:22.362Z",
-      "updatedTime": "2023-02-14T20:46:22.362Z",
+      "createdTime": "2023-02-14T17:32:17.723Z",
+      "updatedTime": "2023-02-14T17:38:23.701Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
-      "id": "ijhzqyvihpr",
-      "name": "TBD Kafka - Shipping",
-      "description": "",
-      "uniqueTopicAddressEnforcementEnabled": false,
-      "topicDomainEnforcementEnabled": false,
-      "customAttributes": [],
-      "type": "applicationDomain"
-    },
-    {
-      "createdTime": "2023-02-14T15:26:53.280Z",
-      "updatedTime": "2023-02-14T19:48:23.666Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "yd4nuq4m9lj",
-      "name": "TBD Kafka - Online Services",
+      "id": "mb8idaqw0d7",
+      "name": "TBD Kafka - Fulfillment",
       "description": "",
       "uniqueTopicAddressEnforcementEnabled": false,
       "topicDomainEnforcementEnabled": false,
@@ -41,12 +28,25 @@
       "type": "applicationDomain"
     },
     {
-      "createdTime": "2023-02-14T17:32:17.723Z",
-      "updatedTime": "2023-02-14T17:38:23.701Z",
+      "createdTime": "2023-02-14T15:26:53.280Z",
+      "updatedTime": "2023-02-14T19:48:23.666Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
-      "id": "mb8idaqw0d7",
-      "name": "TBD Kafka - Fulfillment",
+      "id": "yd4nuq4m9lj",
+      "name": "TBD Kafka - Online Services",
+      "description": "",
+      "uniqueTopicAddressEnforcementEnabled": false,
+      "topicDomainEnforcementEnabled": false,
+      "customAttributes": [],
+      "type": "applicationDomain"
+    },
+    {
+      "createdTime": "2023-02-14T20:46:22.362Z",
+      "updatedTime": "2023-02-14T20:46:22.362Z",
+      "createdBy": "2ko4lk2qe58f",
+      "changedBy": "2ko4lk2qe58f",
+      "id": "ijhzqyvihpr",
+      "name": "TBD Kafka - Shipping",
       "description": "",
       "uniqueTopicAddressEnforcementEnabled": false,
       "topicDomainEnforcementEnabled": false,
@@ -198,7 +198,7 @@
     },
     {
       "createdTime": "2023-02-14T19:51:07.859Z",
-      "updatedTime": "2023-02-27T16:36:13.358Z",
+      "updatedTime": "2023-02-27T16:46:55.962Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "di7qthig6uq",
@@ -458,7 +458,7 @@
     },
     {
       "createdTime": "2023-02-14T19:51:08.022Z",
-      "updatedTime": "2023-02-27T16:36:13.358Z",
+      "updatedTime": "2023-02-27T16:46:55.962Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "3t02zh36cld",
@@ -468,7 +468,7 @@
       "displayName": "",
       "declaredProducedEventVersionIds": [],
       "declaredConsumedEventVersionIds": [
-        "3oz0nlna67e"
+        "opjw5oon5d7"
       ],
       "declaredEventApiProductVersionIds": [],
       "stateId": "1",
@@ -476,7 +476,7 @@
       "consumers": [
         {
           "createdTime": "2023-02-14T20:05:19.273Z",
-          "updatedTime": "2023-02-27T16:36:13.328Z",
+          "updatedTime": "2023-02-27T16:46:55.927Z",
           "createdBy": "2ko4lk2qe58f",
           "changedBy": "2ko4lk2qe58f",
           "id": "6hj1p5c5v3q",
@@ -1035,18 +1035,18 @@
     },
     {
       "createdTime": "2023-02-14T20:00:31.324Z",
-      "updatedTime": "2023-02-27T16:00:56.740Z",
+      "updatedTime": "2023-02-27T16:45:53.271Z",
       "createdBy": "2ko4lk2qe58f",
       "changedBy": "2ko4lk2qe58f",
       "id": "o23wow4vg7x",
       "name": "Order Validated",
       "shared": false,
       "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 2,
+      "numberOfVersions": 1,
       "customAttributes": [],
       "stats": {
         "versionCountByStateId": {
-          "1": 2
+          "1": 1
         }
       },
       "type": "event"
@@ -1107,38 +1107,6 @@
     }
   ],
   "eventVersions": [
-    {
-      "createdTime": "2023-02-23T22:55:16.839Z",
-      "updatedTime": "2023-02-27T16:00:56.740Z",
-      "createdBy": "67tr8tku7d",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "3oz0nlna67e",
-      "eventId": "o23wow4vg7x",
-      "description": "This is a store of order data that indicates whether the order has been validated",
-      "version": "0.1.1",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "bo6ttd5jtak",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "orders-enriched",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
     {
       "createdTime": "2023-02-23T22:47:33.254Z",
       "updatedTime": "2023-02-27T16:03:39.301Z",
@@ -1365,9 +1333,9 @@
     },
     {
       "createdTime": "2023-02-14T20:00:31.544Z",
-      "updatedTime": "2023-02-24T18:12:18.169Z",
+      "updatedTime": "2023-02-27T16:45:53.271Z",
       "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
+      "changedBy": "2ko4lk2qe58f",
       "id": "opjw5oon5d7",
       "eventId": "o23wow4vg7x",
       "description": "This is a store of order data that indicates whether the order has been validated",
@@ -1381,7 +1349,7 @@
         "address": {
           "addressLevels": [
             {
-              "name": "ORDERS",
+              "name": "orders-enriched",
               "addressLevelType": "literal"
             }
           ],
@@ -1536,7 +1504,7 @@
       "contentType": "json",
       "schemaType": "avro",
       "numberOfVersions": 1,
-      "eventVersionRefCount": 2,
+      "eventVersionRefCount": 1,
       "stats": {
         "versionCountByStateId": {
           "1": 1
