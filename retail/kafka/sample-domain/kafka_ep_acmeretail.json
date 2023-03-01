@@ -1,1787 +1,1622 @@
 {
-  "formatVersion": "2.0.0",
-  "applicationDomains": [
-    {
-      "createdTime": "2023-02-14T17:32:17.723Z",
-      "updatedTime": "2023-02-14T17:38:23.701Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "mb8idaqw0d7",
-      "name": "TBD Kafka - Fulfillment",
-      "description": "",
-      "uniqueTopicAddressEnforcementEnabled": false,
-      "topicDomainEnforcementEnabled": false,
-      "customAttributes": [],
-      "type": "applicationDomain"
-    },
-    {
-      "createdTime": "2023-02-14T15:15:14.074Z",
-      "updatedTime": "2023-02-14T20:37:57.336Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "46jg3911lh2",
-      "name": "TBD Kafka - Merchandising",
-      "description": "",
-      "uniqueTopicAddressEnforcementEnabled": false,
-      "topicDomainEnforcementEnabled": false,
-      "customAttributes": [],
-      "type": "applicationDomain"
-    },
-    {
-      "createdTime": "2023-02-14T15:26:53.280Z",
-      "updatedTime": "2023-02-14T19:48:23.666Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "yd4nuq4m9lj",
-      "name": "TBD Kafka - Online Services",
-      "description": "",
-      "uniqueTopicAddressEnforcementEnabled": false,
-      "topicDomainEnforcementEnabled": false,
-      "customAttributes": [],
-      "type": "applicationDomain"
-    },
-    {
-      "createdTime": "2023-02-14T20:46:22.362Z",
-      "updatedTime": "2023-02-14T20:46:22.362Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "ijhzqyvihpr",
-      "name": "TBD Kafka - Shipping",
-      "description": "",
-      "uniqueTopicAddressEnforcementEnabled": false,
-      "topicDomainEnforcementEnabled": false,
-      "customAttributes": [],
-      "type": "applicationDomain"
-    }
-  ],
-  "topicDomains": [],
-  "applications": [
-    {
-      "createdTime": "2023-02-14T19:49:42.665Z",
-      "updatedTime": "2023-02-27T16:32:30.917Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "0rdjw06225n",
-      "name": "Basket Service - Basket View (kSQL)",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T16:37:50.577Z",
-      "updatedTime": "2023-02-24T18:16:27.081Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
-      "id": "yjpekaf854t",
-      "name": "Basket Service - Basket Writer (REST proxy)",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T19:55:44.626Z",
-      "updatedTime": "2023-02-27T16:33:07.010Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "k0j0aa45rjy",
-      "name": "Catalogue Filter View (kSQL)",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T19:53:29.144Z",
-      "updatedTime": "2023-02-27T16:33:28.404Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "v72ssvcd7x1",
-      "name": "Catalogue Search (Kafka Connect -> Elasticsearch)",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T20:39:58.712Z",
-      "updatedTime": "2023-02-24T18:16:04.771Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
-      "id": "wp2be4gy8ph",
-      "name": "Catalogue Services",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "46jg3911lh2",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T18:12:50.925Z",
-      "updatedTime": "2023-02-27T16:30:34.949Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "uoql5dhyc13",
-      "name": "Email Service",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T18:13:11.291Z",
-      "updatedTime": "2023-02-27T16:31:08.360Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "gjhtvx701iz",
-      "name": "Fraud Service",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T18:14:16.951Z",
-      "updatedTime": "2023-02-27T16:31:30.877Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "rjut1n7cjza",
-      "name": "Inventory Service",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T19:39:04.347Z",
-      "updatedTime": "2023-02-27T16:31:50.521Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "yzc86bkdlet",
-      "name": "Order Details Service",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T19:50:37.969Z",
-      "updatedTime": "2023-02-24T18:16:59.308Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
-      "id": "doilhj7pemx",
-      "name": "Orders Service  - Order Writer",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T19:51:07.859Z",
-      "updatedTime": "2023-02-27T16:46:55.962Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "di7qthig6uq",
-      "name": "Orders Service - Orders View",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T19:51:27.417Z",
-      "updatedTime": "2023-02-27T16:36:34.460Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "9ynh4642bw1",
-      "name": "Orders Service - Validations Aggregator",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "type": "application"
-    },
-    {
-      "createdTime": "2023-02-14T20:49:48.118Z",
-      "updatedTime": "2023-02-27T16:39:08.836Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "p8mdso44i30",
-      "name": "Shipping Service",
-      "applicationType": "standard",
-      "brokerType": "kafka",
-      "applicationDomainId": "ijhzqyvihpr",
-      "numberOfVersions": 2,
-      "customAttributes": [],
-      "type": "application"
-    }
-  ],
-  "applicationVersions": [
-    {
-      "createdTime": "2023-02-24T06:01:42.606Z",
-      "updatedTime": "2023-02-27T16:39:08.836Z",
-      "createdBy": "67tr8tku7d",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "8e1xas8g2do",
-      "applicationId": "p8mdso44i30",
-      "description": "A streaming service leveraging the Kafka Streams API. This service reacts to orders as they are created, updating the Shipping topic as notifications are received from the delivery company.",
-      "version": "0.1.1",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "fw8vym2eiqy"
-      ],
-      "declaredConsumedEventVersionIds": [
-        "5dbogvbsgr8",
-        "d9a7v9lc08j"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-24T06:01:42.682Z",
-          "updatedTime": "2023-02-27T16:39:08.554Z",
-          "createdBy": "67tr8tku7d",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "yg7mmm4ahn4",
-          "name": "SHIPPING.CATALOGUE",
-          "applicationVersionId": "8e1xas8g2do",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "e4miw5hqsqt",
-              "subscriptionType": "topic",
-              "value": "catalogue",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        },
-        {
-          "createdTime": "2023-02-24T06:01:42.780Z",
-          "updatedTime": "2023-02-27T16:39:08.800Z",
-          "createdBy": "67tr8tku7d",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "5p65j7ywdes",
-          "name": "SHIPPING.CUSTOMERS",
-          "applicationVersionId": "8e1xas8g2do",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "t3kjebx51t0",
-              "subscriptionType": "topic",
-              "value": "customers",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
+    "formatVersion": "2.0.0",
+    "applicationDomains": [{
+            "createdTime": "2023-02-14T17:32:17.723Z",
+            "updatedTime": "2023-02-14T17:38:23.701Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "mb8idaqw0d7",
+            "name": "TBD Kafka - Fulfillment",
+            "description": "",
+            "uniqueTopicAddressEnforcementEnabled": false,
+            "topicDomainEnforcementEnabled": false,
+            "customAttributes": [],
+            "type": "applicationDomain"
+        }, {
+            "createdTime": "2023-02-14T15:15:14.074Z",
+            "updatedTime": "2023-02-14T20:37:57.336Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "46jg3911lh2",
+            "name": "TBD Kafka - Merchandising",
+            "description": "",
+            "uniqueTopicAddressEnforcementEnabled": false,
+            "topicDomainEnforcementEnabled": false,
+            "customAttributes": [],
+            "type": "applicationDomain"
+        }, {
+            "createdTime": "2023-02-14T15:26:53.280Z",
+            "updatedTime": "2023-02-14T19:48:23.666Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "yd4nuq4m9lj",
+            "name": "TBD Kafka - Online Services",
+            "description": "",
+            "uniqueTopicAddressEnforcementEnabled": false,
+            "topicDomainEnforcementEnabled": false,
+            "customAttributes": [],
+            "type": "applicationDomain"
+        }, {
+            "createdTime": "2023-02-14T20:46:22.362Z",
+            "updatedTime": "2023-02-14T20:46:22.362Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "ijhzqyvihpr",
+            "name": "TBD Kafka - Shipping",
+            "description": "",
+            "uniqueTopicAddressEnforcementEnabled": false,
+            "topicDomainEnforcementEnabled": false,
+            "customAttributes": [],
+            "type": "applicationDomain"
         }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T18:12:51.062Z",
-      "updatedTime": "2023-02-27T16:30:34.949Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "2dc5zf5vokj",
-      "applicationId": "uoql5dhyc13",
-      "description": "A very simple service which sends emails. Order and Payment streams are joined using a window. The result is then joined to a lookup table of Customers. Finally an email is sent for each resulting tuple.\n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/EmailService.java)",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [],
-      "declaredConsumedEventVersionIds": [
-        "5dbogvbsgr8",
-        "kj4gb2ha7ub",
-        "pyodcxkisd8"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T19:23:50.856Z",
-          "updatedTime": "2023-02-27T16:30:34.666Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "28hgu3pkjbj",
-          "name": "EMAIL.CUSTOMERS",
-          "applicationVersionId": "2dc5zf5vokj",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "ncvi58g31ax",
-              "subscriptionType": "topic",
-              "value": "customers",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        },
-        {
-          "createdTime": "2023-02-14T19:23:50.639Z",
-          "updatedTime": "2023-02-27T16:30:34.805Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "g47xavhhi8e",
-          "name": "EMAIL.ORDERS",
-          "applicationVersionId": "2dc5zf5vokj",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "e2woq2kj776",
-              "subscriptionType": "topic",
-              "value": "orders",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        },
-        {
-          "createdTime": "2023-02-14T19:23:50.458Z",
-          "updatedTime": "2023-02-27T16:30:34.933Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "z9ytkqgkrej",
-          "name": "EMAIL.PAYMENTS",
-          "applicationVersionId": "2dc5zf5vokj",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "j2tjapgk9ih",
-              "subscriptionType": "topic",
-              "value": "payments",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
+    ],
+    "topicDomains": [],
+    "applications": [{
+            "createdTime": "2023-02-14T19:49:42.665Z",
+            "updatedTime": "2023-02-27T16:32:30.917Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "0rdjw06225n",
+            "name": "Basket Service - Basket View (kSQL)",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T16:37:50.577Z",
+            "updatedTime": "2023-02-24T18:16:27.081Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "67tr8tku7d",
+            "id": "yjpekaf854t",
+            "name": "Basket Service - Basket Writer (REST proxy)",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T19:55:44.626Z",
+            "updatedTime": "2023-02-27T16:33:07.010Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "k0j0aa45rjy",
+            "name": "Catalogue Filter View (kSQL)",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T19:53:29.144Z",
+            "updatedTime": "2023-02-27T16:33:28.404Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "v72ssvcd7x1",
+            "name": "Catalogue Search (Kafka Connect -> Elasticsearch)",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T20:39:58.712Z",
+            "updatedTime": "2023-02-24T18:16:04.771Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "67tr8tku7d",
+            "id": "wp2be4gy8ph",
+            "name": "Catalogue Services",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "46jg3911lh2",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T18:12:50.925Z",
+            "updatedTime": "2023-02-27T16:30:34.949Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "uoql5dhyc13",
+            "name": "Email Service",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "mb8idaqw0d7",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T18:13:11.291Z",
+            "updatedTime": "2023-02-27T16:31:08.360Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "gjhtvx701iz",
+            "name": "Fraud Service",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "mb8idaqw0d7",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T18:14:16.951Z",
+            "updatedTime": "2023-02-27T16:31:30.877Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "rjut1n7cjza",
+            "name": "Inventory Service",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "mb8idaqw0d7",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T19:39:04.347Z",
+            "updatedTime": "2023-02-27T16:31:50.521Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "yzc86bkdlet",
+            "name": "Order Details Service",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "mb8idaqw0d7",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T19:50:37.969Z",
+            "updatedTime": "2023-02-24T18:16:59.308Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "67tr8tku7d",
+            "id": "doilhj7pemx",
+            "name": "Orders Service  - Order Writer",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T19:51:07.859Z",
+            "updatedTime": "2023-02-27T16:46:55.962Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "di7qthig6uq",
+            "name": "Orders Service - Orders View",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T19:51:27.417Z",
+            "updatedTime": "2023-02-27T16:36:34.460Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "9ynh4642bw1",
+            "name": "Orders Service - Validations Aggregator",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "type": "application"
+        }, {
+            "createdTime": "2023-02-14T20:49:48.118Z",
+            "updatedTime": "2023-02-27T16:39:08.836Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "p8mdso44i30",
+            "name": "Shipping Service",
+            "applicationType": "standard",
+            "brokerType": "kafka",
+            "applicationDomainId": "ijhzqyvihpr",
+            "numberOfVersions": 2,
+            "customAttributes": [],
+            "type": "application"
         }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T19:53:29.299Z",
-      "updatedTime": "2023-02-27T16:33:28.404Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "2jvqk790202",
-      "applicationId": "v72ssvcd7x1",
-      "description": "A third event-sourced view using Elasticsearch for full-text search capabilities.",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [],
-      "declaredConsumedEventVersionIds": [
-        "d9a7v9lc08j"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T20:45:14.858Z",
-          "updatedTime": "2023-02-27T16:33:28.367Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "2hy5fu40tep",
-          "name": "CATALOGUESEARCH.CATALOGUE",
-          "applicationVersionId": "2jvqk790202",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "jvb5mkem03h",
-              "subscriptionType": "topic",
-              "value": "catalogue",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
+    ],
+    "applicationVersions": [{
+            "createdTime": "2023-02-14T19:49:42.809Z",
+            "updatedTime": "2023-02-27T16:32:30.917Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "93sk3blveqa",
+            "applicationId": "0rdjw06225n",
+            "description": "The Basket view is an event-sourced view, implemented in Kafka Streams, with the contents of its state stores exposed over a REST interface. The view represents a join between User and Basket topics, but much of the information is thrown away, retaining only the bare minimum: userId → List[product],  minimizing the view’s footprint.",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": [],
+            "declaredConsumedEventVersionIds": ["5dbogvbsgr8", "ouw4vy276uo"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T20:35:52.689Z",
+                    "updatedTime": "2023-02-27T16:32:30.597Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "0415dycvg2f",
+                    "name": "BASKET.CUSTOMER",
+                    "applicationVersionId": "93sk3blveqa",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "ict05mqlllg",
+                            "subscriptionType": "topic",
+                            "value": "customers",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }, {
+                    "createdTime": "2023-02-14T20:35:52.895Z",
+                    "updatedTime": "2023-02-27T16:32:30.880Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "0in3i6dhca6",
+                    "name": "BASKETWRITER.BASKET",
+                    "applicationVersionId": "93sk3blveqa",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "r7xxxgi9f8t",
+                            "subscriptionType": "topic",
+                            "value": "basket",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T19:51:27.576Z",
+            "updatedTime": "2023-02-27T16:36:34.460Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "gjh167jv7jm",
+            "applicationId": "9ynh4642bw1",
+            "description": " A simple service which listens to to validation results from each of the Validation services and aggregates them by order Id, triggering a pass or fail based on whether all rules pass or not.\n \n [GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/ValidationsAggregatorService.java)",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["opjw5oon5d7"],
+            "declaredConsumedEventVersionIds": ["9x1omx11dt6"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T20:06:55.114Z",
+                    "updatedTime": "2023-02-27T16:36:34.444Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "701pb894a22",
+                    "name": "ORDERSSERVICE.VALIDATIONSAGGREGATOR",
+                    "applicationVersionId": "gjh167jv7jm",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "hh76x87bzsx",
+                            "subscriptionType": "topic",
+                            "value": "order-validations",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T19:51:08.022Z",
+            "updatedTime": "2023-02-27T16:46:55.962Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "3t02zh36cld",
+            "applicationId": "di7qthig6uq",
+            "description": "This class provides a REST interface to write and read orders using a [CQRS pattern](https://martinfowler.com/bliki/CQRS.html) \n\nGET returns requested order, blocking for timeout if no id present.",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": [],
+            "declaredConsumedEventVersionIds": ["opjw5oon5d7"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T20:05:19.273Z",
+                    "updatedTime": "2023-02-27T16:46:55.927Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "6hj1p5c5v3q",
+                    "name": "ORDERSVIEW.ORDERVALIDATED",
+                    "applicationVersionId": "3t02zh36cld",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "nyfgoa7ogoe",
+                            "subscriptionType": "topic",
+                            "value": "orders-enriched",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T19:50:38.102Z",
+            "updatedTime": "2023-02-24T18:16:59.308Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "67tr8tku7d",
+            "id": "op7csqjhi5b",
+            "applicationId": "doilhj7pemx",
+            "description": "This class provides a REST interface to write and read orders using a [CQRS pattern](https://martinfowler.com/bliki/CQRS.html) \n\nPOST  adds Order, Payment and Customer information to the system returning when Kafka sends the appropriate acknowledgement.",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["5dbogvbsgr8", "kj4gb2ha7ub", "pyodcxkisd8"],
+            "declaredConsumedEventVersionIds": [],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T18:13:11.423Z",
+            "updatedTime": "2023-02-27T16:31:08.360Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "a0iu8dlgn7r",
+            "applicationId": "gjhtvx701iz",
+            "description": "This service searches for potentially fraudulent transactions by calculating the total value of orders for a customer within a time period, then checks to see if this is over a configured limit. \n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/FraudService.java)",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["9x1omx11dt6"],
+            "declaredConsumedEventVersionIds": ["kj4gb2ha7ub"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T20:58:43.502Z",
+                    "updatedTime": "2023-02-27T16:31:08.343Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "3imo8fy6khs",
+                    "name": "FRAUD.ORDERCREATED",
+                    "applicationVersionId": "a0iu8dlgn7r",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "sqm58l6nlkt",
+                            "subscriptionType": "topic",
+                            "value": "orders",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T19:55:44.782Z",
+            "updatedTime": "2023-02-27T16:33:07.010Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "gvcojwejr0q",
+            "applicationId": "k0j0aa45rjy",
+            "description": "An event-sourced view combining information from the catalogue and stock topics",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": [],
+            "declaredConsumedEventVersionIds": ["co8nd40ssga", "d9a7v9lc08j"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T20:44:19.434Z",
+                    "updatedTime": "2023-02-27T16:33:06.686Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "id06amxjdjd",
+                    "name": "CATALOGUE.INVENTORY",
+                    "applicationVersionId": "gvcojwejr0q",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "wk1vfq5f6ad",
+                            "subscriptionType": "topic",
+                            "value": "warehouse-inventory",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }, {
+                    "createdTime": "2023-02-14T20:44:19.618Z",
+                    "updatedTime": "2023-02-27T16:33:06.973Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "z7nvev40qyx",
+                    "name": "CATALOGUEFILTER.CATALOGUE",
+                    "applicationVersionId": "gvcojwejr0q",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "g5iqd16kj4f",
+                            "subscriptionType": "topic",
+                            "value": "catalogue",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-24T06:01:42.606Z",
+            "updatedTime": "2023-02-27T16:39:08.836Z",
+            "createdBy": "67tr8tku7d",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "8e1xas8g2do",
+            "applicationId": "p8mdso44i30",
+            "description": "A streaming service leveraging the Kafka Streams API. This service reacts to orders as they are created, updating the Shipping topic as notifications are received from the delivery company.",
+            "version": "0.1.1",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["fw8vym2eiqy"],
+            "declaredConsumedEventVersionIds": ["5dbogvbsgr8", "d9a7v9lc08j"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-24T06:01:42.682Z",
+                    "updatedTime": "2023-02-27T16:39:08.554Z",
+                    "createdBy": "67tr8tku7d",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "yg7mmm4ahn4",
+                    "name": "SHIPPING.CATALOGUE",
+                    "applicationVersionId": "8e1xas8g2do",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "e4miw5hqsqt",
+                            "subscriptionType": "topic",
+                            "value": "catalogue",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }, {
+                    "createdTime": "2023-02-24T06:01:42.780Z",
+                    "updatedTime": "2023-02-27T16:39:08.800Z",
+                    "createdBy": "67tr8tku7d",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "5p65j7ywdes",
+                    "name": "SHIPPING.CUSTOMERS",
+                    "applicationVersionId": "8e1xas8g2do",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "t3kjebx51t0",
+                            "subscriptionType": "topic",
+                            "value": "customers",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T20:49:48.313Z",
+            "updatedTime": "2023-02-24T18:12:45.496Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "67tr8tku7d",
+            "id": "chzyogcc73c",
+            "applicationId": "p8mdso44i30",
+            "description": "A streaming service leveraging the Kafka Streams API. This service reacts to orders as they are created, updating the Shipping topic as notifications are received from the delivery company.",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["63ce096c7t8"],
+            "declaredConsumedEventVersionIds": ["5dbogvbsgr8", "d9a7v9lc08j"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T20:49:48.621Z",
+                    "updatedTime": "2023-02-15T12:45:46.324Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "isiq6wk6296",
+                    "name": "SHIPPING.CATALOGUE",
+                    "applicationVersionId": "chzyogcc73c",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "7ek47ihdio5",
+                            "subscriptionType": "topic",
+                            "value": "CATALOGUE",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }, {
+                    "createdTime": "2023-02-14T20:49:48.424Z",
+                    "updatedTime": "2023-02-15T12:45:46.449Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "1fxj6100rg7",
+                    "name": "SHIPPING.CUSTOMERS",
+                    "applicationVersionId": "chzyogcc73c",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "x3cbsera9o3",
+                            "subscriptionType": "topic",
+                            "value": "CUSTOMERS",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T18:14:17.075Z",
+            "updatedTime": "2023-02-27T16:31:30.877Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "wlt3j4ze6t3",
+            "applicationId": "rjut1n7cjza",
+            "description": "This service validates incoming orders to ensure there is sufficient stock to fulfill them. This validation process considers both the inventory in the warehouse as well as a set \"reserved\" items which is maintained by this service. Reserved items are those that are in the warehouse, but have been allocated to a pending order.\n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/InventoryService.java)",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["9x1omx11dt6", "co8nd40ssga"],
+            "declaredConsumedEventVersionIds": ["co8nd40ssga", "kj4gb2ha7ub"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T20:12:09.215Z",
+                    "updatedTime": "2023-02-27T16:31:30.740Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "1jpkaj9gah2",
+                    "name": "INVENTORY.INVENTORY",
+                    "applicationVersionId": "wlt3j4ze6t3",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "kxuw7z6bxk7",
+                            "subscriptionType": "topic",
+                            "value": "warehouse-inventory",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }, {
+                    "createdTime": "2023-02-14T20:12:09.359Z",
+                    "updatedTime": "2023-02-27T16:31:30.861Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "on6d5a0sudo",
+                    "name": "INVENTORY.ORDERS",
+                    "applicationVersionId": "wlt3j4ze6t3",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "yhj0ir4bt00",
+                            "subscriptionType": "topic",
+                            "value": "orders",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T18:12:51.062Z",
+            "updatedTime": "2023-02-27T16:30:34.949Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "2dc5zf5vokj",
+            "applicationId": "uoql5dhyc13",
+            "description": "A very simple service which sends emails. Order and Payment streams are joined using a window. The result is then joined to a lookup table of Customers. Finally an email is sent for each resulting tuple.\n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/EmailService.java)",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": [],
+            "declaredConsumedEventVersionIds": ["5dbogvbsgr8", "kj4gb2ha7ub", "pyodcxkisd8"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T19:23:50.856Z",
+                    "updatedTime": "2023-02-27T16:30:34.666Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "28hgu3pkjbj",
+                    "name": "EMAIL.CUSTOMERS",
+                    "applicationVersionId": "2dc5zf5vokj",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "ncvi58g31ax",
+                            "subscriptionType": "topic",
+                            "value": "customers",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }, {
+                    "createdTime": "2023-02-14T19:23:50.639Z",
+                    "updatedTime": "2023-02-27T16:30:34.805Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "g47xavhhi8e",
+                    "name": "EMAIL.ORDERS",
+                    "applicationVersionId": "2dc5zf5vokj",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "e2woq2kj776",
+                            "subscriptionType": "topic",
+                            "value": "orders",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }, {
+                    "createdTime": "2023-02-14T19:23:50.458Z",
+                    "updatedTime": "2023-02-27T16:30:34.933Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "z9ytkqgkrej",
+                    "name": "EMAIL.PAYMENTS",
+                    "applicationVersionId": "2dc5zf5vokj",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "j2tjapgk9ih",
+                            "subscriptionType": "topic",
+                            "value": "payments",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T19:53:29.299Z",
+            "updatedTime": "2023-02-27T16:33:28.404Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "2jvqk790202",
+            "applicationId": "v72ssvcd7x1",
+            "description": "A third event-sourced view using Elasticsearch for full-text search capabilities.",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": [],
+            "declaredConsumedEventVersionIds": ["d9a7v9lc08j"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T20:45:14.858Z",
+                    "updatedTime": "2023-02-27T16:33:28.367Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "2hy5fu40tep",
+                    "name": "CATALOGUESEARCH.CATALOGUE",
+                    "applicationVersionId": "2jvqk790202",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "jvb5mkem03h",
+                            "subscriptionType": "topic",
+                            "value": "catalogue",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T20:39:58.868Z",
+            "updatedTime": "2023-02-24T18:16:04.771Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "67tr8tku7d",
+            "id": "388ywv4ibrz",
+            "applicationId": "wp2be4gy8ph",
+            "description": "A legacy codebase that manages changes made to the product catalog, initiated from an internal UI. This has comparatively fewer users, and an existing codebase. Events are picked up from the legacy Postgres database using a CDC connector to push them into Kafka. The single-message transforms feature reformats the messages before they are made public. Images are saved to a distributed filesystem for access by the web tier.",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["d9a7v9lc08j"],
+            "declaredConsumedEventVersionIds": [],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T16:37:50.726Z",
+            "updatedTime": "2023-02-24T18:16:27.081Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "67tr8tku7d",
+            "id": "mb8gz0ufw24",
+            "applicationId": "yjpekaf854t",
+            "description": "The Basket writer proxies HTTP requests, forwarding them to the Basket topic in Kafka when a user adds a new item using the REST proxy. ",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["ouw4vy276uo"],
+            "declaredConsumedEventVersionIds": [],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
+            "createdTime": "2023-02-14T19:39:04.489Z",
+            "updatedTime": "2023-02-27T16:31:50.521Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "xf6jcx2yt9i",
+            "applicationId": "yzc86bkdlet",
+            "description": " This service validates the details of each order, checking business rules such as:\n *  Is the quantity positive?\n * Is there a customerId?\n",
+            "version": "0.1.0",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["9x1omx11dt6"],
+            "declaredConsumedEventVersionIds": ["kj4gb2ha7ub"],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [{
+                    "createdTime": "2023-02-14T19:39:04.577Z",
+                    "updatedTime": "2023-02-27T16:31:50.483Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "33n0wul90t3",
+                    "name": "ORDERDETAILS.ORDERCREATED",
+                    "applicationVersionId": "xf6jcx2yt9i",
+                    "brokerType": "kafka",
+                    "consumerType": "kafkaConsumer",
+                    "subscriptions": [{
+                            "id": "jgfec4qfv30",
+                            "subscriptionType": "topic",
+                            "value": "orders",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }
+            ],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
         }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:39:58.868Z",
-      "updatedTime": "2023-02-24T18:16:04.771Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
-      "id": "388ywv4ibrz",
-      "applicationId": "wp2be4gy8ph",
-      "description": "A legacy codebase that manages changes made to the product catalog, initiated from an internal UI. This has comparatively fewer users, and an existing codebase. Events are picked up from the legacy Postgres database using a CDC connector to push them into Kafka. The single-message transforms feature reformats the messages before they are made public. Images are saved to a distributed filesystem for access by the web tier.",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "d9a7v9lc08j"
-      ],
-      "declaredConsumedEventVersionIds": [],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T19:51:08.022Z",
-      "updatedTime": "2023-02-27T16:46:55.962Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "3t02zh36cld",
-      "applicationId": "di7qthig6uq",
-      "description": "This class provides a REST interface to write and read orders using a [CQRS pattern](https://martinfowler.com/bliki/CQRS.html) \n\nGET returns requested order, blocking for timeout if no id present.",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [],
-      "declaredConsumedEventVersionIds": [
-        "opjw5oon5d7"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T20:05:19.273Z",
-          "updatedTime": "2023-02-27T16:46:55.927Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "6hj1p5c5v3q",
-          "name": "ORDERSVIEW.ORDERVALIDATED",
-          "applicationVersionId": "3t02zh36cld",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "nyfgoa7ogoe",
-              "subscriptionType": "topic",
-              "value": "orders-enriched",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
+    ],
+    "events": [{
+            "createdTime": "2023-02-14T20:27:43.733Z",
+            "updatedTime": "2023-02-27T15:58:13.974Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "uih12hct73o",
+            "name": "Basket",
+            "shared": false,
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "type": "event"
+        }, {
+            "createdTime": "2023-02-14T20:38:53.712Z",
+            "updatedTime": "2023-02-27T15:56:22.051Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "zrnwfg7tsmq",
+            "name": "Catalogue",
+            "shared": true,
+            "applicationDomainId": "46jg3911lh2",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "type": "event"
+        }, {
+            "createdTime": "2023-02-14T20:32:16.148Z",
+            "updatedTime": "2023-02-27T15:58:34.398Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "l53361br33r",
+            "name": "Customer",
+            "shared": true,
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "type": "event"
+        }, {
+            "createdTime": "2023-02-14T19:59:08.389Z",
+            "updatedTime": "2023-02-27T15:59:09.517Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "2np7ic8vvj6",
+            "name": "Order Created",
+            "shared": true,
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "type": "event"
+        }, {
+            "createdTime": "2023-02-14T20:02:20.263Z",
+            "updatedTime": "2023-02-27T15:59:33.903Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "14pqav374c5",
+            "name": "Order Updated",
+            "shared": true,
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "type": "event"
+        }, {
+            "createdTime": "2023-02-14T20:00:31.324Z",
+            "updatedTime": "2023-02-27T17:19:51.941Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "o23wow4vg7x",
+            "name": "Order Validated",
+            "shared": false,
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "type": "event"
+        }, {
+            "createdTime": "2023-02-14T20:22:12.068Z",
+            "updatedTime": "2023-02-27T16:01:17.984Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "bz6b3t9hv44",
+            "name": "Payment",
+            "shared": true,
+            "applicationDomainId": "yd4nuq4m9lj",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "type": "event"
+        }, {
+            "createdTime": "2023-02-14T20:46:42.341Z",
+            "updatedTime": "2023-02-27T16:03:39.301Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "7xjk6d6dsd8",
+            "name": "Shipping",
+            "shared": false,
+            "applicationDomainId": "ijhzqyvihpr",
+            "numberOfVersions": 2,
+            "customAttributes": [],
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 2
+                }
+            },
+            "type": "event"
+        }, {
+            "createdTime": "2023-02-14T18:08:48.710Z",
+            "updatedTime": "2023-02-27T15:55:45.097Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "qmxyepo1gc0",
+            "name": "Warehouse Inventory",
+            "shared": true,
+            "applicationDomainId": "mb8idaqw0d7",
+            "numberOfVersions": 1,
+            "customAttributes": [],
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "type": "event"
         }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T19:49:42.809Z",
-      "updatedTime": "2023-02-27T16:32:30.917Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "93sk3blveqa",
-      "applicationId": "0rdjw06225n",
-      "description": "The Basket view is an event-sourced view, implemented in Kafka Streams, with the contents of its state stores exposed over a REST interface. The view represents a join between User and Basket topics, but much of the information is thrown away, retaining only the bare minimum: userId → List[product],  minimizing the view’s footprint.",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [],
-      "declaredConsumedEventVersionIds": [
-        "5dbogvbsgr8",
-        "ouw4vy276uo"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T20:35:52.689Z",
-          "updatedTime": "2023-02-27T16:32:30.597Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "0415dycvg2f",
-          "name": "BASKET.CUSTOMER",
-          "applicationVersionId": "93sk3blveqa",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "ict05mqlllg",
-              "subscriptionType": "topic",
-              "value": "customers",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        },
-        {
-          "createdTime": "2023-02-14T20:35:52.895Z",
-          "updatedTime": "2023-02-27T16:32:30.880Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "0in3i6dhca6",
-          "name": "BASKETWRITER.BASKET",
-          "applicationVersionId": "93sk3blveqa",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "r7xxxgi9f8t",
-              "subscriptionType": "topic",
-              "value": "basket",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
+    ],
+    "eventVersions": [{
+            "createdTime": "2023-02-14T20:02:20.464Z",
+            "updatedTime": "2023-02-27T15:59:33.903Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "9x1omx11dt6",
+            "eventId": "14pqav374c5",
+            "description": "As the order moves through the fulfillment process, each service add to this topic to show current state.",
+            "version": "0.1.0",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "smijtshnvcf",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "order-validations",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        }, {
+            "createdTime": "2023-02-14T19:59:08.540Z",
+            "updatedTime": "2023-02-27T15:59:09.517Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "kj4gb2ha7ub",
+            "eventId": "2np7ic8vvj6",
+            "description": "Created after an order is validated",
+            "version": "0.1.0",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "jz6ks653zli",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "orders",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        }, {
+            "createdTime": "2023-02-23T22:47:33.254Z",
+            "updatedTime": "2023-02-27T16:03:39.301Z",
+            "createdBy": "67tr8tku7d",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "fw8vym2eiqy",
+            "eventId": "7xjk6d6dsd8",
+            "description": "Changes in the shipping status of ordered items.",
+            "version": "0.1.1",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "dldbul65cf7",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "shipping",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        }, {
+            "createdTime": "2023-02-14T20:46:42.491Z",
+            "updatedTime": "2023-02-24T18:13:50.225Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "67tr8tku7d",
+            "id": "63ce096c7t8",
+            "eventId": "7xjk6d6dsd8",
+            "description": "Changes in the shipping status of ordered items.",
+            "version": "0.1.0",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "dldbul65cf7",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "SHIPPING",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        }, {
+            "createdTime": "2023-02-14T20:22:12.352Z",
+            "updatedTime": "2023-02-27T16:01:17.984Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "pyodcxkisd8",
+            "eventId": "bz6b3t9hv44",
+            "description": "Provides information on payment status for incoming orders",
+            "version": "0.1.0",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "8wndkkwv9k8",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "payments",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        }, {
+            "createdTime": "2023-02-14T20:32:16.346Z",
+            "updatedTime": "2023-02-27T15:58:34.398Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "5dbogvbsgr8",
+            "eventId": "l53361br33r",
+            "description": "Shows changes to customer information ",
+            "version": "0.1.0",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "ksqkf55kua7",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "customers",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        }, {
+            "createdTime": "2023-02-14T20:00:31.544Z",
+            "updatedTime": "2023-02-27T17:19:51.941Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "opjw5oon5d7",
+            "eventId": "o23wow4vg7x",
+            "description": "This is a store of order data that indicates whether the order has been validated",
+            "version": "0.1.0",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "bo6ttd5jtak",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "orders",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        }, {
+            "createdTime": "2023-02-14T18:08:48.955Z",
+            "updatedTime": "2023-02-27T15:55:45.097Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "co8nd40ssga",
+            "eventId": "qmxyepo1gc0",
+            "description": "Current stock levels for items in the warehouse",
+            "version": "0.1.0",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "j5g2qsm0uh5",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "warehouse-inventory",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        }, {
+            "createdTime": "2023-02-14T20:27:43.912Z",
+            "updatedTime": "2023-02-27T15:58:13.974Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "ouw4vy276uo",
+            "eventId": "uih12hct73o",
+            "description": "Lists the items placed into a basket of goods online.",
+            "version": "0.1.0",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "1qmt0pajpro",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "basket",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
+        }, {
+            "createdTime": "2023-02-14T20:38:53.922Z",
+            "updatedTime": "2023-02-27T15:56:22.051Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "d9a7v9lc08j",
+            "eventId": "zrnwfg7tsmq",
+            "description": "Changes in items available for purchase from the store and their descriptions.",
+            "version": "0.1.0",
+            "displayName": "",
+            "attractingApplicationVersionIds": [],
+            "schemaVersionId": "q0r95jb7mvw",
+            "schemaPrimitiveType": null,
+            "deliveryDescriptor": {
+                "brokerType": "kafka",
+                "address": {
+                    "addressLevels": [{
+                            "name": "catalogue",
+                            "addressLevelType": "literal"
+                        }
+                    ],
+                    "addressType": "topic"
+                },
+                "keySchemaVersionId": null,
+                "keySchemaPrimitiveType": null
+            },
+            "stateId": "1",
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "eventVersion"
         }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T18:13:11.423Z",
-      "updatedTime": "2023-02-27T16:31:08.360Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "a0iu8dlgn7r",
-      "applicationId": "gjhtvx701iz",
-      "description": "This service searches for potentially fraudulent transactions by calculating the total value of orders for a customer within a time period, then checks to see if this is over a configured limit. \n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/FraudService.java)",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "9x1omx11dt6"
-      ],
-      "declaredConsumedEventVersionIds": [
-        "kj4gb2ha7ub"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T20:58:43.502Z",
-          "updatedTime": "2023-02-27T16:31:08.343Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "3imo8fy6khs",
-          "name": "FRAUD.ORDERCREATED",
-          "applicationVersionId": "a0iu8dlgn7r",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "sqm58l6nlkt",
-              "subscriptionType": "topic",
-              "value": "orders",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
+    ],
+    "schemas": [{
+            "createdTime": "2023-02-15T14:22:48.084Z",
+            "updatedTime": "2023-03-01T16:46:17.754Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "9kr2k3b416r",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "name": "Basket",
+            "shared": false,
+            "contentType": "json",
+            "schemaType": "avro",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 1,
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
+        }, {
+            "createdTime": "2023-02-15T14:25:01.101Z",
+            "updatedTime": "2023-03-01T16:47:47.846Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "xq0k43pd067",
+            "applicationDomainId": "46jg3911lh2",
+            "name": "Catalog",
+            "shared": true,
+            "contentType": "json",
+            "schemaType": "avro",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 1,
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
+        }, {
+            "createdTime": "2023-02-15T14:15:25.167Z",
+            "updatedTime": "2023-02-15T14:17:00.390Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "o76ua6eg96k",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "name": "Customer",
+            "shared": true,
+            "contentType": "json",
+            "schemaType": "avro",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 1,
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
+        }, {
+            "createdTime": "2023-02-15T14:17:29.868Z",
+            "updatedTime": "2023-02-15T14:17:30.114Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "lyjqhb67l04",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "name": "Enriched Order",
+            "shared": true,
+            "contentType": "json",
+            "schemaType": "avro",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 1,
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
+        }, {
+            "createdTime": "2023-02-15T14:29:03.900Z",
+            "updatedTime": "2023-03-01T16:50:54.510Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "u7qhb5egesl",
+            "applicationDomainId": "mb8idaqw0d7",
+            "name": "Inventory",
+            "shared": true,
+            "contentType": "json",
+            "schemaType": "avro",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 1,
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
+        }, {
+            "createdTime": "2023-02-15T14:16:29.118Z",
+            "updatedTime": "2023-02-15T14:16:41.133Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "jvte6k3fxho",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "name": "Order",
+            "shared": true,
+            "contentType": "json",
+            "schemaType": "avro",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 1,
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
+        }, {
+            "createdTime": "2023-02-15T14:16:00.052Z",
+            "updatedTime": "2023-02-15T14:16:00.219Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "3zukgodubfg",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "name": "Order Validation",
+            "shared": true,
+            "contentType": "json",
+            "schemaType": "avro",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 1,
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
+        }, {
+            "createdTime": "2023-02-15T14:17:45.574Z",
+            "updatedTime": "2023-02-15T14:18:09.085Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "0vgdkbm8zyi",
+            "applicationDomainId": "yd4nuq4m9lj",
+            "name": "Payment",
+            "shared": true,
+            "contentType": "json",
+            "schemaType": "avro",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 1,
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
+        }, {
+            "createdTime": "2023-02-15T14:34:46.734Z",
+            "updatedTime": "2023-03-01T16:49:12.939Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "b7fs7lxt5f5",
+            "applicationDomainId": "ijhzqyvihpr",
+            "name": "Shipping",
+            "shared": true,
+            "contentType": "json",
+            "schemaType": "avro",
+            "numberOfVersions": 1,
+            "eventVersionRefCount": 2,
+            "stats": {
+                "versionCountByStateId": {
+                    "1": 1
+                }
+            },
+            "customAttributes": [],
+            "type": "schema"
         }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:49:48.313Z",
-      "updatedTime": "2023-02-24T18:12:45.496Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
-      "id": "chzyogcc73c",
-      "applicationId": "p8mdso44i30",
-      "description": "A streaming service leveraging the Kafka Streams API. This service reacts to orders as they are created, updating the Shipping topic as notifications are received from the delivery company.",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "63ce096c7t8"
-      ],
-      "declaredConsumedEventVersionIds": [
-        "5dbogvbsgr8",
-        "d9a7v9lc08j"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T20:49:48.621Z",
-          "updatedTime": "2023-02-15T12:45:46.324Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "isiq6wk6296",
-          "name": "SHIPPING.CATALOGUE",
-          "applicationVersionId": "chzyogcc73c",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "7ek47ihdio5",
-              "subscriptionType": "topic",
-              "value": "CATALOGUE",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        },
-        {
-          "createdTime": "2023-02-14T20:49:48.424Z",
-          "updatedTime": "2023-02-15T12:45:46.449Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "1fxj6100rg7",
-          "name": "SHIPPING.CUSTOMERS",
-          "applicationVersionId": "chzyogcc73c",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "x3cbsera9o3",
-              "subscriptionType": "topic",
-              "value": "CUSTOMERS",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
+    ],
+    "schemaVersions": [{
+            "createdTime": "2023-02-15T14:22:48.240Z",
+            "updatedTime": "2023-03-01T16:46:17.754Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "1qmt0pajpro",
+            "schemaId": "9kr2k3b416r",
+            "description": "",
+            "version": "0.1.0",
+            "displayName": "",
+            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderState\",\n \"symbols\" : [\"CREATED\", \"VALIDATED\", \"FAILED\", \"SHIPPED\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"Product\",\n \"symbols\" : [\"JUMPERS\", \"UNDERPANTS\", \"STOCKINGS\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Basket\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"state\", \"type\": \"OrderState\"},\n     {\"name\": \"product\",  \"type\": \"Product\"},\n     {\"name\": \"quantity\", \"type\": \"int\"},\n     {\"name\": \"price\", \"type\": \"double\"}\n ]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n   \"type\": \"record\",\n   \"name\": \"OrderValue\",\n    \"fields\": [\n     {\"name\": \"order\", \"type\": \"Order\"},\n     {\"name\": \"value\", \"type\": \"double\"}\n    ]\n}\n]",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "1",
+            "type": "schemaVersion"
+        }, {
+            "createdTime": "2023-02-15T14:17:45.739Z",
+            "updatedTime": "2023-02-15T14:18:09.085Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "8wndkkwv9k8",
+            "schemaId": "0vgdkbm8zyi",
+            "description": "",
+            "version": "0.1.0",
+            "displayName": "",
+            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Payment\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"orderId\", \"type\": \"string\"},\n     {\"name\": \"ccy\", \"type\": \"string\"},\n     {\"name\": \"amount\", \"type\": \"double\"}\n ]\n}\n]",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "1",
+            "type": "schemaVersion"
+        }, {
+            "createdTime": "2023-02-15T14:17:30.114Z",
+            "updatedTime": "2023-02-15T14:17:30.114Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "bo6ttd5jtak",
+            "schemaId": "lyjqhb67l04",
+            "description": "",
+            "version": "0.1.0",
+            "displayName": "",
+            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"OrderEnriched\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"customerLevel\", \"type\": \"string\"}\n ]\n}\n]\n",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "1",
+            "type": "schemaVersion"
+        }, {
+            "createdTime": "2023-02-15T14:34:46.910Z",
+            "updatedTime": "2023-03-01T16:49:12.939Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "dldbul65cf7",
+            "schemaId": "b7fs7lxt5f5",
+            "description": "",
+            "version": "0.1.0",
+            "displayName": "",
+            "content": "[\n\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Shipping\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"trackingNumber\", \"type\": \"int\"}\n ]\n}\n]",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "1",
+            "type": "schemaVersion"
+        }, {
+            "createdTime": "2023-02-15T14:29:04.067Z",
+            "updatedTime": "2023-03-01T16:50:54.510Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "j5g2qsm0uh5",
+            "schemaId": "u7qhb5egesl",
+            "description": "",
+            "version": "0.1.0",
+            "displayName": "",
+            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"Product\",\n \"symbols\" : [\"JUMPERS\", \"UNDERPANTS\", \"STOCKINGS\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Inventory\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"product\",  \"type\": \"Product\"},\n     {\"name\": \"quantity\", \"type\": \"int\"}\n ]\n}\n]",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "1",
+            "type": "schemaVersion"
+        }, {
+            "createdTime": "2023-02-15T14:16:29.290Z",
+            "updatedTime": "2023-02-15T14:16:29.290Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "jz6ks653zli",
+            "schemaId": "jvte6k3fxho",
+            "description": "",
+            "version": "0.1.0",
+            "displayName": "",
+            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderState\",\n \"symbols\" : [\"CREATED\", \"VALIDATED\", \"FAILED\", \"SHIPPED\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"Product\",\n \"symbols\" : [\"JUMPERS\", \"UNDERPANTS\", \"STOCKINGS\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Order\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"state\", \"type\": \"OrderState\"},\n     {\"name\": \"product\",  \"type\": \"Product\"},\n     {\"name\": \"quantity\", \"type\": \"int\"},\n     {\"name\": \"price\", \"type\": \"double\"}\n ]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n   \"type\": \"record\",\n   \"name\": \"OrderValue\",\n    \"fields\": [\n     {\"name\": \"order\", \"type\": \"Order\"},\n     {\"name\": \"value\", \"type\": \"double\"}\n    ]\n}\n]",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "1",
+            "type": "schemaVersion"
+        }, {
+            "createdTime": "2023-02-15T14:15:25.343Z",
+            "updatedTime": "2023-02-15T14:15:25.343Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "ksqkf55kua7",
+            "schemaId": "o76ua6eg96k",
+            "description": "Represents a customer of the store ",
+            "version": "0.1.0",
+            "displayName": "",
+            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Customer\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"long\"},\n     {\"name\": \"firstName\", \"type\": \"string\"},\n     {\"name\": \"lastName\", \"type\": \"string\"},\n     {\"name\": \"email\", \"type\": \"string\"},\n     {\"name\": \"address\", \"type\": \"string\"},\n     {\"name\": \"level\", \"type\": \"string\", \"default\": \"bronze\"}\n ]\n}\n]\n",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "1",
+            "type": "schemaVersion"
+        }, {
+            "createdTime": "2023-02-15T14:25:01.272Z",
+            "updatedTime": "2023-03-01T16:47:47.846Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "q0r95jb7mvw",
+            "schemaId": "xq0k43pd067",
+            "description": "",
+            "version": "0.1.0",
+            "displayName": "",
+            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"Product\",\n \"symbols\" : [\"JUMPERS\", \"UNDERPANTS\", \"STOCKINGS\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Catalog\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"product\",  \"type\": \"Product\"},\n     {\"name\": \"price\", \"type\": \"double\"}\n ]\n}\n]",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "1",
+            "type": "schemaVersion"
+        }, {
+            "createdTime": "2023-02-15T14:16:00.219Z",
+            "updatedTime": "2023-02-15T14:16:00.219Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "smijtshnvcf",
+            "schemaId": "3zukgodubfg",
+            "description": "",
+            "version": "0.1.0",
+            "displayName": "",
+            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderValidationType\",\n \"symbols\" : [\"INVENTORY_CHECK\", \"FRAUD_CHECK\", \"ORDER_DETAILS_CHECK\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderValidationResult\",\n \"symbols\" : [\"PASS\", \"FAIL\", \"ERROR\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"OrderValidation\",\n \"fields\": [\n     {\"name\": \"orderId\", \"type\": \"string\"},\n     {\"name\": \"checkType\", \"type\": \"OrderValidationType\"},\n     {\"name\": \"validationResult\",  \"type\": \"OrderValidationResult\"}\n ]\n}]",
+            "referencedByEventVersionIds": [],
+            "customAttributes": [],
+            "stateId": "1",
+            "type": "schemaVersion"
         }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T19:51:27.576Z",
-      "updatedTime": "2023-02-27T16:36:34.460Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "gjh167jv7jm",
-      "applicationId": "9ynh4642bw1",
-      "description": " A simple service which listens to to validation results from each of the Validation services and aggregates them by order Id, triggering a pass or fail based on whether all rules pass or not.\n \n [GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/ValidationsAggregatorService.java)",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "opjw5oon5d7"
-      ],
-      "declaredConsumedEventVersionIds": [
-        "9x1omx11dt6"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T20:06:55.114Z",
-          "updatedTime": "2023-02-27T16:36:34.444Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "701pb894a22",
-          "name": "ORDERSSERVICE.VALIDATIONSAGGREGATOR",
-          "applicationVersionId": "gjh167jv7jm",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "hh76x87bzsx",
-              "subscriptionType": "topic",
-              "value": "order-validations",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
+    ],
+    "enums": [],
+    "enumVersions": [],
+    "eventApis": [],
+    "eventApiVersions": [],
+    "eventApiProducts": [],
+    "eventApiProductVersions": [],
+    "addressSpaces": [{
+            "createdTime": "2022-08-04T17:30:05.672Z",
+            "updatedTime": "2022-08-04T17:30:05.672Z",
+            "createdBy": "67tr8tku41",
+            "changedBy": "67tr8tku41",
+            "id": "4864guly114",
+            "brokerType": "kafka",
+            "delimiter": ".",
+            "type": "addressSpace"
         }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T19:55:44.782Z",
-      "updatedTime": "2023-02-27T16:33:07.010Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "gvcojwejr0q",
-      "applicationId": "k0j0aa45rjy",
-      "description": "An event-sourced view combining information from the catalogue and stock topics",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [],
-      "declaredConsumedEventVersionIds": [
-        "co8nd40ssga",
-        "d9a7v9lc08j"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T20:44:19.434Z",
-          "updatedTime": "2023-02-27T16:33:06.686Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "id06amxjdjd",
-          "name": "CATALOGUE.INVENTORY",
-          "applicationVersionId": "gvcojwejr0q",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "wk1vfq5f6ad",
-              "subscriptionType": "topic",
-              "value": "warehouse-inventory",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        },
-        {
-          "createdTime": "2023-02-14T20:44:19.618Z",
-          "updatedTime": "2023-02-27T16:33:06.973Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "z7nvev40qyx",
-          "name": "CATALOGUEFILTER.CATALOGUE",
-          "applicationVersionId": "gvcojwejr0q",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "g5iqd16kj4f",
-              "subscriptionType": "topic",
-              "value": "catalogue",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T16:37:50.726Z",
-      "updatedTime": "2023-02-24T18:16:27.081Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
-      "id": "mb8gz0ufw24",
-      "applicationId": "yjpekaf854t",
-      "description": "The Basket writer proxies HTTP requests, forwarding them to the Basket topic in Kafka when a user adds a new item using the REST proxy. ",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "ouw4vy276uo"
-      ],
-      "declaredConsumedEventVersionIds": [],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T19:50:38.102Z",
-      "updatedTime": "2023-02-24T18:16:59.308Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
-      "id": "op7csqjhi5b",
-      "applicationId": "doilhj7pemx",
-      "description": "This class provides a REST interface to write and read orders using a [CQRS pattern](https://martinfowler.com/bliki/CQRS.html) \n\nPOST  adds Order, Payment and Customer information to the system returning when Kafka sends the appropriate acknowledgement.",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "5dbogvbsgr8",
-        "kj4gb2ha7ub",
-        "pyodcxkisd8"
-      ],
-      "declaredConsumedEventVersionIds": [],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T18:14:17.075Z",
-      "updatedTime": "2023-02-27T16:31:30.877Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "wlt3j4ze6t3",
-      "applicationId": "rjut1n7cjza",
-      "description": "This service validates incoming orders to ensure there is sufficient stock to fulfill them. This validation process considers both the inventory in the warehouse as well as a set \"reserved\" items which is maintained by this service. Reserved items are those that are in the warehouse, but have been allocated to a pending order.\n\n[GitHub](https://github.com/confluentinc/kafka-streams-examples/blob/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices/InventoryService.java)",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "9x1omx11dt6",
-        "co8nd40ssga"
-      ],
-      "declaredConsumedEventVersionIds": [
-        "co8nd40ssga",
-        "kj4gb2ha7ub"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T20:12:09.215Z",
-          "updatedTime": "2023-02-27T16:31:30.740Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "1jpkaj9gah2",
-          "name": "INVENTORY.INVENTORY",
-          "applicationVersionId": "wlt3j4ze6t3",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "kxuw7z6bxk7",
-              "subscriptionType": "topic",
-              "value": "warehouse-inventory",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        },
-        {
-          "createdTime": "2023-02-14T20:12:09.359Z",
-          "updatedTime": "2023-02-27T16:31:30.861Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "on6d5a0sudo",
-          "name": "INVENTORY.ORDERS",
-          "applicationVersionId": "wlt3j4ze6t3",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "yhj0ir4bt00",
-              "subscriptionType": "topic",
-              "value": "orders",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    },
-    {
-      "createdTime": "2023-02-14T19:39:04.489Z",
-      "updatedTime": "2023-02-27T16:31:50.521Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "xf6jcx2yt9i",
-      "applicationId": "yzc86bkdlet",
-      "description": " This service validates the details of each order, checking business rules such as:\n *  Is the quantity positive?\n * Is there a customerId?\n",
-      "version": "0.1.0",
-      "displayName": "",
-      "declaredProducedEventVersionIds": [
-        "9x1omx11dt6"
-      ],
-      "declaredConsumedEventVersionIds": [
-        "kj4gb2ha7ub"
-      ],
-      "declaredEventApiProductVersionIds": [],
-      "stateId": "1",
-      "eventMeshIds": [],
-      "consumers": [
-        {
-          "createdTime": "2023-02-14T19:39:04.577Z",
-          "updatedTime": "2023-02-27T16:31:50.483Z",
-          "createdBy": "2ko4lk2qe58f",
-          "changedBy": "2ko4lk2qe58f",
-          "id": "33n0wul90t3",
-          "name": "ORDERDETAILS.ORDERCREATED",
-          "applicationVersionId": "xf6jcx2yt9i",
-          "brokerType": "kafka",
-          "consumerType": "kafkaConsumer",
-          "subscriptions": [
-            {
-              "id": "jgfec4qfv30",
-              "subscriptionType": "topic",
-              "value": "orders",
-              "attractedEventVersionIds": []
-            }
-          ],
-          "type": "consumer"
-        }
-      ],
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "applicationVersion"
-    }
-  ],
-  "events": [
-    {
-      "createdTime": "2023-02-14T20:27:43.733Z",
-      "updatedTime": "2023-02-27T15:58:13.974Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "uih12hct73o",
-      "name": "Basket",
-      "shared": false,
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T20:38:53.712Z",
-      "updatedTime": "2023-02-27T15:56:22.051Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "zrnwfg7tsmq",
-      "name": "Catalogue",
-      "shared": true,
-      "applicationDomainId": "46jg3911lh2",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T20:32:16.148Z",
-      "updatedTime": "2023-02-27T15:58:34.398Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "l53361br33r",
-      "name": "Customer",
-      "shared": true,
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T19:59:08.389Z",
-      "updatedTime": "2023-02-27T15:59:09.517Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "2np7ic8vvj6",
-      "name": "Order Created",
-      "shared": true,
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T20:02:20.263Z",
-      "updatedTime": "2023-02-27T15:59:33.903Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "14pqav374c5",
-      "name": "Order Updated",
-      "shared": true,
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T20:00:31.324Z",
-      "updatedTime": "2023-02-27T16:45:53.271Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "o23wow4vg7x",
-      "name": "Order Validated",
-      "shared": false,
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T20:22:12.068Z",
-      "updatedTime": "2023-02-27T16:01:17.984Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "bz6b3t9hv44",
-      "name": "Payment",
-      "shared": true,
-      "applicationDomainId": "yd4nuq4m9lj",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T20:46:42.341Z",
-      "updatedTime": "2023-02-27T16:03:39.301Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "7xjk6d6dsd8",
-      "name": "Shipping",
-      "shared": false,
-      "applicationDomainId": "ijhzqyvihpr",
-      "numberOfVersions": 2,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 2
-        }
-      },
-      "type": "event"
-    },
-    {
-      "createdTime": "2023-02-14T18:08:48.710Z",
-      "updatedTime": "2023-02-27T15:55:45.097Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "qmxyepo1gc0",
-      "name": "Warehouse Inventory",
-      "shared": true,
-      "applicationDomainId": "mb8idaqw0d7",
-      "numberOfVersions": 1,
-      "customAttributes": [],
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "type": "event"
-    }
-  ],
-  "eventVersions": [
-    {
-      "createdTime": "2023-02-23T22:47:33.254Z",
-      "updatedTime": "2023-02-27T16:03:39.301Z",
-      "createdBy": "67tr8tku7d",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "fw8vym2eiqy",
-      "eventId": "7xjk6d6dsd8",
-      "description": "Changes in the shipping status of ordered items.",
-      "version": "0.1.1",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "dldbul65cf7",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "shipping",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:32:16.346Z",
-      "updatedTime": "2023-02-27T15:58:34.398Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "5dbogvbsgr8",
-      "eventId": "l53361br33r",
-      "description": "Shows changes to customer information ",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "ksqkf55kua7",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "customers",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:46:42.491Z",
-      "updatedTime": "2023-02-24T18:13:50.225Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "67tr8tku7d",
-      "id": "63ce096c7t8",
-      "eventId": "7xjk6d6dsd8",
-      "description": "Changes in the shipping status of ordered items.",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "dldbul65cf7",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "SHIPPING",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:02:20.464Z",
-      "updatedTime": "2023-02-27T15:59:33.903Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "9x1omx11dt6",
-      "eventId": "14pqav374c5",
-      "description": "As the order moves through the fulfillment process, each service add to this topic to show current state.",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "smijtshnvcf",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "order-validations",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T18:08:48.955Z",
-      "updatedTime": "2023-02-27T15:55:45.097Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "co8nd40ssga",
-      "eventId": "qmxyepo1gc0",
-      "description": "Current stock levels for items in the warehouse",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "j5g2qsm0uh5",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "warehouse-inventory",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:38:53.922Z",
-      "updatedTime": "2023-02-27T15:56:22.051Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "d9a7v9lc08j",
-      "eventId": "zrnwfg7tsmq",
-      "description": "Changes in items available for purchase from the store and their descriptions.",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "q0r95jb7mvw",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "catalogue",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T19:59:08.540Z",
-      "updatedTime": "2023-02-27T15:59:09.517Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "kj4gb2ha7ub",
-      "eventId": "2np7ic8vvj6",
-      "description": "Created after an order is validated",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "jz6ks653zli",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "orders",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:00:31.544Z",
-      "updatedTime": "2023-02-27T16:45:53.271Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "opjw5oon5d7",
-      "eventId": "o23wow4vg7x",
-      "description": "This is a store of order data that indicates whether the order has been validated",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "bo6ttd5jtak",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "orders-enriched",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:27:43.912Z",
-      "updatedTime": "2023-02-27T15:58:13.974Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "ouw4vy276uo",
-      "eventId": "uih12hct73o",
-      "description": "Lists the items placed into a basket of goods online.",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "1qmt0pajpro",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "basket",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    },
-    {
-      "createdTime": "2023-02-14T20:22:12.352Z",
-      "updatedTime": "2023-02-27T16:01:17.984Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "pyodcxkisd8",
-      "eventId": "bz6b3t9hv44",
-      "description": "Provides information on payment status for incoming orders",
-      "version": "0.1.0",
-      "displayName": "",
-      "attractingApplicationVersionIds": [],
-      "schemaVersionId": "8wndkkwv9k8",
-      "schemaPrimitiveType": null,
-      "deliveryDescriptor": {
-        "brokerType": "kafka",
-        "address": {
-          "addressLevels": [
-            {
-              "name": "payments",
-              "addressLevelType": "literal"
-            }
-          ],
-          "addressType": "topic"
-        },
-        "keySchemaVersionId": null,
-        "keySchemaPrimitiveType": null
-      },
-      "stateId": "1",
-      "customAttributes": [],
-      "messagingServiceIds": [],
-      "type": "eventVersion"
-    }
-  ],
-  "schemas": [
-    {
-      "createdTime": "2023-02-15T14:22:48.084Z",
-      "updatedTime": "2023-02-15T14:22:48.240Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "9kr2k3b416r",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "name": "Basket",
-      "shared": false,
-      "contentType": "json",
-      "schemaType": "avro",
-      "numberOfVersions": 1,
-      "eventVersionRefCount": 1,
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "customAttributes": [],
-      "type": "schema"
-    },
-    {
-      "createdTime": "2023-02-15T14:25:01.101Z",
-      "updatedTime": "2023-02-15T14:25:01.272Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "xq0k43pd067",
-      "applicationDomainId": "46jg3911lh2",
-      "name": "Catalog",
-      "shared": true,
-      "contentType": "json",
-      "schemaType": "avro",
-      "numberOfVersions": 1,
-      "eventVersionRefCount": 1,
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "customAttributes": [],
-      "type": "schema"
-    },
-    {
-      "createdTime": "2023-02-15T14:15:25.167Z",
-      "updatedTime": "2023-02-15T14:17:00.390Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "o76ua6eg96k",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "name": "Customer",
-      "shared": true,
-      "contentType": "json",
-      "schemaType": "avro",
-      "numberOfVersions": 1,
-      "eventVersionRefCount": 1,
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "customAttributes": [],
-      "type": "schema"
-    },
-    {
-      "createdTime": "2023-02-15T14:17:29.868Z",
-      "updatedTime": "2023-02-15T14:17:30.114Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "lyjqhb67l04",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "name": "Enriched Order",
-      "shared": true,
-      "contentType": "json",
-      "schemaType": "avro",
-      "numberOfVersions": 1,
-      "eventVersionRefCount": 1,
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "customAttributes": [],
-      "type": "schema"
-    },
-    {
-      "createdTime": "2023-02-15T14:29:03.900Z",
-      "updatedTime": "2023-02-15T14:29:39.695Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "u7qhb5egesl",
-      "applicationDomainId": "mb8idaqw0d7",
-      "name": "Inventory",
-      "shared": true,
-      "contentType": "json",
-      "schemaType": "avro",
-      "numberOfVersions": 1,
-      "eventVersionRefCount": 1,
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "customAttributes": [],
-      "type": "schema"
-    },
-    {
-      "createdTime": "2023-02-15T14:16:29.118Z",
-      "updatedTime": "2023-02-15T14:16:41.133Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "jvte6k3fxho",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "name": "Order",
-      "shared": true,
-      "contentType": "json",
-      "schemaType": "avro",
-      "numberOfVersions": 1,
-      "eventVersionRefCount": 1,
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "customAttributes": [],
-      "type": "schema"
-    },
-    {
-      "createdTime": "2023-02-15T14:16:00.052Z",
-      "updatedTime": "2023-02-15T14:16:00.219Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "3zukgodubfg",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "name": "Order Validation",
-      "shared": true,
-      "contentType": "json",
-      "schemaType": "avro",
-      "numberOfVersions": 1,
-      "eventVersionRefCount": 1,
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "customAttributes": [],
-      "type": "schema"
-    },
-    {
-      "createdTime": "2023-02-15T14:17:45.574Z",
-      "updatedTime": "2023-02-15T14:18:09.085Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "0vgdkbm8zyi",
-      "applicationDomainId": "yd4nuq4m9lj",
-      "name": "Payment",
-      "shared": true,
-      "contentType": "json",
-      "schemaType": "avro",
-      "numberOfVersions": 1,
-      "eventVersionRefCount": 1,
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "customAttributes": [],
-      "type": "schema"
-    },
-    {
-      "createdTime": "2023-02-15T14:34:46.734Z",
-      "updatedTime": "2023-02-15T14:35:00.600Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "b7fs7lxt5f5",
-      "applicationDomainId": "ijhzqyvihpr",
-      "name": "Shipping",
-      "shared": true,
-      "contentType": "json",
-      "schemaType": "avro",
-      "numberOfVersions": 1,
-      "eventVersionRefCount": 2,
-      "stats": {
-        "versionCountByStateId": {
-          "1": 1
-        }
-      },
-      "customAttributes": [],
-      "type": "schema"
-    }
-  ],
-  "schemaVersions": [
-    {
-      "createdTime": "2023-02-15T14:22:48.240Z",
-      "updatedTime": "2023-02-15T14:22:48.240Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "1qmt0pajpro",
-      "schemaId": "9kr2k3b416r",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "content": "{\n  \"type\": [\n    \"null\",\n    {\n      \"name\": \"ShoppingBasket\",\n      \"type\": \"record\",\n      \"fields\": [\n        { \"name\": \"total_price\", \"type\": \"float\" },\n        {\n          \"name\": \"items\",\n          \"type\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"record\",\n              \"name\": \"LineItem\",\n              \"fields\": [\n                { \"name\": \"sku\",       \"type\": \"string\" },\n                { \"name\": \"count\",     \"type\": \"int\"    },\n                { \"name\": \"price_per\", \"type\": \"double\" }\n              ]\n            }\n          }\n        }\n      ]\n    }\n  ],\n  \"default\": null\n}",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    },
-    {
-      "createdTime": "2023-02-15T14:17:45.739Z",
-      "updatedTime": "2023-02-15T14:18:09.085Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "8wndkkwv9k8",
-      "schemaId": "0vgdkbm8zyi",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Payment\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"orderId\", \"type\": \"string\"},\n     {\"name\": \"ccy\", \"type\": \"string\"},\n     {\"name\": \"amount\", \"type\": \"double\"}\n ]\n}\n]",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    },
-    {
-      "createdTime": "2023-02-15T14:17:30.114Z",
-      "updatedTime": "2023-02-15T14:17:30.114Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "bo6ttd5jtak",
-      "schemaId": "lyjqhb67l04",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"OrderEnriched\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"customerLevel\", \"type\": \"string\"}\n ]\n}\n]\n",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    },
-    {
-      "createdTime": "2023-02-15T14:34:46.910Z",
-      "updatedTime": "2023-02-15T14:34:46.910Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "dldbul65cf7",
-      "schemaId": "b7fs7lxt5f5",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "content": "{\n    \"type\": \"record\",\n    \"name\": \"Shipping\",\n    \"namespace\": \"com.solace\",\n    \"fields\": [{\n        \"name\": \"newCarrierEnum\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"newTrackingNumber\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"usedCarrierEnum\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"usedTrackingNumber\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }]\n}",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    },
-    {
-      "createdTime": "2023-02-15T14:29:04.067Z",
-      "updatedTime": "2023-02-15T14:29:39.695Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "j5g2qsm0uh5",
-      "schemaId": "u7qhb5egesl",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "content": "{\n    \"type\": \"record\",\n    \"name\": \"Inventory\",\n    \"namespace\": \"ca.dataedu\",\n    \"fields\": [{\n        \"name\": \"category\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"date\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"name\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"price\",\n        \"type\": [\"null\", \"int\"],\n        \"default\": null\n    }, {\n        \"name\": \"quantity\",\n        \"type\": [\"null\", \"int\"],\n        \"default\": null\n    }]\n}",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    },
-    {
-      "createdTime": "2023-02-15T14:16:29.290Z",
-      "updatedTime": "2023-02-15T14:16:29.290Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "jz6ks653zli",
-      "schemaId": "jvte6k3fxho",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderState\",\n \"symbols\" : [\"CREATED\", \"VALIDATED\", \"FAILED\", \"SHIPPED\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"Product\",\n \"symbols\" : [\"JUMPERS\", \"UNDERPANTS\", \"STOCKINGS\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Order\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"state\", \"type\": \"OrderState\"},\n     {\"name\": \"product\",  \"type\": \"Product\"},\n     {\"name\": \"quantity\", \"type\": \"int\"},\n     {\"name\": \"price\", \"type\": \"double\"}\n ]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n   \"type\": \"record\",\n   \"name\": \"OrderValue\",\n    \"fields\": [\n     {\"name\": \"order\", \"type\": \"Order\"},\n     {\"name\": \"value\", \"type\": \"double\"}\n    ]\n}\n]",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    },
-    {
-      "createdTime": "2023-02-15T14:15:25.343Z",
-      "updatedTime": "2023-02-15T14:15:25.343Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "ksqkf55kua7",
-      "schemaId": "o76ua6eg96k",
-      "description": "Represents a customer of the store ",
-      "version": "0.1.0",
-      "displayName": "",
-      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Customer\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"long\"},\n     {\"name\": \"firstName\", \"type\": \"string\"},\n     {\"name\": \"lastName\", \"type\": \"string\"},\n     {\"name\": \"email\", \"type\": \"string\"},\n     {\"name\": \"address\", \"type\": \"string\"},\n     {\"name\": \"level\", \"type\": \"string\", \"default\": \"bronze\"}\n ]\n}\n]\n",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    },
-    {
-      "createdTime": "2023-02-15T14:25:01.272Z",
-      "updatedTime": "2023-02-15T14:25:01.272Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "q0r95jb7mvw",
-      "schemaId": "xq0k43pd067",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "content": "{\n    \"type\": \"record\",\n    \"name\": \"Catalog\",\n    \"namespace\": \"com.solace\",\n    \"fields\": [{\n        \"name\": \"id\",\n        \"type\": [\"null\", \"int\"],\n        \"default\": null\n    }, {\n        \"name\": \"name\",\n        \"type\": [\"null\", \"string\"],\n        \"default\": null\n    }, {\n        \"name\": \"price\",\n        \"type\": [\"null\", \"double\"],\n        \"default\": null\n    }, {\n        \"name\": \"tags\",\n        \"type\": [\"null\", {\n            \"type\": \"array\",\n            \"items\": [\"null\", \"string\"]\n        }],\n        \"default\": null\n    }]\n}",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    },
-    {
-      "createdTime": "2023-02-15T14:16:00.219Z",
-      "updatedTime": "2023-02-15T14:16:00.219Z",
-      "createdBy": "2ko4lk2qe58f",
-      "changedBy": "2ko4lk2qe58f",
-      "id": "smijtshnvcf",
-      "schemaId": "3zukgodubfg",
-      "description": "",
-      "version": "0.1.0",
-      "displayName": "",
-      "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderValidationType\",\n \"symbols\" : [\"INVENTORY_CHECK\", \"FRAUD_CHECK\", \"ORDER_DETAILS_CHECK\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderValidationResult\",\n \"symbols\" : [\"PASS\", \"FAIL\", \"ERROR\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"OrderValidation\",\n \"fields\": [\n     {\"name\": \"orderId\", \"type\": \"string\"},\n     {\"name\": \"checkType\", \"type\": \"OrderValidationType\"},\n     {\"name\": \"validationResult\",  \"type\": \"OrderValidationResult\"}\n ]\n}]",
-      "referencedByEventVersionIds": [],
-      "customAttributes": [],
-      "stateId": "1",
-      "type": "schemaVersion"
-    }
-  ],
-  "enums": [],
-  "enumVersions": [],
-  "eventApis": [],
-  "eventApiVersions": [],
-  "eventApiProducts": [],
-  "eventApiProductVersions": [],
-  "addressSpaces": [
-    {
-      "createdTime": "2022-08-04T17:30:05.672Z",
-      "updatedTime": "2022-08-04T17:30:05.672Z",
-      "createdBy": "67tr8tku41",
-      "changedBy": "67tr8tku41",
-      "id": "4864guly114",
-      "brokerType": "kafka",
-      "delimiter": ".",
-      "type": "addressSpace"
-    }
-  ],
-  "customAttributeDefinitions": []
+    ],
+    "customAttributeDefinitions": []
 }
