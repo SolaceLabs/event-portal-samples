@@ -1284,7 +1284,7 @@
     ],
     "schemas": [{
             "createdTime": "2023-02-15T14:22:48.084Z",
-            "updatedTime": "2023-03-01T17:16:41.630Z",
+            "updatedTime": "2023-03-01T17:42:34.660Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "9kr2k3b416r",
@@ -1466,7 +1466,7 @@
     ],
     "schemaVersions": [{
             "createdTime": "2023-02-15T14:22:48.240Z",
-            "updatedTime": "2023-03-01T17:16:41.630Z",
+            "updatedTime": "2023-03-01T17:42:34.660Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "1qmt0pajpro",
@@ -1474,7 +1474,7 @@
             "description": "",
             "version": "0.1.0",
             "displayName": "",
-            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderState\",\n \"symbols\" : [\"CREATED\", \"VALIDATED\", \"FAILED\", \"SHIPPED\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"Product\",\n \"symbols\" : [\"JUMPERS\", \"UNDERPANTS\", \"STOCKINGS\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Basket\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"state\", \"type\": \"OrderState\"},\n     {\"name\": \"product\",  \"type\": \"Product\"},\n     {\"name\": \"quantity\", \"type\": \"int\"},\n     {\"name\": \"price\", \"type\": \"double\"}\n ]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n   \"type\": \"record\",\n   \"name\": \"OrderValue\",\n    \"fields\": [\n     {\"name\": \"order\", \"type\": \"Order\"},\n     {\"name\": \"value\", \"type\": \"double\"}\n    ]\n}\n]",
+            "content": "[\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"OrderState\",\n \"symbols\" : [\"CREATED\", \"VALIDATED\", \"FAILED\", \"SHIPPED\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"enum\",\n \"name\": \"Product\",\n \"symbols\" : [\"JUMPERS\", \"UNDERPANTS\", \"STOCKINGS\"]\n},\n{\"namespace\": \"io.confluent.examples.streams.avro.microservices\",\n \"type\": \"record\",\n \"name\": \"Basket\",\n \"fields\": [\n     {\"name\": \"id\", \"type\": \"string\"},\n     {\"name\": \"customerId\", \"type\": \"long\"},\n     {\"name\": \"state\", \"type\": \"OrderState\"},\n     {\"name\": \"product\",  \"type\": \"Product\"},\n     {\"name\": \"quantity\", \"type\": \"int\"},\n     {\"name\": \"price\", \"type\": \"double\"}\n ]\n}\n]",
             "referencedByEventVersionIds": [],
             "customAttributes": [],
             "stateId": "1",
