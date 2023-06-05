@@ -212,7 +212,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:03.722Z",
-            "updatedTime": "2023-06-05T15:23:51.705Z",
+            "updatedTime": "2023-06-05T15:37:08.079Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "dluwgfwyyza",
@@ -320,7 +320,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:04.069Z",
-            "updatedTime": "2023-06-05T14:19:17.133Z",
+            "updatedTime": "2023-06-05T15:34:52.014Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "dv0nhb6syqm",
@@ -1414,7 +1414,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-06-05T13:55:27.387Z",
-            "updatedTime": "2023-06-05T15:23:51.705Z",
+            "updatedTime": "2023-06-05T15:37:08.079Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "ouoyhlgg0nc",
@@ -1429,7 +1429,7 @@
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-06-05T13:55:27.613Z",
-                    "updatedTime": "2023-06-05T15:23:51.300Z",
+                    "updatedTime": "2023-06-05T15:37:07.741Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "3hot67ffjz9",
@@ -1447,7 +1447,7 @@
                     "type": "consumer"
                 }, {
                     "createdTime": "2023-06-05T13:55:27.854Z",
-                    "updatedTime": "2023-06-05T15:23:51.485Z",
+                    "updatedTime": "2023-06-05T15:37:07.900Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "16r8plnfiyu",
@@ -1464,8 +1464,26 @@
                     ],
                     "type": "consumer"
                 }, {
+                    "createdTime": "2023-06-05T15:37:07.479Z",
+                    "updatedTime": "2023-06-05T15:37:07.479Z",
+                    "createdBy": "2ko4lk2qe58f",
+                    "changedBy": "2ko4lk2qe58f",
+                    "id": "d8viirmztdl",
+                    "name": "EMAIL.ORDERSV1",
+                    "applicationVersionId": "ouoyhlgg0nc",
+                    "brokerType": "solace",
+                    "consumerType": "eventQueue",
+                    "subscriptions": [{
+                            "id": "cvphl0vqamw",
+                            "subscriptionType": "topic",
+                            "value": "acmeretail/onlineservices/order/*/v1/*/*",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
+                    "type": "consumer"
+                }, {
                     "createdTime": "2023-06-05T13:55:28.144Z",
-                    "updatedTime": "2023-06-05T15:23:51.668Z",
+                    "updatedTime": "2023-06-05T15:37:08.050Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "7epspdgq7da",
@@ -1858,7 +1876,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-06-05T14:18:24.542Z",
-            "updatedTime": "2023-06-05T14:19:17.133Z",
+            "updatedTime": "2023-06-05T15:34:52.014Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "0dsr7y5tjy7",
@@ -1873,7 +1891,7 @@
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-06-05T14:18:24.723Z",
-                    "updatedTime": "2023-06-05T14:19:17.103Z",
+                    "updatedTime": "2023-06-05T15:34:51.981Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "ak9byfdqjod",
@@ -1882,9 +1900,9 @@
                     "brokerType": "solace",
                     "consumerType": "eventQueue",
                     "subscriptions": [{
-                            "id": "d71bj26hsv7",
+                            "id": "opl0igv0gqh",
                             "subscriptionType": "topic",
-                            "value": "acmeretail/onlineservices/order/validated/v2/*/*",
+                            "value": "acmeretail/onlineservices/order/updated/v1/*/*",
                             "attractedEventVersionIds": []
                         }
                     ],
