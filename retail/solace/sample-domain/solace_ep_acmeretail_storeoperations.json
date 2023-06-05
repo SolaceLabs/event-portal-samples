@@ -158,7 +158,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:03.566Z",
-            "updatedTime": "2023-06-05T14:11:16.177Z",
+            "updatedTime": "2023-06-05T14:42:09.865Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "cxu71kfix9p",
@@ -212,7 +212,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:03.722Z",
-            "updatedTime": "2023-06-05T14:00:25.951Z",
+            "updatedTime": "2023-06-05T14:41:33.278Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "dluwgfwyyza",
@@ -230,7 +230,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:03.767Z",
-            "updatedTime": "2023-06-05T14:03:13.248Z",
+            "updatedTime": "2023-06-05T14:40:40.437Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "8ch8jo8btq9",
@@ -302,7 +302,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:04.023Z",
-            "updatedTime": "2023-06-05T14:17:34.854Z",
+            "updatedTime": "2023-06-05T14:42:40.498Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "nhwvehciwvk",
@@ -870,7 +870,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-06-05T13:20:42.570Z",
-            "updatedTime": "2023-06-05T14:03:13.248Z",
+            "updatedTime": "2023-06-05T14:40:40.437Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "28esd1b5vfy",
@@ -885,7 +885,7 @@
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-06-05T13:20:42.779Z",
-                    "updatedTime": "2023-06-05T14:03:13.240Z",
+                    "updatedTime": "2023-06-05T14:40:40.409Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "67lz1iyfkgt",
@@ -893,7 +893,13 @@
                     "applicationVersionId": "28esd1b5vfy",
                     "brokerType": "solace",
                     "consumerType": "eventQueue",
-                    "subscriptions": [],
+                    "subscriptions": [{
+                            "id": "qfuwh9aesdo",
+                            "subscriptionType": "topic",
+                            "value": "acmeretail/onlineservices/order/created/v2/*/*",
+                            "attractedEventVersionIds": []
+                        }
+                    ],
                     "type": "consumer"
                 }
             ],
@@ -1016,7 +1022,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-06-05T14:11:15.681Z",
-            "updatedTime": "2023-06-05T14:11:16.177Z",
+            "updatedTime": "2023-06-05T14:42:09.865Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "9z8h4ddjqdj",
@@ -1031,7 +1037,7 @@
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-06-05T14:11:15.862Z",
-                    "updatedTime": "2023-06-05T14:11:15.862Z",
+                    "updatedTime": "2023-06-05T14:42:09.681Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "t8m9kxr7eba",
@@ -1049,7 +1055,7 @@
                     "type": "consumer"
                 }, {
                     "createdTime": "2023-06-05T14:11:16.063Z",
-                    "updatedTime": "2023-06-05T14:11:16.063Z",
+                    "updatedTime": "2023-06-05T14:42:09.842Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "7xga1jayw1d",
@@ -1061,11 +1067,6 @@
                             "id": "4wuh6ng3j85",
                             "subscriptionType": "topic",
                             "value": "acmeretail/merchandising/catalogue/updated/v1/*/*",
-                            "attractedEventVersionIds": []
-                        }, {
-                            "id": "p6ldq0g8xdo",
-                            "subscriptionType": "topic",
-                            "value": "catalogue",
                             "attractedEventVersionIds": []
                         }
                     ],
@@ -1413,7 +1414,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-06-05T13:55:27.387Z",
-            "updatedTime": "2023-06-05T14:00:25.951Z",
+            "updatedTime": "2023-06-05T14:41:33.278Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "ouoyhlgg0nc",
@@ -1428,7 +1429,7 @@
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-06-05T13:55:27.613Z",
-                    "updatedTime": "2023-06-05T14:00:25.257Z",
+                    "updatedTime": "2023-06-05T14:41:32.915Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "3hot67ffjz9",
@@ -1446,7 +1447,7 @@
                     "type": "consumer"
                 }, {
                     "createdTime": "2023-06-05T13:55:27.854Z",
-                    "updatedTime": "2023-06-05T14:00:25.623Z",
+                    "updatedTime": "2023-06-05T14:41:33.082Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "16r8plnfiyu",
@@ -1464,7 +1465,7 @@
                     "type": "consumer"
                 }, {
                     "createdTime": "2023-06-05T13:55:28.144Z",
-                    "updatedTime": "2023-06-05T14:00:25.916Z",
+                    "updatedTime": "2023-06-05T14:41:33.252Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "7epspdgq7da",
@@ -1476,11 +1477,6 @@
                             "id": "jy7vbdkutyj",
                             "subscriptionType": "topic",
                             "value": "acmeretail/onlineservices/payment/*/v1/*/*",
-                            "attractedEventVersionIds": []
-                        }, {
-                            "id": "0k7211kb793",
-                            "subscriptionType": "topic",
-                            "value": "payments",
                             "attractedEventVersionIds": []
                         }
                     ],
@@ -2299,7 +2295,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-06-05T14:16:27.296Z",
-            "updatedTime": "2023-06-05T14:17:34.854Z",
+            "updatedTime": "2023-06-05T14:42:40.498Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "0jr7lfhsxap",
@@ -2314,7 +2310,7 @@
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-06-05T14:16:27.518Z",
-                    "updatedTime": "2023-06-05T14:17:34.820Z",
+                    "updatedTime": "2023-06-05T14:42:40.467Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "phz9x36i4c2",
@@ -2326,11 +2322,6 @@
                             "id": "1qqckih957a",
                             "subscriptionType": "topic",
                             "value": "acmeretail/onlineservices/order/validated/v1/*/*",
-                            "attractedEventVersionIds": []
-                        }, {
-                            "id": "athey0q004g",
-                            "subscriptionType": "topic",
-                            "value": "orders",
                             "attractedEventVersionIds": []
                         }
                     ],
