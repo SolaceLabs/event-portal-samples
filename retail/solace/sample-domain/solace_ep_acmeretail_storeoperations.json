@@ -140,7 +140,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:03.491Z",
-            "updatedTime": "2023-06-05T14:09:43.335Z",
+            "updatedTime": "2023-06-05T15:02:52.783Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "hk9a8qnemj0",
@@ -194,7 +194,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:03.671Z",
-            "updatedTime": "2023-06-05T13:20:15.897Z",
+            "updatedTime": "2023-06-05T15:06:22.983Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "x7b749njmkf",
@@ -202,7 +202,7 @@
             "applicationType": "standard",
             "brokerType": "solace",
             "applicationDomainId": "1pomf6tld9y",
-            "numberOfVersions": 4,
+            "numberOfVersions": 5,
             "customAttributes": [{
                     "customAttributeDefinitionId": "hurj9znrgjb",
                     "customAttributeDefinitionName": "application-type",
@@ -248,7 +248,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:03.823Z",
-            "updatedTime": "2023-06-05T14:02:29.770Z",
+            "updatedTime": "2023-06-05T15:05:50.610Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "x9wi7jdkans",
@@ -284,7 +284,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-06-05T13:20:03.967Z",
-            "updatedTime": "2023-06-05T14:15:33.562Z",
+            "updatedTime": "2023-06-05T15:03:53.937Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "wt8eqfhw93o",
@@ -2162,7 +2162,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-06-05T14:09:43.335Z",
-            "updatedTime": "2023-06-05T14:09:43.335Z",
+            "updatedTime": "2023-06-05T15:02:52.783Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "awpcidf3h1l",
@@ -2170,7 +2170,7 @@
             "description": "The Basket writer proxies HTTP requests, forwarding them to the Basket topic in solace when a user adds a new item using the REST proxy. \n\n[Source Code within GitHub](https://github.com/confluentinc/examples/tree/7.4.0-post/microservices-orders)",
             "version": "1.0.2",
             "displayName": "",
-            "declaredProducedEventVersionIds": ["ox5ijlit6fg"],
+            "declaredProducedEventVersionIds": ["8fpbtixpt1w", "9lyjbbrd7q6", "ox5ijlit6fg"],
             "declaredConsumedEventVersionIds": [],
             "declaredEventApiProductVersionIds": [],
             "stateId": "1",
@@ -2691,7 +2691,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-06-05T14:15:33.562Z",
-            "updatedTime": "2023-06-05T14:15:33.562Z",
+            "updatedTime": "2023-06-05T15:03:53.937Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "ugq3u5l0nr7",
@@ -2699,7 +2699,7 @@
             "description": "This class provides a REST interface to write and read orders using a [CQRS pattern](https://martinfowler.com/bliki/CQRS.html) \n\nPOST  adds Order, Payment and Customer information to the system returning when solace sends the appropriate acknowledgement.\n\n[Source Code within GitHub](https://github.com/confluentinc/solace-streams-examples/tree/5.0.0-post/src/main/java/io/confluent/examples/streams/microservices)",
             "version": "1.0.2",
             "displayName": "",
-            "declaredProducedEventVersionIds": ["42f9rhsj74i", "6lcm3pauch2", "96ma78l3k88", "hfot0i5yr94", "k3nmyjndl8m", "o680hkvzni7"],
+            "declaredProducedEventVersionIds": ["42f9rhsj74i", "6lcm3pauch2", "96ma78l3k88", "fnisoaa5ip3", "k1esv4p4eo1", "k3nmyjndl8m", "o680hkvzni7"],
             "declaredConsumedEventVersionIds": [],
             "declaredEventApiProductVersionIds": [],
             "stateId": "1",
@@ -2785,6 +2785,25 @@
             "messagingServiceIds": [],
             "type": "applicationVersion"
         }, {
+            "createdTime": "2023-06-05T15:06:22.983Z",
+            "updatedTime": "2023-06-05T15:06:22.983Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "okgyb08dy8t",
+            "applicationId": "x7b749njmkf",
+            "description": "A legacy codebase that manages changes made to the product catalog, initiated from an internal UI. This has comparatively fewer users, and an existing codebase. Events are picked up from the legacy Postgres database using a CDC connector to push them into solace. The single-message transforms feature reformats the messages before they are made public. Images are saved to a distributed filesystem for access by the web tier.\n\n[GitHub source](https://github.com/confluentinc/solace-streams-examples)",
+            "version": "1.1.1",
+            "displayName": "",
+            "declaredProducedEventVersionIds": ["6yi10ijivi7"],
+            "declaredConsumedEventVersionIds": [],
+            "declaredEventApiProductVersionIds": [],
+            "stateId": "1",
+            "eventMeshIds": [],
+            "consumers": [],
+            "customAttributes": [],
+            "messagingServiceIds": [],
+            "type": "applicationVersion"
+        }, {
             "createdTime": "2023-06-05T13:20:15.392Z",
             "updatedTime": "2023-06-05T13:20:15.392Z",
             "createdBy": "2ko4lk2qe58f",
@@ -2862,7 +2881,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-06-05T14:02:29.163Z",
-            "updatedTime": "2023-06-05T14:02:29.770Z",
+            "updatedTime": "2023-06-05T15:05:50.610Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "igt68nad5ad",
@@ -2877,7 +2896,7 @@
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-06-05T14:02:29.388Z",
-                    "updatedTime": "2023-06-05T14:02:29.388Z",
+                    "updatedTime": "2023-06-05T15:05:50.322Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "wp9kvlfywoy",
@@ -2886,16 +2905,16 @@
                     "brokerType": "solace",
                     "consumerType": "eventQueue",
                     "subscriptions": [{
-                            "id": "9b0b84ew85g",
+                            "id": "0mc5kjrg49o",
                             "subscriptionType": "topic",
-                            "value": "warehouse-inventory",
+                            "value": "acmeretail/fulfillment/inventory/update/v2/*/*",
                             "attractedEventVersionIds": []
                         }
                     ],
                     "type": "consumer"
                 }, {
                     "createdTime": "2023-06-05T14:02:29.646Z",
-                    "updatedTime": "2023-06-05T14:02:29.646Z",
+                    "updatedTime": "2023-06-05T15:05:50.577Z",
                     "createdBy": "2ko4lk2qe58f",
                     "changedBy": "2ko4lk2qe58f",
                     "id": "wqiwsp81d7d",
@@ -2904,9 +2923,9 @@
                     "brokerType": "solace",
                     "consumerType": "eventQueue",
                     "subscriptions": [{
-                            "id": "pay843o0nmd",
+                            "id": "9ij0qhs1xa3",
                             "subscriptionType": "topic",
-                            "value": "orders",
+                            "value": "acmeretail/onlineservices/order/created/v2/*/*",
                             "attractedEventVersionIds": []
                         }
                     ],
