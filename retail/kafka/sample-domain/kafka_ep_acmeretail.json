@@ -53,7 +53,7 @@
     "topicDomains": [],
     "applications": [{
             "createdTime": "2023-07-11T13:05:08.883Z",
-            "updatedTime": "2023-07-12T13:10:38.752Z",
+            "updatedTime": "2023-07-12T13:42:42.638Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "442h4kqbfy7",
@@ -63,6 +63,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 7,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=BasketViewService,OU=OnlineServices,DC=AcmeRetail,DC=COM"
+                }, {
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "ksql"
@@ -71,7 +75,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:11:06.545Z",
+            "updatedTime": "2023-07-12T13:42:47.154Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "lrx8kkiqiag",
@@ -81,6 +85,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 6,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=BasketWriterService,OU=OnlineServices,DC=AcmeRetail,DC=COM"
+                }, {
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "rest-proxy"
@@ -89,7 +97,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:10:53.177Z",
+            "updatedTime": "2023-07-12T13:42:52.106Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "g5r0th01dog",
@@ -102,12 +110,16 @@
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "ksql"
+                }, {
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=CatalogueFilterView,OU=OnlineServices,DC=AcmeRetail,DC=COM"
                 }
             ],
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:11:44.534Z",
+            "updatedTime": "2023-07-12T13:43:00.429Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "dxyr263flp3",
@@ -117,6 +129,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 6,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=CatalogueSearch,OU=OnlineServices,DC=AcmeRetail,DC=COM"
+                }, {
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "kafka-connect"
@@ -125,7 +141,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:11:51.626Z",
+            "updatedTime": "2023-07-12T13:42:14.573Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "v9mcu765a77",
@@ -138,12 +154,16 @@
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "cobol"
+                }, {
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=CatalogueServices,OU=Merchandising,DC=AcmeRetail,DC=COM"
                 }
             ],
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:12:02.711Z",
+            "updatedTime": "2023-07-12T13:41:53.559Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "1hdio3o2gaq",
@@ -153,6 +173,10 @@
             "applicationDomainId": "ezxlo4q49gm",
             "numberOfVersions": 5,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=EmailService,OU=Fulfillment,DC=AcmeRetail,DC=COM"
+                }, {
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "java"
@@ -161,7 +185,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:12:44.243Z",
+            "updatedTime": "2023-07-12T13:41:58.516Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "f7mk61f5lzl",
@@ -171,6 +195,10 @@
             "applicationDomainId": "ezxlo4q49gm",
             "numberOfVersions": 4,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=FraudService,OU=Fulfillment,DC=AcmeRetail,DC=COM"
+                }, {
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "java"
@@ -179,7 +207,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:12:51.312Z",
+            "updatedTime": "2023-07-12T13:42:03.251Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "byi2zeapha1",
@@ -192,12 +220,16 @@
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "java"
+                }, {
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=InventoryService,OU=Fulfillment,DC=AcmeRetail,DC=COM"
                 }
             ],
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:12:57.621Z",
+            "updatedTime": "2023-07-12T13:42:08.214Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "tkf1sw1fmit",
@@ -210,12 +242,16 @@
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "ksql"
+                }, {
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=OrderDetailsService,OU=Fulfillment,DC=AcmeRetail,DC=COM"
                 }
             ],
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:13:05.190Z",
+            "updatedTime": "2023-07-12T13:43:04.937Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "2pokmubl606",
@@ -225,6 +261,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 4,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=OrdersWriter,OU=OnlineServices,DC=AcmeRetail,DC=COM"
+                }, {
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "rest-proxy"
@@ -233,7 +273,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:13:12.978Z",
+            "updatedTime": "2023-07-12T13:43:09.314Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "hxzkfhnpw5w",
@@ -243,6 +283,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 4,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=OrdersView,OU=OnlineServices,DC=AcmeRetail,DC=COM"
+                }, {
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "rest-proxy"
@@ -251,7 +295,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:13:21.479Z",
+            "updatedTime": "2023-07-12T13:43:15.599Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "mcarc8pxi8z",
@@ -261,6 +305,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 7,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=ValidationAggregator,OU=OnlineServices,DC=AcmeRetail,DC=COM"
+                }, {
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "java"
@@ -269,7 +317,7 @@
             "type": "application"
         }, {
             "createdTime": "2023-07-11T13:05:08.884Z",
-            "updatedTime": "2023-07-12T13:13:27.397Z",
+            "updatedTime": "2023-07-12T13:43:53.012Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "v3uwnj46h76",
@@ -279,6 +327,10 @@
             "applicationDomainId": "2z0ko9we2h4",
             "numberOfVersions": 2,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "b9e5mti5f1y",
+                    "customAttributeDefinitionName": "acl-principal",
+                    "value": "CN=ShippingService,OU=OnlineServices,DC=AcmeRetail,DC=COM"
+                }, {
                     "customAttributeDefinitionId": "yzjklqq1fgt",
                     "customAttributeDefinitionName": "application-type",
                     "value": "kafka-streams"
@@ -289,7 +341,7 @@
     ],
     "applicationVersions": [{
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:12:02.711Z",
+            "updatedTime": "2023-07-12T13:41:53.559Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "gmvn64pwgaz",
@@ -300,7 +352,7 @@
             "declaredProducedEventVersionIds": [],
             "declaredConsumedEventVersionIds": ["2fpabbb3gdx", "bddqv0e6ou7", "p5bc3icg7c6"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -659,7 +711,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:13:05.190Z",
+            "updatedTime": "2023-07-12T13:43:04.937Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "ofjwdzu30dl",
@@ -670,7 +722,7 @@
             "declaredProducedEventVersionIds": ["2fpabbb3gdx", "bddqv0e6ou7", "p5bc3icg7c6"],
             "declaredConsumedEventVersionIds": [],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [],
             "customAttributes": [],
@@ -735,7 +787,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:10:38.752Z",
+            "updatedTime": "2023-07-12T13:42:42.638Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "g98im99atvs",
@@ -746,7 +798,7 @@
             "declaredProducedEventVersionIds": [],
             "declaredConsumedEventVersionIds": ["7g93it3vsvx", "bddqv0e6ou7"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -1127,7 +1179,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:12:51.312Z",
+            "updatedTime": "2023-07-12T13:42:03.251Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "8wjdlumag18",
@@ -1138,7 +1190,7 @@
             "declaredProducedEventVersionIds": ["15ji3nrku9z", "do1wzbg9wo8"],
             "declaredConsumedEventVersionIds": ["15ji3nrku9z", "p5bc3icg7c6"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -1407,7 +1459,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:11:44.534Z",
+            "updatedTime": "2023-07-12T13:43:00.429Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "k7cn9e99yn1",
@@ -1418,7 +1470,7 @@
             "declaredProducedEventVersionIds": [],
             "declaredConsumedEventVersionIds": ["va429iya3m7"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -1635,7 +1687,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:12:44.243Z",
+            "updatedTime": "2023-07-12T13:41:58.516Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "ffmpaeq9dhi",
@@ -1646,7 +1698,7 @@
             "declaredProducedEventVersionIds": ["do1wzbg9wo8"],
             "declaredConsumedEventVersionIds": ["p5bc3icg7c6"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -1787,7 +1839,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:10:53.177Z",
+            "updatedTime": "2023-07-12T13:42:52.106Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "5b33s9jdb4v",
@@ -1798,7 +1850,7 @@
             "declaredProducedEventVersionIds": [],
             "declaredConsumedEventVersionIds": ["15ji3nrku9z", "va429iya3m7"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -2123,7 +2175,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:13:12.978Z",
+            "updatedTime": "2023-07-12T13:43:09.314Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "cecb59qpyh4",
@@ -2134,7 +2186,7 @@
             "declaredProducedEventVersionIds": [],
             "declaredConsumedEventVersionIds": ["5e580c7jn19"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -2275,7 +2327,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:11:06.545Z",
+            "updatedTime": "2023-07-12T13:42:47.154Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "761e1l8eze3",
@@ -2286,7 +2338,7 @@
             "declaredProducedEventVersionIds": ["7g93it3vsvx"],
             "declaredConsumedEventVersionIds": [],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [],
             "customAttributes": [],
@@ -2389,7 +2441,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:13:21.479Z",
+            "updatedTime": "2023-07-12T13:43:15.599Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "7ikzbkrx06x",
@@ -2400,7 +2452,7 @@
             "declaredProducedEventVersionIds": ["5e580c7jn19"],
             "declaredConsumedEventVersionIds": ["do1wzbg9wo8"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -2655,7 +2707,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:12:57.621Z",
+            "updatedTime": "2023-07-12T13:42:08.214Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "pmgjb0vagmb",
@@ -2666,7 +2718,7 @@
             "declaredProducedEventVersionIds": ["do1wzbg9wo8"],
             "declaredConsumedEventVersionIds": ["p5bc3icg7c6"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -2845,7 +2897,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:13:27.397Z",
+            "updatedTime": "2023-07-12T13:43:53.012Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "ej7cjr6xhfi",
@@ -2856,7 +2908,7 @@
             "declaredProducedEventVersionIds": ["8tifujtzwt4"],
             "declaredConsumedEventVersionIds": ["bddqv0e6ou7", "va429iya3m7"],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [{
                     "createdTime": "2023-07-11T13:05:12.535Z",
@@ -2957,7 +3009,7 @@
             "type": "applicationVersion"
         }, {
             "createdTime": "2023-07-11T13:05:10.307Z",
-            "updatedTime": "2023-07-12T13:11:51.626Z",
+            "updatedTime": "2023-07-12T13:42:14.573Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "o9h441cxktt",
@@ -2968,7 +3020,7 @@
             "declaredProducedEventVersionIds": ["va429iya3m7"],
             "declaredConsumedEventVersionIds": [],
             "declaredEventApiProductVersionIds": [],
-            "stateId": "1",
+            "stateId": "2",
             "eventMeshIds": [],
             "consumers": [],
             "customAttributes": [],
@@ -3035,7 +3087,7 @@
     ],
     "events": [{
             "createdTime": "2023-07-11T13:05:08.863Z",
-            "updatedTime": "2023-07-11T13:18:07.449Z",
+            "updatedTime": "2023-07-12T13:39:34.209Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "0j9cxh9ysti",
@@ -3044,6 +3096,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 6,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "ihujjj2an42",
+                    "customAttributeDefinitionName": "runtime-config",
+                    "value": "{\n\t\"kafkaTopic\": {\n\t\t\"cleanup.policy\": \"delete\",\n\t\t\"compression.type\": \"producer\",\n\t\t\"delete.retention.ms\": 86400000,\n\t\t\"file.delete.delay.ms\": 60000,\n\t\t\"flush.messages\": 9223372036854776000,\n\t\t\"flush.ms\": 9223372036854776000,\n\t\t\"follower.replication.throttled.replicas\": \"\",\n\t\t\"index.interval.bytes\": 4096,\n\t\t\"leader.replication.throttled.replicas\": \"\",\n\t\t\"max.compaction.lag.ms\": 9223372036854776000,\n\t\t\"max.message.bytes\": 2097164,\n\t\t\"message.downconversion.enable\": true,\n\t\t\"message.format.version\": \"3.0-IV1\",\n\t\t\"message.timestamp.difference.max.ms\": 9223372036854776000,\n\t\t\"message.timestamp.type\": \"CreateTime\",\n\t\t\"min.cleanable.dirty.ratio\": 0.5,\n\t\t\"min.compaction.lag.ms\": 0,\n\t\t\"min.insync.replicas\": 2,\n\t\t\"name\": \"basket\",\n\t\t\"partitions\": [{\n\t\t\t\"id\": 0,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}, {\n\t\t\t\"id\": 1,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}],\n\t\t\"preallocate\": false,\n\t\t\"retention.bytes\": -1,\n\t\t\"retention.ms\": 604800000,\n\t\t\"segment.bytes\": 104857600,\n\t\t\"segment.index.bytes\": 10485760,\n\t\t\"segment.jitter.ms\": 0,\n\t\t\"segment.ms\": 604800000,\n\t\t\"unclean.leader.election.enable\": false\n\t}\n}"
+                }, {
                     "customAttributeDefinitionId": "d9z0mgmqpgl",
                     "customAttributeDefinitionName": "confidential",
                     "value": "false"
@@ -3051,15 +3107,14 @@
             ],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 2,
+                    "2": 3,
                     "3": 3
                 }
             },
             "type": "event"
         }, {
             "createdTime": "2023-07-11T13:05:08.863Z",
-            "updatedTime": "2023-07-11T13:17:56.621Z",
+            "updatedTime": "2023-07-12T13:38:22.827Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "agm9uzb16qm",
@@ -3071,19 +3126,22 @@
                     "customAttributeDefinitionId": "d9z0mgmqpgl",
                     "customAttributeDefinitionName": "confidential",
                     "value": "false"
+                }, {
+                    "customAttributeDefinitionId": "ihujjj2an42",
+                    "customAttributeDefinitionName": "runtime-config",
+                    "value": "{\n\t\"kafkaTopic\": {\n\t\t\"cleanup.policy\": \"delete\",\n\t\t\"compression.type\": \"producer\",\n\t\t\"delete.retention.ms\": 86400000,\n\t\t\"file.delete.delay.ms\": 60000,\n\t\t\"flush.messages\": 9223372036854776000,\n\t\t\"flush.ms\": 9223372036854776000,\n\t\t\"follower.replication.throttled.replicas\": \"\",\n\t\t\"index.interval.bytes\": 4096,\n\t\t\"leader.replication.throttled.replicas\": \"\",\n\t\t\"max.compaction.lag.ms\": 9223372036854776000,\n\t\t\"max.message.bytes\": 2097164,\n\t\t\"message.downconversion.enable\": true,\n\t\t\"message.format.version\": \"3.0-IV1\",\n\t\t\"message.timestamp.difference.max.ms\": 9223372036854776000,\n\t\t\"message.timestamp.type\": \"CreateTime\",\n\t\t\"min.cleanable.dirty.ratio\": 0.5,\n\t\t\"min.compaction.lag.ms\": 0,\n\t\t\"min.insync.replicas\": 2,\n\t\t\"name\": \"catalogue\",\n\t\t\"partitions\": [{\n\t\t\t\"id\": 0,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}, {\n\t\t\t\"id\": 1,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}],\n\t\t\"preallocate\": false,\n\t\t\"retention.bytes\": -1,\n\t\t\"retention.ms\": 604800000,\n\t\t\"segment.bytes\": 104857600,\n\t\t\"segment.index.bytes\": 10485760,\n\t\t\"segment.jitter.ms\": 0,\n\t\t\"segment.ms\": 604800000,\n\t\t\"unclean.leader.election.enable\": false\n\t}\n}"
                 }
             ],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 3
                 }
             },
             "type": "event"
         }, {
             "createdTime": "2023-07-11T13:05:08.863Z",
-            "updatedTime": "2023-07-11T13:18:13.584Z",
+            "updatedTime": "2023-07-12T13:39:38.667Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "4cpvx3h4jhp",
@@ -3092,6 +3150,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 6,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "ihujjj2an42",
+                    "customAttributeDefinitionName": "runtime-config",
+                    "value": "{\n\t\"kafkaTopic\": {\n\t\t\"cleanup.policy\": \"delete\",\n\t\t\"compression.type\": \"producer\",\n\t\t\"delete.retention.ms\": 86400000,\n\t\t\"file.delete.delay.ms\": 60000,\n\t\t\"flush.messages\": 9223372036854776000,\n\t\t\"flush.ms\": 9223372036854776000,\n\t\t\"follower.replication.throttled.replicas\": \"\",\n\t\t\"index.interval.bytes\": 4096,\n\t\t\"leader.replication.throttled.replicas\": \"\",\n\t\t\"max.compaction.lag.ms\": 9223372036854776000,\n\t\t\"max.message.bytes\": 2097164,\n\t\t\"message.downconversion.enable\": true,\n\t\t\"message.format.version\": \"3.0-IV1\",\n\t\t\"message.timestamp.difference.max.ms\": 9223372036854776000,\n\t\t\"message.timestamp.type\": \"CreateTime\",\n\t\t\"min.cleanable.dirty.ratio\": 0.5,\n\t\t\"min.compaction.lag.ms\": 0,\n\t\t\"min.insync.replicas\": 2,\n\t\t\"name\": \"customers\",\n\t\t\"partitions\": [{\n\t\t\t\"id\": 0,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}, {\n\t\t\t\"id\": 1,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}],\n\t\t\"preallocate\": false,\n\t\t\"retention.bytes\": -1,\n\t\t\"retention.ms\": 604800000,\n\t\t\"segment.bytes\": 104857600,\n\t\t\"segment.index.bytes\": 10485760,\n\t\t\"segment.jitter.ms\": 0,\n\t\t\"segment.ms\": 604800000,\n\t\t\"unclean.leader.election.enable\": false\n\t}\n}"
+                }, {
                     "customAttributeDefinitionId": "d9z0mgmqpgl",
                     "customAttributeDefinitionName": "confidential",
                     "value": "true"
@@ -3099,15 +3161,14 @@
             ],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 4
                 }
             },
             "type": "event"
         }, {
             "createdTime": "2023-07-11T13:05:08.863Z",
-            "updatedTime": "2023-07-11T13:18:19.589Z",
+            "updatedTime": "2023-07-12T13:39:43.658Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "j3jv4zmic2m",
@@ -3116,6 +3177,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 5,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "ihujjj2an42",
+                    "customAttributeDefinitionName": "runtime-config",
+                    "value": "{\n\t\"kafkaTopic\": {\n\t\t\"cleanup.policy\": \"delete\",\n\t\t\"compression.type\": \"producer\",\n\t\t\"delete.retention.ms\": 86400000,\n\t\t\"file.delete.delay.ms\": 60000,\n\t\t\"flush.messages\": 9223372036854776000,\n\t\t\"flush.ms\": 9223372036854776000,\n\t\t\"follower.replication.throttled.replicas\": \"\",\n\t\t\"index.interval.bytes\": 4096,\n\t\t\"leader.replication.throttled.replicas\": \"\",\n\t\t\"max.compaction.lag.ms\": 9223372036854776000,\n\t\t\"max.message.bytes\": 2097164,\n\t\t\"message.downconversion.enable\": true,\n\t\t\"message.format.version\": \"3.0-IV1\",\n\t\t\"message.timestamp.difference.max.ms\": 9223372036854776000,\n\t\t\"message.timestamp.type\": \"CreateTime\",\n\t\t\"min.cleanable.dirty.ratio\": 0.5,\n\t\t\"min.compaction.lag.ms\": 0,\n\t\t\"min.insync.replicas\": 2,\n\t\t\"name\": \"orders\",\n\t\t\"partitions\": [{\n\t\t\t\"id\": 0,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}, {\n\t\t\t\"id\": 1,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}],\n\t\t\"preallocate\": false,\n\t\t\"retention.bytes\": -1,\n\t\t\"retention.ms\": 604800000,\n\t\t\"segment.bytes\": 104857600,\n\t\t\"segment.index.bytes\": 10485760,\n\t\t\"segment.jitter.ms\": 0,\n\t\t\"segment.ms\": 604800000,\n\t\t\"unclean.leader.election.enable\": false\n\t}\n}"
+                }, {
                     "customAttributeDefinitionId": "d9z0mgmqpgl",
                     "customAttributeDefinitionName": "confidential",
                     "value": "true"
@@ -3123,15 +3188,14 @@
             ],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 3
                 }
             },
             "type": "event"
         }, {
             "createdTime": "2023-07-11T13:05:08.863Z",
-            "updatedTime": "2023-07-11T13:18:25.546Z",
+            "updatedTime": "2023-07-12T13:39:48.372Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "6c4nzt8gq9o",
@@ -3140,6 +3204,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 4,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "ihujjj2an42",
+                    "customAttributeDefinitionName": "runtime-config",
+                    "value": "{\n\t\"kafkaTopic\": {\n\t\t\"cleanup.policy\": \"delete\",\n\t\t\"compression.type\": \"producer\",\n\t\t\"delete.retention.ms\": 86400000,\n\t\t\"file.delete.delay.ms\": 60000,\n\t\t\"flush.messages\": 9223372036854776000,\n\t\t\"flush.ms\": 9223372036854776000,\n\t\t\"follower.replication.throttled.replicas\": \"\",\n\t\t\"index.interval.bytes\": 4096,\n\t\t\"leader.replication.throttled.replicas\": \"\",\n\t\t\"max.compaction.lag.ms\": 9223372036854776000,\n\t\t\"max.message.bytes\": 2097164,\n\t\t\"message.downconversion.enable\": true,\n\t\t\"message.format.version\": \"3.0-IV1\",\n\t\t\"message.timestamp.difference.max.ms\": 9223372036854776000,\n\t\t\"message.timestamp.type\": \"CreateTime\",\n\t\t\"min.cleanable.dirty.ratio\": 0.5,\n\t\t\"min.compaction.lag.ms\": 0,\n\t\t\"min.insync.replicas\": 2,\n\t\t\"name\": \"order-validations\",\n\t\t\"partitions\": [{\n\t\t\t\"id\": 0,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}, {\n\t\t\t\"id\": 1,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}],\n\t\t\"preallocate\": false,\n\t\t\"retention.bytes\": -1,\n\t\t\"retention.ms\": 604800000,\n\t\t\"segment.bytes\": 104857600,\n\t\t\"segment.index.bytes\": 10485760,\n\t\t\"segment.jitter.ms\": 0,\n\t\t\"segment.ms\": 604800000,\n\t\t\"unclean.leader.election.enable\": false\n\t}\n}"
+                }, {
                     "customAttributeDefinitionId": "d9z0mgmqpgl",
                     "customAttributeDefinitionName": "confidential",
                     "value": "true"
@@ -3147,15 +3215,14 @@
             ],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 2
                 }
             },
             "type": "event"
         }, {
             "createdTime": "2023-07-11T13:05:08.863Z",
-            "updatedTime": "2023-07-11T13:19:17.319Z",
+            "updatedTime": "2023-07-12T13:39:57.105Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "0i0rleslsgw",
@@ -3164,6 +3231,10 @@
             "applicationDomainId": "l4un3rmfk9k",
             "numberOfVersions": 5,
             "customAttributes": [{
+                    "customAttributeDefinitionId": "ihujjj2an42",
+                    "customAttributeDefinitionName": "runtime-config",
+                    "value": "{\n\t\"kafkaTopic\": {\n\t\t\"cleanup.policy\": \"delete\",\n\t\t\"compression.type\": \"producer\",\n\t\t\"delete.retention.ms\": 86400000,\n\t\t\"file.delete.delay.ms\": 60000,\n\t\t\"flush.messages\": 9223372036854776000,\n\t\t\"flush.ms\": 9223372036854776000,\n\t\t\"follower.replication.throttled.replicas\": \"\",\n\t\t\"index.interval.bytes\": 4096,\n\t\t\"leader.replication.throttled.replicas\": \"\",\n\t\t\"max.compaction.lag.ms\": 9223372036854776000,\n\t\t\"max.message.bytes\": 2097164,\n\t\t\"message.downconversion.enable\": true,\n\t\t\"message.format.version\": \"3.0-IV1\",\n\t\t\"message.timestamp.difference.max.ms\": 9223372036854776000,\n\t\t\"message.timestamp.type\": \"CreateTime\",\n\t\t\"min.cleanable.dirty.ratio\": 0.5,\n\t\t\"min.compaction.lag.ms\": 0,\n\t\t\"min.insync.replicas\": 2,\n\t\t\"name\": \"orders\",\n\t\t\"partitions\": [{\n\t\t\t\"id\": 0,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}, {\n\t\t\t\"id\": 1,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}],\n\t\t\"preallocate\": false,\n\t\t\"retention.bytes\": -1,\n\t\t\"retention.ms\": 604800000,\n\t\t\"segment.bytes\": 104857600,\n\t\t\"segment.index.bytes\": 10485760,\n\t\t\"segment.jitter.ms\": 0,\n\t\t\"segment.ms\": 604800000,\n\t\t\"unclean.leader.election.enable\": false\n\t}\n}"
+                }, {
                     "customAttributeDefinitionId": "d9z0mgmqpgl",
                     "customAttributeDefinitionName": "confidential",
                     "value": "true"
@@ -3171,15 +3242,14 @@
             ],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 3
                 }
             },
             "type": "event"
         }, {
             "createdTime": "2023-07-11T13:05:08.863Z",
-            "updatedTime": "2023-07-11T13:19:23.873Z",
+            "updatedTime": "2023-07-12T13:40:06.677Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "oayihd61ui4",
@@ -3191,19 +3261,22 @@
                     "customAttributeDefinitionId": "d9z0mgmqpgl",
                     "customAttributeDefinitionName": "confidential",
                     "value": "true"
+                }, {
+                    "customAttributeDefinitionId": "ihujjj2an42",
+                    "customAttributeDefinitionName": "runtime-config",
+                    "value": "{\n\t\"kafkaTopic\": {\n\t\t\"cleanup.policy\": \"delete\",\n\t\t\"compression.type\": \"producer\",\n\t\t\"delete.retention.ms\": 86400000,\n\t\t\"file.delete.delay.ms\": 60000,\n\t\t\"flush.messages\": 9223372036854776000,\n\t\t\"flush.ms\": 9223372036854776000,\n\t\t\"follower.replication.throttled.replicas\": \"\",\n\t\t\"index.interval.bytes\": 4096,\n\t\t\"leader.replication.throttled.replicas\": \"\",\n\t\t\"max.compaction.lag.ms\": 9223372036854776000,\n\t\t\"max.message.bytes\": 2097164,\n\t\t\"message.downconversion.enable\": true,\n\t\t\"message.format.version\": \"3.0-IV1\",\n\t\t\"message.timestamp.difference.max.ms\": 9223372036854776000,\n\t\t\"message.timestamp.type\": \"CreateTime\",\n\t\t\"min.cleanable.dirty.ratio\": 0.5,\n\t\t\"min.compaction.lag.ms\": 0,\n\t\t\"min.insync.replicas\": 2,\n\t\t\"name\": \"payments\",\n\t\t\"partitions\": [{\n\t\t\t\"id\": 0,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}, {\n\t\t\t\"id\": 1,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}],\n\t\t\"preallocate\": false,\n\t\t\"retention.bytes\": -1,\n\t\t\"retention.ms\": 604800000,\n\t\t\"segment.bytes\": 104857600,\n\t\t\"segment.index.bytes\": 10485760,\n\t\t\"segment.jitter.ms\": 0,\n\t\t\"segment.ms\": 604800000,\n\t\t\"unclean.leader.election.enable\": false\n\t}\n}"
                 }
             ],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 4
                 }
             },
             "type": "event"
         }, {
             "createdTime": "2023-07-11T13:05:08.863Z",
-            "updatedTime": "2023-07-11T13:19:43.830Z",
+            "updatedTime": "2023-07-12T13:40:24.773Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "k7flrmjzc8g",
@@ -3215,19 +3288,22 @@
                     "customAttributeDefinitionId": "d9z0mgmqpgl",
                     "customAttributeDefinitionName": "confidential",
                     "value": "false"
+                }, {
+                    "customAttributeDefinitionId": "ihujjj2an42",
+                    "customAttributeDefinitionName": "runtime-config",
+                    "value": "{\n\t\"kafkaTopic\": {\n\t\t\"cleanup.policy\": \"delete\",\n\t\t\"compression.type\": \"producer\",\n\t\t\"delete.retention.ms\": 86400000,\n\t\t\"file.delete.delay.ms\": 60000,\n\t\t\"flush.messages\": 9223372036854776000,\n\t\t\"flush.ms\": 9223372036854776000,\n\t\t\"follower.replication.throttled.replicas\": \"\",\n\t\t\"index.interval.bytes\": 4096,\n\t\t\"leader.replication.throttled.replicas\": \"\",\n\t\t\"max.compaction.lag.ms\": 9223372036854776000,\n\t\t\"max.message.bytes\": 2097164,\n\t\t\"message.downconversion.enable\": true,\n\t\t\"message.format.version\": \"3.0-IV1\",\n\t\t\"message.timestamp.difference.max.ms\": 9223372036854776000,\n\t\t\"message.timestamp.type\": \"CreateTime\",\n\t\t\"min.cleanable.dirty.ratio\": 0.5,\n\t\t\"min.compaction.lag.ms\": 0,\n\t\t\"min.insync.replicas\": 2,\n\t\t\"name\": \"shipping\",\n\t\t\"partitions\": [{\n\t\t\t\"id\": 0,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}, {\n\t\t\t\"id\": 1,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}],\n\t\t\"preallocate\": false,\n\t\t\"retention.bytes\": -1,\n\t\t\"retention.ms\": 604800000,\n\t\t\"segment.bytes\": 104857600,\n\t\t\"segment.index.bytes\": 10485760,\n\t\t\"segment.jitter.ms\": 0,\n\t\t\"segment.ms\": 604800000,\n\t\t\"unclean.leader.election.enable\": false\n\t}\n}"
                 }
             ],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 3
                 }
             },
             "type": "event"
         }, {
             "createdTime": "2023-07-11T13:05:08.863Z",
-            "updatedTime": "2023-07-11T13:17:21.789Z",
+            "updatedTime": "2023-07-12T13:38:07.721Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "3zi3y4ui1xv",
@@ -3239,12 +3315,15 @@
                     "customAttributeDefinitionId": "d9z0mgmqpgl",
                     "customAttributeDefinitionName": "confidential",
                     "value": "false"
+                }, {
+                    "customAttributeDefinitionId": "ihujjj2an42",
+                    "customAttributeDefinitionName": "runtime-config",
+                    "value": "{\n\t\"kafkaTopic\": {\n\t\t\"cleanup.policy\": \"delete\",\n\t\t\"compression.type\": \"producer\",\n\t\t\"delete.retention.ms\": 86400000,\n\t\t\"file.delete.delay.ms\": 60000,\n\t\t\"flush.messages\": 9223372036854776000,\n\t\t\"flush.ms\": 9223372036854776000,\n\t\t\"follower.replication.throttled.replicas\": \"\",\n\t\t\"index.interval.bytes\": 4096,\n\t\t\"leader.replication.throttled.replicas\": \"\",\n\t\t\"max.compaction.lag.ms\": 9223372036854776000,\n\t\t\"max.message.bytes\": 2097164,\n\t\t\"message.downconversion.enable\": true,\n\t\t\"message.format.version\": \"3.0-IV1\",\n\t\t\"message.timestamp.difference.max.ms\": 9223372036854776000,\n\t\t\"message.timestamp.type\": \"CreateTime\",\n\t\t\"min.cleanable.dirty.ratio\": 0.5,\n\t\t\"min.compaction.lag.ms\": 0,\n\t\t\"min.insync.replicas\": 2,\n\t\t\"name\": \"warehouse-inventory\",\n\t\t\"partitions\": [{\n\t\t\t\"id\": 0,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}, {\n\t\t\t\"id\": 1,\n\t\t\t\"isrCount\": 3,\n\t\t\t\"replicaCount\": 3\n\t\t}],\n\t\t\"preallocate\": false,\n\t\t\"retention.bytes\": -1,\n\t\t\"retention.ms\": 604800000,\n\t\t\"segment.bytes\": 104857600,\n\t\t\"segment.index.bytes\": 10485760,\n\t\t\"segment.jitter.ms\": 0,\n\t\t\"segment.ms\": 604800000,\n\t\t\"unclean.leader.election.enable\": false\n\t}\n}"
                 }
             ],
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 3
                 }
             },
@@ -3253,7 +3332,7 @@
     ],
     "eventVersions": [{
             "createdTime": "2023-07-11T13:05:09.561Z",
-            "updatedTime": "2023-07-11T13:19:17.319Z",
+            "updatedTime": "2023-07-12T13:39:57.105Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "5e580c7jn19",
@@ -3277,7 +3356,7 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -3403,7 +3482,7 @@
             "type": "eventVersion"
         }, {
             "createdTime": "2023-07-11T13:05:09.561Z",
-            "updatedTime": "2023-07-11T13:18:07.449Z",
+            "updatedTime": "2023-07-12T13:39:34.209Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "7g93it3vsvx",
@@ -3427,7 +3506,7 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -3583,7 +3662,7 @@
             "type": "eventVersion"
         }, {
             "createdTime": "2023-07-11T13:05:09.561Z",
-            "updatedTime": "2023-07-11T13:17:21.789Z",
+            "updatedTime": "2023-07-12T13:38:07.721Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "15ji3nrku9z",
@@ -3607,7 +3686,7 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -3733,7 +3812,7 @@
             "type": "eventVersion"
         }, {
             "createdTime": "2023-07-11T13:05:09.561Z",
-            "updatedTime": "2023-07-11T13:18:13.584Z",
+            "updatedTime": "2023-07-12T13:39:38.667Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "bddqv0e6ou7",
@@ -3757,7 +3836,7 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -3913,7 +3992,7 @@
             "type": "eventVersion"
         }, {
             "createdTime": "2023-07-11T13:05:09.561Z",
-            "updatedTime": "2023-07-11T13:18:25.546Z",
+            "updatedTime": "2023-07-12T13:39:48.372Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "do1wzbg9wo8",
@@ -3937,7 +4016,7 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -4033,7 +4112,7 @@
             "type": "eventVersion"
         }, {
             "createdTime": "2023-07-11T13:05:09.561Z",
-            "updatedTime": "2023-07-11T13:17:56.621Z",
+            "updatedTime": "2023-07-12T13:38:22.827Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "va429iya3m7",
@@ -4057,7 +4136,7 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -4183,7 +4262,7 @@
             "type": "eventVersion"
         }, {
             "createdTime": "2023-07-11T13:05:09.561Z",
-            "updatedTime": "2023-07-11T13:18:19.589Z",
+            "updatedTime": "2023-07-12T13:39:43.658Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "p5bc3icg7c6",
@@ -4207,7 +4286,7 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -4333,7 +4412,7 @@
             "type": "eventVersion"
         }, {
             "createdTime": "2023-07-11T13:05:09.561Z",
-            "updatedTime": "2023-07-11T13:19:43.830Z",
+            "updatedTime": "2023-07-12T13:40:24.773Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "8tifujtzwt4",
@@ -4357,7 +4436,7 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -4483,7 +4562,7 @@
             "type": "eventVersion"
         }, {
             "createdTime": "2023-07-11T13:05:09.561Z",
-            "updatedTime": "2023-07-11T13:19:23.873Z",
+            "updatedTime": "2023-07-12T13:40:06.677Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "2fpabbb3gdx",
@@ -4507,7 +4586,7 @@
                 "keySchemaVersionId": null,
                 "keySchemaPrimitiveType": null
             },
-            "stateId": "1",
+            "stateId": "2",
             "customAttributes": [],
             "messagingServiceIds": [],
             "type": "eventVersion"
@@ -4665,7 +4744,7 @@
     ],
     "schemas": [{
             "createdTime": "2023-07-11T13:05:08.843Z",
-            "updatedTime": "2023-07-12T13:06:02.008Z",
+            "updatedTime": "2023-07-12T13:38:32.290Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "o6r191b97f0",
@@ -4677,8 +4756,7 @@
             "eventVersionRefCount": 6,
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 2,
+                    "2": 3,
                     "3": 4
                 }
             },
@@ -4686,7 +4764,7 @@
             "type": "schema"
         }, {
             "createdTime": "2023-07-11T13:05:08.843Z",
-            "updatedTime": "2023-07-12T13:03:51.978Z",
+            "updatedTime": "2023-07-12T13:38:17.052Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "r6mlgbg54kc",
@@ -4698,7 +4776,7 @@
             "eventVersionRefCount": 5,
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
+                    "2": 1,
                     "3": 7
                 }
             },
@@ -4706,7 +4784,7 @@
             "type": "schema"
         }, {
             "createdTime": "2023-07-11T13:05:08.843Z",
-            "updatedTime": "2023-07-12T13:06:18.734Z",
+            "updatedTime": "2023-07-12T13:38:37.275Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "0apmuz0gf8g",
@@ -4718,8 +4796,7 @@
             "eventVersionRefCount": 6,
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 6
                 }
             },
@@ -4727,7 +4804,7 @@
             "type": "schema"
         }, {
             "createdTime": "2023-07-11T13:05:08.843Z",
-            "updatedTime": "2023-07-12T13:14:31.462Z",
+            "updatedTime": "2023-07-12T13:38:41.805Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "kmsxc0jth31",
@@ -4739,8 +4816,7 @@
             "eventVersionRefCount": 5,
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 4
                 }
             },
@@ -4748,7 +4824,7 @@
             "type": "schema"
         }, {
             "createdTime": "2023-07-11T13:05:08.843Z",
-            "updatedTime": "2023-07-12T13:03:07.151Z",
+            "updatedTime": "2023-07-12T13:37:55.920Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "1a7udp04tnb",
@@ -4760,8 +4836,7 @@
             "eventVersionRefCount": 5,
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 4
                 }
             },
@@ -4769,7 +4844,7 @@
             "type": "schema"
         }, {
             "createdTime": "2023-07-11T13:05:08.843Z",
-            "updatedTime": "2023-07-12T13:07:15.104Z",
+            "updatedTime": "2023-07-12T13:39:00.747Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "0h7g8k9bkb5",
@@ -4781,8 +4856,7 @@
             "eventVersionRefCount": 5,
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 6
                 }
             },
@@ -4790,7 +4864,7 @@
             "type": "schema"
         }, {
             "createdTime": "2023-07-11T13:05:08.843Z",
-            "updatedTime": "2023-07-12T13:08:46.912Z",
+            "updatedTime": "2023-07-12T13:39:05.272Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "ovd7cj0n784",
@@ -4802,8 +4876,7 @@
             "eventVersionRefCount": 4,
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 5
                 }
             },
@@ -4811,7 +4884,7 @@
             "type": "schema"
         }, {
             "createdTime": "2023-07-11T13:05:08.843Z",
-            "updatedTime": "2023-07-12T13:16:18.432Z",
+            "updatedTime": "2023-07-12T13:39:10.391Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "lef69twagu0",
@@ -4823,8 +4896,7 @@
             "eventVersionRefCount": 6,
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 3
                 }
             },
@@ -4832,7 +4904,7 @@
             "type": "schema"
         }, {
             "createdTime": "2023-07-11T13:05:08.843Z",
-            "updatedTime": "2023-07-12T13:09:32.768Z",
+            "updatedTime": "2023-07-12T13:40:18.514Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "7e6han9nj6v",
@@ -4844,8 +4916,7 @@
             "eventVersionRefCount": 5,
             "stats": {
                 "versionCountByStateId": {
-                    "1": 1,
-                    "2": 1,
+                    "2": 2,
                     "3": 1,
                     "4": 2
                 }
@@ -4856,7 +4927,7 @@
     ],
     "schemaVersions": [{
             "createdTime": "2023-07-11T13:05:08.943Z",
-            "updatedTime": "2023-07-12T13:08:46.909Z",
+            "updatedTime": "2023-07-12T13:39:05.260Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "gv7oa639a6c",
@@ -4869,7 +4940,7 @@
             "referencedBySchemaVersionIds": [],
             "schemaVersionReferences": [],
             "customAttributes": [],
-            "stateId": "1",
+            "stateId": "2",
             "schemaRegistryIds": [],
             "type": "schemaVersion"
         }, {
@@ -4892,7 +4963,7 @@
             "type": "schemaVersion"
         }, {
             "createdTime": "2023-07-11T13:05:08.945Z",
-            "updatedTime": "2023-07-12T13:06:18.731Z",
+            "updatedTime": "2023-07-12T13:38:37.263Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "k0l24z9579e",
@@ -4905,7 +4976,7 @@
             "referencedBySchemaVersionIds": [],
             "schemaVersionReferences": [],
             "customAttributes": [],
-            "stateId": "1",
+            "stateId": "2",
             "schemaRegistryIds": [],
             "type": "schemaVersion"
         }, {
@@ -4946,7 +5017,7 @@
             "type": "schemaVersion"
         }, {
             "createdTime": "2023-07-11T13:05:08.947Z",
-            "updatedTime": "2023-07-12T13:06:02.005Z",
+            "updatedTime": "2023-07-12T13:38:32.275Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "y5ne3pnha98",
@@ -4959,12 +5030,12 @@
             "referencedBySchemaVersionIds": [],
             "schemaVersionReferences": [],
             "customAttributes": [],
-            "stateId": "1",
+            "stateId": "2",
             "schemaRegistryIds": [],
             "type": "schemaVersion"
         }, {
             "createdTime": "2023-07-11T13:05:08.948Z",
-            "updatedTime": "2023-07-12T13:03:07.148Z",
+            "updatedTime": "2023-07-12T13:37:55.905Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "rqpn9mb13g2",
@@ -4977,7 +5048,7 @@
             "referencedBySchemaVersionIds": [],
             "schemaVersionReferences": [],
             "customAttributes": [],
-            "stateId": "1",
+            "stateId": "2",
             "schemaRegistryIds": [],
             "type": "schemaVersion"
         }, {
@@ -5018,7 +5089,7 @@
             "type": "schemaVersion"
         }, {
             "createdTime": "2023-07-11T13:05:08.949Z",
-            "updatedTime": "2023-07-12T13:16:18.429Z",
+            "updatedTime": "2023-07-12T13:39:10.377Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "nobq95h3ccv",
@@ -5031,7 +5102,7 @@
             "referencedBySchemaVersionIds": [],
             "schemaVersionReferences": [],
             "customAttributes": [],
-            "stateId": "1",
+            "stateId": "2",
             "schemaRegistryIds": [],
             "type": "schemaVersion"
         }, {
@@ -5054,7 +5125,7 @@
             "type": "schemaVersion"
         }, {
             "createdTime": "2023-07-11T13:05:08.953Z",
-            "updatedTime": "2023-07-12T13:14:31.459Z",
+            "updatedTime": "2023-07-12T13:38:41.794Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "dc8qq1jfn6q",
@@ -5067,12 +5138,12 @@
             "referencedBySchemaVersionIds": [],
             "schemaVersionReferences": [],
             "customAttributes": [],
-            "stateId": "1",
+            "stateId": "2",
             "schemaRegistryIds": [],
             "type": "schemaVersion"
         }, {
             "createdTime": "2023-07-11T13:05:08.951Z",
-            "updatedTime": "2023-07-12T13:03:51.976Z",
+            "updatedTime": "2023-07-12T13:38:17.041Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "mpvgl7771xw",
@@ -5085,12 +5156,12 @@
             "referencedBySchemaVersionIds": [],
             "schemaVersionReferences": [],
             "customAttributes": [],
-            "stateId": "1",
+            "stateId": "2",
             "schemaRegistryIds": [],
             "type": "schemaVersion"
         }, {
             "createdTime": "2023-07-11T13:05:08.955Z",
-            "updatedTime": "2023-07-12T13:07:15.101Z",
+            "updatedTime": "2023-07-12T13:39:00.733Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "5kr1437a3dc",
@@ -5103,12 +5174,12 @@
             "referencedBySchemaVersionIds": [],
             "schemaVersionReferences": [],
             "customAttributes": [],
-            "stateId": "1",
+            "stateId": "2",
             "schemaRegistryIds": [],
             "type": "schemaVersion"
         }, {
             "createdTime": "2023-07-11T13:05:08.954Z",
-            "updatedTime": "2023-07-12T13:09:32.765Z",
+            "updatedTime": "2023-07-12T13:40:18.498Z",
             "createdBy": "2ko4lk2qe58f",
             "changedBy": "2ko4lk2qe58f",
             "id": "6f07k878fwz",
@@ -5121,7 +5192,7 @@
             "referencedBySchemaVersionIds": [],
             "schemaVersionReferences": [],
             "customAttributes": [],
-            "stateId": "1",
+            "stateId": "2",
             "schemaRegistryIds": [],
             "type": "schemaVersion"
         }, {
@@ -5954,6 +6025,22 @@
         }
     ],
     "customAttributeDefinitions": [{
+            "createdTime": "2023-07-12T13:29:25.018Z",
+            "updatedTime": "2023-07-12T13:29:25.018Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "ihujjj2an42",
+            "name": "runtime-config",
+            "valueType": "LONG_TEXT",
+            "scope": "applicationDomain",
+            "associatedEntityTypes": ["event"],
+            "associatedEntities": [{
+                    "entityType": "event",
+                    "applicationDomainIds": ["2z0ko9we2h4", "ezxlo4q49gm", "j2qmrw1niws", "l4un3rmfk9k"]
+                }
+            ],
+            "type": "customAttributeDefinition"
+        }, {
             "createdTime": "2023-07-11T13:05:08.766Z",
             "updatedTime": "2023-07-11T13:05:08.766Z",
             "createdBy": "2ko4lk2qe58f",
@@ -5965,6 +6052,22 @@
             "associatedEntityTypes": ["event"],
             "associatedEntities": [{
                     "entityType": "event",
+                    "applicationDomainIds": ["2z0ko9we2h4", "ezxlo4q49gm", "j2qmrw1niws", "l4un3rmfk9k"]
+                }
+            ],
+            "type": "customAttributeDefinition"
+        }, {
+            "createdTime": "2023-07-12T13:21:28.767Z",
+            "updatedTime": "2023-07-12T13:21:28.767Z",
+            "createdBy": "2ko4lk2qe58f",
+            "changedBy": "2ko4lk2qe58f",
+            "id": "b9e5mti5f1y",
+            "name": "acl-principal",
+            "valueType": "LONG_TEXT",
+            "scope": "applicationDomain",
+            "associatedEntityTypes": ["application"],
+            "associatedEntities": [{
+                    "entityType": "application",
                     "applicationDomainIds": ["2z0ko9we2h4", "ezxlo4q49gm", "j2qmrw1niws", "l4un3rmfk9k"]
                 }
             ],
